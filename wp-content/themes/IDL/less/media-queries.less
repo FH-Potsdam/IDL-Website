@@ -1,0 +1,393 @@
+//////////////////////////
+// MEDIA QUERIES Mixins
+//////////////////////////
+
+.media-screen(@wrap-width) {
+	
+	// Structure
+	.inside {
+		width: @wrap-width;
+	}
+}
+
+///////////////////
+// MEDIA QUERIES
+///////////////////
+
+@media screen and (max-width: 1240px) {
+	
+	@wrap-width: 780px;
+	.media-screen(@wrap-width);
+
+	// GRID
+	@item-width: 380px;
+	@item-margin: 20px;
+
+	.grid {
+		width: @wrap-width + @item-margin;
+		left: -@item-margin;
+	}
+
+	.block {
+		width: 50%;
+	}
+}
+
+// @media screen and (max-width: 1023px) {
+	
+// 	@wrap-width: 660px;
+// 	.media-screen(@wrap-width);
+// }
+
+
+//@media screen and (max-width: 760px) {
+@media screen and (max-width: 840px) {
+
+	@wrap-width: 400px;
+	.media-screen(@wrap-width);
+
+	// GRID
+	@item-width: 380px;
+	@item-margin: 20px;
+	.grid {
+		width: @wrap-width + @item-margin;
+		left: -@item-margin;
+	}
+	
+	
+	h1, .h1 {
+		font-size: 48px;	
+	}
+
+	.column {
+		width: 100%;
+		margin:0 0 5px 0;
+		//text-align: center;
+	}
+
+	.block {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#main {
+		padding-top: 40px;
+		padding-bottom: 60px;
+
+		.page-title {
+			margin-bottom: 40px;
+		}
+	}
+
+	#content {
+		h1 {
+			width: 100%;
+		}
+	}
+
+	#nav {
+		left: auto;
+		right: 0;
+
+		li:last-child {
+			margin-right: 0;
+		}
+	}
+	
+	#blog-title {
+		display: none;
+	}
+
+	// That's me
+	#page-image-screen {
+		display: none;
+	}
+	#page-image-mobile {
+		display: block;
+	}
+
+	// Projects
+	#projects-filter {
+		margin-bottom: 30px;
+	}
+
+	.single-project {
+		.tags {
+			position: inherit;
+			width: 100%;
+			text-align: left;
+		}
+	}
+
+	.project-nav {
+		display: none;
+	}
+
+	.project-nav-bottom {
+		display: block;
+
+		.next-posts {
+			float: right;
+		}
+	}
+
+	footer {
+		.copyright {
+
+			margin-top: 35px;
+
+			a {
+				display: block;
+				margin-left: 0;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+
+	@wrap-width: 90%;
+	.media-screen(@wrap-width);
+
+	// GRID
+	.grid {
+		width: 100%;
+		left: 0;
+		.project, .image {
+			width: 100% !important;
+			margin-left: 0 !important;
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.box {
+		width: 100% !important;
+		margin-left: 0 !important;
+		img {
+			width: 100%;
+		}
+	}
+
+	h1, .h1 {
+		font-size: 40px;	
+	}
+
+	#content {
+		h4 {
+			margin-bottom: 10px;
+		}
+	}
+
+	.button-wrapper {
+		text-align: center;
+	}
+}
+
+///////////////////
+// Mobile Header
+///////////////////
+
+@media screen and (max-width: @mobile-header-width) {
+
+	#main {
+		padding-bottom: 30px;
+	}
+
+	header {
+		position: inherit;
+		height: auto;
+
+		.inside {
+			padding: 10px 0 0;
+			width: 100%;
+		}
+
+		#logo {
+			margin-left: 5%;
+			padding-bottom: 10px;
+			// position: absolute;
+			// margin: 0;
+			// margin-left: -92px;
+			// left: 50%;
+			// z-index: 999;
+		}
+	
+		#menu-button {
+			position: absolute;
+			top: 13px;
+			right: 5%;
+			//.background-image-devices('images/mobile-menu-icon', 'png', 15px 16px, center center);
+			.background-image('images/menu.png', center top);
+			.block(24px, 22px);
+			.background-size(24px 22px);
+			.no-text();
+
+			// &:hover {
+			// 	.background-image('images/menu-h.png', center top);
+			// }
+		}
+
+		#header-menu {
+
+			ul {
+				left: auto !important;
+			}
+
+			background-color: #353535;
+			width: 100%;
+			height: auto;
+			padding: 0;
+			
+			overflow: hidden;
+			display: none;
+		}
+
+		// &.opened {
+		// 	#menu-button {
+		// 		.background-image-devices('images/mobile-menu-close', 'png', 12px 12px, center center);
+		// 		.block(12px, 12px);
+		// 	}
+		// }
+
+		.nav-menu {
+			position: inherit;
+			bottom: auto;
+		}
+
+		.nav-menu, #lang-chooser {
+
+			li {
+				display: block;
+				width: 90%;
+				margin: 0 auto;
+				
+				border-top: 1px solid #525252;
+				text-align: center;
+
+				&:before {
+					content:"";
+					display: none;
+				}
+
+				a {
+					font-size: 16px;
+					color: @white;
+					//width: 100%;
+					display: block;
+					margin: 0 auto;
+
+					padding: 22px 0 20px;
+					border-bottom: none;
+					
+					line-height: 16px;
+					letter-spacing: 3px;
+				}
+
+				// &:last-child {
+				// 	border-bottom: none;
+				// }
+			}
+		}
+
+		#lang-chooser {
+			position: inherit;
+
+			li {
+				
+				width: 100%;
+
+				a { 
+					background: #f2f2f2;
+				}
+
+				a:hover {
+					text-decoration: none;
+					color: @red;
+				}
+
+				&.active {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+////////////////////
+// Mobile Devices
+////////////////////
+
+// .mobile {
+	
+// }
+
+// .tablet {
+	
+// }
+
+//http://www.blog.highub.com/mobile-2/revisit-hardboiled-css3-media-queries/
+
+// Smartphones (portrait and landscape)
+// @media only screen and (min-device-width : 320px) and (max-device-width : 569px) {
+
+// }
+
+// Smartphones (landscape)
+// @media only screen and (min-width : 321px) and (max-device-width: 569px) {
+
+// }
+
+
+////////////////////
+// Retina display
+////////////////////
+
+// @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+//        only screen and (min--moz-device-pixel-ratio: 1.5),
+//        only screen and (min-resolution: 240dpi) {
+       
+// 		header .logo {
+// 			background-image: url(images/thinkmoto_logo@2x.png);
+// 			-moz-background-size: 159px 25px;
+// 			-o-background-size: 159px 25px;
+// 			-webkit-background-size: 159px 25px;
+// 			background-size: 159px 25px;
+// 		}
+		
+// 		.social-button {
+// 			background-image: url(images/social-buttons@2x.png);
+// 			-moz-background-size: 164px 20px;
+// 			-o-background-size: 164px 20px;
+// 			-webkit-background-size: 164px 20px;
+// 			background-size: 164px 20px;
+// 		}
+// }
+
+//////////////////////////////////////////
+// Smartphones (portrait and landscape)
+//////////////////////////////////////////
+
+// @media only screen 
+// and (min-device-width : 320px) 
+// and (max-device-width : 480px) {
+
+// 	// Be inspired
+// 	#page-be-inspired {
+
+// 		.post {
+			
+// 			&:after {
+// 				content:'';
+// 				position: absolute;
+// 				bottom: 10px;
+// 				right: 12px;
+// 				.background-image('images/overlay-mobile.png');
+// 				.block(14px, 14px);
+// 				z-index: 9;
+// 			}
+// 		}
+// 	}
+// }
