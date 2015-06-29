@@ -10,7 +10,11 @@
 		<div id="publication-<?php the_ID(); ?>" class="publication group">
 			
 			<div class="entry-side">
-				<h4><?php the_title(); ?></h4>
+				<h4><?php the_title(); /*if (get_field('publication_file')) : ?>
+					<a target="_blank" href="<?php the_field('publication_file'); ?>"><?php the_title(); ?></a>
+				<?php
+					else: the_title(); endif;*/
+				?></h4>
 
 				<?php // File ?>
 				<?php if (get_field('publication_file')) : ?>

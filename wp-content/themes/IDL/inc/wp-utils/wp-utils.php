@@ -810,18 +810,13 @@ function wp_custom_nav_menu($menu_name, $show_home = false, $hide_active = false
 			// Parent pages only
 			if ($menu_item->menu_item_parent != 0) 
 				continue;
-		
-			$object_id = $menu_item->object_id;
-			$title     = $menu_item->title;
-			$url       = $menu_item->url;
-			$page_slug = $menu_item->post_name;
-
+			
 			$object_id = $menu_item->object_id;
 			$title     = $menu_item->title;
 			$url       = function_exists('qtrans_getLanguage') ? qtrans_convertURL($menu_item->url) : $menu_item->url;
 			$page_slug = ($menu_item->object == 'page') ? get_page_slug_by_ID($object_id) : $menu_item->post_name;
 
-			$is_active = (isset($current_section)) ? ($page_slug == $current_section) : is_page($menu_item->object_id);
+			$is_active = (isset($current_section)) ? ($page_slug == $current_section) : (is_page($menu_item->object_id) || $page_slug == get_post_type());
 
 			// Hide active if necessary
 			if ($is_active && $hide_active) {

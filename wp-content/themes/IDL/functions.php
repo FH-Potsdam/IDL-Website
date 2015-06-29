@@ -175,6 +175,64 @@ function get_current_section_class() {
 }
 add_action('template_redirect', 'custom_template_redirect');*/
 
+////////////////
+// Navigation
+////////////////
+
+function custom_nav_menu($menu_name, $show_home = false, $hide_active = false) {
+
+    // Value retrieved with action 'check_section'
+    global $current_section;
+
+    if (($locations = get_nav_menu_locations()) && isset($locations[$menu_name])) {
+        
+        $menu       = wp_get_nav_menu_object( $locations[ $menu_name ] );
+        $menu_items = wp_get_nav_menu_items($menu->term_id);
+    
+        $menu_list  = '<ul id="menu-' . $menu_name . '" class="menu">';
+
+        // Home link
+        if ($show_home && !(is_home() || is_front_page())) {
+            $menu_list .= '<li id="menu-item-home"><a href="' . get_option('home') . '/">' . __('Home') . '</a></li>';
+        }
+        
+        // Display menu
+        foreach ((array) $menu_items as $key => $menu_item) {
+
+            // Parent pages only
+            if ($menu_item->menu_item_parent != 0) 
+                continue;
+        
+            $object_id = $menu_item->object_id;
+            $title     = $menu_item->title;
+            $url       = $menu_item->url;
+            $page_slug = $menu_item->post_name;
+
+            $object_id = $menu_item->object_id;
+            $title     = $menu_item->title;
+            $url       = function_exists('qtrans_getLanguage') ? qtrans_convertURL($menu_item->url) : $menu_item->url;
+            $page_slug = ($menu_item->object == 'page') ? get_page_slug_by_ID($object_id) : $menu_item->post_name;
+
+            $is_active = (isset($current_section)) ? ($page_slug == $current_section) : (is_page($menu_item->object_id) || $page_slug == get_post_type());
+
+            if (get_post_type() == 'project') {
+                $is_active = ($page_slug == 'projects');
+            }
+
+            // Hide active if necessary
+            if ($is_active && $hide_active) {
+                continue;
+            }
+
+            $class = $is_active ? ' class="active"' : '';
+            
+            $menu_list .= '<li id="menu-item-' . $page_slug . '"'. $class .'><a href="' . $url . '">' . $title . '</a></li>';
+        }
+        $menu_list .= '</ul>';
+        
+        echo $menu_list;
+    }
+}
 
 ///////////////////////
 // Content Functions   

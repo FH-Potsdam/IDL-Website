@@ -392,6 +392,21 @@ h6,
   text-rendering: optimizeLegibility;
   font-weight: normal;
 }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a,
+.subtitle a {
+  display: inline;
+}
 h1,
 .h1 {
   font: 36px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
@@ -426,12 +441,18 @@ h5,
   line-height: 1.4;
   display: block;
 }
+.subtitle a {
+  display: inline;
+}
 .statement {
   text-rendering: optimizeLegibility;
   font-weight: normal;
   font: 16px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
   text-transform: none;
   line-height: 1.5;
+}
+.statement a {
+  display: inline;
 }
 .inside {
   position: relative;
@@ -511,15 +532,15 @@ header .inside {
 }
 .entry-main {
   float: left;
-  width: 660px;
+  width: 650px;
   margin-right: 40px;
 }
 .entry-excerpt {
-  width: 660px;
+  width: 650px;
 }
 .entry-side {
   float: left;
-  width: 280px;
+  width: 290px;
 }
 .entry-related {
   clear: left;
@@ -596,7 +617,7 @@ header .inside {
   float: left;
   width: 320px;
   margin: 0 10px 10px 0;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .box a {
   text-decoration: none;
@@ -702,6 +723,12 @@ header .inside {
   display: block;
   max-width: 900px;
   margin-bottom: 40px;
+}
+.page-intro a {
+  display: inline;
+}
+.page-intro a {
+  display: inline;
 }
 .page-intro a {
   position: relative;
@@ -904,6 +931,9 @@ header .inside {
   line-height: 1.5;
   padding: 0px 0 10px;
 }
+#content .entry-excerpt a {
+  display: inline;
+}
 #content .entry-content h2 {
   margin: 40px 0 20px;
 }
@@ -923,11 +953,30 @@ header .inside {
   content: "—";
   margin-right: 8px;
 }
+#content .entry-related .section {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 2px solid #eeeeee;
+}
 #content .entry-related .section > h2 {
   margin: 10px 0 15px;
 }
-#content .entry-related #projects {
+#content .entry-related .section:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+#content .entry-related .projects-list {
   margin-bottom: -20px;
+}
+#content .entry-related .projects-list .project:nth-child(even) {
+  margin-right: 0;
+}
+#content .entry-related .publications-list .publication {
+  margin-bottom: 20px;
+}
+#content .entry-related .publications-list .publication h4 {
+  margin-bottom: 0;
 }
 #content .entry-side h5 {
   margin-top: 20px;
@@ -936,16 +985,10 @@ header .inside {
 #content .entry-side h5:first-child {
   margin-top: 0;
 }
-#content .entry-content p:last-child {
-  margin-bottom: 0;
-}
 .sep {
   padding-bottom: 40px;
   margin-bottom: 30px;
   border-bottom: 2px solid #eeeeee;
-}
-.sep > *:last-child {
-  margin-bottom: 0 !important;
 }
 .page-projects .entry-excerpt {
   margin-bottom: 10px;
@@ -957,9 +1000,6 @@ header .inside {
   padding-bottom: 40px;
   margin-bottom: 30px;
   border-bottom: 2px solid #eeeeee;
-}
-.publications-list > *:last-child {
-  margin-bottom: 0 !important;
 }
 .publications-list:last-child {
   padding-bottom: 0;
@@ -1013,7 +1053,7 @@ header .inside {
 }
 .page-imprint .entry-content {
   float: left;
-  width: 660px;
+  width: 650px;
   margin-right: 40px;
 }
 .single-project .tags {

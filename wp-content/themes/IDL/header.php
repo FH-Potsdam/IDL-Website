@@ -114,7 +114,7 @@
 
 				<div id="header-menu">
 					<nav id="nav" class="nav-menu group" role="navigation">
-						<?php wp_custom_nav_menu('main-menu'); ?>
+						<?php custom_nav_menu('main-menu'); ?>
 					</nav>
 					<?php if (function_exists('qtrans_generateLanguageSelectCode')) qtrans_generateLanguageSelectCode('text'); ?>
 				</div>

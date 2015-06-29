@@ -110,6 +110,10 @@ h1, h2, h3, h4, h5, h6,
 	//text-transform: uppercase;
 	font-weight: normal;
 	// font-weight: 100;
+
+	a {
+		display: inline;
+	}
 }
 
 h1, .h1 {
@@ -416,7 +420,7 @@ header {
 	//min-height: 150px;
 	margin: 0 @grid-post-margin @grid-post-margin 0;
 	
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 
 	// border-bottom: 2px solid #eee;
 	// padding-bottom: 10px;
@@ -609,7 +613,6 @@ header {
 	.h1, .h2, .h3, .h4, .h5, .h6 {
 		
 		a:not(.img) {
-			//.no-border-underline();
 			.border-underline(2px);
 			.border-underline-color(@red);
 		}
@@ -654,6 +657,17 @@ header {
 		padding: 0px 0 10px;
 	}
 	
+	// .entry {
+	// 	& > .entry-main {
+	// 		& > .entry-content {
+	// 			.sep;
+	// 			*:last-child {
+	// 				margin-bottom: 0;
+	// 			}
+	// 		}
+	// 	}
+	// }
+
 	.entry-content {
 
 		h2 {
@@ -689,12 +703,40 @@ header {
 	}
 
 	.entry-related {
-		.section > h2 {
-			margin: 10px 0 15px;
+
+		.section {
+			//.sep;
+			.sep-top();
+
+			& > h2 {
+				margin: 10px 0 15px;
+			}
+
+			&:last-child {
+				.no-sep();
+			}
 		}
 
-		#projects {
+		.projects-list {
 			margin-bottom: -20px;
+
+			.project:nth-child(even) {
+				margin-right: 0;
+			}
+		}
+
+		.publications-list {
+			.publication {
+				margin-bottom: 20px;
+
+				h4 {
+					margin-bottom: 0;
+				}
+				// .entry-main, .entry-side {
+				// 	width: 100%;
+				// 	float: none;
+				// }
+			}
 		}
 	}
 
@@ -709,12 +751,6 @@ header {
 			}
 		}
 	}
-
-	.entry-content {
-		p:last-child {
-			margin-bottom: 0;
-		}
-	}
 }
 
 .sep {
@@ -722,9 +758,15 @@ header {
 	margin-bottom: 30px;
 	border-bottom: 2px solid @border-grey;
 
-	& > *:last-child {
-		margin-bottom: 0 !important;
-	}
+	// & > *:last-child:not(.projects-list) {
+	// 	margin-bottom: 0 !important;
+	// }
+}
+
+.sep-top() {
+	margin-top: 40px;
+	padding-top: 25px;
+	border-top: 2px solid @border-grey;	
 }
 
 .no-sep() {

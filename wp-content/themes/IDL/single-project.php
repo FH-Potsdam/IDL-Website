@@ -20,18 +20,45 @@
 						<?php the_post_thumbnail('full'); ?>
 					</div>
 
-					<div class="entry-content sep">
+					<div class="entry-content">
 						<?php the_content(); ?>
 					</div>
 					
 					<div class="entry-related">
-						<?php // Related Publications ?>
+
+						<?php // Publications ?>
 						<?php if (get_field('related_publications')) : ?>
+						<div id="publications-section" class="section">
 							<h2>Publications</h2>
-							<ul>
-								<?php //the_team_list(); ?>
-							</ul>
+							<div class="publications-list">
+								<?php  
+									$ids = get_field('related_publications', false, false);
+
+									$args = array(
+										'posts_per_page' => -1,
+										'post_type'		 => 'publication',
+										'orderby'		 => 'menu_order',
+										'order'			 => 'ASC',
+										'post__in' 		 => $ids,
+										/*'tax_query' 	 => array(
+																array(
+																	'taxonomy' => 'year',
+																	'field'    => 'slug',
+																	'terms'    => $term->slug,
+																)
+															)*/
+									);
+									query_posts($args);
+								 	
+								 	get_template_part('loop', 'publications-short');
+
+								 	// Reset Query
+								 	wp_reset_query();
+								?>
+							</div>
+						</div>
 						<?php endif; ?>
+
 					</div>
 				</div>
 

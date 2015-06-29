@@ -16,39 +16,77 @@
 					</div>
 					<?php endif; ?>
 
-					<div class="entry-content sep">
+					<div class="entry-content">
 						<?php the_content(); ?>
 					</div>
 
 					<div class="entry-related">
 						
 						<?php // Projects ?>
-						<?php if (get_field('member_publications')) : ?>
-						<div class="section sep">
-							<h2>Projects</h2>
-							<div id="projects" class="group">
-								<?php 
-									$args = array(
-										'posts_per_page' => -1,
-										'post_type'		 => 'project',
-										'orderby'		 => 'menu_order',
-										'order'			 => 'ASC'
-									);
-									query_posts($args);
-									
-									get_template_part('loop', 'grid'); 
+						<?php  
+						   /*
+							*  Query projects from a relationship value.
+							*  This method uses the meta_query LIKE to match the string "123" to the database value a:1:{i:0;s:3:"123";} (serialized array)
+							*/
+							$args = array(
+								'posts_per_page' => -1,
+								'post_type'		 => 'project',
+								'orderby'		 => 'menu_order',
+								'order'			 => 'ASC',
+								'meta_query' 	 => array(
+														array(
+															'key' => 'project_team', 			 // name of custom field
+															'value' => '"' . get_the_ID() . '"', // matches exaclty "123", not just 123. This prevents a match for "1234"
+															'compare' => 'LIKE'
+														)
+													)
+							);
+							query_posts($args);
 
-									// Reset Query
-									wp_reset_query();
-								?>
+							if (have_posts()) :
+						?>
+						<div id="projects-section" class="section">
+							<h2>Projects</h2>
+							<div class="projects-list group">
+								<?php get_template_part('loop', 'projects'); ?>
 							</div>
 						</div>
-						<?php endif; ?>
+						<?php 
+							// Reset Query
+							wp_reset_query();
+							endif; 
+						?>
 
 						<?php // Publications ?>
 						<?php if (get_field('member_publications')) : ?>
-						<div class="section">
+						<div id="publications-section" class="section">
 							<h2>Publications</h2>
+							<div class="publications-list">
+								<?php  
+									$ids = get_field('member_publications', false, false);
+
+									$args = array(
+										'posts_per_page' => -1,
+										'post_type'		 => 'publication',
+										'orderby'		 => 'menu_order',
+										'order'			 => 'ASC',
+										'post__in' 		 => $ids,
+										/*'tax_query' 	 => array(
+																array(
+																	'taxonomy' => 'year',
+																	'field'    => 'slug',
+																	'terms'    => $term->slug,
+																)
+															)*/
+									);
+									query_posts($args);
+								 	
+								 	get_template_part('loop', 'publications-short');
+
+								 	// Reset Query
+								 	wp_reset_query();
+								?>
+							</div>
 						</div>
 						<?php endif; ?>
 					</div>
