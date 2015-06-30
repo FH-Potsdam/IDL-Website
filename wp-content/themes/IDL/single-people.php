@@ -61,8 +61,25 @@
 						<?php if (get_field('member_publications')) : ?>
 						<div id="publications-section" class="section">
 							<h2>Publications</h2>
-							<div class="publications-list">
-								<?php  
+							<?php
+
+								// Loop through all years
+								$args = array(
+								    'orderby'       => 'name', 
+								    'order'         => 'DESC',
+								    'hide_empty'    => true
+								);
+								$terms = get_terms('year', $args);
+
+								if (!is_wp_error($terms) && count($terms) > 0) :
+
+								    foreach ( $terms as $term ) :
+							?>
+								<h3><?php echo $term->name; ?></h3>
+
+								<div class="publications-list">
+								<?php
+
 									$ids = get_field('member_publications', false, false);
 
 									$args = array(
@@ -71,13 +88,13 @@
 										'orderby'		 => 'menu_order',
 										'order'			 => 'ASC',
 										'post__in' 		 => $ids,
-										/*'tax_query' 	 => array(
+										'tax_query' 	 => array(
 																array(
 																	'taxonomy' => 'year',
 																	'field'    => 'slug',
 																	'terms'    => $term->slug,
 																)
-															)*/
+															)
 									);
 									query_posts($args);
 								 	
@@ -86,7 +103,11 @@
 								 	// Reset Query
 								 	wp_reset_query();
 								?>
-							</div>
+								</div>
+							<?php
+									endforeach;
+								endif;
+							?>
 						</div>
 						<?php endif; ?>
 					</div>

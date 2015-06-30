@@ -973,7 +973,7 @@ header .inside {
   margin-right: 0;
 }
 #content .entry-related .publications-list .publication {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 #content .entry-related .publications-list .publication h4 {
   margin-bottom: 0;
@@ -993,10 +993,13 @@ header .inside {
 .page-projects .entry-excerpt {
   margin-bottom: 10px;
 }
-#publications-section h2 {
+#publications-section > h2 {
   margin: 40px 0 30px;
 }
-.publications-list {
+#publications-section > h3 {
+  margin: 20px 0 10px;
+}
+.page-academia .publications-list {
   padding-bottom: 40px;
   margin-bottom: 30px;
   border-bottom: 2px solid #eeeeee;

@@ -39,7 +39,7 @@
 
 				</div>
 				<div class="entry-content">
-					<?php the_content(); ?>
+					<?php echo get_the_content(); ?>
 				</div>		
 			</div>
 		

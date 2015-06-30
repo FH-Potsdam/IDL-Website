@@ -727,7 +727,7 @@ header {
 
 		.publications-list {
 			.publication {
-				margin-bottom: 20px;
+				margin-bottom: 15px;
 
 				h4 {
 					margin-bottom: 0;
@@ -790,13 +790,20 @@ header {
 //////////////////
 
 #publications-section {
-	h2 {
+	& > h2 {
 		margin: 40px 0 30px;
+	}
+	
+	& > h3 {
+		margin: 20px 0 10px;
 	}
 }
 
 .publications-list {
-	.sep;
+
+	.page-academia & {
+		.sep;
+	}
 
 	&:last-child {
 		.no-sep();
