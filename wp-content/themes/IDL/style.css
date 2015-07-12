@@ -1359,16 +1359,16 @@ footer nav ul li a:hover {
   -o-transition-duration: 0s;
   transition-duration: 0s;
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1023px) {
   .inside {
-    width: 780px;
+    width: 650px;
   }
   .grid {
-    width: 800px;
-    left: -20px;
+    width: 660px;
+    left: -10px;
   }
-  .block {
-    width: 50%;
+  .nav-menu li {
+    margin-left: 25px;
   }
 }
 @media screen and (max-width: 840px) {
