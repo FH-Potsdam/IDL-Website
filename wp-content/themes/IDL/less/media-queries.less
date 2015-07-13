@@ -61,16 +61,52 @@
 	.media-screen(@wrap-width);
 
 	// GRID
-	@item-width: 380px;
-	@item-margin: 20px;
+	// @item-width: 380px;
+	// @item-margin: 20px;
+	// .grid {
+	// 	width: @wrap-width + @item-margin;
+	// 	left: -@item-margin;
+	// }
+
+	// GRID
 	.grid {
-		width: @wrap-width + @item-margin;
-		left: -@item-margin;
+		width: 100%;
+		left: 0;
+		.box, .image {
+			width: 100% !important;
+			margin-left: 0 !important;
+			margin-bottom: 20px;
+			img {
+				width: 100%;
+			}
+		}
 	}
 	
+	#logo {
+		display: block;
+		margin-bottom: 20px;
+
+		// .desc {
+		// 	display: none;
+		// }
+	}
+	#nav {
+		position: inherit;
+
+		li {
+			margin-left: 55px;
+			//margin-left: 22px;
+		}
+	}
+
+	.entry-main, .entry-side, .entry-excerpt {
+		float: none !important;
+		width: 100% !important;
+		margin-right: 0 !important;
+	}
 	
 	h1, .h1 {
-		font-size: 48px;	
+		//font-size: 48px;	
 	}
 
 	.column {
@@ -86,11 +122,11 @@
 
 	#main {
 		padding-top: 40px;
-		padding-bottom: 60px;
+		padding-bottom: 50px;
 
-		.page-title {
-			margin-bottom: 40px;
-		}
+		// .page-title {
+		// 	margin-bottom: 40px;
+		// }
 	}
 
 	#content {
@@ -102,22 +138,6 @@
 	#nav {
 		left: auto;
 		right: 0;
-
-		li:last-child {
-			margin-right: 0;
-		}
-	}
-	
-	#blog-title {
-		display: none;
-	}
-
-	// That's me
-	#page-image-screen {
-		display: none;
-	}
-	#page-image-mobile {
-		display: block;
 	}
 
 	// Projects
@@ -164,17 +184,8 @@
 	@wrap-width: 90%;
 	.media-screen(@wrap-width);
 
-	// GRID
-	.grid {
-		width: 100%;
-		left: 0;
-		.project, .image {
-			width: 100% !important;
-			margin-left: 0 !important;
-			img {
-				width: 100%;
-			}
-		}
+	#main {
+		padding-top: 10px;
 	}
 
 	.box {
@@ -186,13 +197,13 @@
 	}
 
 	h1, .h1 {
-		font-size: 40px;	
+		//font-size: 40px;	
 	}
 
 	#content {
-		h4 {
-			margin-bottom: 10px;
-		}
+		// h4 {
+		// 	margin-bottom: 10px;
+		// }
 	}
 
 	.button-wrapper {
@@ -222,6 +233,7 @@
 		#logo {
 			margin-left: 5%;
 			padding-bottom: 10px;
+			margin-bottom: 0;
 			// position: absolute;
 			// margin: 0;
 			// margin-left: -92px;
@@ -231,7 +243,7 @@
 	
 		#menu-button {
 			position: absolute;
-			top: 13px;
+			top: 20px;
 			right: 5%;
 			//.background-image-devices('images/mobile-menu-icon', 'png', 15px 16px, center center);
 			.background-image('images/menu.png', center top);
@@ -250,7 +262,7 @@
 				left: auto !important;
 			}
 
-			background-color: #353535;
+			//background-color: #353535;
 			width: 100%;
 			height: auto;
 			padding: 0;
@@ -269,6 +281,8 @@
 		.nav-menu {
 			position: inherit;
 			bottom: auto;
+
+			margin-bottom: 20px;
 		}
 
 		.nav-menu, #lang-chooser {
@@ -276,10 +290,18 @@
 			li {
 				display: block;
 				width: 90%;
-				margin: 0 auto;
+				margin: 0 auto !important;
 				
-				border-top: 1px solid #525252;
+				border-bottom: 1px solid @border-grey;
 				text-align: center;
+
+				&:first-child {
+					border-top: 1px solid @border-grey;
+				}
+
+				// &:last-child {
+				// 	border-bottom: none;
+				// }
 
 				&:before {
 					content:"";
@@ -287,9 +309,6 @@
 				}
 
 				a {
-					font-size: 16px;
-					color: @white;
-					//width: 100%;
 					display: block;
 					margin: 0 auto;
 
@@ -299,10 +318,6 @@
 					line-height: 16px;
 					letter-spacing: 3px;
 				}
-
-				// &:last-child {
-				// 	border-bottom: none;
-				// }
 			}
 		}
 

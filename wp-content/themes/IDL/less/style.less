@@ -212,7 +212,7 @@ header {
 #nav {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 3px;
 }
 
 .nav-menu {
@@ -297,10 +297,6 @@ header {
 	float: left;
 	width: @content-width;
 	margin-right: @content-margin;
-}
-
-.entry-excerpt {
-	width: @content-width;
 }
 
 .entry-side {
@@ -867,6 +863,10 @@ header {
 ////////////////////
 
 .single-project {
+	
+	.entry-excerpt {
+		width: @content-width;
+	}
 
 	.tags {
 		width: 37%;

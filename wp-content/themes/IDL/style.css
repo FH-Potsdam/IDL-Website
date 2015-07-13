@@ -481,7 +481,7 @@ header .inside {
 #nav {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 3px;
 }
 .nav-menu li {
   margin-left: 30px;
@@ -532,15 +532,12 @@ header .inside {
 }
 .entry-main {
   float: left;
-  width: 650px;
-  margin-right: 40px;
-}
-.entry-excerpt {
-  width: 650px;
+  width: 66.6235%;
+  margin-right: 3.7847%;
 }
 .entry-side {
   float: left;
-  width: 290px;
+  width: 29.5918%;
 }
 .entry-related {
   clear: left;
@@ -1019,7 +1016,7 @@ header .inside {
   margin-bottom: 10px;
 }
 .publications-list .entry-side {
-  margin-right: 40px;
+  margin-right: 3.7847%;
 }
 .publications-list .entry-main {
   margin-right: 0;
@@ -1056,8 +1053,11 @@ header .inside {
 }
 .page-imprint .entry-content {
   float: left;
-  width: 650px;
-  margin-right: 40px;
+  width: 66.6235%;
+  margin-right: 3.7847%;
+}
+.single-project .entry-excerpt {
+  width: 66.6235%;
 }
 .single-project .tags {
   width: 37%;
@@ -1376,12 +1376,35 @@ footer nav ul li a:hover {
     width: 400px;
   }
   .grid {
-    width: 420px;
-    left: -20px;
+    width: 100%;
+    left: 0;
   }
-  h1,
-  .h1 {
-    font-size: 48px;
+  .grid .box,
+  .grid .image {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+  .grid .box img,
+  .grid .image img {
+    width: 100%;
+  }
+  #logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  #nav {
+    position: inherit;
+  }
+  #nav li {
+    margin-left: 55px;
+  }
+  .entry-main,
+  .entry-side,
+  .entry-excerpt {
+    float: none !important;
+    width: 100% !important;
+    margin-right: 0 !important;
   }
   .column {
     width: 100%;
@@ -1393,10 +1416,7 @@ footer nav ul li a:hover {
   }
   #main {
     padding-top: 40px;
-    padding-bottom: 60px;
-  }
-  #main .page-title {
-    margin-bottom: 40px;
+    padding-bottom: 50px;
   }
   #content h1 {
     width: 100%;
@@ -1404,18 +1424,6 @@ footer nav ul li a:hover {
   #nav {
     left: auto;
     right: 0;
-  }
-  #nav li:last-child {
-    margin-right: 0;
-  }
-  #blog-title {
-    display: none;
-  }
-  #page-image-screen {
-    display: none;
-  }
-  #page-image-mobile {
-    display: block;
   }
   #projects-filter {
     margin-bottom: 30px;
@@ -1447,18 +1455,8 @@ footer nav ul li a:hover {
   .inside {
     width: 90%;
   }
-  .grid {
-    width: 100%;
-    left: 0;
-  }
-  .grid .project,
-  .grid .image {
-    width: 100% !important;
-    margin-left: 0 !important;
-  }
-  .grid .project img,
-  .grid .image img {
-    width: 100%;
+  #main {
+    padding-top: 10px;
   }
   .box {
     width: 100% !important;
@@ -1466,13 +1464,6 @@ footer nav ul li a:hover {
   }
   .box img {
     width: 100%;
-  }
-  h1,
-  .h1 {
-    font-size: 40px;
-  }
-  #content h4 {
-    margin-bottom: 10px;
   }
   .button-wrapper {
     text-align: center;
@@ -1493,10 +1484,11 @@ footer nav ul li a:hover {
   header #logo {
     margin-left: 5%;
     padding-bottom: 10px;
+    margin-bottom: 0;
   }
   header #menu-button {
     position: absolute;
-    top: 13px;
+    top: 20px;
     right: 5%;
     background-image: url('images/menu.png');
     background-position: center top;
@@ -1511,7 +1503,6 @@ footer nav ul li a:hover {
     text-indent: -9999px;
   }
   header #header-menu {
-    background-color: #353535;
     width: 100%;
     height: auto;
     padding: 0;
@@ -1524,14 +1515,19 @@ footer nav ul li a:hover {
   header .nav-menu {
     position: inherit;
     bottom: auto;
+    margin-bottom: 20px;
   }
   header .nav-menu li,
   header #lang-chooser li {
     display: block;
     width: 90%;
-    margin: 0 auto;
-    border-top: 1px solid #525252;
+    margin: 0 auto !important;
+    border-bottom: 1px solid #eeeeee;
     text-align: center;
+  }
+  header .nav-menu li:first-child,
+  header #lang-chooser li:first-child {
+    border-top: 1px solid #eeeeee;
   }
   header .nav-menu li:before,
   header #lang-chooser li:before {
@@ -1540,8 +1536,6 @@ footer nav ul li a:hover {
   }
   header .nav-menu li a,
   header #lang-chooser li a {
-    font-size: 16px;
-    color: #ffffff;
     display: block;
     margin: 0 auto;
     padding: 22px 0 20px;

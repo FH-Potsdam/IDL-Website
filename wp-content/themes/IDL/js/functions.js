@@ -41,14 +41,12 @@ var $header,
 
 function initMobileHeader() {
 
-    $header           = $('#header');
+    $header           = $('header');
     $headerMenu       = $header.find('#header-menu');
 
     $('#menu-button').click(function(e) {
-
         $header.toggleClass('opened');
         $headerMenu.slideToggle(200, function() {
-            
             if ($headerMenu.is(":hidden")) {
                 $headerMenu.removeAttr('style');
             }   
