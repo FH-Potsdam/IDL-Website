@@ -8,6 +8,36 @@
 			<div class="subtitle"><?php the_subtitle(); ?></div>
 			
 			<div class="entry">
+
+				<div class="entry-side">
+					<?php // Thumbnail ?>
+					<div class="entry-image">
+						<?php the_post_thumbnail('member-image'); ?>
+					</div>
+
+					<?php // Website ?>
+					<?php if (get_field('member_website')) : ?>
+						<h5>Website</h5>
+						<a target="_blank" href="<?php the_field('member_website'); ?>"><?php the_field('member_website'); ?></a>
+					<?php endif; ?>
+
+					<?php // Email ?>
+					<?php if (get_field('member_email')) : ?>
+						<h5>Email</h5>
+						<a href="mailto:<?php the_field('member_website'); ?>"><?php the_field('member_email'); ?></a>
+					<?php endif; ?>
+
+					<?php // Twitter ?>
+					<?php if (get_field('member_twitter')) : ?>
+						<h5>Twitter</h5>
+						<?php  
+							$twitter_user = get_field('member_twitter');
+							$twitter_profile = 'http://twitter.com/' . str_replace('@', '', $twitter_user);
+						?>
+						<a target="_blank" href="<?php echo $twitter_profile; ?>"><?php echo $twitter_user; ?></a>
+					<?php endif; ?>
+				</div>
+				
 				<div class="entry-main">
 					
 					<?php if (has_excerpt()) : ?>
@@ -111,35 +141,6 @@
 						</div>
 						<?php endif; ?>
 					</div>
-				</div>
-
-				<div class="entry-side">
-					<?php // Thumbnail ?>
-					<div class="entry-image">
-						<?php the_post_thumbnail('member-image'); ?>
-					</div>
-
-					<?php // Website ?>
-					<?php if (get_field('member_website')) : ?>
-						<h5>Website</h5>
-						<a target="_blank" href="<?php the_field('member_website'); ?>"><?php the_field('member_website'); ?></a>
-					<?php endif; ?>
-
-					<?php // Email ?>
-					<?php if (get_field('member_email')) : ?>
-						<h5>Email</h5>
-						<a href="mailto:<?php the_field('member_website'); ?>"><?php the_field('member_email'); ?></a>
-					<?php endif; ?>
-
-					<?php // Twitter ?>
-					<?php if (get_field('member_twitter')) : ?>
-						<h5>Twitter</h5>
-						<?php  
-							$twitter_user = get_field('member_twitter');
-							$twitter_profile = 'http://twitter.com/' . str_replace('@', '', $twitter_user);
-						?>
-						<a target="_blank" href="<?php echo $twitter_profile; ?>"><?php echo $twitter_user; ?></a>
-					<?php endif; ?>
 				</div>
 			</div>
 			
