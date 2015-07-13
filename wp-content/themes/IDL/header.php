@@ -70,8 +70,8 @@
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	
-	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
+
+	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon">
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 		
