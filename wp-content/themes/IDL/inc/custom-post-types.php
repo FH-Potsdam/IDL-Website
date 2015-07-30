@@ -62,7 +62,7 @@ function custom_types_register() {
 	    'show_in_menu'          => true,
 	    'capability_type' 		=> 'page',
 	    'hierarchical'			=> false,
-	    'rewrite'               => array( 'slug' => 'project'/*, 'with_front' => false*/ ),
+	    'rewrite'               => array( 'slug' => 'projects', 'with_front' => false ),
 	    'query_var' 			=> true,
 	    'has_archive'           => false,
 	    'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', 'page-attributes' )	// 'title','editor','thumbnail','excerpt','custom-fields','page-attributes'
@@ -74,6 +74,28 @@ function custom_types_register() {
 	////////////
 
 	$post_name = 'people';
+	$taxonomy  = 'people-category';
+		
+	// CATEGORY
+	$args = array(
+	    'label'                         => 'Member Type',
+	    'public'                        => false,
+	    'hierarchical'                  => true,
+	    'show_ui'                       => true,
+	    'show_in_nav_menus'             => true,
+	    'args'                          => array( 'orderby' => 'term_order' ),
+	    //'rewrite'                       => array( 'slug' => 'project' ) // array( 'slug' => 'project', 'with_front' => false )
+	    //'query_var'                     => true
+	);
+	register_taxonomy( $taxonomy, $post_name, $args );
+
+	// Adding qTranslate to taxonomy creator/editor
+	if (function_exists('qtrans_getLanguage')) {
+		add_action($taxonomy.'_add_form', 'qtrans_modifyTermFormFor');
+		add_action($taxonomy.'_edit_form', 'qtrans_modifyTermFormFor');
+		//add_action($tags.'_add_form', 'qtrans_modifyTermFormFor');
+		//add_action($tags.'_edit_form', 'qtrans_modifyTermFormFor');
+	}
 
 	// CUSTOM POST TYPE
 	$cpt_args = array(
@@ -84,7 +106,7 @@ function custom_types_register() {
 	    'show_in_menu'          => true,
 	    'capability_type' 		=> 'page',
 	    'hierarchical'			=> false,
-	    'rewrite'               => array( 'slug' => 'people'/*, 'with_front' => false*/ ),
+	    'rewrite'               => array( 'slug' => 'people', 'with_front' => false ),
 	    'query_var' 			=> true,
 	    'has_archive'           => false,
 	    'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', 'page-attributes' )	// 'title','editor','thumbnail','excerpt','custom-fields','page-attributes'

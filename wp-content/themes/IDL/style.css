@@ -295,6 +295,7 @@ body {
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
   line-height: 1.7;
   border-top: 5px solid #f77278;
+  background: #f8f8f8;
 }
 html,
 body {
@@ -670,7 +671,7 @@ header .inside {
   vertical-align: top;
   zoom: 1;
   *display: inline;
-  background: white;
+  background: #f8f8f8;
   padding-top: 3px;
   padding-bottom: 3px;
 }
@@ -682,7 +683,7 @@ header .inside {
   zoom: 1;
   *display: inline;
   text-decoration: none;
-  text-shadow: 1px 0 #ffffff, 2px 0 #ffffff, -1px 0 #ffffff, -2px 0 #ffffff, 1px 1px #ffffff, 1px -1px #ffffff, 2px 1px #ffffff, 2px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, -2px 1px #ffffff, -2px -1px #ffffff;
+  text-shadow: 1px 0 #f8f8f8, 2px 0 #f8f8f8, -1px 0 #f8f8f8, -2px 0 #f8f8f8, 1px 1px #f8f8f8, 1px -1px #f8f8f8, 2px 1px #f8f8f8, 2px -1px #f8f8f8, -1px 1px #f8f8f8, -1px -1px #f8f8f8, -2px 1px #f8f8f8, -2px -1px #f8f8f8;
   z-index: 0;
 }
 .box .entry h2 span:after {
@@ -740,7 +741,7 @@ header .inside {
   zoom: 1;
   *display: inline;
   text-decoration: none;
-  text-shadow: 1px 0 #ffffff, 2px 0 #ffffff, -1px 0 #ffffff, -2px 0 #ffffff, 1px 1px #ffffff, 1px -1px #ffffff, 2px 1px #ffffff, 2px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, -2px 1px #ffffff, -2px -1px #ffffff;
+  text-shadow: 1px 0 #f8f8f8, 2px 0 #f8f8f8, -1px 0 #f8f8f8, -2px 0 #f8f8f8, 1px 1px #f8f8f8, 1px -1px #f8f8f8, 2px 1px #f8f8f8, 2px -1px #f8f8f8, -1px 1px #f8f8f8, -1px -1px #f8f8f8, -2px 1px #f8f8f8, -2px -1px #f8f8f8;
   z-index: 0;
 }
 .page-intro a:after {
@@ -865,7 +866,7 @@ header .inside {
   zoom: 1;
   *display: inline;
   text-decoration: none;
-  text-shadow: 1px 0 #ffffff, 2px 0 #ffffff, -1px 0 #ffffff, -2px 0 #ffffff, 1px 1px #ffffff, 1px -1px #ffffff, 2px 1px #ffffff, 2px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, -2px 1px #ffffff, -2px -1px #ffffff;
+  text-shadow: 1px 0 #f8f8f8, 2px 0 #f8f8f8, -1px 0 #f8f8f8, -2px 0 #f8f8f8, 1px 1px #f8f8f8, 1px -1px #f8f8f8, 2px 1px #f8f8f8, 2px -1px #f8f8f8, -1px 1px #f8f8f8, -1px -1px #f8f8f8, -2px 1px #f8f8f8, -2px -1px #f8f8f8;
   z-index: 0;
 }
 #content .entry-excerpt a:not(.img):after,
@@ -992,6 +993,20 @@ header .inside {
   margin-bottom: 30px;
   border-bottom: 2px solid #eeeeee;
 }
+.page-about .entry-excerpt {
+  padding-bottom: 0 !important;
+}
+.page-about .entry-excerpt p:last-child {
+  margin-bottom: 0;
+}
+.page-about .entry-main {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 2px solid #eeeeee;
+}
+.page-about .entry-main h2:first-child {
+  margin-top: 10px !important;
+}
 .page-projects .entry-excerpt {
   margin-bottom: 10px;
 }
@@ -1022,6 +1037,7 @@ header .inside {
 }
 .publications-list .entry-side {
   margin-right: 3.7847%;
+  float: left;
 }
 .publications-list .entry-main {
   margin-right: 0;
@@ -1055,11 +1071,6 @@ header .inside {
   vertical-align: top;
   zoom: 1;
   *display: inline;
-}
-.page-imprint .entry-content {
-  float: left;
-  width: 66.6235%;
-  margin-right: 3.7847%;
 }
 .single-project .tags {
   width: 37%;

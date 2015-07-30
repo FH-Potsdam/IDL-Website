@@ -22,6 +22,8 @@ body {
 	font: 14px @font-reg;
 	line-height: 1.7;
 	border-top: 5px solid @red;
+
+	background: @bg-color;
 }
 
 html, body {
@@ -483,14 +485,14 @@ header {
 
 		h2 {
 			.inline-block();
-			background: white;
+			background: @bg-color;
 			padding-top: 3px;
 			padding-bottom: 3px;
 			
 			span {
 				.border-underline(2px, 2px); //4px
 				.border-underline-color(@red);
-				.border-underline-shadow(white);
+				.border-underline-shadow(@bg-color);
 			}
 		}
 	}
@@ -599,7 +601,7 @@ header {
 	a {
 		.border-underline(4px, 2px); //4px
 		.border-underline-color(@red);
-		.border-underline-shadow(white);
+		.border-underline-shadow(@bg-color);
 	}
 
 	max-width: 900px;
@@ -632,7 +634,7 @@ header {
 		a:not(.img) {
 			.border-underline(5px); //4px
 			.border-underline-color(@red);
-			.border-underline-shadow(white);
+			.border-underline-shadow(@bg-color);
 		}
 	}
 
@@ -786,6 +788,30 @@ header {
 // Projects
 ///////////////
 
+.page-about {
+	
+	.entry-excerpt {
+		padding-bottom: 0 !important;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.entry-main {
+		.sep-top();
+		//margin-top: 0;
+
+		h2:first-child {
+			margin-top: 10px !important;
+		}
+	}
+}
+
+///////////////
+// Projects
+///////////////
+
 .page-projects {
 	.entry-excerpt {
 		margin-bottom: 10px;
@@ -828,6 +854,7 @@ header {
 	}
 	.entry-side {
 		margin-right: @content-margin;
+		float: left;
 	}
 
 	.entry-main {
@@ -863,11 +890,11 @@ header {
 // Impressum
 ///////////////
 
-.page-imprint {
-	.entry-content {
-		.entry-main;
-	}
-}
+// .page-imprint {
+// 	.entry-content {
+// 		.entry-main;
+// 	}
+// }
 
 ////////////////////
 // Single Project

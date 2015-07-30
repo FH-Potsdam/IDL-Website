@@ -24,7 +24,10 @@
 					<?php // Email ?>
 					<?php if (get_field('member_email')) : ?>
 						<h5>Email</h5>
-						<a href="mailto:<?php the_field('member_website'); ?>"><?php the_field('member_email'); ?></a>
+						<?php  
+							$member_email = get_field('member_email');
+						?>
+						<a href="mailto:<?php echo $member_email; ?>"><?php echo $member_email; ?></a>
 					<?php endif; ?>
 
 					<?php // Twitter ?>
@@ -32,9 +35,11 @@
 						<h5>Twitter</h5>
 						<?php  
 							$twitter_user = get_field('member_twitter');
-							$twitter_profile = 'http://twitter.com/' . str_replace('@', '', $twitter_user);
+							$twitter_username = str_replace('@', '', $twitter_user);
+							$twitter_show = '@' . $twitter_username;
+							$twitter_profile = 'http://twitter.com/' . $twitter_username;
 						?>
-						<a target="_blank" href="<?php echo $twitter_profile; ?>"><?php echo $twitter_user; ?></a>
+						<a target="_blank" href="<?php echo $twitter_profile; ?>"><?php echo $twitter_show; ?></a>
 					<?php endif; ?>
 				</div>
 				
