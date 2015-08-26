@@ -106,41 +106,41 @@
 								);
 								$terms = get_terms('year', $args);
 
-								if (!is_wp_error($terms) && count($terms) > 0) :
+								// Look publications for each year
+								if (!is_wp_error($terms) && count($terms) > 0) : foreach ( $terms as $term ) :
 
-								    foreach ( $terms as $term ) :
+							    	$ids = get_field('member_publications', false, false);
+
+							    	$args = array(
+							    		'posts_per_page' => -1,
+							    		'post_type'		 => 'publication',
+							    		'orderby'		 => 'menu_order',
+							    		'order'			 => 'ASC',
+							    		'post__in' 		 => $ids,
+							    		'tax_query' 	 => array(
+							    								array(
+							    									'taxonomy' => 'year',
+							    									'field'    => 'slug',
+							    									'terms'    => $term->slug,
+							    								)
+							    							)
+							    	);
+							    	query_posts($args);
+
+							    	if (have_posts()) :
 							?>
 								<h3><?php echo $term->name; ?></h3>
 
 								<div class="publications-list">
-								<?php
-
-									$ids = get_field('member_publications', false, false);
-
-									$args = array(
-										'posts_per_page' => -1,
-										'post_type'		 => 'publication',
-										'orderby'		 => 'menu_order',
-										'order'			 => 'ASC',
-										'post__in' 		 => $ids,
-										'tax_query' 	 => array(
-																array(
-																	'taxonomy' => 'year',
-																	'field'    => 'slug',
-																	'terms'    => $term->slug,
-																)
-															)
-									);
-									query_posts($args);
-								 	
-								 	get_template_part('loop', 'publications-short');
-
-								 	// Reset Query
-								 	wp_reset_query();
-								?>
+								<?php get_template_part('loop', 'publications-short'); ?>
 								</div>
 							<?php
-									endforeach;
+									endif; 
+
+									// Reset Query
+								 	wp_reset_query();
+									
+								endforeach;
 								endif;
 							?>
 						</div>

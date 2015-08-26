@@ -336,7 +336,7 @@ dt {
   font-weight: normal;
 }
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 ::-moz-selection {
   background: #f77278;
@@ -415,7 +415,7 @@ h1,
 }
 h2,
 .h2 {
-  font: 24px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
+  font: 26px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
 }
 h3,
 .h3 {
@@ -644,7 +644,7 @@ header .inside {
 .box h2 {
   font-size: 20px;
   padding: 0 12px 0 9px;
-  margin-bottom: 2px;
+  margin: 0 0 2px 0 !important;
 }
 .box .subtitle {
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
@@ -932,22 +932,29 @@ header .inside {
   font: 16px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
   text-transform: none;
   line-height: 1.5;
-  padding: 0px 0 10px;
+  padding: 0px 0 20px;
 }
 #content .entry-excerpt a {
   display: inline;
 }
-#content .entry-content h2 {
+#content h2 {
   margin: 40px 0 20px;
 }
-#content .entry-content h3 {
+#content h3 {
+  margin: 25px 0 15px;
+}
+#content h3:first-child {
+  margin-top: 0;
+}
+#content h4 {
   margin-bottom: 5px;
 }
-#content .entry-content h4 {
-  margin-bottom: 5px;
+#content .entry-content img {
+  padding: 5px 0 10px;
 }
 #content .entry-content ul {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  padding: 5px 0;
 }
 #content .entry-content ul li {
   margin-left: 10px;
@@ -962,7 +969,7 @@ header .inside {
   border-top: 2px solid #eeeeee;
 }
 #content .entry-related .section > h2 {
-  margin: 10px 0 15px;
+  margin: 10px 0 20px;
 }
 #content .entry-related .section:last-child {
   padding-bottom: 0;
@@ -976,7 +983,7 @@ header .inside {
   margin-right: 0;
 }
 #content .entry-related .publications-list .publication {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 #content .entry-related .publications-list .publication h4 {
   margin-bottom: 0;
@@ -987,6 +994,15 @@ header .inside {
 }
 #content .entry-side h5:first-child {
   margin-top: 0;
+}
+.founding-list {
+  margin-top: 40px;
+}
+.founding-list li {
+  margin-bottom: 30px;
+}
+.founding-list img {
+  max-width: 170px;
 }
 .sep {
   padding-bottom: 40px;
@@ -1014,7 +1030,7 @@ header .inside {
   margin: 40px 0 30px;
 }
 #publications-section > h3 {
-  margin: 20px 0 10px;
+  margin: 12px 0 15px;
 }
 .page-academia .publications-list {
   padding-bottom: 40px;

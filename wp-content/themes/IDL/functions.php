@@ -263,7 +263,23 @@ function the_row_list($field) {
         $name = get_sub_field('name');
         $url = get_sub_field('url');
 
-        $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank">' . $name . '</a>';
+        $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank" title="' . $name . '">' . $name . '</a>';
+?>
+    <li><?php echo $echo; ?></li>
+<?php 
+    endwhile;
+}
+
+function the_row_logos_list($field) {
+
+    // loop through the rows of data
+    while ( have_rows($field) ) : the_row();
+
+        $name = get_sub_field('name');
+        $url = get_sub_field('url');
+        $logo_url = get_sub_field('logo');
+
+        $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" /></a>';
 ?>
     <li><?php echo $echo; ?></li>
 <?php 
@@ -438,6 +454,7 @@ function my_theme_setup() {
         //set_post_thumbnail_size( 380, 9999 );             // 380px wide (and unlimited height) - default Post Thumbnail dimensions
         add_image_size( 'grid-thumb', 380, 285, true);
         add_image_size( 'member-image', 425, 350, true);
+        //add_image_size( 'content-image', 425, 350, true);
         //add_image_size( 'cover-image', 1180, 600 );
     }
     

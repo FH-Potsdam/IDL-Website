@@ -64,11 +64,14 @@
 
 				<div class="entry-side">
 					<?php //the_project_meta(); ?>
-
-					<?php // Year ?>
-					<?php if (get_field('project_year')) : ?>
-						<h5>Year</h5>
-						<?php the_field('project_year'); ?>
+					
+					<?php // Team ?>
+					<?php if (get_field('project_team') || get_field('project_team_external')) : ?>
+						<h5>Team</h5>
+						<ul>
+							<?php the_team_list(); ?>
+							<?php the_row_list('project_team_external') ?>
+						</ul>
 					<?php endif; ?>
 
 					<?php // Partners ?>
@@ -79,19 +82,31 @@
 						</ul>
 					<?php endif; ?>
 
-					<?php // Team ?>
-					<?php if (get_field('project_team') || get_field('project_team_external')) : ?>
-						<h5>Team</h5>
-						<ul>
-							<?php the_team_list(); ?>
-							<?php the_row_list('project_team_external') ?>
-						</ul>
+					<?php // Year ?>
+					<?php if (get_field('project_year')) : ?>
+						<h5>Year</h5>
+						<?php the_field('project_year'); ?>
 					<?php endif; ?>
 
 					<?php // Website ?>
 					<?php if (get_field('project_website')) : ?>
 						<h5>Website</h5>
-						<a target="_blank" href="<?php the_field('project_website'); ?>">Project website</a>
+						<?php 
+							$project_website = get_field('project_website');
+
+							$project_website_show = str_replace('http://', '', $project_website);
+							//$project_website_show = str_replace('www.', '', $project_website_show);
+							$project_website_show = rtrim($project_website_show, '/');
+						?>
+						<a target="_blank" href="<?php echo $project_website; ?>"><?php echo $project_website_show; ?></a>
+					<?php endif; ?>
+
+					<?php // Founding ?>
+					<?php if( have_rows('project_founding') ): ?>
+						<!-- <h5>Founding</h5> -->
+						<ul class="founding-list">
+							<?php the_row_logos_list('project_founding') ?>
+						</ul>
 					<?php endif; ?>
 				</div>
 			</div>

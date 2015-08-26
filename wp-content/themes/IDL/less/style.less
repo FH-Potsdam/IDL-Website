@@ -70,7 +70,7 @@ strong, dt {
 }
 
 p {
-	margin-bottom: 20px; //5px;
+	margin-bottom: 10px; //20px; //5px;
 }
 
 ::-moz-selection{background: @sel-color; color: #fff; text-shadow: none;}
@@ -126,7 +126,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font: 24px @font-bold;		// 24px
+	font: 26px @font-bold;		// 24px
 	// letter-spacing: -2px;
 	// line-height: 0.91;
 }
@@ -456,7 +456,7 @@ header {
 	h2 {
 		font-size: 20px;
 		padding: 0 @text-padding 0 (@text-padding - 3px);
-		margin-bottom: 2px;
+		margin: 0 0 2px 0 !important;
 	}
 
 	.subtitle {
@@ -663,7 +663,7 @@ header {
 
 	.entry-excerpt {
 		.statement;
-		padding: 0px 0 10px;
+		padding: 0px 0 20px; //10px;
 	}
 	
 	// .entry {
@@ -677,14 +677,20 @@ header {
 	// 	}
 	// }
 
-	.entry-content {
+	//.entry-content {
 
 		h2 {
 			margin: 40px 0 20px;
 		}
 
 		h3 {
-			margin-bottom: 5px;
+			margin: 25px 0 15px;
+			// margin: 30px 0 20px;
+			//margin-bottom: 5px;
+
+			&:first-child {
+				margin-top: 0;
+			}
 		}
 
 		h4 {
@@ -695,9 +701,17 @@ header {
 			//margin-bottom: 10px;
 			//margin-bottom: 4px;
 		}
+	
+	.entry-content {
+
+		img {
+			padding: 5px 0 10px;
+			//margin: 15px 0 20px;
+		}
 
 		ul {
-			margin-bottom: 20px;
+			margin-bottom: 15px;
+			padding: 5px 0;
 			//list-style-type: disc;
 			//list-style-position: inside;
 
@@ -718,7 +732,7 @@ header {
 			.sep-top();
 
 			& > h2 {
-				margin: 10px 0 15px;
+				margin: 10px 0 20px;
 			}
 
 			&:last-child {
@@ -736,7 +750,7 @@ header {
 
 		.publications-list {
 			.publication {
-				margin-bottom: 15px;
+				margin-bottom: 5px;
 
 				h4 {
 					margin-bottom: 0;
@@ -760,6 +774,25 @@ header {
 			}
 		}
 	}
+}
+
+.founding-list {
+	margin-top: 40px;
+	
+	li {
+		margin-bottom: 30px;
+	}
+
+	img {
+		max-width: 170px;
+	}
+	
+	// li {
+	// 	background-image: url('http://jordi.local:8888/fhp/idl/wp-content/uploads/2015/08/BMWi_ab_2014_Logo_klein_englisch.jpg');
+	// 	background-blend-mode: multiply;
+	// 	background-color: @bg-color;
+	// 	.block(250px, 206px);
+	// }
 }
 
 .sep {
@@ -828,7 +861,7 @@ header {
 	}
 	
 	& > h3 {
-		margin: 20px 0 10px;
+		margin: 12px 0 15px;
 	}
 }
 
@@ -852,6 +885,7 @@ header {
 	h4 {
 		margin-bottom: 10px;
 	}
+
 	.entry-side {
 		margin-right: @content-margin;
 		float: left;

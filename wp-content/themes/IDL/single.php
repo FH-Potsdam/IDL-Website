@@ -25,12 +25,6 @@
 						<?php the_content(); ?>
 					</div>
 				</div>
-
-				<?php if (get_field('sidebar_content')) : ?>
-				<div class="entry-side">
-					<?php the_field('sidebar_content'); ?>
-				</div>
-				<?php endif; ?>
 			</div>
 		</div>
 
