@@ -1319,22 +1319,54 @@ span.wpcf7-not-valid-tip {
   color: #ffffff;
 }
 footer .inside {
-  padding: 30px 0 30px;
+  padding: 35px 0 30px;
   border-top: 2px solid #eeeeee;
+  zoom: 1;
+}
+footer .inside:before,
+footer .inside:after {
+  content: "";
+  display: table;
+}
+footer .inside:after {
+  clear: both;
+}
+footer #fhp-logo {
+  float: left;
+  background-image: url('images/fhp-logo.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  width: 200px;
+  height: 35px;
+  display: block;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  -webkit-filter: invert(70%);
 }
 footer small {
-  position: absolute;
-  top: 30px;
-  right: 0;
-  font-size: 14px;
-  text-align: right;
+  font-size: inherit;
 }
-footer small a {
-  margin-left: 10px;
+footer small:after {
+  content: "|";
+  margin: 0 4px 0 5px;
+}
+footer nav {
+  float: right;
+  line-height: 35px;
 }
 footer nav h3 {
   line-height: 1;
   margin-bottom: 14px;
+}
+footer nav ul {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
 }
 footer nav ul li {
   display: block;
@@ -1530,6 +1562,23 @@ footer nav ul li a:hover {
     text-align: center;
   }
 }
+@media screen and (max-width: 480px) {
+  footer .inside {
+    padding: 30px 0;
+  }
+  footer #fhp-logo,
+  footer nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer #fhp-logo {
+    margin-bottom: 25px;
+  }
+  footer nav {
+    line-height: 14px;
+  }
+}
 @media screen and (max-width: 520px) {
   #main {
     padding-bottom: 30px;
@@ -1572,7 +1621,7 @@ footer nav ul li a:hover {
   }
   header #header-menu ul {
     left: auto !important;
-    background: #f6f6f6;
+    background: #eeeeee;
   }
   header .nav-menu {
     position: inherit;

@@ -111,7 +111,6 @@
 					<span class="desc"><?php bloginfo('description'); ?></span>
 				</a>
 				
-
 				<div id="header-menu">
 					<nav id="nav" class="nav-menu group" role="navigation">
 						<?php custom_nav_menu('main-menu'); ?>

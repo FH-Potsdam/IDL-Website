@@ -3,12 +3,13 @@
 
 	<footer>
 		<div class="inside">
+			<a id="fhp-logo" href="http://interface.fh-potsdam.de" target="_blank">FHP</a>
 			<nav>
+				<small>
+					&copy; <?php echo date("Y");?> FH Potsdam
+				</small>
 				<?php wp_nav_menu( array('menu' => 'footer-menu')); ?>
 			</nav>
-			<small>
-				&copy; <?php echo date("Y");?> FH Potsdam
-			</small>
 		</div>
 	</footer>
 

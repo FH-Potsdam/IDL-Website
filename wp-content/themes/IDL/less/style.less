@@ -212,10 +212,27 @@ header {
 
 // Nav menu
 #nav {
+// #header-menu {
 	position: absolute;
 	right: 0;
 	bottom: 3px;
 }
+
+// #nav, #qtranslate-chooser {
+// 	.inline-block();
+// }
+
+// #qtranslate-chooser {
+
+// 	a {
+// 		text-decoration: none;
+// 		color: @grey;
+// 		font-size: 12px;
+// 	}
+// 	.active {
+// 		display: none;
+// 	}
+// }
 
 .nav-menu {
 	// ul { 
@@ -1114,31 +1131,49 @@ span.wpcf7-not-valid-tip {
 // FOOTER
 /////////////
 
-@footer-pt: 30px;
+@footer-pt: 35px;
+@footer-height: 35px;
 
 footer {
 	//font: 13px @georgia;
 	//font-style: italic;
 
 	.inside {
-		padding: @footer-pt 0 @footer-pt;
+		padding: @footer-pt 0 @footer-pt - 5px;
 		border-top: 2px solid @border-grey;
+		.group();
+	}
+
+	#fhp-logo {
+		float: left; 
+
+		.background-image('images/fhp-logo.png');
+		.no-text();
+		.block(200px, @footer-height);
+		// .block(324px, 55px);
+		.background-size(contain);
+
+		-webkit-filter: invert(70%);
 	}
 
 	small {
-		position: absolute;
-		top: @footer-pt;
-		right: 0;
-		font-size: 14px;
+		// position: absolute;
+		// top: @footer-pt;
+		// right: 0;
+		font-size: inherit;
 
-		text-align: right;
+		// text-align: right;
 
-		a {
-			margin-left: 10px;
+		&:after {
+			content: "|";
+			margin: 0 4px 0 5px;
 		}
 	}
 
 	nav {
+		float: right;
+		line-height: @footer-height;
+
 		h3 {
 			line-height: 1;
 			margin-bottom: 14px;
@@ -1148,6 +1183,8 @@ footer {
 			// .background-image-devices('images/arrow', 'png', 27px 12px);
 			// padding-left: 40px;
 
+			.inline-block();
+
 			li {
 				display: block;
 				margin-bottom: 4px;
@@ -1155,7 +1192,6 @@ footer {
 				a {
 					color: @text-color;
 					text-decoration: none;
-					//text-decoration: underline;
 
 					&:hover {
 						color: @red;
