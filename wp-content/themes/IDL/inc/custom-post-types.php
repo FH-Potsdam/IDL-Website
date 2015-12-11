@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Custom Post Types Functions File
  *
@@ -31,7 +31,7 @@ function custom_types_register() {
 	$post_name = 'project';
 	$taxonomy  = 'project-category';
 	//$tags  	   = 'project-tag';
-		
+
 	// CATEGORY
 	/*$args = array(
 	    'label'                         => 'Categories',
@@ -52,7 +52,7 @@ function custom_types_register() {
 		//add_action($tags.'_add_form', 'qtrans_modifyTermFormFor');
 		//add_action($tags.'_edit_form', 'qtrans_modifyTermFormFor');
 	}*/
-	
+
 	// CUSTOM POST TYPE
 	$cpt_args = array(
 		'labels' 				=> get_custom_post_type_labels($post_name, 'Project', 'Projects'),
@@ -75,7 +75,7 @@ function custom_types_register() {
 
 	$post_name = 'people';
 	$taxonomy  = 'people-category';
-		
+
 	// CATEGORY
 	$args = array(
 	    'label'                         => 'Member Type',
@@ -131,7 +131,7 @@ function custom_types_register() {
 	    'rewrite'               => array( 'slug' => 'publications'/*, 'with_front' => false*/ ),
 	    'query_var' 			=> false,
 	    'has_archive'           => false,
-	    'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', 'page-attributes' )	// 'title','editor','thumbnail','excerpt','custom-fields','page-attributes'
+	    'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', 'page-attributes' )	// 'title','editor','thumbnail','excerpt','custom-fields','page-attributes'
 	);
 	register_post_type( $post_name, $cpt_args );
 
@@ -158,7 +158,7 @@ function custom_types_register() {
 
 	// Categories & Tags
 	register_taxonomy_for_object_type( 'category', 'project' );
-	register_taxonomy_for_object_type( 'category', 'publication' );	
+	// register_taxonomy_for_object_type( 'category', 'publication' );
 }
 add_action( 'init', 'custom_types_register' );
 
@@ -167,7 +167,7 @@ add_filter( 'get_terms_args', 'wpse_53094_sort_get_terms_args', 10, 2 );
 function wpse_53094_sort_get_terms_args( $args, $taxonomies ) {
 
     global $pagenow;
-    if (!is_admin() || ('post.php' != $pagenow && 'post-new.php' != $pagenow)) 
+    if (!is_admin() || ('post.php' != $pagenow && 'post-new.php' != $pagenow))
         return $args;
 
     if ($taxonomies[0] != 'year')
@@ -203,12 +203,12 @@ register_activation_hook( __FILE__, 'custom_plugin_deactivation');
 // Connection Types
 //////////////////////
 
-// Posts 2 Posts plugin: 
+// Posts 2 Posts plugin:
 // https://github.com/scribu/wp-posts-to-posts/
 // https://github.com/scribu/wp-posts-to-posts/wiki
 
 /*if (function_exists('p2p_register_connection_type')) {
-	
+
 	function my_connection_types() {
 		p2p_register_connection_type( array(
 			'name' => 'posts_to_pages',
@@ -268,7 +268,7 @@ function custom_post_type_link( $post_link, $id = 0 ) {
 	$post = get_post($id);
 	if (is_wp_error($post) || $post_name != $post->post_type || empty($post->post_name))
 		return $post_link;
-	
+
 	// Get the current taxonomy term
 	$terms = get_the_terms($post->ID, $taxonomy);
 	if ( is_wp_error($terms) || !$terms ) {
@@ -310,8 +310,8 @@ function posts_custom_columns($column_name, $id){
 
 	global $posts_with_thumb_in_admin;
 	$post_type = get_post_type($post_id);
-	
-	if (in_array($post_type, $posts_with_thumb_in_admin) && 
+
+	if (in_array($post_type, $posts_with_thumb_in_admin) &&
 		$column_name === 'post_thumb') {
 		echo the_post_thumbnail( 'admin-thumb' );
 	}
@@ -325,13 +325,13 @@ function posts_custom_columns($column_name, $id){
 
 function project_custom_column($column_name, $post_id) {
     $taxonomy = $column_name;
-    
+
     if ($taxonomy != 'project-category')
     	return;
 
     $post_type = get_post_type($post_id);
     $terms = get_the_terms($post_id, $taxonomy);
- 
+
     if ( !empty($terms) ) {
         foreach ( $terms as $term )
             $post_terms[] = "<a href='edit.php?post_type={$post_type}&{$taxonomy}={$term->term_id}'> " . esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit')) . "</a>";
@@ -339,9 +339,61 @@ function project_custom_column($column_name, $post_id) {
     }
     else echo '<i>No terms.</i>';
 }
-add_filter('manage_project_posts_columns', 'project_change_columns' );
+add_filter('manage_project_posts_columns', 'project_change_columns' , 10);
 add_action('manage_project_posts_custom_column', 'project_custom_column', 10, 2);*/
-	
+
+// Add custon taxonomy column on posts list
+function people_change_columns($defaults) {
+    $defaults['people-category'] = 'Category';
+    return $defaults;
+}
+
+function people_custom_column($column_name, $post_id) {
+    $taxonomy = $column_name;
+
+    if ($taxonomy != 'people-category')
+    	return;
+
+    $post_type = get_post_type($post_id);
+    $terms = get_the_terms($post_id, $taxonomy);
+
+    if ( !empty($terms) ) {
+        foreach ( $terms as $term )
+            $post_terms[] = "<a href='edit.php?post_type={$post_type}&{$taxonomy}={$term->term_id}'> " . esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit')) . "</a>";
+        echo join( ', ', $post_terms );
+    }
+    else echo '<i>No terms.</i>';
+}
+add_filter('manage_people_posts_columns', 'people_change_columns' , 10);
+add_action('manage_people_posts_custom_column', 'people_custom_column', 10, 2);
+
+
+// Add custon taxonomy column on posts list
+function publication_change_columns($defaults) {
+    $defaults['year'] = 'Year';
+    return $defaults;
+}
+
+function publication_custom_column($column_name, $post_id) {
+    $taxonomy = $column_name;
+
+    if ($taxonomy != 'year')
+    	return;
+
+    $post_type = get_post_type($post_id);
+    $terms = get_the_terms($post_id, $taxonomy);
+
+    if ( !empty($terms) ) {
+        foreach ( $terms as $term )
+            $post_terms[] = "<a href='edit.php?post_type={$post_type}&{$taxonomy}={$term->term_id}'> " . esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit')) . "</a>";
+        echo join( ', ', $post_terms );
+    }
+    else echo '<i>No terms.</i>';
+}
+add_filter('manage_publication_posts_columns', 'publication_change_columns' , 10);
+add_action('manage_publication_posts_custom_column', 'publication_custom_column', 10, 2);
+
+
 
 // Filter the request to just give posts for the given taxonomy, if applicable.
 function taxonomy_filter_restrict_manage_posts() {
@@ -371,13 +423,13 @@ function taxonomy_filter_restrict_manage_posts() {
             ) );
         }
     }
-}	
+}
 add_action( 'restrict_manage_posts', 'taxonomy_filter_restrict_manage_posts' );
 
 
 function taxonomy_filter_post_type_request( $query ) {
 	global $pagenow, $typenow;
-	
+
 	if ( 'edit.php' == $pagenow ) {
 		$filters = get_object_taxonomies( $typenow );
 		foreach ( $filters as $tax_slug ) {
@@ -393,14 +445,14 @@ add_filter( 'parse_query', 'taxonomy_filter_post_type_request' );
 
 
 ////////////////////////////
-// CUSTOM FIELD Functions   
+// CUSTOM FIELD Functions
 ////////////////////////////
 
 add_action('admin_init', 'add_custom_boxes');
 //add_action('save_post', 'save_custom_postdata');
 
 function add_custom_boxes() {
-	
+
 	//$page_id = isset($_GET['post']) ? $_GET['post'] : $_POST['post_ID'];
 
 	// Meta box for a given post type
@@ -410,23 +462,23 @@ function add_custom_boxes() {
 	// if ( is_subpage($page_id) ) {
 	// 	add_meta_box('custom_meta_box_id', __("Title"), 'custom_meta_box_function', 'page', 'advanced', 'default');
 	// }
-	
+
 	// remove custom fields meta box
 	remove_meta_box( 'postcustom', 'post', 'advanced' );
 	remove_meta_box( 'postcustom', 'page', 'advanced' );
 }
 
-function save_custom_postdata() {  
-	// verify if this is an auto save routine. 
+function save_custom_postdata() {
+	// verify if this is an auto save routine.
   	// If it is our form has not been submitted, so we dont want to do anything
   	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
-  	
+
 	global $post;
 
 	// Get current page
 	$page_id = $_GET['post'] ? $_GET['post'] : $_POST['post_ID'] ;
 	$page_slug = get_page_slug_by_ID($page_id);
-	
+
 	// Target post type
 	// if ($post->post_type == 'post_type') {
 	// 	update_post_meta($post->ID, 'custom_field_id', $_POST['custom_field_id']);
@@ -443,7 +495,7 @@ function save_custom_postdata() {
 /*function custom_meta_box_function() {
 
     global $post;
-    $custom = get_post_custom($post->ID);  
+    $custom = get_post_custom($post->ID);
 	?>
 		<p>
 			<label for="custom_field_id"><? _e("Description of this input field"); ?>:</label><br />

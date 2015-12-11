@@ -1,4 +1,4 @@
-/*   
+/*
 Theme Name: IDL Theme
 Theme URI: https://github.com/jorditost/wp-reset-theme
 Author: Jordi Tost
@@ -309,10 +309,10 @@ body,
 select,
 input,
 textarea {
-  color: #000000;
+  color: #000;
 }
 a {
-  color: #000000;
+  color: #000;
   outline: none;
   border: none;
   -moz-transition: all 0.1s ease;
@@ -375,7 +375,7 @@ img {
 }
 .wp-caption-text {
   font-size: 12px;
-  color: #999999;
+  color: #999;
 }
 h1,
 h2,
@@ -455,6 +455,9 @@ h5,
 .statement a {
   display: inline;
 }
+.grid-title {
+  margin-bottom: 10px !important;
+}
 .inside {
   position: relative;
   width: 980px;
@@ -467,10 +470,10 @@ header .inside {
 #logo {
   font: 46px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 #logo:hover {
-  color: #000000;
+  color: #000;
 }
 #logo .desc {
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
@@ -500,7 +503,7 @@ header .inside {
   text-rendering: optimizeLegibility;
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   padding-bottom: 2px;
   border-bottom: 3px solid transparent;
   text-decoration: none;
@@ -569,7 +572,7 @@ header .inside {
   *display: inline;
   padding: 20px 35px;
   background: #f77278;
-  color: #ffffff;
+  color: #FFF;
   font: 14px 'ProximaNovaSemibold', Helmet, Freesans, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -580,11 +583,8 @@ header .inside {
   transition: background 0.2s ease;
 }
 .button:hover {
-  background: #000000;
-  color: #ffffff;
-}
-.home h3 {
-  margin-bottom: 10px;
+  background: #000;
+  color: #FFF;
 }
 .sort-filters {
   display: block;
@@ -629,13 +629,13 @@ header .inside {
   transition: none 0.1s ease-out;
 }
 .box a:hover {
-  color: #000000;
+  color: #000;
 }
 .box .thumb {
-  background: #ffffff;
+  background: #FFF;
   display: block;
   min-height: 240px;
-  background: #eeeeee;
+  background: #eee;
 }
 .box .thumb img {
   display: block;
@@ -648,11 +648,12 @@ header .inside {
 }
 .box .subtitle {
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
+  height: 36px;
   line-height: 1.3;
   display: block;
   text-transform: none;
   padding: 0 12px 0 9px;
-  color: #000000 !important;
+  color: #000 !important;
   margin-bottom: 0 !important;
 }
 .box .entry {
@@ -660,7 +661,7 @@ header .inside {
   margin-top: -25px;
 }
 .box .entry:hover {
-  color: #000000;
+  color: #000;
 }
 .box .entry span {
   display: block;
@@ -921,7 +922,7 @@ header .inside {
 }
 #content .subtitle {
   margin-bottom: 25px;
-  color: #999999;
+  color: #999;
 }
 #content .entry-image {
   margin-bottom: 15px;
@@ -966,7 +967,7 @@ header .inside {
 #content .entry-related .section {
   margin-top: 40px;
   padding-top: 25px;
-  border-top: 2px solid #eeeeee;
+  border-top: 2px solid #eee;
 }
 #content .entry-related .section > h2 {
   margin: 10px 0 20px;
@@ -1007,7 +1008,7 @@ header .inside {
 .sep {
   padding-bottom: 40px;
   margin-bottom: 30px;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid #eee;
 }
 .page-about .entry-excerpt {
   padding-bottom: 0 !important;
@@ -1018,7 +1019,7 @@ header .inside {
 .page-about .entry-main {
   margin-top: 40px;
   padding-top: 25px;
-  border-top: 2px solid #eeeeee;
+  border-top: 2px solid #eee;
 }
 .page-about .entry-main h2:first-child {
   margin-top: 10px !important;
@@ -1035,7 +1036,7 @@ header .inside {
 .page-academia .publications-list {
   padding-bottom: 40px;
   margin-bottom: 30px;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid #eee;
 }
 .publications-list:last-child {
   padding-bottom: 0;
@@ -1302,7 +1303,7 @@ span.wpcf7-not-valid-tip {
   *display: inline;
   padding: 20px 35px;
   background: #f77278;
-  color: #ffffff;
+  color: #FFF;
   font: 14px 'ProximaNovaSemibold', Helmet, Freesans, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -1315,12 +1316,12 @@ span.wpcf7-not-valid-tip {
   padding-right: 80px;
 }
 .entry-form form input[type="submit"]:hover {
-  background: #000000;
-  color: #ffffff;
+  background: #000;
+  color: #FFF;
 }
 footer .inside {
   padding: 35px 0 30px;
-  border-top: 2px solid #eeeeee;
+  border-top: 2px solid #eee;
   zoom: 1;
 }
 footer .inside:before,
@@ -1373,7 +1374,7 @@ footer nav ul li {
   margin-bottom: 4px;
 }
 footer nav ul li a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 footer nav ul li a:hover {
@@ -1487,12 +1488,12 @@ footer nav ul li a:hover {
     margin-right: 0 !important;
   }
   .single-project .entry-main {
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #eee;
     padding-bottom: 15px;
     margin-bottom: 45px;
   }
   .single-people .entry-side {
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #eee;
     padding-bottom: 35px;
     margin-bottom: 35px;
   }

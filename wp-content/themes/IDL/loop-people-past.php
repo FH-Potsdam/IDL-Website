@@ -11,16 +11,12 @@
 		// Filters
 		$post_filters = get_the_terms_classes('category'); // . ' ' . get_the_terms_classes('post_tag');
 	?>
-
-		<div id="people-<?php the_ID(); ?>" class="people box <?php echo $post_filters; ?>">
-			<a class="thumb" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('member-image'); ?></a>
+		<li><?php the_title(); ?></li>
+		<?php /* ?>
+		<div id="people-<?php the_ID(); ?>" class="people <?php echo $post_filters; ?>">
 			<a class="entry" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 				<h2><span><?php the_title(); ?></span></h2>
-				<span class="subtitle"><?php the_subtitle(); ?></span>
 			</a>
 		</div>
-	<?php
-		endwhile; else :
-	?>
-		<p>No member found</p>
-	<?php endif; ?>
+		<?php */ ?>
+	<?php endwhile; endif; ?>
