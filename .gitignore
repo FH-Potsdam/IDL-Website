@@ -1,3 +1,7 @@
 wp-config.php
 config.codekit
 /wp-content/uploads/
+
+*.codekit
+
+wp-content/themes/IDL/config.codekit
