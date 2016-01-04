@@ -1066,6 +1066,9 @@ header.overlay #nav {
 .page-people .grid {
   margin-bottom: 25px;
 }
+.page-people #content .column {
+  padding-top: 10px;
+}
 #publications-section > h2 {
   margin: 40px 0 30px;
 }
@@ -1415,7 +1418,6 @@ footer #fhp-logo {
   -o-background-size: contain;
   -webkit-background-size: contain;
   background-size: contain;
-  -webkit-filter: invert(70%);
 }
 footer small {
   font-size: inherit;
