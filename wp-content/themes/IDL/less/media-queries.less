@@ -3,7 +3,7 @@
 //////////////////////////
 
 .media-screen(@wrap-width) {
-	
+
 	// Structure
 	.inside {
 		width: @wrap-width;
@@ -15,10 +15,10 @@
 ///////////////////
 
 @media screen and (max-width: 1023px) {
-	
+
 	@wrap-width: 650px;
 	.media-screen(@wrap-width);
-	
+
 	@grid-post-width: 320px;
 	@grid-post-margin: 10px;
 
@@ -33,14 +33,21 @@
 		}
 	}
 
+	#main {
+		padding-top: 50px;
+	}
+
 	#content {
+		.entry-excerpt {
+			padding-bottom: 10px;
+		}
 		.entry-related {
 			.projects-list {
 				.project {
 					//433.047px;
 					width: 48.8454%;
 					margin-right: 2.3092%;
-					
+
 					.entry {
 						margin-top: -23px;
 					}
@@ -58,7 +65,7 @@
 }
 
 // @media screen and (max-width: 1240px) {
-	
+
 // 	@wrap-width: 780px;
 // 	.media-screen(@wrap-width);
 
@@ -98,13 +105,25 @@
 		.box, .image {
 			width: 100% !important;
 			margin-left: 0 !important;
-			margin-bottom: 20px;
+			margin-bottom: 15px;
 			img {
 				width: 100%;
 			}
 		}
+
+		.box {
+			.subtitle {
+				height: auto;
+			}
+		}
 	}
-	
+
+	header {
+		.inside {
+			// padding-top: 15px;
+		}
+	}
+
 	#logo {
 		display: block;
 		margin-bottom: 20px;
@@ -115,6 +134,7 @@
 	}
 	#nav {
 		position: inherit;
+		padding-top: 0;
 
 		li {
 			margin-left: 55px;
@@ -130,12 +150,15 @@
 		width: 100% !important;
 		margin-right: 0 !important;
 	}
-	
+
 	.single-project {
 		.entry-main {
 			border-bottom: 2px solid @border-grey;
-			padding-bottom: 15px;
+			padding-bottom: 20px;
 			margin-bottom: 45px;
+		}
+		.entry-side {
+			margin-bottom: 20px
 		}
 	}
 
@@ -150,10 +173,45 @@
 			}
 		}
 	}
-	
+
 	h1, .h1 {
-		//font-size: 48px;	
+		font-size: 30px;
 	}
+
+	h3, .h3 {
+		font-size: 18px;
+	}
+
+	.subtitle {
+		.h3;
+	}
+
+	// h2, .h2 {
+	// 	font: 26px @font-bold;		// 24px
+	// }
+	//
+	// h3, .h3 {
+	// 	font: 20px @font-bold;		// 18px
+	// }
+	//
+	// h4, .h4 {
+	// 	font: 16px @font-bold;		// 16px
+	// 	text-transform: none;
+	// 	line-height: 1.5;
+	// }
+	//
+	// h5, .h5 {
+	// 	font: 14px @font-bold;		// 14px
+	// 	text-transform: uppercase;
+	// }
+	//
+	// .subtitle {
+	// 	.h3;
+	// }
+	//
+	// .statement {
+	// 	.h4;
+	// }
 
 	.column {
 		width: 100%;
@@ -178,6 +236,10 @@
 	#content {
 		h1 {
 			width: 100%;
+		}
+
+		.entry-excerpt {
+			padding-bottom: 5px;
 		}
 	}
 
@@ -231,7 +293,7 @@
 	.media-screen(@wrap-width);
 
 	#main {
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 
 	.box {
@@ -243,7 +305,7 @@
 	}
 
 	h1, .h1 {
-		//font-size: 40px;	
+		//font-size: 40px;
 	}
 
 	#content {
@@ -258,11 +320,11 @@
 }
 
 @media screen and (max-width: 480px) {
-	
+
 	footer {
-		
+
 		.inside {
-			padding: 30px 0;
+			padding: 30px 0 25px;
 		}
 
 		#fhp-logo, nav {
@@ -310,10 +372,10 @@
 			// left: 50%;
 			// z-index: 999;
 		}
-	
+
 		#menu-button {
 			position: absolute;
-			top: 20px;
+			top: 26px;
 			right: 5%;
 			//.background-image-devices('images/mobile-menu-icon', 'png', 15px 16px, center center);
 			.background-image('images/menu.png', center top);
@@ -324,6 +386,10 @@
 			// &:hover {
 			// 	.background-image('images/menu-h.png', center top);
 			// }
+		}
+
+		#nav {
+			padding-top: 0;
 		}
 
 		#header-menu {
@@ -339,7 +405,7 @@
 			width: 100%;
 			height: auto;
 			padding: 0;
-			
+
 			overflow: hidden;
 			display: none;
 		}
@@ -364,7 +430,7 @@
 				display: block;
 				width: 90%;
 				margin: 0 auto !important;
-				
+
 				border-bottom: 1px solid white;
 				text-align: center;
 
@@ -387,7 +453,7 @@
 
 					padding: 22px 0 20px;
 					border-bottom: none;
-					
+
 					line-height: 16px;
 					letter-spacing: 3px;
 				}
@@ -398,10 +464,10 @@
 			position: inherit;
 
 			li {
-				
+
 				width: 100%;
 
-				a { 
+				a {
 					background: #f2f2f2;
 				}
 
@@ -423,11 +489,11 @@
 ////////////////////
 
 // .mobile {
-	
+
 // }
 
 // .tablet {
-	
+
 // }
 
 //http://www.blog.highub.com/mobile-2/revisit-hardboiled-css3-media-queries/
@@ -450,7 +516,7 @@
 // @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 //        only screen and (min--moz-device-pixel-ratio: 1.5),
 //        only screen and (min-resolution: 240dpi) {
-       
+
 // 		header .logo {
 // 			background-image: url(images/thinkmoto_logo@2x.png);
 // 			-moz-background-size: 159px 25px;
@@ -458,7 +524,7 @@
 // 			-webkit-background-size: 159px 25px;
 // 			background-size: 159px 25px;
 // 		}
-		
+
 // 		.social-button {
 // 			background-image: url(images/social-buttons@2x.png);
 // 			-moz-background-size: 164px 20px;
@@ -472,15 +538,15 @@
 // Smartphones (portrait and landscape)
 //////////////////////////////////////////
 
-// @media only screen 
-// and (min-device-width : 320px) 
+// @media only screen
+// and (min-device-width : 320px)
 // and (max-device-width : 480px) {
 
 // 	// Be inspired
 // 	#page-be-inspired {
 
 // 		.post {
-			
+
 // 			&:after {
 // 				content:'';
 // 				position: absolute;

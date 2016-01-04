@@ -23,10 +23,7 @@
 
 				if (!is_wp_error($terms) && count($terms) > 0) :
 					foreach ( $terms as $term ) :
-			?>
-				<h3 class="grid-title"><?php echo $term->name; ?></h3>
 
-				<?php
 					$args = array(
 						'posts_per_page' => -1,
 						'post_type'		 => 'people',
@@ -42,22 +39,25 @@
 					);
 					query_posts($args);
 
-
 					$template = 'people';
 
 					// Past members
 					if (strpos($term->slug, 'past') === false) :
 				?>
 
+					<h3 class="grid-title"><?php echo $term->name; ?></h3>
 					<div class="people-grid grid group">
 						<?php get_template_part('loop', 'people'); ?>
 					</div>
 
 				<?php else : ?>
-					<div class="people-list">
-						<ul>
-							<?php get_template_part('loop', 'people-past'); ?>
-						</ul>
+					<div class="column">
+						<h3><?php echo $term->name; ?></h3>
+						<div class="people-list">
+							<ul>
+								<?php get_template_part('loop', 'people-past'); ?>
+							</ul>
+						</div>
 					</div>
 				<?php
 					endif;

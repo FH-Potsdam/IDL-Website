@@ -9,13 +9,13 @@
  * @Developer Jordi Tost (Follow Me: @jorditost)
  *
  * Notes: PHP vars are lowercase.
- *        Vars that are passed to jQuery are camelcase.   
+ *        Vars that are passed to jQuery are camelcase.
  */
 
 
 //////////////////
-// Custom Utils   
-////////////////// 
+// Custom Utils
+//////////////////
 
 require_once('inc/utils/Mobile_Detect.php');
 require_once('inc/wp-utils/wp-utils.php');
@@ -57,22 +57,22 @@ $isIE     = ( $detect->isIE() )     ? true : false;
 
 function mobile_class() {
 
-    global $isMobile; 
-    global $isIpad; 
-    global $isTablet; 
+    global $isMobile;
+    global $isIpad;
+    global $isTablet;
 
-    if ($isMobile) { 
-        echo " mobile"; 
+    if ($isMobile) {
+        echo " mobile";
     }
 
-    if ($isIpad || $isTablet) { 
-        echo " tablet"; 
+    if ($isIpad || $isTablet) {
+        echo " tablet";
     }
 }
 
 
 ////////////////////////
-// Language Functions   
+// Language Functions
 ////////////////////////
 
 global $sitetrings;
@@ -102,7 +102,7 @@ function get_post_custom_field_lang($custom_field) {
 
 
 ////////////////////////
-// Section Functions   
+// Section Functions
 ////////////////////////
 
 add_action('wp_head', 'check_section');
@@ -128,7 +128,7 @@ function get_current_section_class() {
     global $current_section;
 
     if (is_404() && !is_admin()) {
-        wp_redirect( home_url(), 301 ); 
+        wp_redirect( home_url(), 301 );
         exit;
     }
 
@@ -166,7 +166,7 @@ function get_current_section_class() {
 
         // Get posts
         $case = get_posts( $args );
-        
+
         if ($case && sizeof($case) >= 1) {
             wp_redirect(get_permalink($case[0]->ID));
             exit;
@@ -185,24 +185,24 @@ function custom_nav_menu($menu_name, $show_home = false, $hide_active = false) {
     global $current_section;
 
     if (($locations = get_nav_menu_locations()) && isset($locations[$menu_name])) {
-        
+
         $menu       = wp_get_nav_menu_object( $locations[ $menu_name ] );
         $menu_items = wp_get_nav_menu_items($menu->term_id);
-    
+
         $menu_list  = '<ul id="menu-' . $menu_name . '" class="menu">';
 
         // Home link
         if ($show_home && !(is_home() || is_front_page())) {
             $menu_list .= '<li id="menu-item-home"><a href="' . get_option('home') . '/">' . __('Home') . '</a></li>';
         }
-        
+
         // Display menu
         foreach ((array) $menu_items as $key => $menu_item) {
 
             // Parent pages only
-            if ($menu_item->menu_item_parent != 0) 
+            if ($menu_item->menu_item_parent != 0)
                 continue;
-        
+
             $object_id = $menu_item->object_id;
             $title     = $menu_item->title;
             $url       = $menu_item->url;
@@ -225,17 +225,17 @@ function custom_nav_menu($menu_name, $show_home = false, $hide_active = false) {
             }
 
             $class = $is_active ? ' class="active"' : '';
-            
+
             $menu_list .= '<li id="menu-item-' . $page_slug . '"'. $class .'><a href="' . $url . '">' . $title . '</a></li>';
         }
         $menu_list .= '</ul>';
-        
+
         echo $menu_list;
     }
 }
 
 ///////////////////////
-// Content Functions   
+// Content Functions
 ///////////////////////
 
 // Post Subtitle
@@ -266,7 +266,7 @@ function the_row_list($field) {
         $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank" title="' . $name . '">' . $name . '</a>';
 ?>
     <li><?php echo $echo; ?></li>
-<?php 
+<?php
     endwhile;
 }
 
@@ -282,7 +282,7 @@ function the_row_logos_list($field) {
         $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" /></a>';
 ?>
     <li><?php echo $echo; ?></li>
-<?php 
+<?php
     endwhile;
 }
 
@@ -310,11 +310,11 @@ function the_team_list() {
 function the_sort_filters($taxonomy, $filter_type = 'single', $exclude = array(), $show_all = true) {
 
     $ret = '';
-    
+
     $args = array(
-        'orderby'       => 'id', 
+        'orderby'       => 'id',
         'order'         => 'ASC',
-        'hide_empty'    => true, 
+        'hide_empty'    => true,
         'exclude'       => $exclude
     );
     $terms = get_terms($taxonomy, $args);
@@ -342,7 +342,7 @@ function the_home_filter() {
         <li><a href="#" data-filter=".publication" data-type="single">Publications</a></li>
         <?php the_sort_filters('category', 'single', array(1), false); ?>
     </ul>
-<?php 
+<?php
 }
 
 function the_projects_filter() {
@@ -350,7 +350,7 @@ function the_projects_filter() {
     <ul>
     <?php the_sort_filters('category', 'single', array(1)); ?>
     </ul>
-<?php 
+<?php
 }
 
 
@@ -358,7 +358,7 @@ function the_projects_filter() {
 // Content Filters
 /////////////////////
 
-function add_link_image_class ($content) {   
+function add_link_image_class ($content) {
 
     global $post;
     $pattern = "/<a(.*?)href=('|\")(.*?).(bmp|gif|jpeg|jpg|png)('|\")(.*?)>/i";
@@ -372,7 +372,7 @@ add_filter('the_content', 'add_link_image_class');
 
 
 /////////////////
-// Theme Setup   
+// Theme Setup
 /////////////////
 
 add_action( 'after_setup_theme', 'my_theme_setup' );
@@ -380,18 +380,18 @@ add_action( 'after_setup_theme', 'my_theme_setup' );
 if ( ! function_exists( 'my_theme_setup' ) ):
 
 function my_theme_setup() {
-    
+
     // Tiny MCE styles
     add_editor_style();
-    
+
     // This theme uses post thumbnails
     add_theme_support( 'post-thumbnails' );
-    
+
     // Register extra featured images
     // http://wordpress.org/plugins/multiple-post-thumbnails/
     // https://github.com/voceconnect/multi-post-thumbnails
     if (class_exists('MultiPostThumbnails')) {
-        
+
         $types = array('post', 'page', 'custom_pt');
         foreach($types as $type) {
             new MultiPostThumbnails(array(
@@ -412,9 +412,9 @@ function my_theme_setup() {
         // Language images
         // Translate post images for pages, eBook Services and Software Details
         if (function_exists('qtrans_getLanguage')) {
-            
+
             global $q_config;
-            
+
             $types = array('page', 'ebook-service', 'software');
 
             // Languages
@@ -450,18 +450,19 @@ function my_theme_setup() {
     }
 
     // Images size
-    if (function_exists( 'add_image_size' )) { 
+    if (function_exists( 'add_image_size' )) {
         //set_post_thumbnail_size( 380, 9999 );             // 380px wide (and unlimited height) - default Post Thumbnail dimensions
         add_image_size( 'grid-thumb', 380, 285, true);
         add_image_size( 'member-image', 425, 350, true);
+        add_image_size( 'content-image', 660, 9999, true);
         //add_image_size( 'content-image', 425, 350, true);
         //add_image_size( 'cover-image', 1180, 600 );
     }
-    
+
     // Add support for menus
     register_nav_menu('main-menu', 'Main menu');
     register_nav_menu('footer-menu', 'Footer menu');
-    
+
     // Add default posts and comments RSS feed links to head
     add_theme_support( 'automatic-feed-links' );
 }
@@ -470,24 +471,24 @@ endif;
 // Excerpt box for Pages
 if ( function_exists('add_post_type_support') ) {
     add_action('init', 'add_page_excerpts');
-    function add_page_excerpts() {        
+    function add_page_excerpts() {
         add_post_type_support( 'page', 'excerpt' );
     }
 }
 
 
 //////////////////
-// Init Scripts   
+// Init Scripts
 //////////////////
 
 function my_scripts_method() {
-    
+
     // Register jQuery
     // =================
-    // by using the wp_enqueue_scripts hook (instead of the init hook which many articles reference), 
-    // we avoid registering the alternate jQuery on admin pages, which will cause post editing (amongst other things) 
+    // by using the wp_enqueue_scripts hook (instead of the init hook which many articles reference),
+    // we avoid registering the alternate jQuery on admin pages, which will cause post editing (amongst other things)
     // to break after upgrades often.
-    
+
     global $load_jquery_in_footer;
 
     wp_deregister_script( 'jquery' );
@@ -500,13 +501,13 @@ function my_scripts_method() {
     global $isTablet;
     global $isIE;
     global $siteStrings;
-    
+
     if ( $isMobile ) {
-        
+
     } else {
-    
+
     }
-    
+
     $deps = array('jquery', 'isotope');
     wp_enqueue_script('isotope', get_template_directory_uri().'/js/jquery.isotope.min.js', array('jquery'), null, true);
 
@@ -516,15 +517,15 @@ function my_scripts_method() {
     } else {
         wp_enqueue_script('theme_functions', get_template_directory_uri().'/js/functions.min.js', $deps, null, true);
     }
-    
+
     // Localize script to use 'siteVars' in functions.js file
     wp_localize_script(
-        'theme_functions', 
-        'siteVars', 
-        array( 
+        'theme_functions',
+        'siteVars',
+        array(
             'siteurl'     => get_option('siteurl'),
-            'ajaxurl'     => (function_exists('qtrans_getLanguage')) ? 
-                                admin_url('admin-ajax.php?lang=' . qtrans_getLanguage()) : 
+            'ajaxurl'     => (function_exists('qtrans_getLanguage')) ?
+                                admin_url('admin-ajax.php?lang=' . qtrans_getLanguage()) :
                                 admin_url( 'admin-ajax.php' ),
             'lang'        => get_language_code(),
             'siteStrings' => json_encode($siteStrings),
@@ -534,7 +535,7 @@ function my_scripts_method() {
             'isIE'        => $isIE
         )
     );
-    
+
     // Remove "Comment Reply" scripts
     wp_dequeue_script('comment-reply');
 }
@@ -561,9 +562,9 @@ function my_admin_scripts_method() {
 
 
 /////////////////////////////////
-// HTML5 Reset initializations   
+// HTML5 Reset initializations
 /////////////////////////////////
-    
+
 // Clean up the <head>
 function remove_head_links() {
     // remove_action('wp_head', 'rsd_link');

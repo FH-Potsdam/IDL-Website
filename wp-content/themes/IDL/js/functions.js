@@ -3,22 +3,40 @@
 
 var $header,
     $headerMenu;
-    
-// var $window,
-//     $scrollElement,
-//     siteStrings,
 
-//     windowWidth,
-//     windowHeight;
+var $window,
+    $scrollElement,
+    siteStrings,
+
+    windowWidth,
+    windowHeight;
+
 
 //////////////
 // onScroll
 //////////////
 
-// function onScroll() {
+var headerTop = 60;
 
-//     scrollTop = $window.scrollTop();
-// }
+function onScroll() {
+
+    scrollTop = $window.scrollTop();
+
+    // console.log("scroll: " + scrollTop);
+
+    if (scrollTop > headerTop) {
+
+      if (!$header.hasClass('overlay')) {
+        $header.addClass('overlay');
+      }
+
+    } else if (scrollTop <= headerTop) {
+
+      if ($header.hasClass('overlay')) {
+        $header.removeClass('overlay');
+      }
+    }
+}
 
 /////////////
 // Resize
@@ -36,20 +54,17 @@ var $header,
 ///////////////////
 
 ////////////////
-// Navigation 
+// Navigation
 ////////////////
 
 function initMobileHeader() {
-
-    $header           = $('header');
-    $headerMenu       = $header.find('#header-menu');
 
     $('#menu-button').click(function(e) {
         $header.toggleClass('opened');
         $headerMenu.slideToggle(200, function() {
             if ($headerMenu.is(":hidden")) {
                 $headerMenu.removeAttr('style');
-            }   
+            }
         });
 
         e.preventDefault();
@@ -82,7 +97,7 @@ function initGrid() {
                 columnWidth: 1
             }
         });
-          
+
         $(window).resize(function() {
 
             $postsGrid.isotope({
@@ -166,7 +181,7 @@ function initGrid() {
                 // Remove tag
                 } else {
 
-                    // Avoid unmark ALL 
+                    // Avoid unmark ALL
                     if (!$filter.parent('li').hasClass('all')) {
 
                         $filter.data('isActive', false)
@@ -227,9 +242,9 @@ function onLoad() {
 
 $(document).ready(function (){
 
-    // $window         = $(window);
-    // $scrollElement  = $('html, body').scrollTop(0);
-    // $wrapper        = $('#wrap');
+    $window         = $(window);
+    $scrollElement  = $('html, body').scrollTop(0);
+    $wrapper        = $('#wrap');
 
     // // Resize
     // resizeSite();
@@ -240,6 +255,9 @@ $(document).ready(function (){
     // else {
     //     $(window).resize(resizeSite);
     // }
+
+    $header           = $('header');
+    $headerMenu       = $header.find('#header-menu');
 
     // Header
     initMobileHeader();
@@ -252,6 +270,20 @@ $(document).ready(function (){
 
     // // Strings
     // siteStrings = $.parseJSON(siteVars.siteStrings);
+
+    $('.publications-list .show-content').click(function(e) {
+      console.log("click");
+
+      var $more = $(this),
+          $pub = $more.parents('.publication'),
+          $pubContent = $pub.find('.entry-content');
+
+      $pub.toggleClass('show-content');
+      $pubContent.slideToggle(200);
+
+      e.preventDefault();
+      return false;
+    });
 });
 
 
