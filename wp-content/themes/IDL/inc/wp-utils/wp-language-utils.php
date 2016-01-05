@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Language Functions Utils
@@ -17,7 +17,7 @@
 
 // This function returns the post thumbnail for a given language
 function the_post_thumbnail_language($image_size) {
-    
+
     global $post;
 
     // qTranslate is activated
@@ -28,7 +28,7 @@ function the_post_thumbnail_language($image_size) {
 
         // For default language, return default thumbnail
         if ($lang == $q_config['default_language']) {
-            
+
             the_post_thumbnail($image_size);
 
         // Other languages
@@ -48,12 +48,12 @@ function the_post_thumbnail_language($image_size) {
             }
         }
 
-    // qTranslate or MultiPostThumbnails are deactivated 
+    // qTranslate or MultiPostThumbnails are deactivated
     // -> Return default image
     } else {
 
         the_post_thumbnail($image_size);
-    }        
+    }
 }
 
 /////////////////////
@@ -83,7 +83,7 @@ if (function_exists('qtrans_getLanguage')) {
     function qtmh_update_nav_menu_item ($menu_id, $menu_item_db_id, $args ) {
         if ($args['menu-item-type'] == 'post_type') {
             $id = $args['menu-item-object-id'];
-            $miopost = get_post($id); 
+            $miopost = get_post($id);
             $title = $miopost->post_title;
             $my_post = array();
             $my_post['ID'] = $menu_item_db_id;
@@ -101,6 +101,14 @@ if (function_exists('qtrans_getLanguage')) {
     //////////////////////
     // Language Chooser
     //////////////////////
+
+    function qtrans_customLanguageSelectCode($style='', $id='') {
+      ob_start();
+      qtrans_generateLanguageSelectCode($style, $id);
+      $o = ob_get_contents();
+      ob_end_clean();
+      echo str_replace(array('<span>English</span>', '<span>Deutsch</span>'),array('<span>EN</span>', '<span>DE</span>'), $o);
+    }
 
     // This function acts like the 'qtrans_generateLanguageSelectCode' function from qTranslate but using language codes (ie: EN), not language names (ie: English)
     // http://wordpress.stackexchange.com/questions/71350/adding-a-filter-to-qtranslate-to-change-display-of-language-chooser
@@ -191,7 +199,7 @@ if (function_exists('qtrans_getLanguage')) {
             o.appendChild(l);
             sb.appendChild(o);
             ";
-        return $html;    
+        return $html;
     }
 }
 ?>

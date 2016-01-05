@@ -119,6 +119,8 @@
 					<nav id="nav" class="nav-menu group" role="navigation">
 						<?php custom_nav_menu('main-menu'); ?>
 					</nav>
+					<?php if (function_exists('qtrans_customLanguageSelectCode')) qtrans_customLanguageSelectCode('text'); ?>
+					<?php //if (function_exists('qtrans_SelectCode')) qtrans_SelectCode('text'); ?>
 					<?php //if (function_exists('qtrans_generateLanguageSelectCode')) qtrans_generateLanguageSelectCode('text'); ?>
 				</div>
 				<a href="#" id="menu-button">Menu</a>
@@ -141,7 +143,7 @@
 					<nav id="nav" class="nav-menu group" role="navigation">
 						<?php custom_nav_menu('main-menu'); ?>
 					</nav>
-					<?php //if (function_exists('qtrans_generateLanguageSelectCode')) qtrans_generateLanguageSelectCode('text'); ?>
+					<?php if (function_exists('qtrans_generateLanguageSelectCode')) qtrans_generateLanguageSelectCode('text'); ?>
 				</div>
 				<a href="#" id="menu-button">Menu</a>
 			</div>
