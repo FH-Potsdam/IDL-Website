@@ -129,8 +129,7 @@
 
     <?php
 			// global $isMobile;
-			// if (!(is_page('about') || is_page('contact')) && !$isMobile) :
-      /*
+			// if (!$isMobile) :
 		?>
 		<header id="header-fixed">
       <div class="inside">
@@ -139,15 +138,12 @@
 					<span class="desc"><?php bloginfo('description'); ?></span>
 				</a>
 
-				<div id="header-menu">
-					<nav id="nav" class="nav-menu group" role="navigation">
-						<?php custom_nav_menu('main-menu'); ?>
-					</nav>
-					<?php if (function_exists('qtrans_generateLanguageSelectCode')) qtrans_generateLanguageSelectCode('text'); ?>
-				</div>
-				<a href="#" id="menu-button">Menu</a>
+				<nav id="nav" class="nav-menu group" role="navigation">
+					<?php custom_nav_menu('main-menu'); ?>
+				</nav>
+				<?php //if (function_exists('qtrans_customLanguageSelectCode')) qtrans_customLanguageSelectCode('text'); ?>
 			</div>
 		</header>
-		<?php*/ //endif; ?>
+		<?php //endif; ?>
 
 		<div id="main" class="inside group">

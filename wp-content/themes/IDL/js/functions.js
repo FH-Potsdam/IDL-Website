@@ -11,12 +11,14 @@ var $window,
     windowWidth,
     windowHeight;
 
+var mobileHeaderWidth = 520,
+    headerTop = 60,
+    showFixedHeaderScrollTop = 100;
 
 //////////////
 // onScroll
 //////////////
 
-var headerTop = 60;
 
 function onScroll() {
 
@@ -38,24 +40,53 @@ function onScroll() {
     }
 }
 
-/////////////
-// Resize
-/////////////
+function scrollToSection(target) {
 
-// function resizeSite() {
+    //var sectionTop = (windowWidth > mobileHeaderWidth) ? $(target).offset().top - headerHeight : $(target).offset().top
 
-//     windowWidth  = $window.width();
-//     windowHeight = $window.height();
+    var offsetTop = $(target).offset().top,
+        sectionTop = offsetTop - 40;
+        // sectionTop = (windowWidth > mobileHeaderWidth) ? offsetTop - fixedHeaderHeight - 40 : offsetTop;
 
-// }
-
-///////////////////
-// Mobile Header
-///////////////////
+    $scrollElement.stop().animate({
+        'scrollTop': sectionTop
+    }, 750, 'easeInOutQuad'/*, function() {
+        window.location.hash = target;
+    }*/);
+}
 
 ////////////////
 // Navigation
 ////////////////
+
+function initSiteNavigation() {
+
+  var $contentNav = $('.content-nav li a');
+
+  $contentNav.click(function(e) {
+    scrollToSection(this.hash);
+    e.preventDefault();
+    return false;
+  });
+}
+
+
+/////////////
+// Resize
+/////////////
+
+function resizeSite() {
+
+    windowWidth  = $window.width();
+    windowHeight = $window.height();
+
+    checkFixedHeader();
+
+}
+
+///////////////////
+// Mobile Header
+///////////////////
 
 function initMobileHeader() {
 
@@ -71,6 +102,63 @@ function initMobileHeader() {
         return false;
     });
 }
+
+//////////////////
+// Fixed Header
+//////////////////
+
+var $fixedHeader;
+
+function initFixedHeader() {
+
+    $fixedHeader = $('#header-fixed');
+
+    // Fixed header height
+    fixedHeaderHeight = $fixedHeader.height();
+
+    // Point in which the fixed header will be shown / hidden
+    //showFixedHeaderScrollTop = $header.outerHeight(true) - fixedHeaderHeight;
+
+    // Scroll
+    if (!siteVars.isMobile) {
+        $window.scroll(checkFixedHeader).trigger("scroll");
+    }
+}
+
+function checkFixedHeader() {
+
+    if (windowWidth > mobileHeaderWidth) {
+
+        console.log("windowwidth: " + windowWidth);
+
+        // Show header
+        if ($window.scrollTop() > showFixedHeaderScrollTop) {
+
+            if ($fixedHeader.is(':hidden')) {
+
+                $fixedHeader.stop().css({display: 'block', opacity: 0, top: -fixedHeaderHeight})
+                            .animate({opacity: 1, top: 0}, 250, 'easeOutQuad');
+            }
+
+        // Hide header
+        } else {
+
+            if ($fixedHeader.is(':visible')) {
+
+                $fixedHeader.stop()
+                    .animate({opacity: 0, top: -fixedHeaderHeight}, 250, 'easeOutQuad', function() {
+                        $fixedHeader.css({display: 'none'});
+                    });
+            }
+
+        }
+
+    } else if ($fixedHeader.is(':visible')) {
+
+        $fixedHeader.hide();
+    }
+}
+
 
 //////////
 // Grid
@@ -236,6 +324,27 @@ function onLoad() {
     initGrid();
 }
 
+//////////////////
+// Publications
+//////////////////
+
+function initPublicationsAbstract() {
+
+  $('.publications-list .show-content').click(function(e) {
+    console.log("click");
+
+    var $more = $(this),
+        $pub = $more.parents('.publication'),
+        $pubContent = $pub.find('.entry-content');
+
+    $pub.toggleClass('show-content');
+    $pubContent.slideToggle(200);
+
+    e.preventDefault();
+    return false;
+  });
+}
+
 /////////////
 // onReady
 /////////////
@@ -246,15 +355,17 @@ $(document).ready(function (){
     $scrollElement  = $('html, body').scrollTop(0);
     $wrapper        = $('#wrap');
 
-    // // Resize
-    // resizeSite();
+    initFixedHeader();
 
-    // if ( isMobile ) {
-    //     window.addEventListener('onorientationchange' in window ? 'orientationchange' : 'resize', resizeSite, false);
-    // }
-    // else {
-    //     $(window).resize(resizeSite);
-    // }
+    // // Resize
+    resizeSite();
+
+    if ( siteVars.isMobile ) {
+        window.addEventListener('onorientationchange' in window ? 'orientationchange' : 'resize', resizeSite, false);
+    }
+    else {
+        $(window).resize(resizeSite);
+    }
 
     $header           = $('header');
     $headerMenu       = $header.find('#header-menu');
@@ -271,19 +382,8 @@ $(document).ready(function (){
     // // Strings
     // siteStrings = $.parseJSON(siteVars.siteStrings);
 
-    $('.publications-list .show-content').click(function(e) {
-      console.log("click");
-
-      var $more = $(this),
-          $pub = $more.parents('.publication'),
-          $pubContent = $pub.find('.entry-content');
-
-      $pub.toggleClass('show-content');
-      $pubContent.slideToggle(200);
-
-      e.preventDefault();
-      return false;
-    });
+    initSiteNavigation();
+    initPublicationsAbstract();
 });
 
 

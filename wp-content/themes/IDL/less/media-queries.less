@@ -126,30 +126,48 @@
 		}
 	}
 
-	header {
-		.inside {
-			// padding-top: 15px;
+	header:not(#header-fixed) {
+		#logo {
+			display: block;
+			margin-bottom: 20px;
+
+			// .desc {
+			// 	display: none;
+			// }
+		}
+		#nav {
+			position: inherit;
+			padding-top: 0;
+
+			li {
+				margin-left: 45px;//55px;
+				//margin-left: 22px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
 		}
 	}
 
-	#logo {
-		display: block;
-		margin-bottom: 20px;
-
-		// .desc {
-		// 	display: none;
-		// }
-	}
-	#nav {
-		position: inherit;
-		padding-top: 0;
-
-		li {
-			margin-left: 45px;//55px;
-			//margin-left: 22px;
-			&:first-child {
-				margin-left: 0;
+	#header-fixed {
+		#logo {
+			font-size: 38px;
+		}
+		#nav {
+			padding-top: 16px;
+			li {
+				margin-left: 10px;
+				a {
+					letter-spacing: 0.5px;
+					padding-bottom: 0;
+				}
 			}
+		}
+	}
+
+	#header-fixed {
+		#nav {
+
 		}
 	}
 
@@ -157,6 +175,28 @@
 		float: none !important;
 		width: 100% !important;
 		margin-right: 0 !important;
+	}
+
+	.page-academia {
+		.entry-side {
+			padding-top: 10px;
+		}
+	}
+
+	.content-nav {
+		li {
+			// margin-right: 10px;
+			.inline-block();
+
+			&:after {
+				content: " · ";
+				margin: 0 5px;
+			}
+
+			&:last-child:after {
+				content: "";
+			}
+		}
 	}
 
 	.single-project {

@@ -217,7 +217,7 @@ header {
 
 	&.overlay {
 
-		// border-bottom: 3px solid @border-grey;
+		border-bottom: 3px solid @border-grey;
 
 		@header-padding-ov: 8px;
 		.inside {
@@ -268,14 +268,71 @@ header {
 	}
 }
 
-#header-fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: @z-header;
-	//z-index: @z-slider+3;
+.nav-menu {
+	// ul {
+	// 	font-size:0; // removes space created by inline-block
+	// }
 
+	li {
+		margin-left: 30px;
+		.inline-block();
+
+		&:first-child {
+			margin-left: 0;
+		}
+
+		a {
+			display: block;
+			// .optimize-text();
+
+			font: 14px @font-reg;
+			text-transform: uppercase;
+			color: @black;
+
+			padding-bottom: 1px;
+			border-bottom: 3px solid transparent;
+
+			text-decoration: none;
+
+			// animated line
+			// position: relative;
+			// &:after {
+			// 	content: "";
+			// 	position: absolute;
+			// 	bottom: -3px;
+			// 	.block(0, 3px);
+			// 	background: transparent;
+
+			// 	.transition(all, 0.2s);
+
+			// 	.ie-lt8 & {
+			// 		display: none;
+			// 	}
+			// }
+		}
+
+		// Active / hover styles
+		&.active > a,
+		&.current-menu-item > a,
+		&.current-cat > a,
+		a:hover {
+			// current item styles
+			border-bottom-color: @red;
+
+			// animated line
+			&:after {
+				width: 100%;
+				background: @red;
+			}
+
+			.ie-lt8 & {
+				border-bottom-color: @red;
+			}
+		}
+	}
+}
+
+#menu-button {
 	display: none;
 }
 
@@ -327,72 +384,83 @@ header {
 	}
 }
 
-.nav-menu {
-	// ul {
-	// 	font-size:0; // removes space created by inline-block
-	// }
+#header-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: @z-header;
+	//z-index: @z-slider+3;
 
-	li {
-		margin-left: 30px;
-		.inline-block();
+	display: none;
 
-		&:first-child {
-			margin-left: 0;
+	background: @red;
+	.inside {
+		padding-top: 0;
+	}
+
+	#logo {
+		font-size: 42px;
+		line-height: 50px;
+		color: white;
+
+		.desc {
+			display: none;
 		}
+	}
 
-		a {
-			display: block;
-			.optimize-text();
+	#nav {
+		padding-top: 15px;
 
-			font: 14px @font-reg;
-			text-transform: uppercase;
-			color: @black;
+		li {
+			a {
+				letter-spacing: 1.5px;
+				color: white;
 
-			padding-bottom: 2px;
-			border-bottom: 3px solid transparent;
-
-			text-decoration: none;
-
-			// animated line
-			// position: relative;
-			// &:after {
-			// 	content: "";
-			// 	position: absolute;
-			// 	bottom: -3px;
-			// 	.block(0, 3px);
-			// 	background: transparent;
-
-			// 	.transition(all, 0.2s);
-
-			// 	.ie-lt8 & {
-			// 		display: none;
-			// 	}
-			// }
-		}
-
-		// Active / hover styles
-		&.active > a,
-		&.current-menu-item > a,
-		&.current-cat > a,
-		a:hover {
-			// current item styles
-			border-bottom-color: @red;
-
-			// animated line
-			&:after {
-				width: 100%;
-				background: @red;
+				border-bottom-width: 2px;
 			}
 
-			.ie-lt8 & {
-				border-bottom-color: @red;
+			// Active / hover styles
+			&.active > a,
+			&.current-menu-item > a,
+			&.current-cat > a,
+			a:hover {
+				// current item styles
+				border-bottom-color: white;
+
+				// animated line
+				&:after {
+					width: 100%;
+					background: white;
+				}
+
+				.ie-lt8 & {
+					border-bottom-color: white;
+				}
 			}
 		}
 	}
-}
 
-#menu-button {
-	display: none;
+	#qtranslate-chooser {
+		top: 10px;
+		right: -95px;
+
+		li {
+			a:hover {
+				color: white;
+				span {
+					.border-underline-color(@red);
+				}
+				// color: @link-h-color;
+			}
+
+			&.active a {
+				span {
+					.border-underline-color(white);
+				}
+			}
+		}
+	}
 }
 
 
@@ -826,6 +894,10 @@ header {
 
 	li {
 		margin-bottom: 30px;
+
+		a {
+			.no-border-underline();
+		}
 	}
 
 	img {
@@ -860,6 +932,16 @@ header {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	border-bottom: none;
+}
+
+.content-nav {
+
+	// li {
+	// 	&:before {
+	// 		content: "–";
+	// 		margin-right: 5px;
+	// 	}
+	// }
 }
 
 ///////////
@@ -921,6 +1003,17 @@ header {
 // Publications
 //////////////////
 
+.page-academia {
+	.entry-side {
+		padding-top: 40px;
+		float:left;
+	}
+	.entry-main {
+		margin-right: 0;
+		// margin-left: @content-margin;
+	}
+}
+
 #publications-section {
 	& > h2 {
 		margin: 40px 0 30px;
@@ -950,7 +1043,7 @@ header {
 		.entry-content {
 			display: none;
 			margin-top: 10px;
-			max-width: @content-width;
+			// max-width: @content-width;
 
 			.opacity(0);
 			.transition(opacity, 0.2s);
@@ -1018,9 +1111,9 @@ header {
 		}
 	}
 
-	.publication-conf {
-		.inline-block();
-	}
+	// .publication-conf {
+	// 	.inline-block();
+	// }
 }
 
 ///////////////

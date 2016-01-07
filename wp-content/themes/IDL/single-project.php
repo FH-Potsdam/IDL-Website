@@ -103,7 +103,7 @@
 
 					<?php // Founding ?>
 					<?php if( have_rows('project_founding') ): ?>
-						<!-- <h5>Founding</h5> -->
+						<h5>Founding</h5>
 						<ul class="founding-list">
 							<?php the_row_logos_list('project_founding') ?>
 						</ul>

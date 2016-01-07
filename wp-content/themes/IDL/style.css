@@ -481,6 +481,9 @@ header .inside {
   -ms-transition: padding 0.3s ease;
   transition: padding 0.3s ease;
 }
+header.overlay {
+  border-bottom: 3px solid #eee;
+}
 header.overlay .inside {
   padding: 8px 0;
 }
@@ -516,12 +519,46 @@ header.overlay #nav {
 #nav li a {
   letter-spacing: 0.5px;
 }
-#header-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9;
+.nav-menu li {
+  margin-left: 30px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.nav-menu li:first-child {
+  margin-left: 0;
+}
+.nav-menu li a {
+  display: block;
+  font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 1px;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+.nav-menu li.active > a,
+.nav-menu li.current-menu-item > a,
+.nav-menu li.current-cat > a,
+.nav-menu li a:hover {
+  border-bottom-color: #f77278;
+}
+.nav-menu li.active > a:after,
+.nav-menu li.current-menu-item > a:after,
+.nav-menu li.current-cat > a:after,
+.nav-menu li a:hover:after {
+  width: 100%;
+  background: #f77278;
+}
+.ie-lt8 .nav-menu li.active > a,
+.ie-lt8 .nav-menu li.current-menu-item > a,
+.ie-lt8 .nav-menu li.current-cat > a,
+.ie-lt8 .nav-menu li a:hover {
+  border-bottom-color: #f77278;
+}
+#menu-button {
   display: none;
 }
 #qtranslate-chooser {
@@ -591,48 +628,65 @@ header.overlay #nav {
   background-color: #f77278;
   color: white;
 }
-.nav-menu li {
-  margin-left: 30px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1;
-  *display: inline;
-}
-.nav-menu li:first-child {
-  margin-left: 0;
-}
-.nav-menu li a {
-  display: block;
-  text-rendering: optimizeLegibility;
-  font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
-  text-transform: uppercase;
-  color: #000;
-  padding-bottom: 2px;
-  border-bottom: 3px solid transparent;
-  text-decoration: none;
-}
-.nav-menu li.active > a,
-.nav-menu li.current-menu-item > a,
-.nav-menu li.current-cat > a,
-.nav-menu li a:hover {
-  border-bottom-color: #f77278;
-}
-.nav-menu li.active > a:after,
-.nav-menu li.current-menu-item > a:after,
-.nav-menu li.current-cat > a:after,
-.nav-menu li a:hover:after {
-  width: 100%;
+#header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  display: none;
   background: #f77278;
 }
-.ie-lt8 .nav-menu li.active > a,
-.ie-lt8 .nav-menu li.current-menu-item > a,
-.ie-lt8 .nav-menu li.current-cat > a,
-.ie-lt8 .nav-menu li a:hover {
+#header-fixed .inside {
+  padding-top: 0;
+}
+#header-fixed #logo {
+  font-size: 42px;
+  line-height: 50px;
+  color: white;
+}
+#header-fixed #logo .desc {
+  display: none;
+}
+#header-fixed #nav {
+  padding-top: 15px;
+}
+#header-fixed #nav li a {
+  letter-spacing: 1.5px;
+  color: white;
+  border-bottom-width: 2px;
+}
+#header-fixed #nav li.active > a,
+#header-fixed #nav li.current-menu-item > a,
+#header-fixed #nav li.current-cat > a,
+#header-fixed #nav li a:hover {
+  border-bottom-color: white;
+}
+#header-fixed #nav li.active > a:after,
+#header-fixed #nav li.current-menu-item > a:after,
+#header-fixed #nav li.current-cat > a:after,
+#header-fixed #nav li a:hover:after {
+  width: 100%;
+  background: white;
+}
+.ie-lt8 #header-fixed #nav li.active > a,
+.ie-lt8 #header-fixed #nav li.current-menu-item > a,
+.ie-lt8 #header-fixed #nav li.current-cat > a,
+.ie-lt8 #header-fixed #nav li a:hover {
+  border-bottom-color: white;
+}
+#header-fixed #qtranslate-chooser {
+  top: 10px;
+  right: -95px;
+}
+#header-fixed #qtranslate-chooser li a:hover {
+  color: white;
+}
+#header-fixed #qtranslate-chooser li a:hover span:after {
   border-bottom-color: #f77278;
 }
-#menu-button {
-  display: none;
+#header-fixed #qtranslate-chooser li.active a span:after {
+  border-bottom-color: white;
 }
 #main {
   padding-top: 65px;
@@ -1109,6 +1163,12 @@ header.overlay #nav {
 .founding-list li {
   margin-bottom: 30px;
 }
+.founding-list li a {
+  text-shadow: none !important;
+}
+.founding-list li a:after {
+  display: none !important;
+}
 .founding-list img {
   max-width: 170px;
 }
@@ -1140,6 +1200,13 @@ header.overlay #nav {
 .page-people #content .column {
   padding-top: 10px;
 }
+.page-academia .entry-side {
+  padding-top: 40px;
+  float: left;
+}
+.page-academia .entry-main {
+  margin-right: 0;
+}
 #publications-section > h2 {
   margin: 40px 0 30px;
 }
@@ -1165,7 +1232,6 @@ header.overlay #nav {
 .publications-list .publication .entry-content {
   display: none;
   margin-top: 10px;
-  max-width: 66.6235%;
   -khtml-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
@@ -1225,13 +1291,6 @@ header.overlay #nav {
 }
 .publications-list ul li:last-child:after {
   content: "";
-}
-.publications-list .publication-conf {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1;
-  *display: inline;
 }
 .single-project .tags {
   width: 37%;
@@ -1623,19 +1682,32 @@ footer nav ul li a:hover {
   .grid .box .subtitle {
     height: auto;
   }
-  #logo {
+  header:not(#header-fixed) #logo {
     display: block;
     margin-bottom: 20px;
   }
-  #nav {
+  header:not(#header-fixed) #nav {
     position: inherit;
     padding-top: 0;
   }
-  #nav li {
+  header:not(#header-fixed) #nav li {
     margin-left: 45px;
   }
-  #nav li:first-child {
+  header:not(#header-fixed) #nav li:first-child {
     margin-left: 0;
+  }
+  #header-fixed #logo {
+    font-size: 38px;
+  }
+  #header-fixed #nav {
+    padding-top: 16px;
+  }
+  #header-fixed #nav li {
+    margin-left: 10px;
+  }
+  #header-fixed #nav li a {
+    letter-spacing: 0.5px;
+    padding-bottom: 0;
   }
   .entry-main,
   .entry-side,
@@ -1643,6 +1715,23 @@ footer nav ul li a:hover {
     float: none !important;
     width: 100% !important;
     margin-right: 0 !important;
+  }
+  .page-academia .entry-side {
+    padding-top: 10px;
+  }
+  .content-nav li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+  }
+  .content-nav li:after {
+    content: " · ";
+    margin: 0 5px;
+  }
+  .content-nav li:last-child:after {
+    content: "";
   }
   .single-project .entry-main {
     border-bottom: 2px solid #eee;

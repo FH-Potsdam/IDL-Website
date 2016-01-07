@@ -454,9 +454,21 @@ function my_theme_setup() {
         //set_post_thumbnail_size( 380, 9999 );             // 380px wide (and unlimited height) - default Post Thumbnail dimensions
         add_image_size( 'grid-thumb', 380, 285, true);
         add_image_size( 'member-image', 425, 350, true);
-        add_image_size( 'content-image', 660, 9999, true);
+        add_image_size( 'content-image', 660, 9999, false);
         //add_image_size( 'content-image', 425, 350, true);
         //add_image_size( 'cover-image', 1180, 600 );
+
+
+        // Add image sizes to media library
+
+        add_filter('image_size_names_choose', 'my_image_sizes');
+        function my_image_sizes($sizes) {
+          $addsizes = array(
+            "content-image" => __( "Content Image")
+          );
+          $newsizes = array_merge($sizes, $addsizes);
+          return $newsizes;
+        }
     }
 
     // Add support for menus
