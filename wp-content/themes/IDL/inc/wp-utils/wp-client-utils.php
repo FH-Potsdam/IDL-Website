@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Wordpress Client Utils
@@ -32,7 +32,7 @@ function filter_plugin_updates( $value ) {
     unset( $value->response['akismet/akismet.php'] );
     return $value;
 }
-add_filter( 'site_transient_update_plugins', 'filter_plugin_updates' );
+// add_filter( 'site_transient_update_plugins', 'filter_plugin_updates' );
 
 // Avoid plugin deactivation
 function disable_plugin_deactivation( $actions, $plugin_file, $plugin_data, $context ) {
@@ -43,7 +43,7 @@ function disable_plugin_deactivation( $actions, $plugin_file, $plugin_data, $con
     if ( array_key_exists( 'deactivate', $actions ) && in_array( $plugin_file, array(
         //'plugin_folder/plugin_main_script.php'
     )))
-    
+
     unset( $actions['deactivate'] );
     return $actions;
 }
@@ -51,7 +51,7 @@ function disable_plugin_deactivation( $actions, $plugin_file, $plugin_data, $con
 
 
 /////////////////////////
-// DASHBOARD Functions   
+// DASHBOARD Functions
 /////////////////////////
 
 // Remove all unnecessary widgets

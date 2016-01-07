@@ -1,7 +1,7 @@
 wp-config.php
-config.codekit
-/wp-content/uploads/
+wp-content/uploads/
+wp-content/plugins/
+_Fotos/
 
 *.codekit
-
 wp-content/themes/IDL/config.codekit

@@ -301,9 +301,6 @@ body {
   -webkit-text-size-adjust: 100% !important;
   /* Prevent font scaling in landscape */
 }
-* {
-  -webkit-font-smoothing: antialiased !important;
-}
 body,
 select,
 input,
@@ -536,6 +533,7 @@ header.overlay #nav {
   color: #000;
   font-size: 12px;
   line-height: 12px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 6px;
@@ -1480,13 +1478,14 @@ footer #fhp-logo {
   background-position: 0 0;
   background-repeat: no-repeat;
   text-indent: -9999px;
-  width: 200px;
+  background-position: left center;
+  width: 162px;
   height: 35px;
   display: block;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  -webkit-background-size: contain;
-  background-size: contain;
+  -moz-background-size: 162px 27px;
+  -o-background-size: 162px 27px;
+  -webkit-background-size: 162px 27px;
+  background-size: 162px 27px;
 }
 footer small {
   font-size: inherit;
