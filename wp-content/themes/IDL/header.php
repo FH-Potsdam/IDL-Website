@@ -112,7 +112,7 @@
 
 				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 					<?php bloginfo('name'); ?>
-					<span class="desc"><?php bloginfo('description'); ?></span>
+					<span class="desc"><?php $info = get_bloginfo('description'); $ei = explode('Interaction Design Lab ', $info); echo 'Interaction Design Lab<br />'.$ei[1]; ?></span>
 				</a>
 
 				<div id="header-menu">
