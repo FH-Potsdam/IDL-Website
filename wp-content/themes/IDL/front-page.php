@@ -15,7 +15,7 @@
 	<?php endif;*/ ?>
 
 	<div id="projects-section" class="section">
-		<h3 class="grid-title">Featured Projects</h3>
+		<h3 class="grid-title"><?php _e('[:en]Featured Projects[:de]Ausgewählte Projekte') ?></h3>
 
 		<div id="projects-grid" class="grid">
 		<?php
@@ -45,7 +45,7 @@
 	</div>
 
 	<div id="publications-section" class="section">
-		<h3><?php _e('[:en]Last Publications[:de]Letzte Veröffentlichungen'); ?></h3>
+		<h3><?php _e('[:en]Recent Publications[:de]Aktuelle Veröffentlichungen') ?></h3>
 
 		<div class="publications-list short">
 		<?php
