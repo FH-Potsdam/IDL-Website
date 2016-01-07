@@ -348,7 +348,7 @@ function the_home_filter() {
 function the_projects_filter() {
 ?>
     <ul>
-    <?php the_sort_filters('category', 'single', array(1)); ?>
+    <?php the_sort_filters('category', 'single', array(1,36)); ?>
     </ul>
 <?php
 }
