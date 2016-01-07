@@ -52,6 +52,4 @@
 			</div>
 
 		</div>
-	<?php endwhile; else : ?>
-		<p>No publication found</p>
-	<?php endif; ?>
+	<?php endwhile; endif; ?>

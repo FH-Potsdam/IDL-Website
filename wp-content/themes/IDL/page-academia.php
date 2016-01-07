@@ -18,18 +18,13 @@
 				$args = array(
 				    'orderby'       => 'name',
 				    'order'         => 'DESC',
-				    'hide_empty'    => true
+				    'hide_empty'    => false
 				);
 				$terms = get_terms('year', $args);
 
 				if (!is_wp_error($terms) && count($terms) > 0) :
 
 				    foreach ( $terms as $term ) :
-			?>
-				<h2><?php echo $term->name; ?></h2>
-
-				<div class="publications-list">
-				<?php
 					$args = array(
 						'posts_per_page' => -1,
 						'post_type'		 => 'publication',
@@ -44,14 +39,24 @@
 											)
 					);
 					query_posts($args);
+					if (have_posts()){ 
+					?>
+					<h2><?php echo $term->name; ?></h2>
+					<div class="publications-list">
+					<?php
+					}
 
 				 	get_template_part('loop', 'publications');
 
+					if (have_posts()){ 
+					?>
+					</div>
+					<?php
+					}
+
+
 				 	// Reset Query
 				 	wp_reset_query();
-				?>
-				</div>
-			<?php
 					endforeach;
 				endif;
 			?>
