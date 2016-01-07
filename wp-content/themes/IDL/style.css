@@ -369,6 +369,10 @@ img {
 .wp-caption img {
   display: block;
 }
+.wp-caption.alignleft {
+  float: left;
+  margin-right: 20px;
+}
 .wp-caption-text {
   font-size: 12px;
   color: #999;
