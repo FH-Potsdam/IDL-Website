@@ -3,10 +3,10 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<div id="content">
-				
+
 			<h1><?php the_title(); ?></h1>
 			<div class="subtitle"><?php the_subtitle(); ?></div>
-			
+
 			<div class="entry">
 
 				<div class="entry-side">
@@ -24,7 +24,7 @@
 					<?php // Email ?>
 					<?php if (get_field('member_email')) : ?>
 						<h5>Email</h5>
-						<?php  
+						<?php
 							$member_email = get_field('member_email');
 						?>
 						<a href="mailto:<?php echo $member_email; ?>"><?php echo $member_email; ?></a>
@@ -33,7 +33,7 @@
 					<?php // Twitter ?>
 					<?php if (get_field('member_twitter')) : ?>
 						<h5>Twitter</h5>
-						<?php  
+						<?php
 							$twitter_user = get_field('member_twitter');
 							$twitter_username = str_replace('@', '', $twitter_user);
 							$twitter_show = '@' . $twitter_username;
@@ -42,12 +42,12 @@
 						<a target="_blank" href="<?php echo $twitter_profile; ?>"><?php echo $twitter_show; ?></a>
 					<?php endif; ?>
 				</div>
-				
+
 				<div class="entry-main">
-					
+
 					<?php if (has_excerpt()) : ?>
 					<div class="entry-excerpt">
-						<?php the_manual_excerpt(); ?>	
+						<?php the_manual_excerpt(); ?>
 					</div>
 					<?php endif; ?>
 
@@ -56,9 +56,9 @@
 					</div>
 
 					<div class="entry-related">
-						
+
 						<?php // Projects ?>
-						<?php  
+						<?php
 						   /*
 							*  Query projects from a relationship value.
 							*  This method uses the meta_query LIKE to match the string "123" to the database value a:1:{i:0;s:3:"123";} (serialized array)
@@ -81,26 +81,26 @@
 							if (have_posts()) :
 						?>
 						<div id="projects-section" class="section">
-							<h2>Projects</h2>
+							<h2><?php _e('[:en]Projects[:de]Projekte') ?></h2>
 							<div class="projects-list group">
 								<?php get_template_part('loop', 'projects'); ?>
 							</div>
 						</div>
-						<?php 
+						<?php
 							// Reset Query
 							wp_reset_query();
-							endif; 
+							endif;
 						?>
 
 						<?php // Publications ?>
 						<?php if (get_field('member_publications')) : ?>
 						<div id="publications-section" class="section">
-							<h2>Publications</h2>
+							<h2><?php _e('[:en]Publications[:de]Veröffentlichungen') ?></h2>
 							<?php
 
 								// Loop through all years
 								$args = array(
-								    'orderby'       => 'name', 
+								    'orderby'       => 'name',
 								    'order'         => 'DESC',
 								    'hide_empty'    => false
 								);
@@ -131,15 +131,15 @@
 							?>
 								<h3><?php echo $term->name; ?></h3>
 
-								<div class="publications-list">
+								<div class="publications-list short">
 								<?php get_template_part('loop', 'publications-short'); ?>
 								</div>
 							<?php
-									endif; 
+									endif;
 
 									// Reset Query
 								 	wp_reset_query();
-									
+
 								endforeach;
 								endif;
 							?>
@@ -148,14 +148,14 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<?php /* ?>
 			<div class="project-gallery">
 				<ul>
 					<?php the_post_gallery_custom('full'); ?>
 				</ul>
 			</div>
-			
+
 			<div class="project-nav-bottom">
 				<?php include (TEMPLATEPATH . '/inc/nav-single.php' ); ?>
 			</div>

@@ -456,7 +456,7 @@ h5,
   display: inline;
 }
 .grid-title {
-  margin-bottom: 10px !important;
+  margin-bottom: 15px !important;
 }
 .inside {
   position: relative;
@@ -743,6 +743,21 @@ header.overlay #nav {
 .button:hover {
   background: #000;
   color: #FFF;
+}
+.floating-header {
+  position: fixed;
+  top: 0;
+  display: none;
+  background: #f8f8f8;
+}
+.home .section {
+  margin-bottom: 30px;
+}
+.home #publications-section h3 {
+  margin-bottom: 20px;
+}
+.home .publications-list {
+  max-width: 66.6235%;
 }
 .sort-filters {
   display: block;
@@ -1141,15 +1156,6 @@ header.overlay #nav {
 #content .entry-related .projects-list .project:nth-child(even) {
   margin-right: 0;
 }
-#content .entry-related .publications-list {
-  margin-bottom: 18px;
-}
-#content .entry-related .publications-list .publication {
-  margin-bottom: 10px;
-}
-#content .entry-related .publications-list .publication h4 {
-  margin-bottom: 0;
-}
 #content .entry-side h5 {
   margin-top: 20px;
   margin-bottom: 3px;
@@ -1201,8 +1207,10 @@ header.overlay #nav {
   padding-top: 10px;
 }
 .page-academia .entry-side {
-  padding-top: 40px;
   float: left;
+}
+.page-academia .content-nav-widget {
+  padding-top: 40px;
 }
 .page-academia .entry-main {
   margin-right: 0;
@@ -1212,6 +1220,15 @@ header.overlay #nav {
 }
 #publications-section > h3 {
   margin: 12px 0 15px;
+}
+.publications-list.short {
+  margin-bottom: 18px;
+}
+.publications-list.short .publication {
+  margin-bottom: 10px;
+}
+.publications-list.short .publication h4 {
+  margin-bottom: 0;
 }
 .page-academia .publications-list {
   padding-bottom: 40px;
@@ -1716,7 +1733,7 @@ footer nav ul li a:hover {
     width: 100% !important;
     margin-right: 0 !important;
   }
-  .page-academia .entry-side {
+  .page-academia .content-nav-widget {
     padding-top: 10px;
   }
   .content-nav li {

@@ -129,7 +129,7 @@ function checkFixedHeader() {
 
     if (windowWidth > mobileHeaderWidth) {
 
-        console.log("windowwidth: " + windowWidth);
+        // console.log("windowwidth: " + windowWidth);
 
         // Show header
         if ($window.scrollTop() > showFixedHeaderScrollTop) {
@@ -313,6 +313,52 @@ function initGrid() {
     }
 }
 
+////////////////////////
+// Persistent Headers
+////////////////////////
+
+function initPersistentHeaders() {
+  var clonedHeaderRow;
+
+   $(".persist-area").each(function() {
+       clonedHeaderRow = $(".persist-header", this);
+       clonedHeaderRow
+         .before(clonedHeaderRow.clone())
+         .css("width", clonedHeaderRow.width())
+         .addClass("floating-header");
+   });
+
+   $(window)
+    .scroll(updatePersistentHeaders)
+    .trigger("scroll");
+}
+
+function updatePersistentHeaders() {
+
+   $(".persist-area").each(function() {
+
+       var el             = $(this),
+           offset         = el.offset(),
+           scrollTop      = $(window).scrollTop(),
+           $floatingHeader = $(".floating-header", this),
+           $persistHeader = $(".persist-header", this);
+
+       if (scrollTop > offset.top) {
+      //  if ((scrollTop > offset.top) && (scrollTop < offset.top + el.height())) {
+          $floatingHeader.show();
+          // $persistHeader.hide();
+          //  floatingHeader.css({
+          //   "visibility": "visible"
+          //  });
+       } else {
+          $floatingHeader.hide();
+          // $persistHeader.show();
+          //  floatingHeader.css({
+          //   "visibility": "hidden"
+          //  });
+       };
+   });
+}
 
 ////////////
 // onLoad
@@ -384,6 +430,8 @@ $(document).ready(function (){
 
     initSiteNavigation();
     initPublicationsAbstract();
+
+    initPersistentHeaders();
 });
 
 

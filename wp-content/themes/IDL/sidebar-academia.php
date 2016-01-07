@@ -9,12 +9,14 @@
 
   if (!is_wp_error($terms) && count($terms) > 0) :
 ?>
-  <h5>Years</h5>
-  <ul class="content-nav">
-  <?php foreach ( $terms as $term ) : ?>
-    <li><a href="#<?php echo $term->slug; ?>"><?php echo $term->name; ?></a></li>
-  <?php endforeach; ?>
-  </ul>
+  <div class="content-nav-widget">
+    <h5>Years</h5>
+    <ul class="content-nav">
+    <?php foreach ( $terms as $term ) : ?>
+      <li><a href="#<?php echo $term->slug; ?>"><?php echo $term->name; ?></a></li>
+    <?php endforeach; ?>
+    </ul>
+  </div>
 <?php
   endif;
 ?>
