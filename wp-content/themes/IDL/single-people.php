@@ -102,7 +102,7 @@
 								$args = array(
 								    'orderby'       => 'name', 
 								    'order'         => 'DESC',
-								    'hide_empty'    => true
+								    'hide_empty'    => false
 								);
 								$terms = get_terms('year', $args);
 
