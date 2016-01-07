@@ -40,10 +40,12 @@
 			wp_reset_query();
 		?>
 		</div>
+
+		<a href="#" class="more-link"><?php _e('[:en]More Projects[:de]Mehr Projekte'); ?></a>
 	</div>
 
 	<div id="publications-section" class="section">
-		<h3><?php _e('[:en]Last Publications[:de]Letzte Veröffentlichungen') ?></h3>
+		<h3><?php _e('[:en]Last Publications[:de]Letzte Veröffentlichungen'); ?></h3>
 
 		<div class="publications-list short">
 		<?php
@@ -91,6 +93,7 @@
 			endif;
 		?>
 		</div>
+		<a href="#" class="more-link"><?php _e('[:en]More Publications[:de]Mehr Veröffentlichungen'); ?></a>
 	</div>
 
 <?php get_footer(); ?>

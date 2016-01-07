@@ -184,10 +184,6 @@ h5, .h5 {
 	.inside-block(@wrap-width);
 }
 
-.more-link {
-
-}
-
 /////////////
 // HEADER
 /////////////
@@ -518,22 +514,30 @@ header {
 .button {
 
 	.inline-block();
-	padding: 20px 35px;
+	padding: 12px 18px;
 
 	background: @red;
 	color: @white;
 
 	font: 14px @font-semibold;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 
 	text-decoration: none;
 
 	.transition(background, 0.2s, ease);
 
 	&:hover {
-		background: @black;
+		background: @grey;
 		color: @white;
 	}
+}
+
+.more-link {
+	.button;
+	// font: 16px @font-bold;
+	// .border-underline(1px, 2px);
+	// .border-underline-color(@red);
+	// .border-underline-shadow(@bg-color);
 }
 
 ////////////////////////
@@ -555,7 +559,12 @@ header {
 .home {
 
 	.section {
-		margin-bottom: 30px;
+		padding: 30px 0;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0px;
+		}
 	}
 
 	#publications-section {
@@ -565,6 +574,7 @@ header {
 	}
 	.publications-list {
 		max-width: @content-width;
+		margin-bottom: 32px !important;
 	}
 }
 

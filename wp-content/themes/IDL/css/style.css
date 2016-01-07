@@ -728,10 +728,11 @@ header.overlay #nav {
   vertical-align: top;
   zoom: 1;
   *display: inline;
-  padding: 12px 18px;
+  padding: 15px 30px;
   background: #f77278;
   color: #FFF;
   font: 14px 'ProximaNovaSemibold', Helmet, Freesans, sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
   -moz-transition: background 0.2s ease;
   -webkit-transition: background 0.2s ease;
@@ -740,28 +741,7 @@ header.overlay #nav {
   transition: background 0.2s ease;
 }
 .button:hover {
-  background: #999;
-  color: #FFF;
-}
-.more-link {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: top;
-  zoom: 1;
-  *display: inline;
-  padding: 12px 18px;
-  background: #f77278;
-  color: #FFF;
-  font: 14px 'ProximaNovaSemibold', Helmet, Freesans, sans-serif;
-  text-decoration: none;
-  -moz-transition: background 0.2s ease;
-  -webkit-transition: background 0.2s ease;
-  -o-transition: background 0.2s ease;
-  -ms-transition: background 0.2s ease;
-  transition: background 0.2s ease;
-}
-.more-link:hover {
-  background: #999;
+  background: #000;
   color: #FFF;
 }
 .floating-header {
@@ -771,18 +751,13 @@ header.overlay #nav {
   background: #f8f8f8;
 }
 .home .section {
-  padding: 30px 0;
-  margin-bottom: 10px;
-}
-.home .section:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .home #publications-section h3 {
   margin-bottom: 20px;
 }
 .home .publications-list {
   max-width: 66.6235%;
-  margin-bottom: 32px !important;
 }
 .sort-filters {
   display: block;
@@ -1546,10 +1521,11 @@ span.wpcf7-not-valid-tip {
   vertical-align: top;
   zoom: 1;
   *display: inline;
-  padding: 12px 18px;
+  padding: 15px 30px;
   background: #f77278;
   color: #FFF;
   font: 14px 'ProximaNovaSemibold', Helmet, Freesans, sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
   -moz-transition: background 0.2s ease;
   -webkit-transition: background 0.2s ease;
@@ -1560,7 +1536,7 @@ span.wpcf7-not-valid-tip {
   padding-right: 80px;
 }
 .entry-form form input[type="submit"]:hover {
-  background: #999;
+  background: #000;
   color: #FFF;
 }
 footer .inside {
