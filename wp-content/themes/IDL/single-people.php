@@ -18,7 +18,13 @@
 					<?php // Website ?>
 					<?php if (get_field('member_website')) : ?>
 						<h5>Website</h5>
-						<a target="_blank" href="<?php the_field('member_website'); ?>"><?php the_field('member_website'); ?></a>
+						<a target="_blank" href="<?php the_field('member_website'); ?>"><?php 
+							$website = get_field('member_website');
+							if(strlen($website)>25){
+								$website = substr($website, 0, 25)."..."; 
+							}
+							echo $website;
+							?></a>
 					<?php endif; ?>
 
 					<?php // Email ?>
@@ -27,7 +33,12 @@
 						<?php
 							$member_email = get_field('member_email');
 						?>
-						<a href="mailto:<?php echo $member_email; ?>"><?php echo $member_email; ?></a>
+						<a href="mailto:<?php echo $member_email; ?>"><?php 
+							if(strlen($member_email)>25){
+								$member_email = substr($member_email, 0,25)."...";
+							} 
+							echo $member_email; 
+						?></a>
 					<?php endif; ?>
 
 					<?php // Twitter ?>
