@@ -29,12 +29,13 @@
 				<?php endif; ?>
 			</div>
 
-			<div class="publication-more">
+			<?php
+				$has_file = get_field('publication_file');
+				$has_content = has_content();
 
-				<?php
-					$has_file = get_field('publication_file');
-					$has_content = has_content();
-				?>
+				if ($has_file && $has_content) :
+			?>
+			<div class="publication-more">
 				<?php // File ?>
 				<?php if ($has_file) : ?>
 					<a class="download-link" target="_blank" href="<?php the_field('publication_file'); ?>">PDF</a>
@@ -46,6 +47,7 @@
 				<a href="#" class="show-content"><span class="show"><?php _e('[:en]Show Abstract[:de]Abstrakt einblenden') ?></span><span class="hide"><?php _e('[:en]Hide Abstract[:de]Abstrakt ausblenden') ?></span></a>
 				<?php endif; ?>
 			</div>
+			<?php endif; ?>
 
 			<div class="entry-content">
 				<?php echo get_the_content(); ?>

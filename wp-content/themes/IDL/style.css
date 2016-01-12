@@ -781,7 +781,8 @@ header.overlay #nav {
   margin-bottom: 20px;
 }
 .home .publications-list {
-  max-width: 66.6235%;
+  width: 66.6235%;
+  max-width: 100%;
   margin-bottom: 32px !important;
 }
 .sort-filters {
@@ -1236,11 +1237,18 @@ header.overlay #nav {
   padding-top: 42px;
   margin-bottom: 24px;
 }
+.page-people #people-section {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 2px solid #eee;
+  margin-top: 12px;
+  padding-top: 40px;
+}
 .page-people .grid {
   margin-bottom: 25px;
 }
 .page-people #content .column {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .page-academia .entry-side {
   float: left;
@@ -1694,10 +1702,6 @@ footer nav ul li a:hover {
     margin-left: 0;
     margin-right: 25px;
   }
-  #projects-filter {
-    padding-top: 35px;
-    margin-bottom: 15px;
-  }
   #nav li a {
     letter-spacing: normal;
   }
@@ -1719,6 +1723,25 @@ footer nav ul li a:hover {
   }
   #content .entry-related .projects-list .project .thumb {
     min-height: 0;
+  }
+  .home .publications-list.short {
+    width: 100%;
+  }
+  .page-about .entry-main {
+    width: 100%;
+    margin-top: 38px;
+    padding-top: 26px;
+  }
+  #projects-filter {
+    padding-top: 35px;
+    margin-bottom: 15px;
+  }
+  .page-people #people-section {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 2px solid #eee;
+    margin-top: 18px;
+    padding-top: 36px;
   }
 }
 @media screen and (max-width: 840px) {
@@ -1795,8 +1818,8 @@ footer nav ul li a:hover {
   }
   .single-project .entry-main {
     border-bottom: 2px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 45px;
+    padding-bottom: 12px;
+    margin-bottom: 42px;
   }
   .single-project .entry-side {
     margin-bottom: 20px;
@@ -1840,15 +1863,32 @@ footer nav ul li a:hover {
     width: 100%;
   }
   #content .entry-excerpt {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   #nav {
     left: auto;
     right: 0;
   }
+  #content h2 {
+    margin: 30px 0 15px;
+  }
   #projects-filter {
+    padding-top: 34px;
+    margin-bottom: 18px;
+  }
+  #projects-filter li {
+    margin-bottom: 12px;
+  }
+  .page-about .entry-main {
+    margin-top: 34px;
+    padding-top: 20px;
+  }
+  .page-people #people-section {
+    margin-top: 40px;
     padding-top: 25px;
-    margin-bottom: 5px;
+    border-top: 2px solid #eee;
+    margin-top: 32px;
+    padding-top: 32px;
   }
   .single-project .tags {
     position: inherit;
@@ -1863,6 +1903,16 @@ footer nav ul li a:hover {
   }
   .project-nav-bottom .next-posts {
     float: right;
+  }
+  .page-people #content .entry-excerpt {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .page-academia .publications-list {
+    padding-bottom: 25px;
+  }
+  .page-academia .publications-list .publication-more {
+    margin-bottom: 8px;
   }
   footer .copyright {
     margin-top: 35px;
@@ -1887,8 +1937,25 @@ footer nav ul li a:hover {
   .box img {
     width: 100%;
   }
+  #content h2 {
+    margin: 22px 0 15px;
+  }
+  .page-about .entry-main {
+    margin-top: 32px;
+    padding-top: 20px;
+  }
+  .page-people #people-section {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 2px solid #eee;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
   .button-wrapper {
     text-align: center;
+  }
+  .home #projects-section {
+    padding: 0;
   }
   #projects-filter {
     margin-bottom: 10px;
@@ -1914,6 +1981,11 @@ footer nav ul li a:hover {
     line-height: 14px;
   }
 }
+@media screen and (max-width: 430px) {
+  .en header #logo .desc {
+    display: none;
+  }
+}
 @media screen and (max-width: 520px) {
   #main {
     padding-bottom: 30px;
@@ -1929,11 +2001,11 @@ footer nav ul li a:hover {
   header #logo {
     margin-left: 5%;
     padding-bottom: 10px;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
   header #menu-button {
     position: absolute;
-    top: 26px;
+    top: 25px;
     right: 5%;
     background-image: url('images/menu.png');
     background-position: center top;

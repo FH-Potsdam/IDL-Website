@@ -12,6 +12,7 @@
 			</div>
 			<?php endif; ?>
 
+			<div id="people-section">
 			<?php
 				// Loop through all years
 				$args = array(
@@ -64,12 +65,11 @@
 
 				 	// Reset Query
 				 	wp_reset_query();
-				?>
-
-		<?php
-				endforeach;
-			endif;
-		?>
+	
+					endforeach;
+				endif;
+			?>
+			</div>
 		</div>
 
 	<?php endwhile; endif; ?>

@@ -40,11 +40,6 @@
 		}
 	}
 
-	#projects-filter {
-		padding-top: 35px;
-		margin-bottom: 15px;
-	}
-
 	#nav {
 		li {
 			a {
@@ -80,6 +75,33 @@
 					}
 				}
 			}
+		}
+	}
+
+	.home {
+		.publications-list.short {
+			width: 100%;
+		}
+	}
+
+	.page-about {
+		.entry-main {
+			width: 100%;
+			margin-top: 38px;
+			padding-top: 26px;
+		}
+	}
+
+	#projects-filter {
+		padding-top: 35px;
+		margin-bottom: 15px;
+	}
+
+	.page-people {
+		#people-section {
+			.sep-top();
+			margin-top: 18px;
+			padding-top: 36px;
 		}
 	}
 }
@@ -214,8 +236,8 @@
 	.single-project {
 		.entry-main {
 			border-bottom: 2px solid @border-grey;
-			padding-bottom: 20px;
-			margin-bottom: 45px;
+			padding-bottom: 12px;
+			margin-bottom: 42px;
 		}
 		.entry-side {
 			margin-bottom: 20px
@@ -303,7 +325,7 @@
 		}
 
 		.entry-excerpt {
-			padding-bottom: 5px;
+			padding-bottom: 10px;
 		}
 	}
 
@@ -312,13 +334,38 @@
 		right: 0;
 	}
 
+	#content {
+		h2 {
+			margin: 30px 0 15px;
+		}
+	}
+
 	// Projects
 	// #projects-filter {
 	// 	margin-bottom: 30px;
 	// }
 	#projects-filter {
-		padding-top: 25px;
-		margin-bottom: 5px;
+		padding-top: 34px;
+		margin-bottom: 18px;
+		li {
+			// margin-right: 15px;
+			margin-bottom: 12px;
+		}
+	}
+
+	.page-about {
+		.entry-main {
+			margin-top: 34px;
+			padding-top: 20px;
+		}
+	}
+
+	.page-people {
+		#people-section {
+			.sep-top();
+			margin-top: 32px;
+			padding-top: 32px;
+		}
 	}
 
 	.single-project {
@@ -338,6 +385,24 @@
 
 		.next-posts {
 			float: right;
+		}
+	}
+
+	.page-people {
+		#content {
+			.entry-excerpt {
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+
+	.page-academia {
+		.publications-list {
+			padding-bottom: 25px;
+			.publication-more {
+				margin-bottom: 8px
+			}
 		}
 	}
 
@@ -380,10 +445,35 @@
 		// h4 {
 		// 	margin-bottom: 10px;
 		// }
+
+		h2 {
+			margin: 22px 0 15px;
+		}
+	}
+
+	.page-about {
+		.entry-main {
+			margin-top: 32px;
+			padding-top: 20px;
+		}
+	}
+
+	.page-people {
+		#people-section {
+			.sep-top();
+			margin-top: 30px;
+			padding-top: 30px;
+		}
 	}
 
 	.button-wrapper {
 		text-align: center;
+	}
+
+	.home {
+		#projects-section {
+			padding: 0;
+		}
 	}
 
 	#projects-filter {
@@ -418,6 +508,18 @@
 	}
 }
 
+@media screen and (max-width: 430px) {
+	header {
+		#logo {
+			.desc {
+				.en & {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
 ///////////////////
 // Mobile Header
 ///////////////////
@@ -440,7 +542,7 @@
 		#logo {
 			margin-left: 5%;
 			padding-bottom: 10px;
-			margin-bottom: 0;
+			margin-bottom: 0 !important;
 			// position: absolute;
 			// margin: 0;
 			// margin-left: -92px;
@@ -450,7 +552,7 @@
 
 		#menu-button {
 			position: absolute;
-			top: 26px;
+			top: 25px;
 			right: 5%;
 			//.background-image-devices('images/mobile-menu-icon', 'png', 15px 16px, center center);
 			.background-image('images/menu.png', center top);
