@@ -1890,6 +1890,12 @@ footer nav ul li a:hover {
   .button-wrapper {
     text-align: center;
   }
+  #projects-filter {
+    margin-bottom: 10px;
+  }
+  #projects-filter li {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 480px) {
   footer .inside {
