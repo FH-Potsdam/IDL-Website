@@ -279,7 +279,14 @@ function the_row_logos_list($field) {
         $url = get_sub_field('url');
         $logo_url = get_sub_field('logo');
 
-        $echo = (empty($url)) ? $name : '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" /></a>';
+        if(empty($url) && $empty($logo_url)){
+        	echo $name;
+        }elseif(empty($url)){
+        	echo '<img src="' . $logo_url . '" alt="'.$name.'" />';
+        }else{
+        	echo '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" alt="'.$name.'" /></a>';
+        }
+
 ?>
     <li><?php echo $echo; ?></li>
 <?php
