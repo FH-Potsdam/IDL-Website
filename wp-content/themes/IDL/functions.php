@@ -277,14 +277,18 @@ function the_row_logos_list($field) {
 
         $name = get_sub_field('name');
         $url = get_sub_field('url');
-        $logo_url = get_sub_field('logo');
+        $logo = get_sub_field('logo');
+        $logo_url = "";
+        if(!empty($logo)){
+			$logo_url = $logo["sizes"]["sidebar-image"];
+		}
 
-        if(empty($url) && $empty($logo_url)){
-        	echo $name;
+        if(empty($url) && empty($logo_url)){
+        	$echo = $name;
         }elseif(empty($url)){
-        	echo '<img src="' . $logo_url . '" alt="'.$name.'" />';
+        	$echo = '<img src="' . $logo_url . '" alt="'.$name.'" />';
         }else{
-        	echo '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" alt="'.$name.'" /></a>';
+        	$echo = '<a href="' . $url . '" target="_blank" title="' . $name . '"><img src="' . $logo_url . '" alt="'.$name.'" /></a>';
         }
 
 ?>
@@ -459,6 +463,7 @@ function my_theme_setup() {
     // Images size
     if (function_exists( 'add_image_size' )) {
         //set_post_thumbnail_size( 380, 9999 );             // 380px wide (and unlimited height) - default Post Thumbnail dimensions
+        add_image_size( 'sidebar-image', 150);
         add_image_size( 'grid-thumb', 380, 285, true);
         add_image_size( 'member-image', 425, 350, true);
         add_image_size( 'content-image', 660, 9999, false);
