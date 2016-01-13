@@ -108,6 +108,13 @@
 							<?php the_row_logos_list('project_founding') ?>
 						</ul>
 					<?php endif; ?>
+					<?php // Client ?>
+					<?php if( have_rows('project_client') ): ?>
+						<h5>Client</h5>
+						<ul class="founding-list">
+							<?php the_row_logos_list('project_client') ?>
+						</ul>
+					<?php endif; ?>
 				</div>
 			</div>
 
