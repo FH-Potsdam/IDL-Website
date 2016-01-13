@@ -280,7 +280,11 @@ function the_row_logos_list($field) {
         $logo = get_sub_field('logo');
         $logo_url = "";
         if(!empty($logo)){
-			$logo_url = $logo["sizes"]["sidebar-image"];
+        	if(is_array($logo)){
+        		$logo_url = $logo["sizes"]["sidebar-image"];
+        	}else{
+        		$logo_url = $logo;
+        	}			
 		}
 
         if(empty($url) && empty($logo_url)){
