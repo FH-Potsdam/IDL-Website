@@ -260,6 +260,7 @@ header {
 	li {
 		a {
 			letter-spacing: 0.5px;
+			padding-bottom: 1px;
 		}
 	}
 }
@@ -285,7 +286,7 @@ header {
 			text-transform: uppercase;
 			color: @black;
 
-			padding-bottom: 1px;
+			padding-bottom: 0px;
 			border-bottom: 3px solid transparent;
 
 			text-decoration: none;
@@ -359,16 +360,19 @@ header {
 
 			span {
 				display: block;
-				.border-underline(-2px, 2px); //4px
-				.border-underline-color(transparent);
-				.border-underline-transition();
+				border-bottom: 2px solid transparent;
+				.transition(all, 0.1s, ease);
+				// .border-underline(-2px, 2px); //4px
+				// .border-underline-color(transparent);
+				// .border-underline-transition();
 			}
 		}
 
 		a:hover {
 			color: @text-color;
 			span {
-				.border-underline-color(@red);
+				border-color: @red;
+				// .border-underline-color(@red);
 			}
 			// color: @link-h-color;
 		}
@@ -445,14 +449,14 @@ header {
 			a:hover {
 				color: white;
 				span {
-					.border-underline-color(@red);
+					// .border-underline-color(@red);
 				}
 				// color: @link-h-color;
 			}
 
 			&.active a {
 				span {
-					.border-underline-color(white);
+					// .border-underline-color(white);
 				}
 			}
 		}
@@ -527,7 +531,7 @@ header {
 	.transition(background, 0.2s, ease);
 
 	&:hover {
-		background: @grey;
+		background: #333;//@grey;
 		color: @white;
 	}
 }
@@ -736,8 +740,14 @@ header {
 			padding-bottom: 3px;
 
 			span {
-				.border-underline(2px, 2px); //4px
-				.border-underline-color(@red);
+				background: linear-gradient(transparent 50%, @red 50%);
+				background-repeat: repeat-x;
+				background-size: 4px 4px;
+				background-position: left 0px bottom 2px;
+				text-decoration: none;
+
+				// .border-underline(2px, 2px); //4px
+				// .border-underline-color(@red);
 				.border-underline-shadow(@bg-color);
 			}
 		}
@@ -778,8 +788,14 @@ header {
 	// }
 
 	a {
-		.border-underline(4px, 2px); //4px
-		.border-underline-color(@red);
+		background: linear-gradient(transparent 50%, @red 50%);
+		background-repeat: repeat-x;
+		background-size: 4px 4px;
+		background-position: left 0px bottom 2px;
+		text-decoration: none;
+
+		// .border-underline(4px, 2px); //4px
+		// .border-underline-color(@red);
 		.border-underline-shadow(@bg-color);
 	}
 
@@ -795,6 +811,24 @@ header {
 
 }
 
+#content .entry-excerpt,
+#content .entry-content,
+#content .entry-side,
+.publications-list {
+	a:not(.img) {
+		background: linear-gradient(transparent 50%, @red 50%);
+		background-repeat: repeat-x;
+		background-size: 2px 2px;
+		background-position: left 0px bottom 1px;
+		text-decoration: none;
+
+		// border-bottom: 1px solid @red;
+		// .border-underline(5px); //4px
+		// .border-underline-color(@red);
+		.border-underline-shadow(@bg-color);
+	}
+}
+
 #content {
 
 	h1, h2, h3, h4, h5, h6,
@@ -803,17 +837,6 @@ header {
 		a:not(.img) {
 			.border-underline(2px);
 			.border-underline-color(@red);
-		}
-	}
-
-	.entry-excerpt,
-	.entry-content,
-	.entry-side,
-	.publications-list {
-		a:not(.img) {
-			.border-underline(5px); //4px
-			.border-underline-color(@red);
-			.border-underline-shadow(@bg-color);
 		}
 	}
 
@@ -948,7 +971,8 @@ header {
 		margin-bottom: 30px;
 
 		a {
-			.no-border-underline();
+			// .no-border-underline();
+			background: transparent;
 		}
 	}
 

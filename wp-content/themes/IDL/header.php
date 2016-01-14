@@ -102,8 +102,13 @@
 	<?php wp_head(); ?>
 
 </head>
-
-<body <?php body_class(); ?>>
+<?php
+  $extra_classes = '';
+  if (function_exists('qtrans_getLanguage')) {
+    $extra_classes = qtrans_getLanguage();
+  }
+?>
+<body <?php body_class($extra_classes); ?>>
 
 	<div id="wrap">
 

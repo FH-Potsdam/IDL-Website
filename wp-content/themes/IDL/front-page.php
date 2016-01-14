@@ -41,7 +41,7 @@
 		?>
 		</div>
 
-		<a href="#" class="more-link"><?php _e('[:en]More Projects[:de]Mehr Projekte'); ?></a>
+		<a href="<?php echo get_page_link_by_path('projects'); ?>" class="more-link"><?php _e('[:en]More Projects[:de]Mehr Projekte'); ?></a>
 	</div>
 
 	<div id="publications-section" class="section">
@@ -93,7 +93,7 @@
 			endif;
 		?>
 		</div>
-		<a href="#" class="more-link"><?php _e('[:en]More Publications[:de]Mehr Veröffentlichungen'); ?></a>
+		<a href="<?php echo get_page_link_by_path('academia'); ?>" class="more-link"><?php _e('[:en]More Publications[:de]Mehr Veröffentlichungen'); ?></a>
 	</div>
 
 <?php get_footer(); ?>

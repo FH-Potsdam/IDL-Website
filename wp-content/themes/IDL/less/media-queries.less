@@ -42,6 +42,9 @@
 
 	#nav {
 		li {
+			.en & {
+				margin-left: 20px;
+			}
 			a {
 				letter-spacing: normal;
 			}
@@ -477,10 +480,15 @@
 	}
 
 	#projects-filter {
+		padding-top: 28px;
 		li {
-			margin-bottom: 10px;
+			margin-bottom: 6px;
+			a {
+				padding-bottom: 0;
+				// border-bottom-width: 1px;
+			}
 		}
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -552,7 +560,7 @@
 
 		#menu-button {
 			position: absolute;
-			top: 25px;
+			top: 26px;
 			right: 5%;
 			//.background-image-devices('images/mobile-menu-icon', 'png', 15px 16px, center center);
 			.background-image('images/menu.png', center top);
@@ -629,7 +637,8 @@
 					border-bottom: none;
 
 					line-height: 16px;
-					letter-spacing: 3px;
+					letter-spacing: 0.5px !important;
+					// letter-spacing: 1px !important;
 				}
 			}
 		}
@@ -648,7 +657,8 @@
 					font-size: 14px;
 					// letter-spacing: normal;
 					span {
-						.no-border-underline();
+						// .no-border-underline();
+						border-bottom: none;
 					}
 				}
 
