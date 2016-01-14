@@ -660,9 +660,40 @@ header {
 		img {
 			display: block;
 			width: 100%;
-			//.transition(all, 0.2s);
 		}
 	}
+
+	// a.thumb {
+	// 	position: relative;
+	// 	overflow: hidden;
+	// 	&:after {
+	// 		content: "";
+	// 		position: absolute;
+	// 		top: 0;
+	// 		left: 0;
+	// 		.block(100%, 100%);
+	//
+	// 		background-color: @red;
+	// 		.opacity(0);
+	// 		.transition(opacity, 0.4s, ease);
+	// 	}
+	//
+	// 	img {
+	// 		// .transition(all, 0.4s, ease);
+	// 	}
+	// }
+	//
+	// &:hover {
+	// 	a.thumb {
+	// 		&:after {
+	// 			.opacity(50);
+	// 			// .rgba(@red, 0.8);
+	// 		}
+	// 		img {
+	// 			// transform: scale(1.06);
+	// 		}
+	// 	}
+	// }
 
 	@text-padding: 12px;
 
@@ -686,6 +717,7 @@ header {
 
 	// Entry
 	.entry {
+		position: relative;
 		display: block;
 		margin-top: -25px; //-22px;
 

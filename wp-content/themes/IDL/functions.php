@@ -301,14 +301,22 @@ function the_row_logos_list($field) {
     endwhile;
 }
 
+function in_custom_category($category, $post_id) {
+
+  return (count(wp_get_object_terms($post_id, $category)) > 0);
+}
+
 function the_team_list() {
 
     $posts = get_field('project_team');
 
-    if ( $posts ): foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>
-        <li>
-            <a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?></a>
-        </li>
+    if ( $posts ): foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT)
+?>
+    <?php if (!is_object_in_term($p->ID, 'people-category', array('students', 'past-students', 'past-members'))) : ?>
+    <li><a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?></a></li>
+    <?php else: ?>
+    <li><?php echo get_the_title( $p->ID ); ?></li>
+    <?php endif; ?>
 <?php endforeach; endif;
 }
 

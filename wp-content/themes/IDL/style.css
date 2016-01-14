@@ -859,6 +859,7 @@ header.overlay #nav {
   margin-bottom: 0 !important;
 }
 .box .entry {
+  position: relative;
   display: block;
   margin-top: -25px;
 }
