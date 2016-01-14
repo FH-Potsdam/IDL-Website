@@ -231,6 +231,8 @@ header {
 	text-decoration: none;
 	color: @text-color;
 
+	.inline-block();
+
 	&:hover {
 		color: @text-color;
 	}
@@ -239,7 +241,7 @@ header {
 		font: 14px @font-reg;
 		line-height: 1.5;
 		display: inline-block;
-		width: 250px;
+		// width: 250px;
 		margin-left: 0px;
 	}
 }
@@ -414,10 +416,11 @@ header {
 
 		li {
 			a {
-				letter-spacing: 1.5px;
+				letter-spacing: 1px;
 				color: white;
 
 				border-bottom-width: 2px;
+				padding-bottom: 0px;
 			}
 
 			// Active / hover styles

@@ -494,6 +494,11 @@ header.overlay #nav {
   font: 46px 'ProximaNovaBold', Helmet, Freesans, sans-serif;
   text-decoration: none;
   color: #000;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
 }
 #logo:hover {
   color: #000;
@@ -502,7 +507,6 @@ header.overlay #nav {
   font: 14px 'ProximaNovaRegular', Helmet, Freesans, sans-serif;
   line-height: 1.5;
   display: inline-block;
-  width: 250px;
   margin-left: 0px;
 }
 #nav {
@@ -623,9 +627,10 @@ header.overlay #nav {
   padding-top: 15px;
 }
 #header-fixed #nav li a {
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   color: white;
   border-bottom-width: 2px;
+  padding-bottom: 0px;
 }
 #header-fixed #nav li.active > a,
 #header-fixed #nav li.current-menu-item > a,
@@ -1586,6 +1591,9 @@ footer nav ul li a:hover {
     margin-left: 0;
     margin-right: 25px;
   }
+  #nav li {
+    margin-left: 30px;
+  }
   .en #nav li {
     margin-left: 20px;
   }
@@ -1653,14 +1661,17 @@ footer nav ul li a:hover {
     height: auto;
   }
   header:not(#header-fixed) #logo {
-    display: block;
     margin-bottom: 20px;
+    clear: both;
   }
   header:not(#header-fixed) #nav {
     position: inherit;
     padding-top: 0;
   }
   header:not(#header-fixed) #nav li {
+    margin-left: 40px;
+  }
+  .en header:not(#header-fixed) #nav li {
     margin-left: 45px;
   }
   header:not(#header-fixed) #nav li:first-child {
@@ -1944,7 +1955,7 @@ footer nav ul li a:hover {
   header #qtranslate-chooser li a {
     display: block;
     margin: 0 auto;
-    padding: 22px 0 20px;
+    padding: 22px 0 20px !important;
     border-bottom: none;
     line-height: 16px;
     letter-spacing: 0.5px !important;

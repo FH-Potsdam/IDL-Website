@@ -42,6 +42,7 @@
 
 	#nav {
 		li {
+			margin-left: 30px;
 			.en & {
 				margin-left: 20px;
 			}
@@ -165,8 +166,9 @@
 
 	header:not(#header-fixed) {
 		#logo {
-			display: block;
+			// display: block;
 			margin-bottom: 20px;
+			clear: both;
 
 			// .desc {
 			// 	display: none;
@@ -177,7 +179,10 @@
 			padding-top: 0;
 
 			li {
-				margin-left: 45px;//55px;
+				margin-left: 40px;//55px;
+				.en & {
+					margin-left: 45px;
+				}
 				//margin-left: 22px;
 				&:first-child {
 					margin-left: 0;
@@ -633,7 +638,7 @@
 					display: block;
 					margin: 0 auto;
 
-					padding: 22px 0 20px;
+					padding: 22px 0 20px !important;
 					border-bottom: none;
 
 					line-height: 16px;
