@@ -36,7 +36,7 @@ $load_jquery_in_footer = true;
 
 // Test vars
 global $test;
-$test = true;
+$test = false;
 
 
 //////////////////////
@@ -284,7 +284,7 @@ function the_row_logos_list($field) {
         		$logo_url = $logo["sizes"]["sidebar-image"];
         	}else{
         		$logo_url = $logo;
-        	}			
+        	}
 		}
 
         if(empty($url) && empty($logo_url)){

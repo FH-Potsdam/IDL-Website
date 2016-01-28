@@ -18,61 +18,110 @@
 
 	<?php if (is_search()) echo '<meta name="robots" content="noindex, nofollow" />'; ?>
 
-	<title><?php
-		   	  if (is_home() || is_front_page()) {
-		         bloginfo('name'); echo ' | '; bloginfo('description'); }
-		      else {
-		          bloginfo('name'); echo ' | '; }
+    <title><?php
+              if (is_home() || is_front_page()) {
+                 bloginfo('name'); echo ' | '; bloginfo('description'); }
+              else {
+                  bloginfo('name'); echo ' | '; }
 
-		      if (function_exists('is_tag') && is_tag()) {
-		         single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
-		      elseif (is_archive()) {
-		         wp_title(''); echo ' Archive'; }
-		      elseif (is_search()) {
-		         echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
-		      elseif (!(is_404()) && (is_single()) || (is_page())) {
-		         wp_title(''); }
-		      elseif (is_404()) {
-		         echo 'Not Found'; }
+              if (function_exists('is_tag') && is_tag()) {
+                 single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
+              elseif (is_archive()) {
+                 wp_title(''); echo ' Archive'; }
+              elseif (is_search()) {
+                 echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
+              elseif (!(is_404()) && (is_single()) || (is_page())) {
+                 wp_title(''); }
+              elseif (is_404()) {
+                 echo 'Not Found'; }
 
-		      if ($paged>1) {
-		         echo ' - page '. $paged; }
-		   ?></title>
+              if ($paged>1) {
+                 echo ' - page '. $paged; }
+           ?></title>
 
-	<meta name="title" content="<?php
-		   	  if (is_home() || is_front_page()) {
-		         bloginfo('name'); echo ' | '; bloginfo('description'); }
-		      else {
-		          bloginfo('name'); echo ' | '; }
+    <meta name="title" content="<?php
+              if (is_home() || is_front_page()) {
+                 bloginfo('name'); echo ' | '; echo bloginfo('description'); }
+              else {
+                  bloginfo('name'); echo ' | '; }
 
-		      if (function_exists('is_tag') && is_tag()) {
-		         single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
-		      elseif (is_archive()) {
-		         wp_title(''); echo ' Archive'; }
-		      elseif (is_search()) {
-		         echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
-		      elseif (!(is_404()) && (is_single()) || (is_page())) {
-		         wp_title(''); }
-		      elseif (is_404()) {
-		         echo 'Not Found'; }
+              if (function_exists('is_tag') && is_tag()) {
+                 single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
+              elseif (is_archive()) {
+                 wp_title(''); echo ' Archive'; }
+              elseif (is_search()) {
+                 echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
+              elseif (!(is_404()) && (is_single()) || (is_page())) {
+                 wp_title(''); }
+              elseif (is_404()) {
+                 echo 'Not Found'; }
 
-		      if ($paged>1) {
-		         echo ' - page '. $paged; }
-		   ?>">
+              if ($paged>1) {
+                 echo ' - page '. $paged; }
+           ?>">
 
-	<meta name="description" content="<?php bloginfo('description'); ?>" />
-	<!--Google will often use this as its description of your page/site. Make it good.-->
+    <meta name="description" content="<?php echo strip_tags(__(get_page_content_by_path('home', false))); ?>" />
+    <meta name="keywords" content="Interaction Design, Interface Design, InfoVis, Geo-Visualization, Visualization, Tangible, Multitouch, User-Centered Design, Usability, Berlin, Potsdam" />
 
-	<meta name="author" content="Your Name Here">
-	<meta name="Copyright" content="Copyright Your Name Here 2011. All Rights Reserved.">
+    <link rel="canonical" href="<?php the_permalink(); ?>" />
 
-	<meta name="google-site-verification" content="">
-	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
+    <meta property="og:locale" content="<?php echo get_locale(); ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php
+              if (is_home() || is_front_page()) {
+                 bloginfo('name'); echo ' | '; bloginfo('description'); }
+              else {
+                  bloginfo('name'); echo ' | '; }
+
+              if (function_exists('is_tag') && is_tag()) {
+                 single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
+              elseif (is_archive()) {
+                 wp_title(''); echo ' Archive'; }
+              elseif (is_search()) {
+                 echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
+              elseif (!(is_404()) && (is_single()) || (is_page())) {
+                 wp_title(''); }
+              elseif (is_404()) {
+                 echo 'Not Found'; }
+
+              if ($paged>1) {
+                 echo ' - page '. $paged; }
+           ?>" />
+    <meta property="og:description" content="<?php echo strip_tags(__(get_page_content_by_path('home', false))); ?>" />
+    <meta property="og:url" content="<?php the_permalink(); ?>" />
+    <meta property="og:site_name" content="<?php bloginfo('name'); echo ' | '; echo bloginfo('description'); ?>" />
+    <meta property="og:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg" />
+    <meta property="og:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/VENICE-UNFOLDING-4-660x495.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content="<?php strip_tags(__(get_page_content_by_path('home', false))); ?>"/>
+    <meta name="twitter:title" content="<?php
+              if (is_home() || is_front_page()) {
+                 bloginfo('name'); echo ' | '; bloginfo('description'); }
+              else {
+                  bloginfo('name'); echo ' | '; }
+
+              if (function_exists('is_tag') && is_tag()) {
+                 single_tag_title("Tag Archive for &quot;"); echo '&quot;'; }
+              elseif (is_archive()) {
+                 wp_title(''); echo ' Archive'; }
+              elseif (is_search()) {
+                 echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
+              elseif (!(is_404()) && (is_single()) || (is_page())) {
+                 wp_title(''); }
+              elseif (is_404()) {
+                 echo 'Not Found'; }
+
+              if ($paged>1) {
+                 echo ' - page '. $paged; }
+           ?>"/>
+    <meta name="twitter:url" content="<?php the_permalink(); ?>">
+    <meta name="twitter:site" content="@idpotsdam"/>
+    <meta name="twitter:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/VENICE-UNFOLDING-4-660x495.jpg"/>
+    <meta name="twitter:creator" content="@idpotsdam"/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon">
-
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
   <?php /* ?>

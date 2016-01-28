@@ -670,38 +670,6 @@ header {
 		}
 	}
 
-	// a.thumb {
-	// 	position: relative;
-	// 	overflow: hidden;
-	// 	&:after {
-	// 		content: "";
-	// 		position: absolute;
-	// 		top: 0;
-	// 		left: 0;
-	// 		.block(100%, 100%);
-	//
-	// 		background-color: @red;
-	// 		.opacity(0);
-	// 		.transition(opacity, 0.4s, ease);
-	// 	}
-	//
-	// 	img {
-	// 		// .transition(all, 0.4s, ease);
-	// 	}
-	// }
-	//
-	// &:hover {
-	// 	a.thumb {
-	// 		&:after {
-	// 			.opacity(50);
-	// 			// .rgba(@red, 0.8);
-	// 		}
-	// 		img {
-	// 			// transform: scale(1.06);
-	// 		}
-	// 	}
-	// }
-
 	@text-padding: 12px;
 
 	h2 {
@@ -743,6 +711,7 @@ header {
 			padding-bottom: 3px;
 
 			span {
+				display: inline;
 				background: linear-gradient(transparent 50%, @red 50%);
 				background-repeat: repeat-x;
 				background-size: 4px 4px;
@@ -814,7 +783,6 @@ header {
 
 }
 
-#content .entry-excerpt,
 #content .entry-content,
 #content .entry-side,
 .publications-list {
@@ -828,6 +796,18 @@ header {
 		// border-bottom: 1px solid @red;
 		// .border-underline(5px); //4px
 		// .border-underline-color(@red);
+		.border-underline-shadow(@bg-color);
+	}
+}
+
+#content .entry-excerpt {
+	a {
+		background: linear-gradient(transparent 50%, @red 50%);
+		background-repeat: repeat-x;
+		background-size: 4px 4px;
+		background-position: left 0px bottom 1px;
+		text-decoration: none;
+
 		.border-underline-shadow(@bg-color);
 	}
 }

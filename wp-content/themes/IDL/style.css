@@ -850,6 +850,7 @@ header.overlay #nav {
   padding-bottom: 3px;
 }
 .box .entry h2 span {
+  display: inline;
   background: linear-gradient(transparent 50%, #e74c3c 50%);
   background-repeat: repeat-x;
   background-size: 4px 4px;
@@ -895,7 +896,6 @@ header.overlay #nav {
 .page-intro a:after {
   z-index: -1;
 }
-#content .entry-excerpt a:not(.img),
 #content .entry-content a:not(.img),
 #content .entry-side a:not(.img),
 .publications-list a:not(.img) {
@@ -907,10 +907,21 @@ header.overlay #nav {
   text-shadow: 1px 0 #f8f8f8, 2px 0 #f8f8f8, -1px 0 #f8f8f8, -2px 0 #f8f8f8, 1px 1px #f8f8f8, 1px -1px #f8f8f8, 2px 1px #f8f8f8, 2px -1px #f8f8f8, -1px 1px #f8f8f8, -1px -1px #f8f8f8, -2px 1px #f8f8f8, -2px -1px #f8f8f8;
   z-index: 0;
 }
-#content .entry-excerpt a:not(.img):after,
 #content .entry-content a:not(.img):after,
 #content .entry-side a:not(.img):after,
 .publications-list a:not(.img):after {
+  z-index: -1;
+}
+#content .entry-excerpt a {
+  background: linear-gradient(transparent 50%, #e74c3c 50%);
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  background-position: left 0px bottom 1px;
+  text-decoration: none;
+  text-shadow: 1px 0 #f8f8f8, 2px 0 #f8f8f8, -1px 0 #f8f8f8, -2px 0 #f8f8f8, 1px 1px #f8f8f8, 1px -1px #f8f8f8, 2px 1px #f8f8f8, 2px -1px #f8f8f8, -1px 1px #f8f8f8, -1px -1px #f8f8f8, -2px 1px #f8f8f8, -2px -1px #f8f8f8;
+  z-index: 0;
+}
+#content .entry-excerpt a:after {
   z-index: -1;
 }
 #content h1 a:not(.img),
