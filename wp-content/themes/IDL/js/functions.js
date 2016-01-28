@@ -45,7 +45,7 @@ function scrollToSection(target) {
     //var sectionTop = (windowWidth > mobileHeaderWidth) ? $(target).offset().top - headerHeight : $(target).offset().top
 
     var offsetTop = $(target).offset().top,
-        sectionTop = offsetTop - 40;
+        sectionTop = offsetTop - 90;
         // sectionTop = (windowWidth > mobileHeaderWidth) ? offsetTop - fixedHeaderHeight - 40 : offsetTop;
 
     $scrollElement.stop().animate({

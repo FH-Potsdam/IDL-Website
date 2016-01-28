@@ -36,7 +36,7 @@ $load_jquery_in_footer = true;
 
 // Test vars
 global $test;
-$test = false;
+$test = true;
 
 
 //////////////////////
