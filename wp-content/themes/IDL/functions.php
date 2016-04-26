@@ -12,6 +12,8 @@
  *        Vars that are passed to jQuery are camelcase.
  */
 
+update_option( 'siteurl', 'http://idl.fh-potsdam.de' );
+update_option( 'home', 'http://idl.fh-potsdam.de' );
 
 //////////////////
 // Custom Utils
@@ -70,6 +72,18 @@ function mobile_class() {
     }
 }
 
+/*
+ * Force URLs in srcset attributes into HTTPS scheme.
+ * This is particularly useful when you're running a Flexible SSL frontend like Cloudflare
+ */
+function ssl_srcset( $sources ) {
+  foreach ( $sources as &$source ) {
+    $source['url'] = set_url_scheme( $source['url'], 'https' );
+  }
+
+  return $sources;
+}
+add_filter( 'wp_calculate_image_srcset', 'ssl_srcset' );
 
 ////////////////////////
 // Language Functions

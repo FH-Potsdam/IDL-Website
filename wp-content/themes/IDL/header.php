@@ -90,8 +90,7 @@
     <meta property="og:description" content="<?php echo strip_tags(__(get_page_content_by_path('home', false))); ?>" />
     <meta property="og:url" content="<?php the_permalink(); ?>" />
     <meta property="og:site_name" content="<?php bloginfo('name'); echo ' | '; echo bloginfo('description'); ?>" />
-    <meta property="og:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg" />
-    <meta property="og:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/VENICE-UNFOLDING-4-660x495.jpg" />
+    <meta property="og:image" content="//idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg" />
 
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:description" content="<?php strip_tags(__(get_page_content_by_path('home', false))); ?>"/>
@@ -117,7 +116,7 @@
            ?>"/>
     <meta name="twitter:url" content="<?php the_permalink(); ?>">
     <meta name="twitter:site" content="@idpotsdam"/>
-    <meta name="twitter:image" content="http://idl.fh-potsdam.de/wp-content/uploads/2016/01/VENICE-UNFOLDING-4-660x495.jpg"/>
+    <meta name="twitter:image" content="//idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg"/>
     <meta name="twitter:creator" content="@idpotsdam"/>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
