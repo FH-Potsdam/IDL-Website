@@ -42,12 +42,20 @@
 
 	#nav {
 		li {
-			margin-left: 30px;
+			margin-left: 10px;
 			.en & {
 				margin-left: 20px;
 			}
 			a {
 				letter-spacing: normal;
+			}
+		}
+	}
+
+	#logo {
+		.desc {
+			.en & {
+				display: none;
 			}
 		}
 	}
@@ -179,9 +187,10 @@
 			padding-top: 0;
 
 			li {
-				margin-left: 40px;//55px;
+				margin-left: 14px;
+				// margin-left: 40px;//55px;
 				.en & {
-					margin-left: 45px;
+					margin-left: 25px;
 				}
 				//margin-left: 22px;
 				&:first-child {
@@ -192,8 +201,12 @@
 	}
 
 	#header-fixed {
+		display: none !important;
 		#logo {
 			font-size: 38px;
+			.desc {
+				display: none !important;
+			}
 		}
 		#nav {
 			padding-top: 16px;
@@ -210,6 +223,14 @@
 	#header-fixed {
 		#nav {
 
+		}
+	}
+
+	#logo {
+		.desc {
+			// .en & {
+				display: inline-block !important;
+			// }
 		}
 	}
 
@@ -526,7 +547,7 @@
 		#logo {
 			.desc {
 				.en & {
-					display: none;
+					display: none !important;
 				}
 			}
 		}

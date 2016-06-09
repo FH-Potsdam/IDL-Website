@@ -1603,13 +1603,16 @@ footer nav ul li a:hover {
     margin-right: 25px;
   }
   #nav li {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .en #nav li {
     margin-left: 20px;
   }
   #nav li a {
     letter-spacing: normal;
+  }
+  .en #logo .desc {
+    display: none;
   }
   #main {
     padding-top: 50px;
@@ -1680,16 +1683,22 @@ footer nav ul li a:hover {
     padding-top: 0;
   }
   header:not(#header-fixed) #nav li {
-    margin-left: 40px;
+    margin-left: 14px;
   }
   .en header:not(#header-fixed) #nav li {
-    margin-left: 45px;
+    margin-left: 25px;
   }
   header:not(#header-fixed) #nav li:first-child {
     margin-left: 0;
   }
+  #header-fixed {
+    display: none !important;
+  }
   #header-fixed #logo {
     font-size: 38px;
+  }
+  #header-fixed #logo .desc {
+    display: none !important;
   }
   #header-fixed #nav {
     padding-top: 16px;
@@ -1700,6 +1709,9 @@ footer nav ul li a:hover {
   #header-fixed #nav li a {
     letter-spacing: 0.5px;
     padding-bottom: 0;
+  }
+  #logo .desc {
+    display: inline-block !important;
   }
   .entry-main,
   .entry-side,
@@ -1896,7 +1908,7 @@ footer nav ul li a:hover {
 }
 @media screen and (max-width: 430px) {
   .en header #logo .desc {
-    display: none;
+    display: none !important;
   }
 }
 @media screen and (max-width: 520px) {
