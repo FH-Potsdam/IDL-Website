@@ -360,7 +360,10 @@ function the_sort_filters($taxonomy, $filter_type = 'single', $exclude = array()
 
         // All
         if ($show_all) {
-            $ret .= '<li class="all active"><a href="#" data-filter="*" data-type="' . $filter_type . '">All</a></li>';
+
+            $all_text = (get_language_code() == 'de') ? 'Alle' : 'All';
+            
+            $ret .= '<li class="all active"><a href="#" data-filter="*" data-type="' . $filter_type . '">'.$all_text.'</a></li>';
         }
 
         foreach ( $terms as $term ) {
