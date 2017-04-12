@@ -22,8 +22,10 @@
 			$args = array(
 				'posts_per_page' => -1,
 				'post_type'		 => 'project',//array('project', 'publication'),
-				'orderby'		 => 'date',
-				'order'			 => 'DESC',
+				'orderby'		 => 'menu_order',
+				'order'			 => 'ASC',
+				// 'orderby'		 => 'date',
+				// 'order'			 => 'DESC',
 				'meta_query' => array(
 					array(
 						'key' => 'featured-home',
@@ -55,6 +57,7 @@
 					'order'         => 'DESC',
 					'hide_empty'    => true,
 					'number' => 2
+					// 'number' => 2
 			);
 			$terms = get_terms('year', $args);
 
@@ -66,6 +69,8 @@
 						array_push($terms_array, $term->slug);
 					}
 
+				foreach ($terms_array as $term_id) :
+
 					$args = array(
 						'posts_per_page' => 3,
 						'post_type'		 => 'publication',
@@ -76,7 +81,7 @@
 												array(
 													'taxonomy' => 'year',
 													'field'    => 'slug',
-													'terms'    => $terms_array,
+													'terms'    => $term_id,
 												)
 											)
 					);
@@ -90,6 +95,8 @@
 
 				// Reset Query
 				wp_reset_query();
+
+				endforeach;
 			endif;
 		?>
 		</div>
