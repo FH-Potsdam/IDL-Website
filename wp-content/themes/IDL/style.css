@@ -1294,12 +1294,6 @@ header.overlay #nav {
   background-image: url('images/grid.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 32px;
   -o-background-size: 37px 32px;
   -webkit-background-size: 37px 32px;
@@ -1319,12 +1313,6 @@ header.overlay #nav {
   background-image: url('images/grid-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 32px;
   -o-background-size: 37px 32px;
   -webkit-background-size: 37px 32px;
@@ -1363,12 +1351,6 @@ header.overlay #nav {
   background-image: url('images/arrow-fw.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 30px;
   -o-background-size: 37px 30px;
   -webkit-background-size: 37px 30px;
@@ -1383,12 +1365,6 @@ header.overlay #nav {
   background-image: url('images/arrow-fw-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 30px;
   -o-background-size: 37px 30px;
   -webkit-background-size: 37px 30px;
@@ -1403,12 +1379,6 @@ header.overlay #nav {
   background-image: url('images/arrow-back.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 30px;
   -o-background-size: 37px 30px;
   -webkit-background-size: 37px 30px;
@@ -1423,12 +1393,6 @@ header.overlay #nav {
   background-image: url('images/arrow-back-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  width: 0 0;
-  height: no-repeat;
-  -moz-background-size: 0 0 no-repeat;
-  -o-background-size: 0 0 no-repeat;
-  -webkit-background-size: 0 0 no-repeat;
-  background-size: 0 0 no-repeat;
   -moz-background-size: 37px 30px;
   -o-background-size: 37px 30px;
   -webkit-background-size: 37px 30px;
@@ -1538,13 +1502,13 @@ footer #fhp-logo {
   background-repeat: no-repeat;
   text-indent: -9999px;
   background-position: left center;
-  width: 162px;
+  width: 198px;
   height: 35px;
   display: block;
-  -moz-background-size: 162px 27px;
-  -o-background-size: 162px 27px;
-  -webkit-background-size: 162px 27px;
-  background-size: 162px 27px;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 footer small {
   font-size: inherit;
