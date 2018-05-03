@@ -6,6 +6,7 @@ _DB/
 _dev_version/
 _logo/
 _old/
+wp-content/themes/IDL copy
 
 *.codekit
 wp-content/themes/IDL/config.codekit

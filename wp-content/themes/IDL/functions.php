@@ -326,7 +326,7 @@ function the_team_list() {
 
     if ( $posts ): foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT)
 ?>
-    <?php if (!is_object_in_term($p->ID, 'people-category', array('students', 'past-students', 'past-members'))) : ?>
+    <?php if (!is_object_in_term($p->ID, 'people-category', array('past-students', 'past-members'))) : ?>
     <li><a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?></a></li>
     <?php else: ?>
     <li><?php echo get_the_title( $p->ID ); ?></li>
@@ -362,7 +362,7 @@ function the_sort_filters($taxonomy, $filter_type = 'single', $exclude = array()
         if ($show_all) {
 
             $all_text = (get_language_code() == 'de') ? 'Alle' : 'All';
-            
+
             $ret .= '<li class="all active"><a href="#" data-filter="*" data-type="' . $filter_type . '">'.$all_text.'</a></li>';
         }
 
