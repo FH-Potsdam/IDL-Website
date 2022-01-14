@@ -1,2 +1,52 @@
 id,order,name,title_de,title_en,image,group,page
-1,1,Prof. Dr. Frank Heidmann,Professor of Human-Computer Interaction, Professor der Mensch-Maschine Interaktion,frank-heidmann.jpg,member,people/frank-heidmann 
+1,-1,Prof. Dr. Frank Heidmann,Professor of Human-Computer Interaction, Professor der Mensch-Maschine Interaktion,frank-heidmann.jpg,member,people/frank-heidmann 
+2,-1,Paul Heinicker,Wissenschaftlicher Mitarbeiter,Research Associate,paul-heinicker-660x543.jpg,member,people/paul-heinicker
+3,-1,Christin Renner,Wissenschaftliche Mitarbeiterin,Research Associate,,member,people/christin-renner
+4,-1,Paula L. Schuster,Wissenschaftliche Mitarbeiterin,Research Associate,4_Paula_groß_YAS_7026--660x545.jpg,member,people/paula-schuster
+5,-1,Rahel Flechtner,Wissenschaftliche Mitarbeiterin,Research Associate,,member,people/rahel-flechtner
+6,-1,Prof. Constanze Langer,Professorin für visuelles Interfacedesign,Professor for Visual Interface Design,Constanze-Langer-425x350.png,member,people/constanze-langer
+7,-1,Prof. Dr. Sebastian Meier,Professur für die Gestaltung von Wissensvermittlung,Professor for the design of knowledge communication,sebastian-meier.jpg,member,people/sebastian-meier
+8,-1,Jordi Tost,Wissenschaftlicher Mitarbeiter,Research Associate,Tost-Jordi-2019-4zu5_web-425x350.jpg,member,people/jordi-tost
+9,-1,Prof. Reto Wettach,Professur für physische und virtuelle Interfaces und Service Design,Professor for Physical and Virtual Interfaces and Service Design,reto-wettach.jpg,associate,
+10,-1,Prof. Klaus Dufke,Professor für Multimedia Design,Professor for Multimedia Design,klaus-dufke.jpg,associate,
+11,-1,Prof. Boris Müller,Professor für Interaktions-Design,Professor for Interaction Design,boris-mueller.jpg,associate,
+12,-1,Paul Morat,Studentischer Mitarbeiter,Research Assistant,,student,
+13,-1,Aaron Schwerdtfeger,Studentischer Mitarbeiter,Research Assistant,,student,
+-1,-1,Robin Palme,,,,past_member,
+-1,-1,Larissa Pschetz,,,,past_member,
+-1,-1,Mattias Ljungström,,,,past_member,
+-1,-1,Steffi Hußlein,,,,past_member,
+-1,-1,Marcus Paeschke,,,,past_member,
+-1,-1,Moritz Stefaner,,,,past_member,
+-1,-1,Peter Conradie,,,,past_member,
+-1,-1,André Knörig,,,,past_member,
+-1,-1,Christiane Holzheid,,,,past_member,
+-1,-1,Prof. Danijela Djokic,,,,past_member,
+-1,-1,Tina Deiml-Seibt,,,,past_member,
+-1,-1,Johannes Landstorfer,,,,past_member,
+-1,-1,Stefan Thon,,,,past_member,
+-1,-1,Jan-Erik Stange,,,,past_member,
+-1,-1,Chris Magiera,,,,past_member,
+-1,-1,Prof. Monika Hoinkins,,,,past_member,
+-1,-1,Fabian Morón Zirfas,,,,past_member,
+-1,-1,Dr. Till Nagel,,,,past_member,
+-1,-1,Tim Schenk,,,,past_member,
+-1,-1,Andreas Thom,,,,past_member,
+-1,-1,Patrick Oswald,,,,past_student,
+-1,-1,Edmundo Galindo,,,,past_student,
+-1,-1,Fabian Ehmel,,,,past_student,
+-1,-1,Jan Münchberger,,,,past_student,
+-1,-1,Lennart Hildebrandt,,,,past_student,
+-1,-1,Ben Schmitt,,,,past_student,
+-1,-1,Thomas Petrach,,,,past_student,
+-1,-1,Jens Rauschenbusch,,,,past_student,
+-1,-1,Swann Nowak,,,,past_student,
+-1,-1,Lionel Michel,,,,past_student,
+-1,-1,Philipp Geuder,,,,past_student,
+-1,-1,Tom Haake,,,,past_student,
+-1,-1,Gunnar Friedrich,,,,past_student,
+-1,-1,Alexander Warth,,,,past_student,
+-1,-1,Sabine Richter,,,,past_student,
+-1,-1,Sebastian Schwinkendorf,,,,past_student,
+-1,-1,Sebastian Rauer,,,,past_student,
+-1,-1,Kim Albrecht,,,,past_student,
