@@ -2,7 +2,7 @@
 title: Jobs
 subtitle: Talents wanted.
 lang: en
-layout: page
+layout: default
 ---
 
 ## Student and academic assistants

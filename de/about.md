@@ -2,7 +2,7 @@
 title: Jobs
 subtitle: Talente gesucht.
 lang: de
-layout: page
+layout: default
 excerpt: Das IDL // Interaction Design Lab verbindet entstehende Technologien und digitale Daten aus allen Lebensbereichen zu nützlichen, ästhetisch hochwertigen, interaktiven Produkten, Systemen und Services. Das Leitmotiv unserer Arbeit ist die Vernetzung exzellenter akademischer HCI (Human-Computer Interaction), Geovisualisierungs und InfoVis (Information Visualization) Forschung mit agilen, marktnahen Designdienstleistungen (Human-Centered Design, Service Design, Design Thinking etc.).
 ---
 

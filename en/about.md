@@ -2,7 +2,7 @@
 title: About
 subtitle: The Lab
 lang: en
-layout: page
+layout: default
 excerpt: The IDL // Interaction Design Lab combines emerging technologies and data from all areas of our everyday life to create useable, highly aesthetic and interactive products, systems and services. Our work approach combines excellent academic research on HCI (Human-Computer Interaction), InfoVis (Information Visualization) Geovisualization with agile business oriented design methods (Human-Centered Design, Service Design, Design Thinking etc.).
 ---
 

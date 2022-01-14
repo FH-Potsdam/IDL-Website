@@ -2,7 +2,7 @@
 title: Jobs
 subtitle: Talente gesucht.
 lang: de
-layout: page
+layout: default
 ---
 
 ## Studentische und akademische Mitarbeiter_in
