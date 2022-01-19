@@ -1,0 +1,50 @@
+{
+  "name": "idl-website",
+  "version": "1.0.0",
+  "description": "eleventy based static site for interaction design lab at university of applied sciences potsdam",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy",
+    "seed": "cross-env ELEVENTY_ENV=seed eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FH-Potsdam/IDL-Website.git"
+  },
+  "author": "sebastian-meier",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FH-Potsdam/IDL-Website/issues"
+  },
+  "homepage": "https://github.com/FH-Potsdam/IDL-Website#readme",
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "fast-xml-parser": "^4.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "@octokit/rest": "^18.12.0",
+    "autoprefixer": "^10.2.6",
+    "axios": "^0.21.1",
+    "cssnano": "^5.0.5",
+    "dotenv": "^10.0.0",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.16.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.3.0",
+    "postcss-color-mix": "^1.1.0",
+    "postcss-comment": "^2.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-mixins": "^8.0.0",
+    "postcss-normalize": "^10.0.0",
+    "postcss-simple-vars": "^6.0.3",
+    "precss": "^3.1.2",
+    "uglify-js": "^3.6.0",
+    "uuid": "^8.3.2",
+    "xml2js": "^0.4.19"
+  }
+}
