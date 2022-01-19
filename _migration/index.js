@@ -141,6 +141,7 @@ jsonObj.rss.channel.item.forEach(item => {
     ])};
 
     person.subtitle = extractText(person.subtitle);
+    person.sort_name = person.name.en.trim().split(' ').slice(-1)[0];
 
     people.push(person);
 
@@ -148,5 +149,5 @@ jsonObj.rss.channel.item.forEach(item => {
 }
 });
 
-fs.writeFileSync('../src/sites/_data/publications.json', JSON.stringify(publications, null, 2), 'utf8');
-fs.writeFileSync('../src/sites/_data/people.json', JSON.stringify(people, null, 2), 'utf8');
+fs.writeFileSync('../src/site/_data/publications.json', JSON.stringify(publications, null, 2), 'utf8');
+fs.writeFileSync('../src/site/_data/people.json', JSON.stringify(people, null, 2), 'utf8');
