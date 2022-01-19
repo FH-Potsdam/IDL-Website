@@ -1,0 +1,1256 @@
+[
+  {
+    "name": {
+      "de": "VENICE-UNFOLDING-4",
+      "en": "VENICE-UNFOLDING-4"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/VENICE-UNFOLDING-4.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/VENICE-UNFOLDING-4.jpg",
+    "wp_id": 27,
+    "link": "https://idl.fh-potsdam.de/venice-unfolding-4/",
+    "slug": "venice-unfolding-4"
+  },
+  {
+    "name": {
+      "de": "interaction-sequence2",
+      "en": "interaction-sequence2"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/interaction-sequence2.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/interaction-sequence2.jpg",
+    "wp_id": 28,
+    "link": "https://idl.fh-potsdam.de/projects/venice-unfolding/interaction-sequence2/",
+    "slug": "interaction-sequence2"
+  },
+  {
+    "name": {
+      "de": "VENICE-UNFOLDING-8-polyhedron-rendered",
+      "en": "VENICE-UNFOLDING-8-polyhedron-rendered"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/VENICE-UNFOLDING-8-polyhedron-rendered.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/VENICE-UNFOLDING-8-polyhedron-rendered.jpg",
+    "wp_id": 29,
+    "link": "https://idl.fh-potsdam.de/projects/venice-unfolding/venice-unfolding-8-polyhedron-rendered/",
+    "slug": "venice-unfolding-8-polyhedron-rendered"
+  },
+  {
+    "name": {
+      "de": "Powerdome",
+      "en": "Powerdome"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/Dome_096.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/Dome_096.jpg",
+    "wp_id": 37,
+    "link": "https://idl.fh-potsdam.de/projects/powerdome/dome_096/",
+    "slug": "dome_096"
+  },
+  {
+    "name": {
+      "de": "Domebook",
+      "en": "Domebook"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/Domebook.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/Domebook.png",
+    "wp_id": 42,
+    "link": "https://idl.fh-potsdam.de/projects/powerdome/domebook/",
+    "slug": "domebook"
+  },
+  {
+    "name": {
+      "de": "projektbild_02",
+      "en": "projektbild_02"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/projektbild_02.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/projektbild_02.png",
+    "wp_id": 43,
+    "link": "https://idl.fh-potsdam.de/projects/powerdome/projektbild_02/",
+    "slug": "projektbild_02"
+  },
+  {
+    "name": {
+      "de": "maeve_installation_3",
+      "en": "maeve_installation_3"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/maeve_installation_3.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/maeve_installation_3.jpg",
+    "wp_id": 45,
+    "link": "https://idl.fh-potsdam.de/projects/maeve/maeve_installation_3/",
+    "slug": "maeve_installation_3"
+  },
+  {
+    "name": {
+      "de": "maeve_installation_2-e1288790434777",
+      "en": "maeve_installation_2-e1288790434777"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/maeve_installation_2-e1288790434777.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/maeve_installation_2-e1288790434777.jpg",
+    "wp_id": 47,
+    "link": "https://idl.fh-potsdam.de/projects/maeve/maeve_installation_2-e1288790434777/",
+    "slug": "maeve_installation_2-e1288790434777"
+  },
+  {
+    "name": {
+      "de": "maeve_screen_1-e1288790418133",
+      "en": "maeve_screen_1-e1288790418133"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/maeve_screen_1-e1288790418133.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/maeve_screen_1-e1288790418133.png",
+    "wp_id": 48,
+    "link": "https://idl.fh-potsdam.de/projects/maeve/maeve_screen_1-e1288790418133/",
+    "slug": "maeve_screen_1-e1288790418133"
+  },
+  {
+    "name": {
+      "de": "Nagel-Exploring-faceted-geospatial-data-GeoViz11",
+      "en": "Nagel-Exploring-faceted-geospatial-data-GeoViz11"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/Nagel-Exploring-faceted-geospatial-data-GeoViz11.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/Nagel-Exploring-faceted-geospatial-data-GeoViz11.pdf",
+    "wp_id": 74,
+    "link": "https://idl.fh-potsdam.de/stories/publications/exploring-faceted-geo-spatial-data-with-tangible-interaction/nagel-exploring-faceted-geospatial-data-geoviz11/",
+    "slug": "nagel-exploring-faceted-geospatial-data-geoviz11"
+  },
+  {
+    "name": {
+      "de": "IxDEA_10_4",
+      "en": "IxDEA_10_4"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/IxDEA_10_4.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/IxDEA_10_4.pdf",
+    "wp_id": 76,
+    "link": "https://idl.fh-potsdam.de/stories/publications/browsing-and-correlating-architectural-and-territorial-data-in-tangible-maps/ixdea_10_4/",
+    "slug": "ixdea_10_4"
+  },
+  {
+    "name": {
+      "de": "Nagel-VeniceUnfolding-NordiCHI10",
+      "en": "Nagel-VeniceUnfolding-NordiCHI10"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/Nagel-VeniceUnfolding-NordiCHI10.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/Nagel-VeniceUnfolding-NordiCHI10.pdf",
+    "wp_id": 78,
+    "link": "https://idl.fh-potsdam.de/stories/publications/venice-unfolding-a-tangible-user-interface-for-exploring-faceted-data-in-a-geographical-context/nagel-veniceunfolding-nordichi10/",
+    "slug": "nagel-veniceunfolding-nordichi10"
+  },
+  {
+    "name": {
+      "de": "till-nagel",
+      "en": "till-nagel"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/till-nagel.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/till-nagel.jpg",
+    "wp_id": 80,
+    "link": "https://idl.fh-potsdam.de/people/till-nagel/till-nagel-2/",
+    "slug": "till-nagel-2"
+  },
+  {
+    "name": {
+      "de": "boris-mueller",
+      "en": "boris-mueller"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/boris-mueller.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/boris-mueller.jpg",
+    "wp_id": 90,
+    "link": "https://idl.fh-potsdam.de/people/prof-boris-muller/boris-mueller/",
+    "slug": "boris-mueller"
+  },
+  {
+    "name": {
+      "de": "heidmann_2",
+      "en": "heidmann_2"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/heidmann_2.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/heidmann_2.png",
+    "wp_id": 93,
+    "link": "https://idl.fh-potsdam.de/people/frank-heidmann/heidmann_2/",
+    "slug": "heidmann_2"
+  },
+  {
+    "name": {
+      "de": "Dome_089",
+      "en": "Dome_089"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/Dome_089.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/Dome_089.jpg",
+    "wp_id": 101,
+    "link": "https://idl.fh-potsdam.de/projects/powerdome/dome_089/",
+    "slug": "dome_089"
+  },
+  {
+    "name": {
+      "de": "seb_fhp",
+      "en": "seb_fhp"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/seb_fhp.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/seb_fhp.jpg",
+    "wp_id": 117,
+    "link": "https://idl.fh-potsdam.de/people/sebastian-meier/seb_fhp/",
+    "slug": "seb_fhp"
+  },
+  {
+    "name": {
+      "de": "DisasterManagement_03",
+      "en": "DisasterManagement_03"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/DisasterManagement_03.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/DisasterManagement_03.jpg",
+    "wp_id": 120,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/disastermanagement_03/",
+    "slug": "disastermanagement_03"
+  },
+  {
+    "name": {
+      "de": "DisasterManagement_01",
+      "en": "DisasterManagement_01"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/DisasterManagement_01.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/DisasterManagement_01.jpg",
+    "wp_id": 121,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/disastermanagement_01/",
+    "slug": "disastermanagement_01"
+  },
+  {
+    "name": {
+      "de": "case2_IMG_6792",
+      "en": "case2_IMG_6792"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/case2_IMG_6792.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/case2_IMG_6792.jpg",
+    "wp_id": 123,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/case2_img_6792/",
+    "slug": "case2_img_6792"
+  },
+  {
+    "name": {
+      "de": "case2_papermap_cable",
+      "en": "case2_papermap_cable"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/case2_papermap_cable.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/case2_papermap_cable.jpg",
+    "wp_id": 124,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/case2_papermap_cable/",
+    "slug": "case2_papermap_cable"
+  },
+  {
+    "name": {
+      "de": "eye-tracking-mobile",
+      "en": "eye-tracking-mobile"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/eye-tracking-mobile.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/eye-tracking-mobile.jpg",
+    "wp_id": 126,
+    "link": "https://idl.fh-potsdam.de/about/eye-tracking-mobile/",
+    "slug": "eye-tracking-mobile"
+  },
+  {
+    "name": {
+      "de": "prototyping_lrg",
+      "en": "prototyping_lrg"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/prototyping_lrg.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/prototyping_lrg.jpg",
+    "wp_id": 127,
+    "link": "https://idl.fh-potsdam.de/about/prototyping_lrg/",
+    "slug": "prototyping_lrg"
+  },
+  {
+    "name": {
+      "de": "prototyping_paper",
+      "en": "prototyping_paper"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/prototyping_paper.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/prototyping_paper.jpg",
+    "wp_id": 128,
+    "link": "https://idl.fh-potsdam.de/about/prototyping_paper/",
+    "slug": "prototyping_paper"
+  },
+  {
+    "name": {
+      "de": "visualization_img",
+      "en": "visualization_img"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/visualization_img.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/visualization_img.jpg",
+    "wp_id": 129,
+    "link": "https://idl.fh-potsdam.de/about/visualization_img/",
+    "slug": "visualization_img"
+  },
+  {
+    "name": {
+      "de": "Explore Maps",
+      "en": "Explore Maps"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Explore_Heat_Maps.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Explore_Heat_Maps.png",
+    "wp_id": 133,
+    "link": "https://idl.fh-potsdam.de/projects/msni/explore_heat_maps/",
+    "slug": "explore_heat_maps"
+  },
+  {
+    "name": {
+      "de": "Explore",
+      "en": "Explore"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Explore.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Explore.png",
+    "wp_id": 134,
+    "link": "https://idl.fh-potsdam.de/projects/msni/explore/",
+    "slug": "explore"
+  },
+  {
+    "name": {
+      "de": "MSNI-Demonstrator-App \"jourway\"",
+      "en": "MSNI-Demonstrator-App \"jourway\""
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/jourway_PM.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/jourway_PM.jpg",
+    "wp_id": 135,
+    "link": "https://idl.fh-potsdam.de/projects/msni/jourway_pm/",
+    "slug": "jourway_pm"
+  },
+  {
+    "name": {
+      "de": "Map",
+      "en": "Map"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Karte.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Karte.png",
+    "wp_id": 136,
+    "link": "https://idl.fh-potsdam.de/projects/msni/karte/",
+    "slug": "karte"
+  },
+  {
+    "name": {
+      "de": "Profile",
+      "en": "Profile"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Profil.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Profil.png",
+    "wp_id": 137,
+    "link": "https://idl.fh-potsdam.de/projects/msni/profil/",
+    "slug": "profil"
+  },
+  {
+    "name": {
+      "de": "Routing",
+      "en": "Routing"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Routing.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Routing.png",
+    "wp_id": 138,
+    "link": "https://idl.fh-potsdam.de/projects/msni/routing/",
+    "slug": "routing"
+  },
+  {
+    "name": {
+      "de": "Tours",
+      "en": "Tours"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Touren.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Touren.png",
+    "wp_id": 139,
+    "link": "https://idl.fh-potsdam.de/projects/msni/touren/",
+    "slug": "touren"
+  },
+  {
+    "name": {
+      "de": "Connections",
+      "en": "Connections"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/Verbindung.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/Verbindung.png",
+    "wp_id": 140,
+    "link": "https://idl.fh-potsdam.de/projects/msni/verbindung/",
+    "slug": "verbindung"
+  },
+  {
+    "name": {
+      "de": "AS-ForceDirected-Text-idlsite-440x272",
+      "en": "AS-ForceDirected-Text-idlsite-440x272"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/AS-ForceDirected-Text-idlsite-440x272.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/AS-ForceDirected-Text-idlsite-440x272.png",
+    "wp_id": 143,
+    "link": "https://idl.fh-potsdam.de/projects/saser/as-forcedirected-text-idlsite-440x272/",
+    "slug": "as-forcedirected-text-idlsite-440x272"
+  },
+  {
+    "name": {
+      "de": "BMWi-Logo-DE",
+      "en": "BMWi-Logo-DE"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/BMWi-Logo-DE.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/BMWi-Logo-DE.jpg",
+    "wp_id": 151,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/bmwi-logo-de/",
+    "slug": "bmwi-logo-de"
+  },
+  {
+    "name": {
+      "de": "BMBF-Logo-DE",
+      "en": "BMBF-Logo-DE"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/BMBF-Logo-DE.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/BMBF-Logo-DE.jpg",
+    "wp_id": 152,
+    "link": "https://idl.fh-potsdam.de/projects/msni/bmbf-logo-de/",
+    "slug": "bmbf-logo-de"
+  },
+  {
+    "name": {
+      "de": "dlr_logo",
+      "en": "dlr_logo"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/dlr_logo.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/dlr_logo.jpg",
+    "wp_id": 153,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/dlr_logo/",
+    "slug": "dlr_logo"
+  },
+  {
+    "name": {
+      "de": "unnamed",
+      "en": "unnamed"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/unnamed.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/unnamed.jpg",
+    "wp_id": 223,
+    "link": "https://idl.fh-potsdam.de/people/frank-heidmann/unnamed/",
+    "slug": "unnamed"
+  },
+  {
+    "name": {
+      "de": "EcoC_IDLHP01",
+      "en": "EcoC_IDLHP01"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/EcoC_IDLHP01.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/EcoC_IDLHP01.jpg",
+    "wp_id": 230,
+    "link": "https://idl.fh-potsdam.de/projects/ecoviz-challenge/ecoc_idlhp01/",
+    "slug": "ecoc_idlhp01"
+  },
+  {
+    "name": {
+      "de": "unfolding",
+      "en": "unfolding"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/unfolding.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/unfolding.png",
+    "wp_id": 232,
+    "link": "https://idl.fh-potsdam.de/projects/unfolding/unfolding-2/",
+    "slug": "unfolding-2"
+  },
+  {
+    "name": {
+      "de": "fritzing",
+      "en": "fritzing"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/fritzing.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/fritzing.jpg",
+    "wp_id": 233,
+    "link": "https://idl.fh-potsdam.de/projects/fritzing/fritzing-2/",
+    "slug": "fritzing-2"
+  },
+  {
+    "name": {
+      "de": "jan-erik-stange",
+      "en": "jan-erik-stange"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/jan-erik-stange.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/jan-erik-stange.jpg",
+    "wp_id": 238,
+    "link": "https://idl.fh-potsdam.de/people/jan-erik-stange/jan-erik-stange-2/",
+    "slug": "jan-erik-stange-2"
+  },
+  {
+    "name": {
+      "de": "marian-doerk1",
+      "en": "marian-doerk1"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/marian-doerk1.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/marian-doerk1.jpg",
+    "wp_id": 239,
+    "link": "https://idl.fh-potsdam.de/people/prof-dr-marian-dork/marian-doerk1/",
+    "slug": "marian-doerk1"
+  },
+  {
+    "name": {
+      "de": "Constanze-Langer",
+      "en": "Constanze-Langer"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/Constanze-Langer.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/Constanze-Langer.png",
+    "wp_id": 240,
+    "link": "https://idl.fh-potsdam.de/people/prof-constanze-langer/constanze-langer/",
+    "slug": "constanze-langer"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-18 um 12.28.50",
+      "en": "Bildschirmfoto 2015-12-18 um 12.28.50"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-18-um-12.28.50.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-18-um-12.28.50.png",
+    "wp_id": 243,
+    "link": "https://idl.fh-potsdam.de/projects/proseco/bildschirmfoto-2015-12-18-um-12-28-50/",
+    "slug": "bildschirmfoto-2015-12-18-um-12-28-50"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-21 um 18.15.43",
+      "en": "Bildschirmfoto 2015-12-21 um 18.15.43"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.15.43.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.15.43.png",
+    "wp_id": 244,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/bildschirmfoto-2015-12-21-um-18-15-43/",
+    "slug": "bildschirmfoto-2015-12-21-um-18-15-43"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-21 um 18.14.33",
+      "en": "Bildschirmfoto 2015-12-21 um 18.14.33"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.14.33.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.14.33.png",
+    "wp_id": 245,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/bildschirmfoto-2015-12-21-um-18-14-33/",
+    "slug": "bildschirmfoto-2015-12-21-um-18-14-33"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-21 um 18.13.30",
+      "en": "Bildschirmfoto 2015-12-21 um 18.13.30"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.13.30.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.13.30.png",
+    "wp_id": 246,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/bildschirmfoto-2015-12-21-um-18-13-30/",
+    "slug": "bildschirmfoto-2015-12-21-um-18-13-30"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-21 um 18.13.04",
+      "en": "Bildschirmfoto 2015-12-21 um 18.13.04"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.13.04.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.13.04.png",
+    "wp_id": 247,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/bildschirmfoto-2015-12-21-um-18-13-04/",
+    "slug": "bildschirmfoto-2015-12-21-um-18-13-04"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-21 um 18.18.43",
+      "en": "Bildschirmfoto 2015-12-21 um 18.18.43"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43.png",
+    "wp_id": 248,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/bildschirmfoto-2015-12-21-um-18-18-43/",
+    "slug": "bildschirmfoto-2015-12-21-um-18-18-43"
+  },
+  {
+    "name": {
+      "de": "katwarn_1",
+      "en": "katwarn_1"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_1.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/katwarn_1.jpg",
+    "wp_id": 251,
+    "link": "https://idl.fh-potsdam.de/projects/katwarn/katwarn_1/",
+    "slug": "katwarn_1"
+  },
+  {
+    "name": {
+      "de": "katwarn_2",
+      "en": "katwarn_2"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_2.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/katwarn_2.jpg",
+    "wp_id": 252,
+    "link": "https://idl.fh-potsdam.de/projects/katwarn/katwarn_2/",
+    "slug": "katwarn_2"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-22 um 02.07.39",
+      "en": "Bildschirmfoto 2015-12-22 um 02.07.39"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.07.39.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.07.39.png",
+    "wp_id": 260,
+    "link": "https://idl.fh-potsdam.de/projects/energy-atlas-rheinland-pfalz/bildschirmfoto-2015-12-22-um-02-07-39/",
+    "slug": "bildschirmfoto-2015-12-22-um-02-07-39"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-22 um 02.07.19",
+      "en": "Bildschirmfoto 2015-12-22 um 02.07.19"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.07.19.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.07.19.png",
+    "wp_id": 261,
+    "link": "https://idl.fh-potsdam.de/projects/energy-atlas-rheinland-pfalz/bildschirmfoto-2015-12-22-um-02-07-19/",
+    "slug": "bildschirmfoto-2015-12-22-um-02-07-19"
+  },
+  {
+    "name": {
+      "de": "Bildschirmfoto 2015-12-22 um 02.06.07",
+      "en": "Bildschirmfoto 2015-12-22 um 02.06.07"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.06.07.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/Bildschirmfoto-2015-12-22-um-02.06.07.png",
+    "wp_id": 262,
+    "link": "https://idl.fh-potsdam.de/projects/energy-atlas-rheinland-pfalz/bildschirmfoto-2015-12-22-um-02-06-07/",
+    "slug": "bildschirmfoto-2015-12-22-um-02-06-07"
+  },
+  {
+    "name": {
+      "de": "VENICE-UNFOLDING-4",
+      "en": "VENICE-UNFOLDING-4"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/VENICE-UNFOLDING-4.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/VENICE-UNFOLDING-4.jpg",
+    "wp_id": 263,
+    "link": "https://idl.fh-potsdam.de/projects/venice-unfolding/venice-unfolding-4-2/",
+    "slug": "venice-unfolding-4-2"
+  },
+  {
+    "name": {
+      "de": "incom_screen",
+      "en": "incom_screen"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/incom_screen.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/incom_screen.jpg",
+    "wp_id": 264,
+    "link": "https://idl.fh-potsdam.de/projects/incom-org/incom_screen/",
+    "slug": "incom_screen"
+  },
+  {
+    "name": {
+      "de": "mace_home_schmaler",
+      "en": "mace_home_schmaler"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/mace_home_schmaler.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/mace_home_schmaler.png",
+    "wp_id": 265,
+    "link": "https://idl.fh-potsdam.de/projects/mace/mace_home_schmaler/",
+    "slug": "mace_home_schmaler"
+  },
+  {
+    "name": {
+      "de": "Dome_089",
+      "en": "Dome_089"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Dome_089.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Dome_089.jpg",
+    "wp_id": 266,
+    "link": "https://idl.fh-potsdam.de/dome_089-2/",
+    "slug": "dome_089-2"
+  },
+  {
+    "name": {
+      "de": "interaction-sequence2",
+      "en": "interaction-sequence2"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/interaction-sequence2.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/interaction-sequence2.jpg",
+    "wp_id": 269,
+    "link": "https://idl.fh-potsdam.de/projects/venice-unfolding/interaction-sequence2-2/",
+    "slug": "interaction-sequence2-2"
+  },
+  {
+    "name": {
+      "de": "frank-heidmann",
+      "en": "frank-heidmann"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/06/frank-heidmann.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/06/frank-heidmann.jpg",
+    "wp_id": 346,
+    "link": "https://idl.fh-potsdam.de/people/frank-heidmann/frank-heidmann/",
+    "slug": "frank-heidmann"
+  },
+  {
+    "name": {
+      "de": "reto-wettach",
+      "en": "reto-wettach"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/reto-wettach.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/reto-wettach.jpg",
+    "wp_id": 347,
+    "link": "https://idl.fh-potsdam.de/people/prof-reto-wettach/reto-wettach/",
+    "slug": "reto-wettach"
+  },
+  {
+    "name": {
+      "de": "klaus-dufke",
+      "en": "klaus-dufke"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/klaus-dufke.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/klaus-dufke.jpg",
+    "wp_id": 348,
+    "link": "https://idl.fh-potsdam.de/people/prof-klaus-dufke/klaus-dufke/",
+    "slug": "klaus-dufke"
+  },
+  {
+    "name": {
+      "de": "fabian-moron-zirfas",
+      "en": "fabian-moron-zirfas"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/fabian-moron-zirfas.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/fabian-moron-zirfas.jpg",
+    "wp_id": 349,
+    "link": "https://idl.fh-potsdam.de/people/fabian-moron-zirfas/fabian-moron-zirfas-2/",
+    "slug": "fabian-moron-zirfas-2"
+  },
+  {
+    "name": {
+      "de": "sebastian-meier",
+      "en": "sebastian-meier"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/sebastian-meier.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/sebastian-meier.jpg",
+    "wp_id": 350,
+    "link": "https://idl.fh-potsdam.de/people/sebastian-meier/sebastian-meier-2/",
+    "slug": "sebastian-meier-2"
+  },
+  {
+    "name": {
+      "de": "tim-schenk",
+      "en": "tim-schenk"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/tim-schenk.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/tim-schenk.jpg",
+    "wp_id": 351,
+    "link": "https://idl.fh-potsdam.de/people/tim-schenk/tim-schenk-2/",
+    "slug": "tim-schenk-2"
+  },
+  {
+    "name": {
+      "de": "andreas-thom",
+      "en": "andreas-thom"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/08/andreas-thom.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/08/andreas-thom.jpg",
+    "wp_id": 353,
+    "link": "https://idl.fh-potsdam.de/people/andreas-thom/andreas-thom-2/",
+    "slug": "andreas-thom-2"
+  },
+  {
+    "name": {
+      "de": "jordi-tost",
+      "en": "jordi-tost"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/07/jordi-tost.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/jordi-tost.jpg",
+    "wp_id": 354,
+    "link": "https://idl.fh-potsdam.de/people/jordi-tost/jordi-tost-2/",
+    "slug": "jordi-tost-2"
+  },
+  {
+    "name": {
+      "de": "455px-Umweltbundesamt_Logo.svg",
+      "en": "455px-Umweltbundesamt_Logo.svg"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/455px-Umweltbundesamt_Logo.svg_.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/455px-Umweltbundesamt_Logo.svg_.png",
+    "wp_id": 355,
+    "link": "https://idl.fh-potsdam.de/projects/environmental-reports/455px-umweltbundesamt_logo-svg/",
+    "slug": "455px-umweltbundesamt_logo-svg"
+  },
+  {
+    "name": {
+      "de": "uba_logo",
+      "en": "uba_logo"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/12/uba_logo.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/12/uba_logo.png",
+    "wp_id": 369,
+    "link": "https://idl.fh-potsdam.de/projects/environmental-reports/uba_logo/",
+    "slug": "uba_logo"
+  },
+  {
+    "name": {
+      "de": "Ministerium-fuer-Wissenschaft-Forschung-und-Kultur-des-Landes-Brandenburg-Logo",
+      "en": "Ministerium-fuer-Wissenschaft-Forschung-und-Kultur-des-Landes-Brandenburg-Logo"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2010/11/Ministerium-fuer-Wissenschaft-Forschung-und-Kultur-des-Landes-Brandenburg-Logo.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2010/11/Ministerium-fuer-Wissenschaft-Forschung-und-Kultur-des-Landes-Brandenburg-Logo.jpg",
+    "wp_id": 371,
+    "link": "https://idl.fh-potsdam.de/projects/ecoviz-challenge/ministerium-fuer-wissenschaft-forschung-und-kultur-des-landes-brandenburg-logo/",
+    "slug": "ministerium-fuer-wissenschaft-forschung-und-kultur-des-landes-brandenburg-logo"
+  },
+  {
+    "name": {
+      "de": "Logo_Energieagentur",
+      "en": "Logo_Energieagentur"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2014/12/Logo_Energieagentur.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2014/12/Logo_Energieagentur.jpg",
+    "wp_id": 372,
+    "link": "https://idl.fh-potsdam.de/projects/energy-atlas-rheinland-pfalz/logo_energieagentur/",
+    "slug": "logo_energieagentur"
+  },
+  {
+    "name": {
+      "de": "Druck",
+      "en": "Druck"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2009/06/dfg_logo_schriftzug_blau_930.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2009/06/dfg_logo_schriftzug_blau_930.jpg",
+    "wp_id": 373,
+    "link": "https://idl.fh-potsdam.de/projects/powerdome/druck/",
+    "slug": "druck"
+  },
+  {
+    "name": {
+      "de": "Druck",
+      "en": "Druck"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Partner-1-Fraunhofer-FOKUS-72dpi.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/11/Partner-1-Fraunhofer-FOKUS-72dpi-scaled.jpg",
+    "wp_id": 375,
+    "link": "https://idl.fh-potsdam.de/projects/katwarn/druck-2/",
+    "slug": "druck-2"
+  },
+  {
+    "name": {
+      "de": "2012-11-05_logo_zdpol_5",
+      "en": "2012-11-05_logo_zdpol_5"
+    },
+    "guid": "http://dev.jorditost.com/idl/wp-content/uploads/2014/12/2012-11-05_logo_zdpol_5.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2014/12/2012-11-05_logo_zdpol_5.png",
+    "wp_id": 376,
+    "link": "https://idl.fh-potsdam.de/projects/brandenburg-police/2012-11-05_logo_zdpol_5/",
+    "slug": "2012-11-05_logo_zdpol_5"
+  },
+  {
+    "name": {
+      "de": "idl_web",
+      "en": "idl_web"
+    },
+    "guid": "http://idl.fh-potsdam.de/wp-content/uploads/2016/04/idl_web.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2016/04/idl_web.png",
+    "wp_id": 404,
+    "link": "https://idl.fh-potsdam.de/jobs/idl_web/",
+    "slug": "idl_web"
+  },
+  {
+    "name": {
+      "de": "IMG_7547",
+      "en": "IMG_7547"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_7547.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_7547-scaled.jpg",
+    "wp_id": 409,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/img_7547/",
+    "slug": "img_7547"
+  },
+  {
+    "name": {
+      "de": "_IMG_6706_s",
+      "en": "_IMG_6706_s"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_6706_s.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_6706_s.jpg",
+    "wp_id": 410,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/_img_6706_s/",
+    "slug": "_img_6706_s"
+  },
+  {
+    "name": {
+      "de": "_IMG_6733_s2",
+      "en": "_IMG_6733_s2"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_6733_s2.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_6733_s2.jpg",
+    "wp_id": 412,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/_img_6733_s2/",
+    "slug": "_img_6733_s2"
+  },
+  {
+    "name": {
+      "de": "vw-stiftung",
+      "en": "vw-stiftung"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/vw-stiftung.gif",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/vw-stiftung.gif",
+    "wp_id": 414,
+    "link": "https://idl.fh-potsdam.de/projects/climate-images/vw-stiftung/",
+    "slug": "vw-stiftung"
+  },
+  {
+    "name": {
+      "de": "Fig12-41",
+      "en": "Fig12-41"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/Fig12-41.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/Fig12-41.jpg",
+    "wp_id": 416,
+    "link": "https://idl.fh-potsdam.de/projects/climate-images/fig12-41/",
+    "slug": "fig12-41"
+  },
+  {
+    "name": {
+      "de": "vw-stiftung",
+      "en": "vw-stiftung"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/vw-stiftung.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/vw-stiftung.jpg",
+    "wp_id": 417,
+    "link": "https://idl.fh-potsdam.de/projects/climate-images/vw-stiftung-2/",
+    "slug": "vw-stiftung-2"
+  },
+  {
+    "name": {
+      "de": "DIGENTI Reachability Analysis",
+      "en": "DIGENTI Reachability Analysis"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2467_03_opt.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2467_03_opt.jpg",
+    "wp_id": 432,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/img_2467_03_opt/",
+    "slug": "img_2467_03_opt"
+  },
+  {
+    "name": {
+      "de": "Settlement reachability analysis with isochrone areas",
+      "en": "Settlement reachability analysis with isochrone areas"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2519_02_opt.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2519_02_opt.jpg",
+    "wp_id": 433,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/img_2519_02_opt/",
+    "slug": "img_2519_02_opt"
+  },
+  {
+    "name": {
+      "de": "Alternative reachability by helicopter",
+      "en": "Alternative reachability by helicopter"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2498_02_opt.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2498_02_opt.jpg",
+    "wp_id": 434,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/img_2498_02_opt/",
+    "slug": "img_2498_02_opt"
+  },
+  {
+    "name": {
+      "de": "Alternative accessibility by helicopter",
+      "en": "Alternative accessibility by helicopter"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2489_02_opt.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2489_02_opt.jpg",
+    "wp_id": 435,
+    "link": "https://idl.fh-potsdam.de/projects/digenti/img_2489_02_opt/",
+    "slug": "img_2489_02_opt"
+  },
+  {
+    "name": {
+      "de": "Edmundo_Galindo",
+      "en": "Edmundo_Galindo"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/04/Edmundo_Galindo.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/04/Edmundo_Galindo.jpg",
+    "wp_id": 437,
+    "link": "https://idl.fh-potsdam.de/people/edmundo-galindo/edmundo_galindo/",
+    "slug": "edmundo_galindo"
+  },
+  {
+    "name": {
+      "de": "paul-heinicker",
+      "en": "paul-heinicker"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2018/08/paul-heinicker.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2018/08/paul-heinicker.jpg",
+    "wp_id": 441,
+    "link": "https://idl.fh-potsdam.de/people/paul-heinicker/paul-heinicker-2/",
+    "slug": "paul-heinicker-2"
+  },
+  {
+    "name": {
+      "de": "idl_anci",
+      "en": "idl_anci"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/idl_anci.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/01/idl_anci.jpg",
+    "wp_id": 443,
+    "link": "https://idl.fh-potsdam.de/projects/climate-images/idl_anci/",
+    "slug": "idl_anci"
+  },
+  {
+    "name": {
+      "de": "IMG_0720",
+      "en": "IMG_0720"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/IMG_0720.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/IMG_0720-scaled.jpg",
+    "wp_id": 492,
+    "link": "https://idl.fh-potsdam.de/projects/prototyp/img_0720/",
+    "slug": "img_0720"
+  },
+  {
+    "name": {
+      "de": "IMG_2240",
+      "en": "IMG_2240"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/IMG_2240.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/IMG_2240-scaled.jpg",
+    "wp_id": 494,
+    "link": "https://idl.fh-potsdam.de/projects/prototyp/img_2240/",
+    "slug": "img_2240"
+  },
+  {
+    "name": {
+      "de": "4_Paula_groß_YAS_7026-",
+      "en": "4_Paula_groß_YAS_7026-"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2018/10/4_Paula_groß_YAS_7026-.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2018/10/4_Paula_groß_YAS_7026-.jpg",
+    "wp_id": 496,
+    "link": "https://idl.fh-potsdam.de/people/paula-schuster/4_paula_gros_yas_7026/",
+    "slug": "4_paula_gros_yas_7026"
+  },
+  {
+    "name": {
+      "de": "Tost, Jordi 2019 4zu5_web",
+      "en": "Tost, Jordi 2019 4zu5_web"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/Tost-Jordi-2019-4zu5_web.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/Tost-Jordi-2019-4zu5_web.jpg",
+    "wp_id": 497,
+    "link": "https://idl.fh-potsdam.de/people/jordi-tost/tost-jordi-2019-4zu5_web/",
+    "slug": "tost-jordi-2019-4zu5_web"
+  },
+  {
+    "name": {
+      "de": "190410_icc2019",
+      "en": "190410_icc2019"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/07/190410_icc2019.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/07/190410_icc2019.pdf",
+    "wp_id": 499,
+    "link": "https://idl.fh-potsdam.de/stories/publications/on-the-relevance-of-cartography-an-interaction-design-perspective/190410_icc2019/",
+    "slug": "190410_icc2019"
+  },
+  {
+    "name": {
+      "de": "[i-com] Visualization and Interaction with Multiple Devices. A Case Study on Reachability of Remote Areas for Emergency Management",
+      "en": "[i-com] Visualization and Interaction with Multiple Devices. A Case Study on Reachability of Remote Areas for Emergency Management"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2018/01/i-com-Visualization-and-Interaction-with-Multiple-Devices.-A-Case-Study-on-Reachability-of-Remote-Areas-for-Emergency-Management.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2018/01/i-com-Visualization-and-Interaction-with-Multiple-Devices.-A-Case-Study-on-Reachability-of-Remote-Areas-for-Emergency-Management.pdf",
+    "wp_id": 500,
+    "link": "https://idl.fh-potsdam.de/stories/publications/visualization-and-interaction-with-multiple-devices-a-case-study-on-reachability-of-remote-areas-for-emergency-management/i-com-visualization-and-interaction-with-multiple-devices-a-case-study-on-reachability-of-remote-areas-for-emergency-management/",
+    "slug": "i-com-visualization-and-interaction-with-multiple-devices-a-case-study-on-reachability-of-remote-areas-for-emergency-management"
+  },
+  {
+    "name": {
+      "de": "ica-proc-1-115-2018",
+      "en": "ica-proc-1-115-2018"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2017/03/ica-proc-1-115-2018.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2017/03/ica-proc-1-115-2018.pdf",
+    "wp_id": 501,
+    "link": "https://idl.fh-potsdam.de/stories/publications/hazards-and-accessibility-combining-and-visualizing-threat-and-open-infrastructure-data-for-disaster-management/ica-proc-1-115-2018/",
+    "slug": "ica-proc-1-115-2018"
+  },
+  {
+    "name": {
+      "de": "Patrick_Oswald_low1-1024x1024",
+      "en": "Patrick_Oswald_low1-1024x1024"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-1024x1024.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-1024x1024.jpg",
+    "wp_id": 509,
+    "link": "https://idl.fh-potsdam.de/people/patrick-oswald/patrick_oswald_low1-1024x1024/",
+    "slug": "patrick_oswald_low1-1024x1024"
+  },
+  {
+    "name": {
+      "de": "Patrick_Oswald_low1-570x570",
+      "en": "Patrick_Oswald_low1-570x570"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-570x570.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-570x570.jpg",
+    "wp_id": 510,
+    "link": "https://idl.fh-potsdam.de/people/patrick-oswald/patrick_oswald_low1-570x570/",
+    "slug": "patrick_oswald_low1-570x570"
+  },
+  {
+    "name": {
+      "de": "Patrick_Oswald_low1-1024x1024",
+      "en": "Patrick_Oswald_low1-1024x1024"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-1024x1024-1.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2019/01/Patrick_Oswald_low1-1024x1024-1.jpg",
+    "wp_id": 511,
+    "link": "https://idl.fh-potsdam.de/people/patrick-oswald/patrick_oswald_low1-1024x1024-2/",
+    "slug": "patrick_oswald_low1-1024x1024-2"
+  },
+  {
+    "name": {
+      "de": "responsive-lightbox-thumbnail",
+      "en": "responsive-lightbox-thumbnail"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/01/responsive-lightbox-thumbnail.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/01/responsive-lightbox-thumbnail.png",
+    "wp_id": 512,
+    "link": "https://idl.fh-potsdam.de/responsive-lightbox-thumbnail/",
+    "slug": "responsive-lightbox-thumbnail"
+  },
+  {
+    "name": {
+      "de": "speculativeedu_inconvenientdesign_tost_schuster_heidmann",
+      "en": "speculativeedu_inconvenientdesign_tost_schuster_heidmann"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_schuster_heidmann.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_schuster_heidmann.pdf",
+    "wp_id": 514,
+    "link": "https://idl.fh-potsdam.de/stories/publications/stranger-things-prototyping-inconvenience-a-case-study-on-critical-design-in-design-education/speculativeedu_inconvenientdesign_tost_schuster_heidmann/",
+    "slug": "speculativeedu_inconvenientdesign_tost_schuster_heidmann"
+  },
+  {
+    "name": {
+      "de": "speculativeedu_inconvenientdesign_tost_etal_2020",
+      "en": "speculativeedu_inconvenientdesign_tost_etal_2020"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_etal_2020.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_etal_2020.pdf",
+    "wp_id": 515,
+    "link": "https://idl.fh-potsdam.de/stories/publications/stranger-things-prototyping-inconvenience-a-case-study-on-critical-design-in-design-education/speculativeedu_inconvenientdesign_tost_etal_2020/",
+    "slug": "speculativeedu_inconvenientdesign_tost_etal_2020"
+  },
+  {
+    "name": {
+      "de": "speculativeedu_inconvenientdesign_tost_etal_2020",
+      "en": "speculativeedu_inconvenientdesign_tost_etal_2020"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_etal_2020-1.pdf",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/09/speculativeedu_inconvenientdesign_tost_etal_2020-1.pdf",
+    "wp_id": 516,
+    "link": "https://idl.fh-potsdam.de/stories/publications/stranger-things-prototyping-inconvenience-a-case-study-on-critical-design-in-design-education/speculativeedu_inconvenientdesign_tost_etal_2020-2/",
+    "slug": "speculativeedu_inconvenientdesign_tost_etal_2020-2"
+  },
+  {
+    "name": {
+      "de": "Christin_Renner",
+      "en": "Christin_Renner"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner-scaled.jpg",
+    "wp_id": 518,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/christin_renner/",
+    "slug": "christin_renner"
+  },
+  {
+    "name": {
+      "de": "Christin_Renner_web",
+      "en": "Christin_Renner_web"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web.jpg",
+    "wp_id": 519,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/christin_renner_web/",
+    "slug": "christin_renner_web"
+  },
+  {
+    "name": {
+      "de": "Christin_Renner_web",
+      "en": "Christin_Renner_web"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-1.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-1.jpg",
+    "wp_id": 520,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/christin_renner_web-2/",
+    "slug": "christin_renner_web-2"
+  },
+  {
+    "name": {
+      "de": "Jordi_10_low",
+      "en": "Jordi_10_low"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Jordi_10_low.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Jordi_10_low.jpg",
+    "wp_id": 521,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/jordi_10_low/",
+    "slug": "jordi_10_low"
+  },
+  {
+    "name": {
+      "de": "Christin_Renner_web",
+      "en": "Christin_Renner_web"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-2.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-2.jpg",
+    "wp_id": 522,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/christin_renner_web-3/",
+    "slug": "christin_renner_web-3"
+  },
+  {
+    "name": {
+      "de": "Christin_Renner_web",
+      "en": "Christin_Renner_web"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-3.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Christin_Renner_web-3.jpg",
+    "wp_id": 523,
+    "link": "https://idl.fh-potsdam.de/people/christin-renner/christin_renner_web-4/",
+    "slug": "christin_renner_web-4"
+  },
+  {
+    "name": {
+      "de": "Stephan_Schier_8906_2015",
+      "en": "Stephan_Schier_8906_2015"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Stephan_Schier_8906_2015.jpg",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2020/10/Stephan_Schier_8906_2015-scaled.jpg",
+    "wp_id": 524,
+    "link": "https://idl.fh-potsdam.de/stephan_schier_8906_2015/",
+    "slug": "stephan_schier_8906_2015"
+  },
+  {
+    "name": {
+      "de": "IDL-foto-paula",
+      "en": "IDL-foto-paula"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2021/03/IDL-foto-paula.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2021/03/IDL-foto-paula.png",
+    "wp_id": 529,
+    "link": "https://idl.fh-potsdam.de/people/paula-schuster/idl-foto-paula-4/",
+    "slug": "idl-foto-paula-4"
+  },
+  {
+    "name": {
+      "de": "IDL-foto-paula",
+      "en": "IDL-foto-paula"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2018/10/IDL-foto-paula.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2018/10/IDL-foto-paula.png",
+    "wp_id": 533,
+    "link": "https://idl.fh-potsdam.de/people/paula-schuster/idl-foto-paula/",
+    "slug": "idl-foto-paula"
+  },
+  {
+    "name": {
+      "de": "profile",
+      "en": "profile"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/profile.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2015/07/profile.png",
+    "wp_id": 539,
+    "link": "https://idl.fh-potsdam.de/people/sebastian-meier/profile/",
+    "slug": "profile"
+  },
+  {
+    "name": {
+      "de": "DataSkop_Logo_1623x12178px",
+      "en": "DataSkop_Logo_1623x12178px"
+    },
+    "guid": "https://idl.fh-potsdam.de/wp-content/uploads/2022/01/DataSkop_Logo_1623x12178px.png",
+    "url": "https://idl.fh-potsdam.de/wp-content/uploads/2022/01/DataSkop_Logo_1623x12178px.png",
+    "wp_id": 541,
+    "link": "https://idl.fh-potsdam.de/projects/dataskop/dataskop_logo_1623x12178px/",
+    "slug": "dataskop_logo_1623x12178px"
+  }
+]

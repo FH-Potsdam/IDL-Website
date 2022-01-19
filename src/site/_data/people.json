@@ -13,6 +13,7 @@
       "en": "Frank Heidmann is Professor of Human-Computer Interaction (HCI) at the Potsdam University of Applied Sciences."
     },
     "wp_id": 33,
+    "slug": "frank-heidmann",
     "group": "Members",
     "subtitle": {
       "en": "Professor of Human-Computer Interaction",
@@ -39,6 +40,7 @@
       "en": ""
     },
     "wp_id": 34,
+    "slug": "till-nagel",
     "group": "Past Members",
     "subtitle": {
       "en": "Geo-Visualization & Tangible Interaction",
@@ -65,6 +67,7 @@
       "de": "Boris ist Professor für Interaktionsdesign im Studiengang Interface Design der Fachhochschule Potsdam und Design Consultant."
     },
     "wp_id": 38,
+    "slug": "prof-boris-muller",
     "group": "Associates",
     "subtitle": {
       "en": "Professor for Interaction Design",
@@ -91,6 +94,7 @@
       "en": "..."
     },
     "wp_id": 112,
+    "slug": "sebastian-meier",
     "group": "Members",
     "subtitle": {
       "en": "Professor for the design of knowledge communication",
@@ -117,6 +121,7 @@
       "de": "Jordi ist wissenschaftlicher Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam.\n"
     },
     "wp_id": 113,
+    "slug": "jordi-tost",
     "group": "Members",
     "subtitle": {
       "en": "Research Associate",
@@ -143,6 +148,7 @@
       "de": "Andreas Thom ist wissenschaftlicher Mitarbeiter im Interaction Design Lab der Fachhochschule Potsdam."
     },
     "wp_id": 132,
+    "slug": "andreas-thom",
     "group": "Past Members",
     "subtitle": {
       "en": "Researcher for Usability and User Experience",
@@ -169,6 +175,7 @@
       "de": "Fabian ist Lehrender im Bereich Creative Coding und Physical Computing an der Fachhochschule Potsdam."
     },
     "wp_id": 156,
+    "slug": "fabian-moron-zirfas",
     "group": "Past Members",
     "subtitle": {
       "en": "Lecturer for Digital & Physical Interfaces",
@@ -195,6 +202,7 @@
       "en": ""
     },
     "wp_id": 220,
+    "slug": "prof-dr-marian-dork",
     "group": null,
     "subtitle": {
       "en": "Research professor for Information Visualization",
@@ -221,6 +229,7 @@
       "en": ""
     },
     "wp_id": 157,
+    "slug": "prof-klaus-dufke",
     "group": "Associates",
     "subtitle": {
       "en": "Professor for Multimedia Design",
@@ -247,6 +256,7 @@
       "en": ""
     },
     "wp_id": 158,
+    "slug": "prof-reto-wettach",
     "group": "Associates",
     "subtitle": {
       "en": "Professor for Physical and Virtual Interfaces and Service Design",
@@ -273,6 +283,7 @@
       "en": ""
     },
     "wp_id": 159,
+    "slug": "prof-monika-hoinkins",
     "group": "Past Members",
     "subtitle": {
       "en": "Researcher",
@@ -299,6 +310,7 @@
       "en": ""
     },
     "wp_id": 160,
+    "slug": "chris-magiera",
     "group": "Past Members",
     "subtitle": {
       "en": "Designer",
@@ -325,6 +337,7 @@
       "en": ""
     },
     "wp_id": 161,
+    "slug": "kim-albrecht",
     "group": "Past Students",
     "subtitle": {
       "en": "Interface Designer",
@@ -351,6 +364,7 @@
       "en": ""
     },
     "wp_id": 162,
+    "slug": "jan-erik-stange",
     "group": "Past Members",
     "subtitle": {
       "en": "Researcher for Visualization",
@@ -377,6 +391,7 @@
       "en": ""
     },
     "wp_id": 163,
+    "slug": "stefan-thon",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -403,6 +418,7 @@
       "en": ""
     },
     "wp_id": 164,
+    "slug": "johannes-landstorfer",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -429,6 +445,7 @@
       "en": ""
     },
     "wp_id": 165,
+    "slug": "tina-deiml-seibt",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -455,6 +472,7 @@
       "en": ""
     },
     "wp_id": 166,
+    "slug": "prof-danijela-djokic",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -481,6 +499,7 @@
       "en": ""
     },
     "wp_id": 167,
+    "slug": "christiane-holzheid",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -507,6 +526,7 @@
       "en": ""
     },
     "wp_id": 168,
+    "slug": "andre-knorig",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -533,6 +553,7 @@
       "en": ""
     },
     "wp_id": 169,
+    "slug": "peter-conradie",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -559,6 +580,7 @@
       "en": ""
     },
     "wp_id": 170,
+    "slug": "moritz-stefaner",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -585,6 +607,7 @@
       "en": ""
     },
     "wp_id": 171,
+    "slug": "marcus-paeschke",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -611,6 +634,7 @@
       "en": ""
     },
     "wp_id": 172,
+    "slug": "steffi-huslein",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -637,6 +661,7 @@
       "en": ""
     },
     "wp_id": 173,
+    "slug": "mattias-ljungstrom",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -663,6 +688,7 @@
       "en": ""
     },
     "wp_id": 174,
+    "slug": "larissa-pschetz",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -689,6 +715,7 @@
       "en": ""
     },
     "wp_id": 175,
+    "slug": "robin-palme",
     "group": "Past Members",
     "subtitle": {
       "de": "",
@@ -715,6 +742,7 @@
       "en": ""
     },
     "wp_id": 176,
+    "slug": "sebastian-rauer",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -741,6 +769,7 @@
       "en": ""
     },
     "wp_id": 177,
+    "slug": "sebastian-schwinkendorf",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -767,6 +796,7 @@
       "en": ""
     },
     "wp_id": 178,
+    "slug": "sabine-richter",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -793,6 +823,7 @@
       "en": ""
     },
     "wp_id": 179,
+    "slug": "alexander-warth",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -819,6 +850,7 @@
       "en": ""
     },
     "wp_id": 180,
+    "slug": "gunnar-friedrich",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -845,6 +877,7 @@
       "en": ""
     },
     "wp_id": 181,
+    "slug": "tom-haake",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -871,6 +904,7 @@
       "en": ""
     },
     "wp_id": 182,
+    "slug": "philipp-geuder",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -897,6 +931,7 @@
       "en": ""
     },
     "wp_id": 183,
+    "slug": "lionel-michel",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -923,6 +958,7 @@
       "en": ""
     },
     "wp_id": 219,
+    "slug": "prof-constanze-langer",
     "group": "Members",
     "subtitle": {
       "en": "Professor for Visual Interface Design",
@@ -949,6 +985,7 @@
       "en": ""
     },
     "wp_id": 221,
+    "slug": "swann-nowak",
     "group": "Past Students",
     "subtitle": {
       "en": "Research Assistant for the DIGENTI project",
@@ -975,6 +1012,7 @@
       "en": ""
     },
     "wp_id": 222,
+    "slug": "tim-schenk",
     "group": "Past Members",
     "subtitle": {
       "en": "Research Associate",
@@ -1001,6 +1039,7 @@
       "en": ""
     },
     "wp_id": 254,
+    "slug": "jens-rauenbusch",
     "group": "Past Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1027,6 +1066,7 @@
       "en": ""
     },
     "wp_id": 257,
+    "slug": "thomas-petrach",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -1053,6 +1093,7 @@
       "en": ""
     },
     "wp_id": 258,
+    "slug": "ben-schmitt",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -1079,6 +1120,7 @@
       "en": ""
     },
     "wp_id": 259,
+    "slug": "lennart-hildebrandt",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -1105,6 +1147,7 @@
       "en": ""
     },
     "wp_id": 370,
+    "slug": "jan-munchberger",
     "group": "Past Students",
     "subtitle": {
       "de": "",
@@ -1131,6 +1174,7 @@
       "en": "Fabian Ehmel is a research assistant at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam. He is interested in Information Visualization, Geographic Visualization and Interaction Design."
     },
     "wp_id": 402,
+    "slug": "fabian-ehmel",
     "group": "Past Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1157,6 +1201,7 @@
       "de": "Edmundo Galindo ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
     },
     "wp_id": 430,
+    "slug": "edmundo-galindo",
     "group": "Past Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1183,6 +1228,7 @@
       "en": "Paul is a research associate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
     },
     "wp_id": 439,
+    "slug": "paul-heinicker",
     "group": "Members",
     "subtitle": {
       "en": "Research Associate",
@@ -1209,6 +1255,7 @@
       "de": "Paula ist wissenschaftliche Mitarbeiterin am Interaction Design Lab (IDL) der Fachhochschule Potsdam.\n"
     },
     "wp_id": 487,
+    "slug": "paula-schuster",
     "group": "Members",
     "subtitle": {
       "en": "Research Associate",
@@ -1235,6 +1282,7 @@
       "de": "Patrick ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
     },
     "wp_id": 493,
+    "slug": "patrick-oswald",
     "group": "Past Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1261,6 +1309,7 @@
       "en": ""
     },
     "wp_id": 517,
+    "slug": "christin-renner",
     "group": "Members",
     "subtitle": {
       "en": "Research Associate",
@@ -1287,6 +1336,7 @@
       "de": "Paul ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
     },
     "wp_id": 535,
+    "slug": "paul-morat",
     "group": "Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1313,6 +1363,7 @@
       "de": "Aaron ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
     },
     "wp_id": 537,
+    "slug": "aaron-schwerdtfeger",
     "group": "Students",
     "subtitle": {
       "en": "Research Assistant",
@@ -1339,6 +1390,7 @@
       "de": "Rahel ist wissenschaftliche Mitarbeiterin am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
     },
     "wp_id": 538,
+    "slug": "rahel-flechtner",
     "group": "Members",
     "subtitle": {
       "en": "Research Associate",

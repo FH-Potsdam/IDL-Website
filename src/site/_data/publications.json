@@ -9,6 +9,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "",
     "year": 2016,
     "authors": {
       "names": [],
@@ -32,6 +33,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "in-schweizerische-gesellschaft-fr-kartographie-ed-kartographie-im-umbruch-neue-herausforderungen-neue-technologien-beitrge-zum-kartographiekongress-interlaken-96-bern-pp-133-155",
     "year": 1996,
     "authors": {
       "names": [],
@@ -55,6 +57,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "modellierung-graphischer-prsentationsformen-zur-untersttzung-kognitiver-operationen-in-bildschirmkarten",
     "year": 1996,
     "authors": {
       "names": [],
@@ -80,6 +83,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "modelling-graphic-presentation-forms-to-support-cognitive-operations-in-screen-maps",
     "year": 1997,
     "authors": {
       "names": [],
@@ -105,6 +109,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "kartographische-bildschirmkommunikation-methodische-anstze-zur-empirischen-untersuchung-raumbezogener-informationsprozesse",
     "year": 1997,
     "authors": {
       "names": [],
@@ -132,6 +137,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "empirische-untersuchungen-zum-einsatz-von-ar-beitsgraphik-in-kartographischen-informationssystemen",
     "year": 1997,
     "authors": {
       "names": [],
@@ -157,6 +163,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "aufgaben-und-nutzerorientierte-untersttzung-kartographischer-kommunikationsprozesse-durch-arbeitsgraphik-konzeptionen-modellbildung-und-experimentelle-untersuchungen",
     "year": 1999,
     "authors": {
       "names": [],
@@ -180,6 +187,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "kartographische-bildschirmkommunikation-forschungsbericht",
     "year": 1999,
     "authors": {
       "names": [],
@@ -207,6 +215,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "aufmerksamkeit",
     "year": 2000,
     "authors": {
       "names": [],
@@ -230,6 +239,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "web-usability",
     "year": 2001,
     "authors": {
       "names": [],
@@ -255,6 +265,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "adaptierbarkeit",
     "year": 2001,
     "authors": {
       "names": [],
@@ -278,6 +289,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "simulating-recognition-errors-in-speech-user-interface-prototyping",
     "year": 2001,
     "authors": {
       "names": [],
@@ -305,6 +317,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-engineering-fr-web-basierte-applikationen",
     "year": 2002,
     "authors": {
       "names": [],
@@ -332,6 +345,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "eye-tracking",
     "year": 2002,
     "authors": {
       "names": [],
@@ -357,6 +371,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "implementation-of-an-intranet-for-internal-communication-purposes",
     "year": 2002,
     "authors": {
       "names": [],
@@ -381,6 +396,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "webscore-a-structured-method-for-evaluating-web-applications",
     "year": 2002,
     "authors": {
       "names": [],
@@ -406,6 +422,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "web-usability-kann-standardisierung-helfen",
     "year": 2002,
     "authors": {
       "names": [],
@@ -431,6 +448,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "user-requirement-analysis-and-interface-conception-for-a-mobile-location-based-fair-guide",
     "year": 2002,
     "authors": {
       "names": [],
@@ -456,6 +474,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-engineering-fr-multimodale-interaktionsformen",
     "year": 2002,
     "authors": {
       "names": [],
@@ -483,6 +502,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "benutzerzentrierte-visualisierung-raumbezogener-informationen-fr-ultraportable-mobile-systeme",
     "year": 2003,
     "authors": {
       "names": [],
@@ -508,6 +528,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "when-a-house-controls-its-master-universal-design-for-smart-living-environments",
     "year": 2003,
     "authors": {
       "names": [],
@@ -533,6 +554,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "universal-accessibility-for-health-telematics",
     "year": 2003,
     "authors": {
       "names": [],
@@ -558,6 +580,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "webscore-expert-screening-a-low-budget-approach-for-evaluating-web-applications",
     "year": 2003,
     "authors": {
       "names": [],
@@ -583,6 +606,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interactive-maps-on-mobile-location-based-systems-design-solutions-and-usability-testing",
     "year": 2003,
     "authors": {
       "names": [],
@@ -608,6 +632,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-engineering-von-sprach-applikationen",
     "year": 2003,
     "authors": {
       "names": [],
@@ -635,6 +660,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "user-centred-design-for-interactive-maps-on-pdas-and-smartphones",
     "year": 2003,
     "authors": {
       "names": [],
@@ -660,6 +686,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "livefutura-user-centred-design-for-smart-homes",
     "year": 2003,
     "authors": {
       "names": [],
@@ -685,6 +712,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "nutzwert-als-prozess",
     "year": 2003,
     "authors": {
       "names": [],
@@ -710,6 +738,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "nutzerzentrierte-visualisierung-raumbezogener-informationen",
     "year": 2003,
     "authors": {
       "names": [],
@@ -735,6 +764,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "gradmesser-gruppe-anforderungen-fr-erfolgreiche-egovernment-applikationen-professionell-erheben",
     "year": 2003,
     "authors": {
       "names": [],
@@ -760,6 +790,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "auf-dem-leuchttisch",
     "year": 2004,
     "authors": {
       "names": [],
@@ -783,6 +814,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "ergonomie-normen-und-spezifikationen-fr-e-government-an-wendungen",
     "year": 2004,
     "authors": {
       "names": [],
@@ -806,6 +838,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "vorbild-wirtschaft-gtesiegel-fr-e-government-anwendungen",
     "year": 2004,
     "authors": {
       "names": [],
@@ -829,6 +862,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-von-sprach-applikationen",
     "year": 2004,
     "authors": {
       "names": [],
@@ -856,6 +890,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "the-cliniccoach-reference-scenario",
     "year": 2005,
     "authors": {
       "names": [],
@@ -881,6 +916,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "medicscore-and-the-evaluation-of-cliniccoach",
     "year": 2005,
     "authors": {
       "names": [],
@@ -906,6 +942,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "standards-adherence-and-compliance",
     "year": 2005,
     "authors": {
       "names": [],
@@ -931,6 +968,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "blickeingabe-als-alternative-zur-steuerung-von-multimedia-systemen-im-fahrzeug",
     "year": 2005,
     "authors": {
       "names": [],
@@ -954,6 +992,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-von-smart-home-user-interfaces-herausforderungen-und-lsungsanstze",
     "year": 2006,
     "authors": {
       "names": [],
@@ -979,6 +1018,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "mensch-computer-kooperation",
     "year": 2006,
     "authors": {
       "names": [],
@@ -1002,6 +1042,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "intuitive-lsungen-fr-intelligente-huser",
     "year": 2006,
     "authors": {
       "names": [],
@@ -1029,6 +1070,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "webscore-konzeption-design-und-evaluation-von-webapplikationen",
     "year": 2007,
     "authors": {
       "names": [],
@@ -1054,6 +1096,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "usability-ein-kleines-wort-mit-groer-bedeutung",
     "year": 2007,
     "authors": {
       "names": [],
@@ -1077,6 +1120,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interfacedesign-als-teil-der-corporate-identity",
     "year": 2007,
     "authors": {
       "names": [],
@@ -1100,6 +1144,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "human-computer-cooperation",
     "year": 2008,
     "authors": {
       "names": [],
@@ -1123,6 +1168,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "meshed-interaction-design-patterns",
     "year": 2008,
     "authors": {
       "names": [],
@@ -1150,6 +1196,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interaction-design-for-situation-awareness-eyetracking-and-heuristics-for-control-centers",
     "year": 2009,
     "authors": {
       "names": [],
@@ -1181,6 +1228,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "browsing-and-correlation-of-territorial-data-in-tangible-maps-a-venice-case-study",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1208,6 +1256,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "venice-unfolding-a-tangible-user-interface-for-exploring-facetted-data-in-a-geographical-context",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1237,6 +1286,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "erlebbar-machen-von-forschung-fr-studierende-an-fachhochschulen",
     "year": 2011,
     "authors": {
       "names": [],
@@ -1264,6 +1314,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "green-it-mit-smartphones-ecochallenge-eine-iphone-app-als-begleiter-hin-zu-einem-nachhaltigen-lebensstil",
     "year": 2011,
     "authors": {
       "names": [],
@@ -1291,6 +1342,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "visualizing-geospatial-co-authorship-data-on-a-multitouch-tabletop",
     "year": 2011,
     "authors": {
       "names": [],
@@ -1318,6 +1370,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "exploring-the-geospatial-network-of-scientific-collaboration-on-a-multitouch-tabletop",
     "year": 2011,
     "authors": {
       "names": [],
@@ -1345,6 +1398,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "neuropad-use-cases-for-a-mobile-physiological-interface",
     "year": 2012,
     "authors": {
       "names": [],
@@ -1376,6 +1430,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interaktive-karten-und-geovisualisierungen",
     "year": 2013,
     "authors": {
       "names": [],
@@ -1399,6 +1454,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interfacedesign-corporate-interaction",
     "year": 2013,
     "authors": {
       "names": [],
@@ -1422,6 +1478,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "popper-20-warum-unser-wissen-fehlbar-ist-und-wie-wir-aus-fehlern-lernen-forschendes-lernen-als-schlsselkompetenz-fr-die-wissensarbeit-von-morgen",
     "year": 2013,
     "authors": {
       "names": [],
@@ -1445,6 +1502,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "a-unfolding-a-simple-library-for-interactive-maps-and-geovisualizations-in-processing",
     "year": 2013,
     "authors": {
       "names": [],
@@ -1476,6 +1534,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "heattile-a-new-method-for-heatmap-implementations-for-mobile-web-based-cartographic-applications",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1503,6 +1562,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "a-comparison-of-location-search-ui-patterns-on-mobile-devices",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1530,6 +1590,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "too-many-markers-revisited-an-empirical-analysis-of-web-based-methods-for-overcoming-the-problem-of-too-many-markers-in-zoomable-mapping-applications",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1555,6 +1616,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "interkulturelle-nutzeranforderungen-erheben",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1582,6 +1644,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "anforderungsanalyse-bei-it-experten-mittels-experience-sample-methode",
     "year": 2015,
     "authors": {
       "names": [],
@@ -1609,6 +1672,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "visualizing-large-spatial-time-series-data-on-mobile-devices-combining-the-heattile-system-with-a-progressive-loading-approach",
     "year": 2015,
     "authors": {
       "names": [],
@@ -1632,6 +1696,7 @@
       "de": "In this paper we introduce a case study on tangible geo-visualization on an interactive tabletop to enable the exploration of architectural projects in Venice. The tangible user interface consists of a large display showing projects on a map, and a polyhedral object to browse these data interactively by selecting and filtering various metadata facets. With the object we aim to reduce the barrier between the physical world and virtual data, and ease the understanding of faceted geo-spatial data",
       "en": "In this paper we introduce a case study on tangible geo-visualization on an interactive tabletop to enable the exploration of architectural projects in Venice. The tangible user interface consists of a large display showing projects on a map, and a polyhedral object to browse these data interactively by selecting and filtering various metadata facets. With the object we aim to reduce the barrier between the physical world and virtual data, and ease the understanding of faceted geo-spatial data"
     },
+    "slug": "exploring-faceted-geo-spatial-data-with-tangible-interaction",
     "year": 2011,
     "authors": {
       "names": [],
@@ -1657,6 +1722,7 @@
       "de": "This paper discusses the learning and educational potentialities of the Venice Unfolding prototype, an experimental tabletop application designed to explore and investigate urban and territorial contents and knowledge. The prototype supports and transforms ways of approaching various strategies involved in urban and territorial planning processes. It creates new ways of viewing, understanding and learning about urban and territorial environments and leads to a more efficient examination of their underlying characteristics. In doing so, it fosters greater knowledge generation about their use, evolution and growth. In this paper, the authors describe the prototype’s development, its fundamental concepts and its considerable instructional capabilities that have been piloted with educators and students.",
       "en": "This paper discusses the learning and educational potentialities of the Venice Unfolding prototype, an experimental tabletop application designed to explore and investigate urban and territorial contents and knowledge. The prototype supports and transforms ways of approaching various strategies involved in urban and territorial planning processes. It creates new ways of viewing, understanding and learning about urban and territorial environments and leads to a more efficient examination of their underlying characteristics. In doing so, it fosters greater knowledge generation about their use, evolution and growth. In this paper, the authors describe the prototype’s development, its fundamental concepts and its considerable instructional capabilities that have been piloted with educators and students."
     },
+    "slug": "browsing-and-correlating-architectural-and-territorial-data-in-tangible-maps",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1684,6 +1750,7 @@
       "de": "We introduce Venice Unfolding, a case study on tangible geo-visualization on an interactive tabletop to enable the exploration of architectural projects in Venice. Our tangible user interface consists of a large display showing projects on a map, and a polyhedral object to browse these data interactively by selecting and filtering various metadata facets. In this paper we describe a prototype employing new methods to communicate territorial data in visual and tangible ways. The object reduces the barrier between the physical world and virtual data, and eases the understanding of faceted geographical data, enabling urban planners and citizens alike to participate in the discovery and analysis of information referring to the physical world.",
       "en": "We introduce Venice Unfolding, a case study on tangible geo-visualization on an interactive tabletop to enable the exploration of architectural projects in Venice. Our tangible user interface consists of a large display showing projects on a map, and a polyhedral object to browse these data interactively by selecting and filtering various metadata facets. In this paper we describe a prototype employing new methods to communicate territorial data in visual and tangible ways. The object reduces the barrier between the physical world and virtual data, and eases the understanding of faceted geographical data, enabling urban planners and citizens alike to participate in the discovery and analysis of information referring to the physical world."
     },
+    "slug": "venice-unfolding-a-tangible-user-interface-for-exploring-faceted-data-in-a-geographical-context",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1713,6 +1780,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "browsing-and-correlation-of-territorial-data-in-tangible-maps-a-venice-case-study",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1740,6 +1808,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "maeve-an-interactive-tabletop-installation",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1769,6 +1838,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "maeve-an-interactive-tabletop-installation-for-exploring-background-information-in-exhibitions",
     "year": 2009,
     "authors": {
       "names": [],
@@ -1800,6 +1870,7 @@
       "en": "Video games are traditionally presented and visualized on a screen (flat, portable, touch sensitive or projected) and are mostly restricted by predefined scenarios and character movements. Although the ways in which we interact with games have improved over recent years, the interaction is still limited to their functions and game presets and still happens inside the screen. In this paper we explore new interaction paradigms using i.Ge4, a video game level editor that allows users to interact with their own environment to create game content with every-day physical objects in real time. At this stage, i.Ge explores new ways to interact with the real world by augmenting it with interactive projections, reducing the gap between the real and the digital world in a spatial augmented reality. We also propose other novel naturalistic approaches to create and interact with digital content that involve embodiment and more use of depth.",
       "de": "Video games are traditionally presented and visualized on a screen (flat, portable, touch sensitive or projected) and are mostly restricted by predefined scenarios and character movements. Although the ways in which we interact with games have improved over recent years, the interaction is still limited to their functions and game presets and still happens inside the screen. In this paper we explore new interaction paradigms using i.Ge4, a video game level editor that allows users to interact with their own environment to create game content with every-day physical objects in real time. At this stage, i.Ge explores new ways to interact with the real world by augmenting it with interactive projections, reducing the gap between the real and the digital world in a spatial augmented reality. We also propose other novel naturalistic approaches to create and interact with digital content that involve embodiment and more use of depth."
     },
+    "slug": "i-ge-exploring-new-game-interaction-metaphors-with-interactive-projection",
     "year": 2015,
     "authors": {
       "names": [],
@@ -1827,6 +1898,7 @@
       "en": "Video games are conventionally screen-bound, restricted to predefined character movements and have a limited amount of interaction possibilities depending on the controller and the level architecture. Although the ways in which we can interact with games have improved over recent years, the digital world we are interacting with is still normally confined to the screen and restricted by predefined scenarios.\n\nIn this paper, we introduce the i.Ge engine, a real-time video game level editor that allows users to interact with their own environment to create game content with real everyday objects, making them part of the level design. Thus, our engine reduces the gap between playing and creating by making both possible at the same time in a spatial augmented reality, thereby introducing new concepts in the field of game interaction and game design.",
       "de": "Video games are conventionally screen-bound, restricted to predefined character movements and have a limited amount of interaction possibilities depending on the controller and the level architecture. Although the ways in which we can interact with games have improved over recent years, the digital world we are interacting with is still normally confined to the screen and restricted by predefined scenarios.\n\nIn this paper, we introduce the i.Ge engine, a real-time video game level editor that allows users to interact with their own environment to create game content with real everyday objects, making them part of the level design. Thus, our engine reduces the gap between playing and creating by making both possible at the same time in a spatial augmented reality, thereby introducing new concepts in the field of game interaction and game design."
     },
+    "slug": "the-real-augmented-reality-real-time-game-editor-in-a-spatial-augmented-environment",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1854,6 +1926,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "visualising-the-un-seen-towards-critical-approaches-and-strategies-of-inclusion-in-digital-cultural-heritage-interfaces",
     "year": 2015,
     "authors": {
       "names": [],
@@ -1881,6 +1954,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "the-micro-smart-grid-tabletop-a-real-world-case-study-for-tangible-multitouch-technologies-for-communicating-complex-concepts",
     "year": 2014,
     "authors": {
       "names": [],
@@ -1904,6 +1978,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "a-real-world-mobile-prototyping-framework-for-location-and-context-based-services",
     "year": 2012,
     "authors": {
       "names": [],
@@ -1939,6 +2014,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "muse-visualizing-the-origins-and-connections-of-institutions-based-on-co-authorship-of-publications",
     "year": 2010,
     "authors": {
       "names": [],
@@ -1964,6 +2040,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "components-of-a-science-20-infrastructure-proceedings-of-fifth-european-conference-on-technology-enhanced-learning-ec-tel-2010-barcelona-spain",
     "year": 2010,
     "authors": {
       "names": [],
@@ -2029,6 +2106,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "mve-eine-interaktive-tabletop-installation",
     "year": 2010,
     "authors": {
       "names": [],
@@ -2066,6 +2144,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "a-conversational-model-to-display-user-activity",
     "year": 2009,
     "authors": {
       "names": [],
@@ -2095,6 +2174,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "user-activity-display-competition-or-conversation",
     "year": 2009,
     "authors": {
       "names": [],
@@ -2124,6 +2204,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "mace-connecting-and-enriching-repositories-for-architectural-learning",
     "year": 2008,
     "authors": {
       "names": [],
@@ -2183,6 +2264,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "semiotic-based-facetted-classification-to-support-browsing-architectural-contents-in-mace",
     "year": 2008,
     "authors": {
       "names": [],
@@ -2220,6 +2302,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "browsing-architecture-metadata-and-beyond",
     "year": 2008,
     "authors": {
       "names": [],
@@ -2253,6 +2336,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "enriching-e-learning-contents-for-architecture-in-the-mace-project",
     "year": 2007,
     "authors": {
       "names": [],
@@ -2294,6 +2378,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "exploring-vibrotactile-feedback-on-the-body-and-foot-for-the-purpose-of-pedestrian-navigation",
     "year": 2015,
     "authors": {
       "names": [],
@@ -2323,6 +2408,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "a-brief-survey-on-understanding-the-interaction-between-human-and-technology-at-the-task-of-pedestrian-navigation",
     "year": 2015,
     "authors": {
       "names": [],
@@ -2350,6 +2436,7 @@
       "en": "The assessment of natural hazards and risk has traditionally been built upon the estimation of threat maps, which are used to depict potential danger posed by a particular hazard throughout a given area. But when a hazard event strikes, infrastructure is a significant factor that can determine if the situation becomes a disaster. The vulnerability of the population in a region does not only depend on the area’s local threat, but also on the geographical accessibility of the area. This makes threat maps by themselves insufficient for supporting real-time decision-making, specially for those tasks that involve the use of the road network, such as management of relief operations, aid distribution, or planning of evacuation routes, among others. To overcome this problem, this paper proposes a multidisciplinary approach divided in two parts. First, data fusion of satellite-based threat data and open infrastructure data from Open- StreetMap, introducing a threat-based routing service. Second, the visualization of this data through cartographic generalization and schematization. This emphasizes critical areas along roads in a simple way and allows users to visually evaluate the impact natural hazards may have on infrastructure. We develop and illustrate this methodology with a case study of landslide threat for an area in Colombia.",
       "de": "The assessment of natural hazards and risk has traditionally been built upon the estimation of threat maps, which are used to depict potential danger posed by a particular hazard throughout a given area. But when a hazard event strikes, infrastructure is a significant factor that can determine if the situation becomes a disaster. The vulnerability of the population in a region does not only depend on the area’s local threat, but also on the geographical accessibility of the area. This makes threat maps by themselves insufficient for supporting real-time decision-making, specially for those tasks that involve the use of the road network, such as management of relief operations, aid distribution, or planning of evacuation routes, among others. To overcome this problem, this paper proposes a multidisciplinary approach divided in two parts. First, data fusion of satellite-based threat data and open infrastructure data from Open- StreetMap, introducing a threat-based routing service. Second, the visualization of this data through cartographic generalization and schematization. This emphasizes critical areas along roads in a simple way and allows users to visually evaluate the impact natural hazards may have on infrastructure. We develop and illustrate this methodology with a case study of landslide threat for an area in Colombia."
     },
+    "slug": "hazards-and-accessibility-combining-and-visualizing-threat-and-open-infrastructure-data-for-disaster-management",
     "year": 2017,
     "authors": {
       "names": [],
@@ -2381,6 +2468,7 @@
       "en": "Over the last years, abundant research has been done in order to analyze risk and to provide relevant information that improves effectiveness in disaster management. The communication of natural hazards risk has traditionally been built upon the estimation of hazard maps. In the context of landslides, hazard maps are used to depict potential danger from landslides and visualize the possibility of future landsliding throughout a given area. Such hazard maps provide a static snapshot of the local estimated threat in a region. However, in mountainous regions, a sufficiently large landslide in remote mountainous areas may represent a potential threat to settlements located downstream of a landslide event. The research presented here proposes an approach to visualize and interactively explore landslide risk by combining static hazard maps, hydrologic networks, and OpenStreetMap data.\n\nWe estimated the potential for hillslope instabilities scenarios in the region of interest by using the TanDEM-X World DEM to calculate a suite Factor of Safety (FOS) maps. The FOS estimates the ratio of total resisting and driving forces to hillslope mass movements. By combining the World DEM with other environmental data (e.g., the Harmonized World Soil Database), we were able to create a suite of high-resolution landslide potential maps for the region of interest. The suite of FOS maps are calculated based on user-selectable parameters (e.g, total mass sliding thickness) that are not well constrained by field observations. We additionally use the TanDEM-X World DEM to calculate the hydrologic network for our study area. This allows not only to delineate the stream network, but also to calculate the area upstream of settlements located near rivers or streams that may be impacted by distal landsliding. By integrating the potential landslide hazard in the upstream area, we create a more robust threat estimate for vulnerable settlements.\n\nDisaster relief is not only affected by the physical consequences of a hazardous event, but also by the area’s accessibility and mobility capability for internal displacements. We therefore also estimate the threat along roads and to other infrastructure (e.g. bridges). Decisions based on the area’s road network have to be constantly taken, for instance, to send rescue teams or to coordinate humanitarian logistics. With our approach, we are able to identify critical spots along roads with high likelihood of getting damaged. Furthermore, given a particular potential landslide location and the calculation of its downstream hydrologic network, it is possible to estimate which settlements, roads or bridges may be at risk. This approach could be integrated into flooding early warning systems and into the disaster management response phase to foresee dangers and losses and plan evacuations on time.",
       "de": "Over the last years, abundant research has been done in order to analyze risk and to provide relevant information that improves effectiveness in disaster management. The communication of natural hazards risk has traditionally been built upon the estimation of hazard maps. In the context of landslides, hazard maps are used to depict potential danger from landslides and visualize the possibility of future landsliding throughout a given area. Such hazard maps provide a static snapshot of the local estimated threat in a region. However, in mountainous regions, a sufficiently large landslide in remote mountainous areas may represent a potential threat to settlements located downstream of a landslide event. The research presented here proposes an approach to visualize and interactively explore landslide risk by combining static hazard maps, hydrologic networks, and OpenStreetMap data.\n\nWe estimated the potential for hillslope instabilities scenarios in the region of interest by using the TanDEM-X World DEM to calculate a suite Factor of Safety (FOS) maps. The FOS estimates the ratio of total resisting and driving forces to hillslope mass movements. By combining the World DEM with other environmental data (e.g., the Harmonized World Soil Database), we were able to create a suite of high-resolution landslide potential maps for the region of interest. The suite of FOS maps are calculated based on user-selectable parameters (e.g, total mass sliding thickness) that are not well constrained by field observations. We additionally use the TanDEM-X World DEM to calculate the hydrologic network for our study area. This allows not only to delineate the stream network, but also to calculate the area upstream of settlements located near rivers or streams that may be impacted by distal landsliding. By integrating the potential landslide hazard in the upstream area, we create a more robust threat estimate for vulnerable settlements.\n\nDisaster relief is not only affected by the physical consequences of a hazardous event, but also by the area’s accessibility and mobility capability for internal displacements. We therefore also estimate the threat along roads and to other infrastructure (e.g. bridges). Decisions based on the area’s road network have to be constantly taken, for instance, to send rescue teams or to coordinate humanitarian logistics. With our approach, we are able to identify critical spots along roads with high likelihood of getting damaged. Furthermore, given a particular potential landslide location and the calculation of its downstream hydrologic network, it is possible to estimate which settlements, roads or bridges may be at risk. This approach could be integrated into flooding early warning systems and into the disaster management response phase to foresee dangers and losses and plan evacuations on time."
     },
+    "slug": "communicating-landslide-risk-by-combining-hazard-and-open-infrastructure-data-in-interactive-visualizations",
     "year": 2017,
     "authors": {
       "names": [],
@@ -2410,6 +2498,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "visualization-and-interaction-with-multiple-devices-a-case-study-on-reachability-of-remote-areas-for-emergency-management",
     "year": 2017,
     "authors": {
       "names": [],
@@ -2435,6 +2524,7 @@
       "en": "<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n\nWe see more cartographic products in our digital world than ever before. But what role does cartography play in the modern production of cartographic products? In this position paper, we will argue that the democratization and diffusion of cartographic production has also led to the presumed \"fading relevance\" of cartography. As an argument against this notion, we highlight starting points for the field of cartography to improve modern cartographic production through its inherent cartographic knowledge.\n\n</div>\n</div>\n</div>",
       "de": "We see more cartographic products in our digital world than ever before. But what role does cartography play in the modern production of cartographic products? In this position paper, we will argue that the democratization and diffusion of cartographic production has also led to the presumed \"fading relevance\" of cartography. As an argument against this notion, we highlight starting points for the field of cartography to improve modern cartographic production through its inherent cartographic knowledge."
     },
+    "slug": "on-the-relevance-of-cartography-an-interaction-design-perspective",
     "year": 2019,
     "authors": {
       "names": [],
@@ -2462,6 +2552,7 @@
       "de": "",
       "en": ""
     },
+    "slug": "stranger-things-prototyping-inconvenience-a-case-study-on-critical-design-in-design-education",
     "year": 2020,
     "authors": {
       "names": [],
