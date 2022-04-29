@@ -2,7 +2,7 @@
 Theme Name: IDL Theme
 Theme URI: https://github.com/jorditost/wp-reset-theme
 Author: Jordi Tost
-Author URI: https://idl.fh-potsdam.de/
+Author URI: httpsidl.fh-potsdam.de/
 Version: 1.0
 */
 /*
@@ -263,29 +263,29 @@ button {
 }
 @font-face {
   font-family: 'ProximaNovaRegular';
-  src: url('fonts/proximanova-regular-webfont.eot');
-  src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-regular-webfont.woff') format('woff'), url('fonts/proximanova-regular-webfont.ttf') format('truetype'), url('fonts/proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-regular-webfont.eot');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-regular-webfont.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/IDL/fonts/proximanova-regular-webfont.woff') format('woff'), url('/wp-content/themes/IDL/fonts/proximanova-regular-webfont.ttf') format('truetype'), url('/wp-content/themes/IDL/fonts/proximanova-regular-webfont.svg#ProximaNovaRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ProximaNovaSemibold';
-  src: url('fonts/proximanova-semibold-webfont.eot');
-  src: url('fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-semibold-webfont.woff') format('woff'), url('fonts/proximanova-semibold-webfont.ttf') format('truetype'), url('fonts/proximanova-semibold-webfont.svg#ProximaNovaSemibold') format('svg');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-semibold-webfont.eot');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-semibold-webfont.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/IDL/fonts/proximanova-semibold-webfont.woff') format('woff'), url('/wp-content/themes/IDL/fonts/proximanova-semibold-webfont.ttf') format('truetype'), url('/wp-content/themes/IDL/fonts/proximanova-semibold-webfont.svg#ProximaNovaSemibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ProximaNovaBold';
-  src: url('fonts/proximanova-bold-webfont.eot');
-  src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-bold-webfont.woff') format('woff'), url('fonts/proximanova-bold-webfont.ttf') format('truetype'), url('fonts/proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-bold-webfont.eot');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-bold-webfont.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/IDL/fonts/proximanova-bold-webfont.woff') format('woff'), url('/wp-content/themes/IDL/fonts/proximanova-bold-webfont.ttf') format('truetype'), url('/wp-content/themes/IDL/fonts/proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ProximaNovaExtrabold';
-  src: url('fonts/proximanova-extrabold-webfont.eot');
-  src: url('fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-extrabold-webfont.woff') format('woff'), url('fonts/proximanova-extrabold-webfont.ttf') format('truetype'), url('fonts/proximanova-extrabold-webfont.svg#ProximaNovaExtrabold') format('svg');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-extrabold-webfont.eot');
+  src: url('/wp-content/themes/IDL/fonts/proximanova-extrabold-webfont.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/IDL/fonts/proximanova-extrabold-webfont.woff') format('woff'), url('/wp-content/themes/IDL/fonts/proximanova-extrabold-webfont.ttf') format('truetype'), url('/wp-content/themes/IDL/fonts/proximanova-extrabold-webfont.svg#ProximaNovaExtrabold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1291,7 +1291,7 @@ header.overlay #nav {
   padding-top: 15px;
 }
 .project-nav .back {
-  background-image: url('images/grid.png');
+  background-image: url('/wp-content/themes/IDL/images/grid.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 32px;
@@ -1306,11 +1306,11 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .project-nav .back {
-    background-image: url('images/grid@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/grid@2x.png');
   }
 }
 .project-nav .back:hover {
-  background-image: url('images/grid-h.png');
+  background-image: url('/wp-content/themes/IDL/images/grid-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 32px;
@@ -1320,7 +1320,7 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .project-nav .back:hover {
-    background-image: url('images/grid-h@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/grid-h@2x.png');
   }
 }
 .project-nav-bottom {
@@ -1348,7 +1348,7 @@ header.overlay #nav {
   margin-left: 20px;
 }
 .navigation .next-posts a {
-  background-image: url('images/arrow-fw.png');
+  background-image: url('/wp-content/themes/IDL/images/arrow-fw.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 30px;
@@ -1358,11 +1358,11 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .navigation .next-posts a {
-    background-image: url('images/arrow-fw@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/arrow-fw@2x.png');
   }
 }
 .navigation .next-posts a:hover {
-  background-image: url('images/arrow-fw-h.png');
+  background-image: url('/wp-content/themes/IDL/images/arrow-fw-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 30px;
@@ -1372,11 +1372,11 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .navigation .next-posts a:hover {
-    background-image: url('images/arrow-fw-h@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/arrow-fw-h@2x.png');
   }
 }
 .navigation .prev-posts a {
-  background-image: url('images/arrow-back.png');
+  background-image: url('/wp-content/themes/IDL/images/arrow-back.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 30px;
@@ -1386,11 +1386,11 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .navigation .prev-posts a {
-    background-image: url('images/arrow-back@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/arrow-back@2x.png');
   }
 }
 .navigation .prev-posts a:hover {
-  background-image: url('images/arrow-back-h.png');
+  background-image: url('/wp-content/themes/IDL/images/arrow-back-h.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   -moz-background-size: 37px 30px;
@@ -1400,7 +1400,7 @@ header.overlay #nav {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .navigation .prev-posts a:hover {
-    background-image: url('images/arrow-back-h@2x.png');
+    background-image: url('/wp-content/themes/IDL/images/arrow-back-h@2x.png');
   }
 }
 .single-people .entry-excerpt {
@@ -1497,7 +1497,7 @@ footer .inside:after {
 }
 footer #fhp-logo {
   float: left;
-  background-image: url('images/fhp-logo.png');
+  background-image: url('/wp-content/themes/IDL/images/fhp-logo.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   text-indent: -9999px;
@@ -1932,7 +1932,7 @@ footer nav ul li a:hover {
     position: absolute;
     top: 26px;
     right: 5%;
-    background-image: url('images/menu.png');
+    background-image: url('/wp-content/themes/IDL/images/menu.png');
     background-position: center top;
     background-repeat: no-repeat;
     width: 24px;
