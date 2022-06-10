@@ -25,6 +25,30 @@
   },
   {
     "title": {
+      "de": "Neue Publikation",
+      "en": "Test pub"
+    },
+    "wp_id": 144,
+    "page": {
+      "de": "",
+      "en": ""
+    },
+    "slug": "",
+    "year": 2023,
+    "authors": {
+      "names": [],
+      "ids": []
+    },
+    "outlet": "ITS 2015",
+    "authors_names": [
+      "Frank Heidmann"
+    ],
+    "authors_ids": [
+      33
+    ]
+  },
+  {
+    "title": {
       "en": "In: Schweizerische Gesellschaft für Kartographie (Ed.): Kartographie im Umbruch - neue Herausforderungen, neue Technologien. Beiträge zum Kartographiekongress Interlaken 96, Bern, pp. 133-155.",
       "de": "In: Schweizerische Gesellschaft für Kartographie (Ed.): Kartographie im Umbruch - neue Herausforderungen, neue Technologien. Beiträge zum Kartographiekongress Interlaken 96, Bern, pp. 133-155."
     },

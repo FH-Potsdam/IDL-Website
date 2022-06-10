@@ -1,8 +1,6 @@
 ---
 title: Jobs
 subtitle: Talente gesucht.
-locale: de
-layout: layouts/default.liquid
 ---
 
 ## Studentische und akademische Mitarbeiter_in

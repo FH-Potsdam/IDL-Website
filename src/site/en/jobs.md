@@ -1,8 +1,6 @@
 ---
 title: Jobs
 subtitle: Talents wanted.
-locale: en
-layout: layouts/default.liquid
 ---
 
 ## Student and academic assistants
