@@ -1,0 +1,27 @@
+{% include 'header.njk' %}
+{% from './macros.njk' import projectTeaser, publicationTeaser %}
+
+<section>		
+	<h3 class="grid-title">Featured Projects</h3>
+	<ul>
+{% for p in projects | sort(true, false, "year") %}
+	{% if p.featured_home == true %}
+	{{ projectTeaser(p, locale, attachments) }}
+	{% endif %}
+{% endfor %}
+	</ul>
+	<a href="/projects/">More Projects</a>
+</section>
+
+<section>
+	<h3>Recent Publications</h3>
+	<ul>
+{% for p in publications | sort(true, false, 'year') %}
+{% if loop.index < 5 %}
+{{publicationTeaser(p, locale, people)}}
+{% endif %}
+{% endfor %}
+	</ul>
+</section>
+
+{% include 'footer.njk' %}

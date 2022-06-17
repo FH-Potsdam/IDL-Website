@@ -1,0 +1,44 @@
+{
+  "full": [
+    {
+      "title": {
+        "de": "Mitglieder",
+        "en": "Members"
+      },
+      "key": "Members",
+      "singles": true
+    },
+    {
+      "title": {
+        "de": "Assoziierte",
+        "en": "Associates"
+      },
+      "key": "Associates",
+      "singles": false
+    },
+    {
+      "title": {
+        "de": "Studenten",
+        "en": "Students"
+      },
+      "key": "Students",
+      "singles": false
+    }
+  ],
+  "list": [
+    {
+      "title": {
+        "de": "Ehemalige Mitglieder",
+        "en": "Past Members"
+      },
+      "key": "Past Members"
+    },
+    {
+      "title": {
+        "de": "Ehemalige Studenten",
+        "en": "Past Students"
+      },
+      "key": "Past Students"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
 {
   "locale": "en",
-  "layout": "layouts/default.liquid"
+  "layout": "layouts/default.njk"
 }

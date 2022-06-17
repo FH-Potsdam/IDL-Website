@@ -1,2 +1,4 @@
-
-| sort "year"
+- Connections between projects and authors
+- Script to rename and resize images
+- Definition list as macro
+- Connection between projects and publications

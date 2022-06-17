@@ -1,0 +1,36 @@
+{% include 'header.njk' %}
+{% include 'main.njk' %}
+{% from './macros.njk' import publicationTeaser  %}
+{{ content }}
+
+<div class="entry">
+  <div class="entry-side">
+    <div class="content-nav-widget">
+      <h5>Years</h5>
+      <ul class="content-nav">
+      {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
+      {% for y in years %}
+        <li><a href="#{{y}}">{{y}}</a></li>
+      {% endfor %} #}
+      </ul>
+    </div>
+	</div>
+
+<section>
+    {% set lastyear = '0' %}
+    {% set pubSorted = publications %}
+    {% for p in publications | sort(true, false, "year") %}
+      {% if lastyear != p.year %}
+      {% if lastyear != '0' %}
+      </ul>
+      {% endif %}
+			<h2 id="{{p.year}}">{{p.year}}</h2>
+			<ul>
+      {% set lastyear = p.year %}
+      {% endif %}
+      {{ publicationTeaser(p, locale, people) }}
+    {% endfor %}
+      </ul>
+</section>
+
+{% include 'footer.njk' %}

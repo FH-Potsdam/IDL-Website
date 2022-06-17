@@ -8,7 +8,7 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/base.njk');
+  config.addLayoutAlias('default', 'layouts/default.njk');
 
   // Add some utility filters
   config.addFilter("squash", require("./src/utils/filters/squash.js") );

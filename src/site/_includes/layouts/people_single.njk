@@ -1,0 +1,33 @@
+{% include 'header.njk' %}
+{% from './macros.njk' import publicationTeaser, imageById %}
+
+<h1>{{person.name[locale]}}</h1>
+{% if person.subtitle[locale] %}<h2>{{person.subtitle[locale]}}</h2>{% endif %}
+{% if person.excerpt[locale] %}<p>{{person.excerpt[locale]}}</p>{% endif %}
+
+{% if project.thumbnail_id %}
+<img src="/images/migration/{{imageById(person.thumbnail_id, attachments)}}">
+{% endif %}
+
+<dl>
+  <dt>Email</dt>
+  <dd>{{ person.email }}</dd>
+  <dt>Twitter</dt>
+  <dd>{{ person.twitter }}</dd>
+  <dt>Website</dt>
+  <dd>{{ person.website }}</dd>
+</dl>
+
+{{project.page[locale] | safe}}
+
+<h2>Projects</h2>
+Coming Soon.
+
+<h2>Publications</h2>
+{% for p in publications | sort(true, false, "year") %}
+{% if person.wp_id in p.authors_ids %}
+{{ publicationTeaser(p, locale, people, attachments) }}
+{% endif %}
+{% endfor %}
+
+{% include 'footer.njk' %}

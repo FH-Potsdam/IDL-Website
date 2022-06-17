@@ -61,21 +61,20 @@
       <ul>
         <li><a href="/{{locale}}/about/">About</a></li>
         <li><a href="/{{locale}}/projects/">Projects</a></li>
-        <li><a href="/{{locale}}/academia/">Publications</a></li>
+        <li><a href="/{{locale}}/publications/">Publications</a></li>
         <li><a href="/{{locale}}/people/">People</a></li>
         <li><a href="/{{locale}}/jobs/">Jobs</a></li>
       </ul>
     </nav>
 
-    {% assign lang = page.url | slice: 1, 2 %}
+    {% set lang = page.url.slice(1, 2) %}
+    {% set enUrl = page.url | replace("/de/", "/en/") %}
+    {% set deUrl = page.url | replace("/en/", "/de/") %}
 
     <ul>
-      <li{% if lang == 'en' %} class="active"{% endif %}><a href="/en/" hreflang="en" title="English (en)"><span>EN</span></a></li>
-      <li{% if lang == 'de' %} class="active"{% endif %}><a href="/de/" hreflang="de" title="Deutsch (de)"><span>DE</span></a></li>
+      <li{% if lang == 'en' %} class="active"{% endif %}><a href="{{ enUrl }}" hreflang="en" title="English (en)"><span>EN</span></a></li>
+      <li{% if lang == 'de' %} class="active"{% endif %}><a href="{{ deUrl }}" hreflang="de" title="Deutsch (de)"><span>DE</span></a></li>
     </ul>
 	</header>
 
   <main>
-    <h1>{{title}}</h1>
-    {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %}
-    {% if excerpt %}<p>{{excerpt}}</p>{% endif %}

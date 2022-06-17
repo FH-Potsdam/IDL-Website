@@ -1,0 +1,13 @@
+{% include 'header.njk' %}
+{% include 'main.njk' %}
+{% from './macros.njk' import projectTeaser %}
+
+{{ content }}
+
+<ul>
+{% for p in projects | sort(true, false, "year") %}
+	{{ projectTeaser(p, locale, attachments) }}
+{% endfor %}
+</ul>
+
+{% include 'footer.njk' %}

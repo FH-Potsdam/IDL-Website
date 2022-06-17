@@ -1,5 +1,5 @@
 ---
 title: Publications
 subtitle: Research
-layout: layouts/publications_list.liquid
+layout: layouts/publications_list.njk
 ---

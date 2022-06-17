@@ -1,0 +1,48 @@
+{% include 'header.njk' %}
+{% include 'main.njk' %}
+{% from './macros.njk' import imageById %}
+{{ content | safe }}
+
+{% set people = people | sort(true, false, "sort_name") %}
+
+{% for pList in peopleConfig.full %}
+<section>
+	<h3>{{ pList.title[locale] }}</h3>
+	<ul>
+	{% for p in people %}
+		{% if p.group == pList.key %}
+		<li>
+{% if pList.singles %}
+			<a  href="/{{ locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
+				<img src="{{imageById(p.thumbnail_id)}}" alt="" loading="lazy" />
+			</a>
+			<a href="/{{locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
+				<h2>{{p.name[locale]}}</h2>
+				<span>{{p.subtitle[locale]}}</span>
+			</a>
+{% else %}
+			<img src="{{imageById(p.thumbnail_id)}}" alt="" loading="lazy" />
+			<h2>{{p.name[locale]}}</h2>
+			<span>{{p.subtitle[locale]}}</span>
+{% endif %}
+		</li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+</section>
+{% endfor %}
+
+{% for pList in peopleConfig.list %}
+<section>
+	<h3>{{ pList.title[locale] }}</h3>
+	<ul>
+	{% for p in people %}
+		{% if p.group == pList.key %}
+		<li>{{p.name[locale]}}</li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+</section>
+{% endfor %}
+
+{% include 'footer.njk' %}

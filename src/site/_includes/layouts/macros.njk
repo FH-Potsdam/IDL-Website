@@ -1,0 +1,49 @@
+{% macro imageById(id, attachments) %}
+{% for a in attachments %}
+{% if a.wp_id == id %}
+{% set urlEl = a.url.split('/') %}
+/images/migration/{{ urlEl[urlEl.length - 1] }}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{% macro projectTeaser(p, locale, attachments) %}
+<li>
+  <a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.title}}">
+    <img src="{{imageById(p.thumbnail_id, attachments)}}" alt="" loading="lazy" />
+  </a>
+  <a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.title}}">
+    <h2><span>{{p.name[locale]}}</span></h2>
+    <span class="subtitle">{{p.subtitle[locale]}}</span>
+  </a>
+</li>
+{% endmacro %}
+
+{% macro publicationTeaser(p, locale, people) %}
+<li>
+  <h4>{{p.title[locale]}}</h4>
+  <div class="publication-meta">
+    <ul>
+    {% for a in p.authors_names %}
+    <li>
+    {% if p.authors_ids[loop.index0] != "null" %}
+    <a href="/people/{{peopleById(p.authors_ids[loop.index0], people)}}">{{a}}</a>
+    {% else %}
+    {{a}}
+    {% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+    <span>{{p.year}}</span>
+    <span>{{p.outlet}}</span>
+  </div>
+</li>
+{% endmacro %}
+
+{% macro peopleById(id, people) %}
+{% for p in people %}
+{% if p.wp_id == id %}
+{{ p.slug }}
+{% endif %}
+{% endfor %}
+{% endmacro %}
