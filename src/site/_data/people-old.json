@@ -23,79 +23,7 @@
     "email": "heidmann@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 346,
-    "publications": [
-      73,
-      77,
-      79,
-      144,
-      271,
-      272,
-      273,
-      274,
-      275,
-      428,
-      276,
-      277,
-      278,
-      279,
-      280,
-      281,
-      282,
-      283,
-      284,
-      285,
-      286,
-      287,
-      288,
-      289,
-      290,
-      291,
-      292,
-      293,
-      294,
-      295,
-      296,
-      297,
-      298,
-      299,
-      300,
-      301,
-      302,
-      303,
-      304,
-      305,
-      306,
-      307,
-      308,
-      309,
-      310,
-      311,
-      312,
-      313,
-      314,
-      315,
-      316,
-      317,
-      318,
-      319,
-      320,
-      321,
-      322,
-      323,
-      324,
-      325,
-      326,
-      327,
-      328,
-      329,
-      330,
-      331,
-      332,
-      426,
-      498,
-      438,
-      513
-    ],
+    "publications": "a:71:{i:0;s:2:\"73\";i:1;s:2:\"77\";i:2;s:2:\"79\";i:3;s:3:\"144\";i:4;s:3:\"271\";i:5;s:3:\"272\";i:6;s:3:\"273\";i:7;s:3:\"274\";i:8;s:3:\"275\";i:9;s:3:\"428\";i:10;s:3:\"276\";i:11;s:3:\"277\";i:12;s:3:\"278\";i:13;s:3:\"279\";i:14;s:3:\"280\";i:15;s:3:\"281\";i:16;s:3:\"282\";i:17;s:3:\"283\";i:18;s:3:\"284\";i:19;s:3:\"285\";i:20;s:3:\"286\";i:21;s:3:\"287\";i:22;s:3:\"288\";i:23;s:3:\"289\";i:24;s:3:\"290\";i:25;s:3:\"291\";i:26;s:3:\"292\";i:27;s:3:\"293\";i:28;s:3:\"294\";i:29;s:3:\"295\";i:30;s:3:\"296\";i:31;s:3:\"297\";i:32;s:3:\"298\";i:33;s:3:\"299\";i:34;s:3:\"300\";i:35;s:3:\"301\";i:36;s:3:\"302\";i:37;s:3:\"303\";i:38;s:3:\"304\";i:39;s:3:\"305\";i:40;s:3:\"306\";i:41;s:3:\"307\";i:42;s:3:\"308\";i:43;s:3:\"309\";i:44;s:3:\"310\";i:45;s:3:\"311\";i:46;s:3:\"312\";i:47;s:3:\"313\";i:48;s:3:\"314\";i:49;s:3:\"315\";i:50;s:3:\"316\";i:51;s:3:\"317\";i:52;s:3:\"318\";i:53;s:3:\"319\";i:54;s:3:\"320\";i:55;s:3:\"321\";i:56;s:3:\"322\";i:57;s:3:\"323\";i:58;s:3:\"324\";i:59;s:3:\"325\";i:60;s:3:\"326\";i:61;s:3:\"327\";i:62;s:3:\"328\";i:63;s:3:\"329\";i:64;s:3:\"330\";i:65;s:3:\"331\";i:66;s:3:\"332\";i:67;s:3:\"426\";i:68;s:3:\"498\";i:69;s:3:\"438\";i:70;s:3:\"513\";}",
     "sort_name": "Heidmann"
   },
   {
@@ -122,25 +50,7 @@
     "email": "fhp@tillnagel.com",
     "twitter": "@tillnm",
     "thumbnail_id": 80,
-    "publications": [
-      73,
-      75,
-      77,
-      79,
-      193,
-      194,
-      317,
-      318,
-      321,
-      322,
-      327,
-      337,
-      338,
-      339,
-      342,
-      343,
-      345
-    ],
+    "publications": "a:17:{i:0;s:2:\"73\";i:1;s:2:\"75\";i:2;s:2:\"77\";i:3;s:2:\"79\";i:4;s:3:\"193\";i:5;s:3:\"194\";i:6;s:3:\"317\";i:7;s:3:\"318\";i:8;s:3:\"321\";i:9;s:3:\"322\";i:10;s:3:\"327\";i:11;s:3:\"337\";i:12;s:3:\"338\";i:13;s:3:\"339\";i:14;s:3:\"342\";i:15;s:3:\"343\";i:16;s:3:\"345\";}",
     "sort_name": "Nagel"
   },
   {
@@ -167,14 +77,7 @@
     "email": "boris.mueller@fh-potsdam.de",
     "twitter": "@borism",
     "thumbnail_id": 90,
-    "publications": [
-      193,
-      194,
-      284,
-      339,
-      340,
-      341
-    ],
+    "publications": "a:6:{i:0;s:3:\"193\";i:1;s:3:\"194\";i:2;s:3:\"284\";i:3;s:3:\"339\";i:4;s:3:\"340\";i:5;s:3:\"341\";}",
     "sort_name": "Müller"
   },
   {
@@ -201,18 +104,7 @@
     "email": "sebastian.meier@fh-potsdam.de",
     "twitter": "seb_meier",
     "thumbnail_id": null,
-    "publications": [
-      328,
-      329,
-      330,
-      331,
-      332,
-      333,
-      334,
-      335,
-      336,
-      498
-    ],
+    "publications": "a:10:{i:0;s:3:\"328\";i:1;s:3:\"329\";i:2;s:3:\"330\";i:3;s:3:\"331\";i:4;s:3:\"332\";i:5;s:3:\"333\";i:6;s:3:\"334\";i:7;s:3:\"335\";i:8;s:3:\"336\";i:9;s:3:\"498\";}",
     "sort_name": "Meier"
   },
   {
@@ -239,15 +131,7 @@
     "email": "jordi.tost.val@fh-potsdam.de",
     "twitter": "@jorditost",
     "thumbnail_id": 497,
-    "publications": [
-      226,
-      228,
-      428,
-      426,
-      498,
-      438,
-      513
-    ],
+    "publications": "a:7:{i:0;s:3:\"226\";i:1;s:3:\"228\";i:2;s:3:\"428\";i:3;s:3:\"426\";i:4;s:3:\"498\";i:5;s:3:\"438\";i:6;s:3:\"513\";}",
     "sort_name": "Tost"
   },
   {
@@ -274,12 +158,7 @@
     "email": "thom@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 353,
-    "publications": [
-      328,
-      329,
-      331,
-      332
-    ],
+    "publications": "a:4:{i:0;s:3:\"328\";i:1;s:3:\"329\";i:2;s:3:\"331\";i:3;s:3:\"332\";}",
     "sort_name": "Thom"
   },
   {
@@ -306,7 +185,7 @@
     "email": "moron-zirfas@fh-potsdam.de",
     "twitter": "fabiantheblind",
     "thumbnail_id": 349,
-    "publications": [],
+    "publications": "",
     "sort_name": "Zirfas"
   },
   {
@@ -333,7 +212,7 @@
     "email": "doerk@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 239,
-    "publications": [],
+    "publications": "",
     "sort_name": "Dörk"
   },
   {
@@ -360,7 +239,7 @@
     "email": "dufke@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 348,
-    "publications": [],
+    "publications": "",
     "sort_name": "Dufke"
   },
   {
@@ -387,7 +266,7 @@
     "email": "wettach@fh-potsdam.de",
     "twitter": "retowettach",
     "thumbnail_id": 347,
-    "publications": [],
+    "publications": "",
     "sort_name": "Wettach"
   },
   {
@@ -414,7 +293,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Hoinkins"
   },
   {
@@ -441,7 +320,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Magiera"
   },
   {
@@ -468,7 +347,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Albrecht"
   },
   {
@@ -495,7 +374,7 @@
     "email": "stange@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 238,
-    "publications": [],
+    "publications": "",
     "sort_name": "Stange"
   },
   {
@@ -522,7 +401,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Thon"
   },
   {
@@ -549,7 +428,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Landstorfer"
   },
   {
@@ -576,7 +455,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Deiml-Seibt"
   },
   {
@@ -603,7 +482,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Djokic"
   },
   {
@@ -630,7 +509,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Holzheid"
   },
   {
@@ -657,7 +536,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Knörig"
   },
   {
@@ -684,7 +563,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Conradie"
   },
   {
@@ -711,7 +590,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Stefaner"
   },
   {
@@ -738,7 +617,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Paeschke"
   },
   {
@@ -765,7 +644,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Hußlein"
   },
   {
@@ -792,7 +671,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Ljungström"
   },
   {
@@ -819,7 +698,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Pschetz"
   },
   {
@@ -846,7 +725,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Palme"
   },
   {
@@ -873,7 +752,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Rauer"
   },
   {
@@ -900,7 +779,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Schwinkendorf"
   },
   {
@@ -927,7 +806,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Richter"
   },
   {
@@ -954,7 +833,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Warth"
   },
   {
@@ -981,7 +860,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Friedrich"
   },
   {
@@ -1008,7 +887,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Haake"
   },
   {
@@ -1035,7 +914,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Geuder"
   },
   {
@@ -1062,7 +941,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Michel"
   },
   {
@@ -1089,7 +968,7 @@
     "email": "langer@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 240,
-    "publications": [],
+    "publications": "",
     "sort_name": "Langer"
   },
   {
@@ -1116,7 +995,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Nowak"
   },
   {
@@ -1143,7 +1022,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": 351,
-    "publications": [],
+    "publications": "",
     "sort_name": "Schenk"
   },
   {
@@ -1170,7 +1049,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Rauschenbusch"
   },
   {
@@ -1197,7 +1076,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Petrach"
   },
   {
@@ -1224,7 +1103,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Schmitt"
   },
   {
@@ -1251,7 +1130,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Hildebrandt"
   },
   {
@@ -1278,7 +1157,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Münchberger"
   },
   {
@@ -1305,7 +1184,7 @@
     "email": "",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Ehmel"
   },
   {
@@ -1332,9 +1211,7 @@
     "email": "edmundo.mejia.galindo@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 437,
-    "publications": [
-      438
-    ],
+    "publications": "a:1:{i:0;s:3:\"438\";}",
     "sort_name": "Galindo"
   },
   {
@@ -1361,7 +1238,7 @@
     "email": "heinicker@fh-potsdam.de",
     "twitter": "paulpunkt",
     "thumbnail_id": 441,
-    "publications": [],
+    "publications": "",
     "sort_name": "Heinicker"
   },
   {
@@ -1388,9 +1265,7 @@
     "email": "paula.schuster@fh-potsdam.de",
     "twitter": "@paunklet",
     "thumbnail_id": 496,
-    "publications": [
-      513
-    ],
+    "publications": "a:1:{i:0;s:3:\"513\";}",
     "sort_name": "Schuster"
   },
   {
@@ -1417,7 +1292,7 @@
     "email": "patrick.oswald@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Oswald"
   },
   {
@@ -1444,7 +1319,7 @@
     "email": "christin.renner@fh-potsdam.de",
     "twitter": "@weallstart",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Renner"
   },
   {
@@ -1471,7 +1346,7 @@
     "email": "paul.morat@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Morat"
   },
   {
@@ -1498,7 +1373,7 @@
     "email": "aaron.schwerdtfeger@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Schwerdtfeger"
   },
   {
@@ -1525,7 +1400,7 @@
     "email": "rahel.flechtner@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": null,
-    "publications": [],
+    "publications": "",
     "sort_name": "Flechtner"
   }
 ]
