@@ -1,5 +1,5 @@
 {% include 'header.njk' %}
-{% from './macros.njk' import imageById %}
+{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser %}
 
 <h1>{{project.name[locale]}}</h1>
 {% if project.subtitle[locale] %}<h2>{{project.subtitle[locale]}}</h2>{% endif %}
@@ -77,7 +77,7 @@
 {% endif %}
 
 {# External Team #}
-<dt>Team</dt>
+<dt>External Team</dt>
 {% set externalSize = project.project_team_external_name | length %}
 {% if externalSize > 0 %}
   <dd>
@@ -88,8 +88,23 @@
     {% endfor %}
   </dd>
 {% endif %}
-
 </dl>
+
+{# Team #}
+<h2>Team</h2>
+{% for p in people | sort(true, false, "sort_name") %}
+{% if p.wp_id in project.project_team %}
+{{ peopleTeaser(p, locale) }}
+{% endif %}
+{% endfor %}
+
+{# Publications #}
+<h2>Publications</h2>
+{% for p in publications | sort(true, false, "year") %}
+{% if p.wp_id in project.related_publications %}
+{{ publicationTeaser(p, locale, people, attachments) }}
+{% endif %}
+{% endfor %}
 
 {{project.page[locale] | safe}}
 

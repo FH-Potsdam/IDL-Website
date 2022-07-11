@@ -1,3 +1,1 @@
-- Connections between projects and authors
 - Script to rename and resize images
-- Connection between projects and publications

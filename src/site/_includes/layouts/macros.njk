@@ -19,6 +19,14 @@
 </li>
 {% endmacro %}
 
+{% macro peopleTeaser(p, locale) %}
+<li>
+  <a href="/{{locale}}/people/{{p.slug}}/" title="{{p.name[locale]}}">
+    {{p.name[locale]}}
+  </a>
+</li>
+{% endmacro %}
+
 {% macro publicationTeaser(p, locale, people) %}
 <li>
   <h4>{{p.title[locale]}}</h4>
