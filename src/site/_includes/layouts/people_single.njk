@@ -21,7 +21,11 @@
 {{project.page[locale] | safe}}
 
 <h2>Projects</h2>
-Coming Soon.
+{% for p in projects | sort(true, false, "year") %}
+{% if person.wp_id in p.project_team %}
+{{ projectTeaser(p, locale, attachments) }}
+{% endif %}
+{% endfor %}
 
 <h2>Publications</h2>
 {% for p in publications | sort(true, false, "year") %}

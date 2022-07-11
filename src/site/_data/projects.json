@@ -38,7 +38,7 @@
       "",
       ""
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://interface.fh-potsdam.de/maeve/",
     "project_team_external_name": [
       "Tina Deiml-Seibt, FHP",
@@ -109,7 +109,7 @@
     "project_year": "2006-2009",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://fritzing.org",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -148,7 +148,7 @@
     "project_year": "2004 – current",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://about.incom.org/",
     "project_team_external_name": [
       "Mark Rausch"
@@ -211,7 +211,7 @@
       "",
       ""
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://mace-project.eu/",
     "project_team_external_name": [
       "Steffen Fiedler",
@@ -273,7 +273,7 @@
       "",
       ""
     ],
-    "project_team": "http://www.fh-potsdam.de/person/person-action/klaus-dufke/show/Person/",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [
       "Prof. Klaus Dufke"
@@ -330,7 +330,7 @@
       "http://www.geo-airbusds.com/",
       "http://www.delphi-imm.de/"
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -389,7 +389,7 @@
       "http://www.vermessungkrause.de/",
       "http://www.realitymaps.de/"
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://www.m-s-n-i.de/",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -431,7 +431,7 @@
     "project_year": "2012-2014",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -474,7 +474,7 @@
     "project_partners_url": [
       "http://raureif.net/en/"
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://polizei.brandenburg.de",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -522,7 +522,7 @@
     "project_year": "2013 - 2015",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://www.katwarn.de",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -569,7 +569,7 @@
     "project_year": "",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://www.unfoldingmaps.org",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -614,7 +614,7 @@
     "project_partners_url": [
       "http://raureif.net/de/"
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://www.eco-challenge.eu",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -664,7 +664,7 @@
       "",
       ""
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [
       "Massimiliano Condotta, IUAV",
@@ -729,7 +729,7 @@
     "project_year": "2014-2016",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -775,7 +775,7 @@
     "project_partners_url": [
       ""
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://www.energieatlas.rlp.de",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -836,7 +836,7 @@
       "",
       ""
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -884,7 +884,7 @@
     "project_year": "2012-2015",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "",
+    "project_team": [],
     "project_website": "http://eskp.de/",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -931,7 +931,7 @@
     "project_year": "2017 – 2020",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "https://www.uni-potsdam.de/de/medienoekologie/index/personal.html",
+    "project_team": [],
     "project_website": "https://anci.fh-potsdam.de",
     "project_team_external_name": [
       "Prof. Dr. Birgit Schneider",
@@ -990,7 +990,7 @@
       "https://www.mcts.tum.de/",
       "http://www.deutsches-museum.de/Nuernberg"
     ],
-    "project_team": "",
+    "project_team": [],
     "project_website": "",
     "project_team_external_name": [],
     "project_team_external_url": [],
@@ -1035,7 +1035,10 @@
     "project_year": "2020-2023",
     "project_partners_name": [],
     "project_partners_url": [],
-    "project_team": "a:2:{i:0;s:3:\"219\";i:1;s:3:\"517\";}",
+    "project_team": [
+      219,
+      517
+    ],
     "project_website": "http://dataskop.net",
     "project_team_external_name": [],
     "project_team_external_url": [],
