@@ -1,27 +1,106 @@
 {% include 'header.njk' %}
 {% from './macros.njk' import projectTeaser, publicationTeaser %}
 
-<section>		
-	<h3 class="grid-title">Featured Projects</h3>
-	<ul>
-{% for p in projects | sort(true, false, "year") %}
-	{% if p.featured_home == true %}
-	{{ projectTeaser(p, locale, attachments) }}
-	{% endif %}
-{% endfor %}
-	</ul>
-	<a href="/projects/">More Projects</a>
-</section>
+
+<div class="intro-container max-width">
+	{{ content | safe }}
+</div>
+
+<div class="laufschrift-container">
+
+	<div class="scroll1">Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × </div>
+	<div class="scroll2">Personen × Team × Forschende × Designende × Lehrende × Studierende × Dynamisch × Personen × Team × Forschende × Designende × Lehrende × Studierende × Dynamisch</div>
+
+</div>
 
 <section>
-	<h3>Recent Publications</h3>
-	<ul>
+
+	<div class="projects">
+
+	<!-- 
+		<a href="#" class="project-container">
+
+		<div class="project-image">
+			<img src="/images/eye-tracking-mobile.jpg">
+		</div>
+
+		<div class="project-desc-container">
+
+			<div class="project-name">
+				<span>DataSkop</span> User Interfaces zur Förderung digitale Souveränität
+			</div>
+
+			<div class="project-sponsor">
+				<img src="/images/logos/bmbf.png">
+			</div>
+
+			<div class="project-tags-container">
+				<div class="project-tag">UI/UX</div>
+
+			</div>
+
+		</div>
+
+	</a>	-->
+	
+	
+		{% for p in projects | sort(true, false, "year") %}
+			{% if p.featured_home == true %}
+			{{ projectTeaser(p, locale, attachments) }}
+			{% endif %}
+		{% endfor %}
+
+	</div>
+	{# Projects Ende #}
+
+
+	<div class="more-link">
+		{% set lang = page.url.slice(1, 3) %}
+	<a href="/{{locale}}/projects/" class="button">{% if lang == 'en' %}Show all projects{% else %}Alle Projekte anzeigen{% endif %}</a>
+	</div>
+
+</section>
+	
+
+<section>
+	<div class="publications">
+	<h2>{% if lang == 'en' %}Recent Publications{% else %}Publikationen{% endif %}</h2>
+
+	<!-- 
+	<div class="pub-container">
+		<h4>Title of Publication</h4>
+		<div class="pub-authors">
+			<ul>
+				<li><a href="#">Jrodi Tost</a></li>
+				<li><a href="#">Jrodi Tost</a></li>
+				<li><a href="#">Jrodi Tost</a></li>
+			</ul>
+		</div>
+
+		<div class="pub-desc">
+			ACM DIS 2020 Workshop – Speculative and Critical Design in Education: Practice and Perspectives. 
+		</div>
+
+		<div class="download-link">
+			<a href="#">DOWNLOAD PDF</a>
+		</div>
+	</div>
+	-->
+	
+
 {% for p in publications | sort(true, false, 'year') %}
-{% if loop.index < 5 %}
+{% if loop.index < 4 %}
 {{publicationTeaser(p, locale, people)}}
 {% endif %}
 {% endfor %}
-	</ul>
+
+	</div>
+
+	<div class="more-link">
+		{% set lang = page.url.slice(1, 3) %}
+	<a href="/{{locale}}/projects/" class="button">{% if lang == 'en' %}Show all publications{% else %}Alle Publikationen anzeigen{% endif %}</a>
+	</div>
+
 </section>
 
 {% include 'footer.njk' %}

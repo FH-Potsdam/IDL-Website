@@ -78,7 +78,7 @@
     "project_funding_name": [],
     "project_funding_url": [],
     "project_funding_logo": [],
-    "featured_home": null,
+    "featured_home": true,
     "project_client_name": [],
     "project_client_url": [],
     "project_client_logo": []
@@ -950,7 +950,7 @@
     "project_funding_name": [],
     "project_funding_url": [],
     "project_funding_logo": [],
-    "featured_home": null,
+    "featured_home": true,
     "project_client_name": [],
     "project_client_url": [],
     "project_client_logo": []
@@ -1049,7 +1049,7 @@
     "project_funding_name": [],
     "project_funding_url": [],
     "project_funding_logo": [],
-    "featured_home": null,
+    "featured_home": true,
     "project_client_name": [],
     "project_client_url": [],
     "project_client_logo": []

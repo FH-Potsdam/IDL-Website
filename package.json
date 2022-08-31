@@ -21,7 +21,9 @@
   "homepage": "https://github.com/FH-Potsdam/IDL-Website#readme",
   "devDependencies": {
     "cross-env": "5.2.0",
-    "fast-xml-parser": "^4.0.1"
+    "fast-xml-parser": "^4.0.1",
+    "postcss": "^8.4.16",
+    "postcss-nested": "^5.0.6"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -29,7 +31,6 @@
     "cssnano": "^5.0.15",
     "html-minifier": "^4.0.0",
     "moment": "^2.29.1",
-    "postcss": "^8.4.5",
     "postcss-color-mix": "^1.1.0",
     "postcss-import": "^14.0.2",
     "postcss-mixins": "^9.0.1",

@@ -1,23 +1,13 @@
-
  <!DOCTYPE html>
 
-<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en-US"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en-US"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en-US"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en-US"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
-<!-- the "no-js" class is for Modernizr. -->
+
+<html class="no-js" lang="en-US">
+
 
 <head>
 
 	<meta charset="UTF-8">
 
-	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-	<!--[if IE ]>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<![endif]-->
-
-	
     <title>IDL | Interaction Design Lab University of Applied Sciences Potsdam</title>
 
     <meta name="title" content="IDL | Interaction Design Lab University of Applied Sciences Potsdam">
@@ -43,38 +33,71 @@
     <meta name="twitter:image" content="//idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg"/>
     <meta name="twitter:creator" content="@idpotsdam"/>
 
+
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="shortcut icon" href="/wp-content/themes/IDL/images/favicon.ico" type="image/x-icon">
-  
+
 	<meta name='robots' content='max-image-preview:large' />
+
+  <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+
 
   <header>
     <a id="logo" href="/{{locale}}/" rel="home">
-      IDL <span>Interaction Design Lab<br />University of Applied Sciences Potsdam</span>
+    <img src="/images/idl-logo.svg" alt="Interaction Design Lab Startseite">
+      
     </a>
 
-    <nav role="navigation">
+    <div class="menu-icon">
+
+      <img src="/images/menu-icon.svg" alt="Open menu">
+
+    </div>
+    
+    {% set lang = page.url.slice(1, 3) %}
+    {% set enUrl = page.url | replace("/de/", "/en/") %}
+    {% set deUrl = page.url | replace("/en/", "/de/") %}
+ 
+
+ 
+    <nav class="navigation" role="navigation">
       <ul>
-        <li><a href="/{{locale}}/about/">About</a></li>
-        <li><a href="/{{locale}}/projects/">Projects</a></li>
-        <li><a href="/{{locale}}/publications/">Publications</a></li>
-        <li><a href="/{{locale}}/people/">People</a></li>
-        <li><a href="/{{locale}}/jobs/">Jobs</a></li>
+       
+        <li><a {{ 'aria-current=page' if '/about' in page.url }} href="/{{locale}}/about/">{% if lang == 'en' %}About{% else %}Über uns{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if '/projects' in page.url }} href="/{{locale}}/projects/">{% if lang == 'en' %}Projects{% else %}Projekte{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if '/publications' in page.url }} href="/{{locale}}/publications/">{% if lang == 'en' %}Publications{% else %}Publikationen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if '/services' in page.url }} href="/{{locale}}/services/">{% if lang == 'en' %}Services{% else %}Services{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if '/people' in page.url }} href="/{{locale}}/people/">{% if lang == 'en' %}People{% else %}Personen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
+       
+
+
       </ul>
     </nav>
 
-    {% set lang = page.url.slice(1, 2) %}
-    {% set enUrl = page.url | replace("/de/", "/en/") %}
-    {% set deUrl = page.url | replace("/en/", "/de/") %}
+   
 
+<div class="lang-switch">
+    {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Switch to English (en)"><img src="/images/switch-de.svg"></a> {% endif %}
+    {% if lang == 'de' %} <a href="{{ enUrl }}" hreflang="de" title="Seite in Deutsch anzeigen (de)"><img src="/images/switch-en.svg"></a> {% endif %}
+</div>
+    <!--  
     <ul>
-      <li{% if lang == 'en' %} class="active"{% endif %}><a href="{{ enUrl }}" hreflang="en" title="English (en)"><span>EN</span></a></li>
-      <li{% if lang == 'de' %} class="active"{% endif %}><a href="{{ deUrl }}" hreflang="de" title="Deutsch (de)"><span>DE</span></a></li>
+      <li {% if lang == 'en' %} class="active"{% endif %}><a href="{{ enUrl }}" hreflang="en" title="English (en)"><span>EN</span></a></li>
+      <li {% if lang == 'de' %} class="active"{% endif %}><a href="{{ deUrl }}" hreflang="de" title="Deutsch (de)"><span>DE</span></a></li>
+      
     </ul>
+
+    -->
+
 	</header>
 
   <main>

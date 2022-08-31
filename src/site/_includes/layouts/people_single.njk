@@ -23,7 +23,9 @@
 <h2>Projects</h2>
 {% for p in projects | sort(true, false, "year") %}
 {% if person.wp_id in p.project_team %}
+{# 
 {{ projectTeaser(p, locale, attachments) }}
+#}
 {% endif %}
 {% endfor %}
 

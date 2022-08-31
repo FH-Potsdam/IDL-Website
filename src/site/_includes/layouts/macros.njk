@@ -7,6 +7,7 @@
 {% endfor %}
 {% endmacro %}
 
+{#
 {% macro projectTeaser(p, locale, attachments) %}
 <li>
   <a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.title}}">
@@ -18,6 +19,36 @@
   </a>
 </li>
 {% endmacro %}
+#}
+
+{% macro projectTeaser(p, locale, attachments) %}
+<a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.title}}" class="project-container">
+
+		<div class="project-image">
+			<img src="{{imageById(p.thumbnail_id, attachments)}}" loading="lazy">
+		</div>
+
+		<div class="project-desc-container">
+
+			<div class="project-name">
+				<span>{{p.name[locale]}}</span> {{p.subtitle[locale]}}
+			</div>
+
+			<div class="project-sponsor">
+				<img src="/images/logos/bmbf.png">
+			</div>
+
+			<div class="project-tags-container">
+				<div class="project-tag">UI/UX</div>
+				<div class="project-tag">UI/UX</div>
+				<div class="project-tag">UI/UX</div>
+
+			</div>
+
+		</div>
+
+	</a>	
+  {% endmacro %}
 
 {% macro peopleTeaser(p, locale) %}
 <li>
@@ -27,6 +58,37 @@
 </li>
 {% endmacro %}
 
+{% macro publicationTeaser(p, locale, people) %}
+<div class="pub-container">
+		<h4>{{p.title[locale]}}</h4>
+		<div class="pub-authors">
+			<ul>
+         {% for a in p.authors_names %}
+				<li> {% if p.authors_ids[loop.index0] != "null" %}
+          <a href="/{{locale}}/people/{{peopleById(p.authors_ids[loop.index0], people)}}">{{a}}</a>
+          {% else %}
+          {{a}}
+          {% endif %}
+    </li>
+    {% endfor %}
+			
+			</ul>
+		</div>
+
+		<div class="pub-desc">
+			{{p.outlet}}
+		</div>
+    
+    {% if p.project_pdf %}
+		<div class="download-link">
+			<a href="{{p.project_pdf}}">DOWNLOAD PDF</a>
+		</div>
+    {% endif %}
+    
+	</div>
+{% endmacro %}
+
+{#
 {% macro publicationTeaser(p, locale, people) %}
 <li>
   <h4>{{p.title[locale]}}</h4>
@@ -47,6 +109,7 @@
   </div>
 </li>
 {% endmacro %}
+#}
 
 {% macro peopleById(id, people) %}
 {% for p in people %}

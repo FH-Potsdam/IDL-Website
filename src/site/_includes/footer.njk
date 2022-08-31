@@ -1,4 +1,11 @@
 	</main>
+	{% set js %}
+  {% include "js/core.js" %}
+{% endset %}
+<script>
+  {{ js | safe }}
+</script>
+
 	<footer>
 		<a href="http://interface.fh-potsdam.de" target="_blank">FHP</a>
 		<nav>

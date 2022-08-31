@@ -4,10 +4,17 @@
 
 {{ content }}
 
-<ul>
+<div class="projects">
 {% for p in projects | sort(true, false, "year") %}
 	{{ projectTeaser(p, locale, attachments) }}
 {% endfor %}
-</ul>
+</div>
+
+<div class="laufschrift-container">
+
+	<div class="scroll1">Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × </div>
+	<div class="scroll2">Aufträge × Forschung × Kooperation × Wirtschaft × Karten × UX/UI × Visualisierung</div>
+
+</div>
 
 {% include 'footer.njk' %}
