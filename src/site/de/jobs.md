@@ -1,6 +1,7 @@
 ---
 title: Jobs
 subtitle: Talente gesucht.
+excerpt: Das Interaction Design Lab sucht Talente für die angewandte Forschung. Wir freuen uns über deine Bewerbung.
 laufschrift_green: Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab
 laufschrift_black: Talente gesucht × Talente gesucht × Talente gesucht × Talente gesucht × Talente gesucht
 ---
@@ -11,4 +12,4 @@ Das Interaction Design Lab sucht <b>StudentInnen &amp; AbsolventInnen</b> aus de
 
 Bei Interesse schick dein Portfolio an: <a href="mailto:idl@fh-potsdam.de">idl@fh-potsdam.de</a>
 
-![Jobs](../assets/images/jobs.png)
+![Jobs](/images/jobs.png)

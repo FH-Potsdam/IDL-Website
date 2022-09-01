@@ -44,7 +44,14 @@ Im Bereich der hoheitlichen Forschung werden aktuell Projekte zu innovativen For
 
 Weitere Forschungsschwerpunkte, die unter dem Label Sustainable Interaction Design zusammengefasst werden, adressieren die Transformation hin zu stärker nachhaltigen Lebens- und Arbeitsweisen. Die mehrfach ausgezeichnete mobile App EcoChallenge steht beispielhaft für transformationale Produkte, welche&nbsp;Nutzerinnen und Nutzer neben Informationen zu einem umweltfreundlichen Verhalten Aufgaben stellen, sogenannte Challenges, die gemeinsam mit Freund_innen gelöst werden sollen.
 
-<figure>
+<figure class="center">
   <img src="/images/prototyping_lrg.jpg" alt="Prototyping">
   <figcaption>The Prototyping Lifestyle</figcaption>
 </figure>
+
+### Wir freuens uns auf Ihre Kooperationsanfrage an:
+<div class="cta">
+Prof. Dr. Frank Heidmann
+
+<a href="mailto:heidmann@fh-potsdam.de">heidmann@fh-potsdam.de</a>
+</div>

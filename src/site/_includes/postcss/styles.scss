@@ -181,8 +181,9 @@
 
 }
 
-.content-container p, .content-container h3 {
+.content-container p, .content-container h2, .content-container h3, .content-container h4 {
   margin-bottom: 1rem;
+  
   @include max-width-text;
  }
 
@@ -191,7 +192,7 @@
  }
 
  .content-container h3 {
-  
+  margin-top: 4rem;
   @media screen and (min-width: 64.0rem) { 
     margin-top: 6rem;
  }
@@ -214,6 +215,26 @@
   @media screen and (min-width: 64.0rem) { 
     display: flex;
  }
+
+ }
+
+ .content-container figure.center, .content-container p>img {
+  @media screen and (min-width: 64.0rem) { 
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+   width: 100%;
+  
+  }
+
+  figcaption {
+    @media screen and (min-width: 64.0rem) { 
+     padding-top: .5rem;
+    
+    }
+  }
 
  }
 
@@ -248,7 +269,32 @@
     text-align: right;
  }
  
-  
  }
- 
 
+
+ .content-container .cta {
+  @include max-width-text;
+  @include font__p;
+  @media screen and (min-width: 64.0rem) { 
+    @include font__p-large;
+ }
+
+  p {
+    padding:0;
+    @include font__p;
+
+    @media screen and (min-width: 64.0rem) { 
+      @include font__p-large;
+   }
+  }
+
+ }
+ .content-container {
+ a:visited, a:link {
+  color: #000;
+}
+a:hover {
+  color: var(--idl-brand-color);
+}
+
+}
