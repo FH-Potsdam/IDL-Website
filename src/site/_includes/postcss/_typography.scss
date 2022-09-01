@@ -10,21 +10,21 @@ $font__family: 'FHP Sun', sans-serif;
   font-family: 'FHP Sun';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/FHPSun-Regular.otf') format('opentype');
+  src: url('/fonts/FHPSun-Regular-subset.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'FHP Sun';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/FHPSun-Bold.otf') format('opentype');
+  src: url('/fonts/FHPSun-Bold-subset.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'FHP Sun';
   font-style: italic;
   font-weight: 900;
-  src: url('/fonts/FHPSun-BlackItalic.otf') format('opentype');
+  src: url('/fonts/FHPSun-BlackItalic-subset.woff2') format('woff2');
 }
 
 

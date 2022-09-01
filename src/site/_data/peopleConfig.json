@@ -14,7 +14,7 @@
         "en": "Associates"
       },
       "key": "Associates",
-      "singles": false
+      "singles": true
     },
     {
       "title": {
@@ -22,7 +22,7 @@
         "en": "Students"
       },
       "key": "Students",
-      "singles": false
+      "singles": true
     }
   ],
   "list": [

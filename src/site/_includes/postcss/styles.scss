@@ -298,3 +298,7 @@ a:hover {
 }
 
 }
+
+.people {
+  @include max-width;
+}

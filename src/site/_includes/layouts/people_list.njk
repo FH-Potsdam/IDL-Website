@@ -1,12 +1,12 @@
 {% include 'header.njk' %}
-{% include 'main.njk' %}
+{% include 'people.njk' %}
 {% from './macros.njk' import imageById %}
 {{ content | safe }}
 
 {% set people = people | sort(true, false, "sort_name") %}
 
 {% for pList in peopleConfig.full %}
-<section>
+<div class="people">
 	<h3>{{ pList.title[locale] }}</h3>
 	<ul>
 	{% for p in people %}
@@ -15,6 +15,7 @@
 {% if pList.singles %}
 			<a  href="/{{ locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
 				<img src="{{imageById(p.thumbnail_id)}}" alt="" loading="lazy" />
+				<img src="{{(p.image_link)}}" alt="" loading="lazy" />
 			</a>
 			<a href="/{{locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
 				<h2>{{p.name[locale]}}</h2>
@@ -29,11 +30,22 @@
 		{% endif %}
 	{% endfor %}
 	</ul>
-</section>
+</div>
 {% endfor %}
 
+
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+<div class="ehemalige">
 {% for pList in peopleConfig.list %}
-<section>
+<div class="ehemalige">
 	<h3>{{ pList.title[locale] }}</h3>
 	<ul>
 	{% for p in people %}
@@ -42,7 +54,8 @@
 		{% endif %}
 	{% endfor %}
 	</ul>
-</section>
+</div>
 {% endfor %}
+</div>
 
 {% include 'footer.njk' %}
