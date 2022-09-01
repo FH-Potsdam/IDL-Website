@@ -1,6 +1,8 @@
 ---
 title: Jobs
 subtitle: Talente gesucht.
+laufschrift_green: Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab
+laufschrift_black: Talente gesucht × Talente gesucht × Talente gesucht × Talente gesucht × Talente gesucht
 ---
 
 ## Studentische und akademische Mitarbeiter_in

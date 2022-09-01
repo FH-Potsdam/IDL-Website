@@ -61,12 +61,12 @@ $font__family: 'FHP Sun', sans-serif;
 }
 
 @mixin font__h3 {
-  font-size: 16px;
+  font-size: 32px;
   font-weight: $font__bold;
 }
 
 @mixin font__h4 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: $font__black;
   font-style: italic;
   @media screen and (min-width: 64.0rem) { 

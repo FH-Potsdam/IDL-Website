@@ -76,3 +76,23 @@ sections2.forEach((section2) => {
 console.log("Läuft");
 
 // Laufschrift Ende
+
+
+// Mobile Menu
+
+const mainNavButton = document.getElementById('mainNavButton');
+const htmlElement = document.documentElement;
+const bodyElement = document.body;
+const mainElement = document.getElementsByClassName("main");
+
+mainNavButton.addEventListener('click', toggleMainMenü);
+function toggleMainMenü(e) {
+  let _this = e.currentTarget;
+  let expanded = _this.getAttribute('aria-expanded') === 'true' || false;
+  let menu = _this.nextElementSibling;
+  _this.setAttribute('aria-expanded', !expanded);
+  htmlElement.classList.toggle('is-mobile-main-nav-open');
+  bodyElement.classList.toggle('is-mobile-main-nav-open');
+  mainElement[0].classList.toggle('is-mobile-main-nav-open');
+  window.scrollTo(0, 0);
+}

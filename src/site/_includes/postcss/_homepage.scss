@@ -4,11 +4,13 @@ h1 span.highlight {
 
   .intro-container p {
     margin-top: 2rem;
-    max-width: 786px;
+    
     @include font__p;
+    
     @media screen and (min-width: 64.0rem) { 
-       
+     
       @include font__p-large;
+      width: 60%;
 
   }
 
@@ -17,7 +19,7 @@ h1 span.highlight {
     }
 
     a::before {
-      content: url(/images/arrow-link.svg);
+      content: url(/images/assets/arrow-link.svg);
       text-decoration: none;
       margin-right: .5rem;
     }
