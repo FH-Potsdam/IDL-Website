@@ -24,6 +24,7 @@
     "twitter": "",
     "thumbnail_id": 346,
     "image_link":"/images/frank-heidmann.jpg",
+    "laufschrift_tags": "Dashboards × GeoVis × Prototyping × Concept × Dashboards × GeoVis × Prototyping",
     "publications": [
       73,
       77,
@@ -168,6 +169,7 @@
     "email": "boris.mueller@fh-potsdam.de",
     "twitter": "@borism",
     "thumbnail_id": 90,
+    "image_link":"/images/boris-mueller.jpg",
     "publications": [
       193,
       194,
@@ -188,7 +190,7 @@
       "en": "..."
     },
     "excerpt": {
-      "de": "...",
+      "de": "An der Schnittstelle von mensch-zentrierter Gestaltung und technologischer Innovation erforscht Sebastian Meier neue Formen der Wissensvermittlung. Von urbaner Datenvisualisierung als Werkzeuge partizipativer Teilhabe, Expertenwerkzeugen zur Unterstützungs von Entscheidungsprozessen, bis hin zu Ausstellungen und Exponaten zur Vermittlung komplexer Sachverhalte, wird ein ganzheitlicher Ansatz verfolgt, um zielgruppengerechte Lösungen zu erforschen und entwickeln.",
       "en": "..."
     },
     "wp_id": 112,
@@ -202,6 +204,7 @@
     "email": "sebastian.meier@fh-potsdam.de",
     "twitter": "seb_meier",
     "thumbnail_id": null,
+    "image_link":"/images/migration/sebastian-meier.jpg",
     "publications": [
       328,
       329,
@@ -240,6 +243,7 @@
     "email": "jordi.tost.val@fh-potsdam.de",
     "twitter": "@jorditost",
     "thumbnail_id": 497,
+    "image_link":"/images/Tost-Jordi-2019-4zu5_web-425x350.jpg",
     "publications": [
       226,
       228,
@@ -388,6 +392,7 @@
     "email": "wettach@fh-potsdam.de",
     "twitter": "retowettach",
     "thumbnail_id": 347,
+    "image_link":"/images/reto-wettach.jpg",
     "publications": [],
     "sort_name": "Wettach"
   },
@@ -1086,10 +1091,11 @@
       "en": "Professor for Visual Interface Design",
       "de": "Professorin für visuelles Interfacedesign"
     },
-    "website": "http://www.fh-potsdam.de/person/person-action/constanze-langer/show/Person/",
+    "website": "https://www.fh-potsdam.de/hochschule-netzwerk/personen/constanze-langer",
     "email": "langer@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": 240,
+    "image_link":"/images/Constanze-Langer-425x350.png",
     "publications": [],
     "sort_name": "Langer"
   },
@@ -1526,6 +1532,7 @@
     "email": "rahel.flechtner@fh-potsdam.de",
     "twitter": "",
     "thumbnail_id": null,
+    "image_link":"",
     "publications": [],
     "sort_name": "Flechtner"
   }

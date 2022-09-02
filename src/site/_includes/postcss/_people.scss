@@ -1,0 +1,254 @@
+.people {
+    @include max-width;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  
+  .people-container {
+    
+    width: 100%;
+    padding: 0;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f5f5f5;
+    background-color: #fff;
+    
+    @media screen and (min-width: 64.0rem) { 
+      width: calc(33.33% - 1rem);
+    }
+  }
+  
+  a.people-container {
+    text-decoration: none;
+    color: var(--text-default);
+    transition: all ease .25s;
+  }
+  
+  a.people-container:hover {
+    transform: scale(1.05);
+  }
+
+
+  .people-image {
+    width: 100%;
+    display: flex;
+    padding-top: 75%;
+    position: relative;
+    background-color: var(--idl-brand-color);
+    img {
+      position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+
+  .people-image::before{
+    content: url(/images/assets/idl-sign-black.svg);
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;    
+  }
+
+  .people-image.checked::after{
+    content: url(/images/assets/idl-sign-green.svg);
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;  
+  }
+
+  .people-image.checked{
+    background-color: #fff;
+  }
+
+
+.people-desc-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  height: 100%;
+  @media screen and (min-width: 64.0rem) { 
+    padding: 1.5rem;
+  }
+}
+
+.people-name{
+  @include font__p;
+  margin-bottom: .5rem;
+  font-weight: 800;
+}
+
+
+.people-position{
+  @include font__p;
+  
+}
+
+.people h2 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  width: 100%;
+  
+  @media screen and (min-width: 64.0rem) { 
+    margin-top: 4rem;
+  }
+}
+
+.former-container {
+  @include max-width;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.former {
+  margin-bottom: 2rem;
+  width: 100%;
+  @include font__p;
+  line-height: 1.5;
+
+  @media screen and (min-width: 64.0rem) { 
+    width: calc(50% - 2rem);
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  ul li {
+  list-style-type: none;
+
+  }
+  
+  li::after {
+    content: " •\00a0";
+    color: var(--idl-brand-color);
+  }
+  li:last-child::after {
+    content: "";
+    
+  }
+}
+
+.former-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+/* Start People Single View */
+
+.person {
+  @include max-width;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media screen and (min-width: 64.0rem) { 
+    flex-direction: row;
+  }
+
+  img {
+    width: 100%;
+    @media screen and (min-width: 64.0rem) { 
+      width: 50%
+    }
+  }
+
+  .title {
+    @include font__p-large-black;
+  }
+
+  .position {
+    @include font__p-large;
+  }
+
+}
+
+.person-facts {
+  width: 100%;
+  @media screen and (min-width: 64.0rem) { 
+    width: 50%;
+   }
+}
+
+.output-container{
+  margin-top: 2rem;
+  display: flex;
+    gap: 1rem;
+    @include font__p;
+  
+    a {
+      color: #000;
+    }
+
+    a::before {
+      content: url(/images/assets/arrow-down.svg);
+      text-decoration: none;
+      margin-right: .5rem;
+    }
+
+}
+
+.person-contacts{
+  @include font__p;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  >div {
+    display: flex;
+    flex-direction: column;
+    
+    a{
+      font-weight: 700;
+      color: #000;
+    }
+  }
+}
+
+.person-excerpt {
+  @include max-width-text;
+  @include font__p;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  p{
+    @include font__p;
+  }
+
+  ul li {
+    margin-top: 1rem;
+  }
+  a {
+    color: #000;
+  }
+}
+
+.preview .project-container {
+  display: none;
+}
+.preview .project-container:nth-child(-n+4){
+  display: flex;
+}
+
+.preview .pub-container {
+  display: none;
+}
+.preview .pub-container:nth-child(-n+4){
+  display: inline-block;
+}
+
+

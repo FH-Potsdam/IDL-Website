@@ -5,9 +5,52 @@
 
 {% set people = people | sort(true, false, "sort_name") %}
 
+
+
+	{% for pList in peopleConfig.full %}
+		
+<div class="people">
+<h2>{{ pList.title[locale] }}</h2>
+	
+	{% for p in people %}
+		{% if p.group == pList.key %}
+		
+{% if pList.singles %}
+
+<a href="/{{ locale}}/people/{{p.slug}}" title="{{p.name[locale]}}" class="people-container">
+
+		<div class="people-image {% if p.image_link %} checked {% endif %}">
+			{% if p.image_link %}
+			<img src="{{(p.image_link)}}" alt="" loading="lazy" />
+			{% endif %}
+		</div>
+
+		<div class="people-desc-container">
+
+			<div class="people-name">
+				<span>{{p.name[locale]}}</span> 
+			</div>
+            
+            <div class="people-position">
+				{{p.subtitle[locale]}}
+			</div>
+
+		</div>
+
+	</a>
+			
+{% endif %}
+		
+		{% endif %}
+	{% endfor %}
+
+</div>
+{% endfor %}
+
+{#
 {% for pList in peopleConfig.full %}
 <div class="people">
-	<h3>{{ pList.title[locale] }}</h3>
+	<h2>{{ pList.title[locale] }}</h2>
 	<ul>
 	{% for p in people %}
 		{% if p.group == pList.key %}
@@ -32,6 +75,7 @@
 	</ul>
 </div>
 {% endfor %}
+#}
 
 
 {% if laufschrift_green and laufschrift_black %}
@@ -43,10 +87,10 @@
 </div>
 {% endif %}
 
-<div class="ehemalige">
+<div class="former-container">
 {% for pList in peopleConfig.list %}
-<div class="ehemalige">
-	<h3>{{ pList.title[locale] }}</h3>
+<div class="former">
+	<div class="former-title">{{ pList.title[locale] }}</div>
 	<ul>
 	{% for p in people %}
 		{% if p.group == pList.key %}

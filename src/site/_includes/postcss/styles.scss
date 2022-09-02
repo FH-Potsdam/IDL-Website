@@ -6,6 +6,7 @@
 @import '_header.scss';
 @import '_homepage.scss';
 @import '_project-teaser.scss';
+@import '_people.scss';
 @import '_footer.scss';
 
 
@@ -81,11 +82,18 @@
   @include max-width-text;
   @include font__p;
   margin-top: 4rem;
+
+  .year {
+    @include font__p-large;
+  }
 }
 
 .pub-container{
   margin-bottom: 4rem;
+  hyphens: auto;
 }
+
+
 
 .pub-desc{
   margin-bottom: 1rem;
@@ -153,6 +161,7 @@
   color: #fff;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  cursor: pointer;
   
   &:hover {
     background-color: var(--idl-brand-color);
@@ -180,6 +189,7 @@
   
 
 }
+
 
 .content-container p, .content-container h2, .content-container h3, .content-container h4 {
   margin-bottom: 1rem;
@@ -299,6 +309,25 @@ a:hover {
 
 }
 
-.people {
-  @include max-width;
+.year-selector {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: .5rem;
+  @include font__p;
+  a {
+    color: #000;
+    text-underline-position: under;
+    
+  }
+  @media screen and (min-width: 64.0rem) { 
+   flex-wrap: nowrap;
+  }
+}
+.release-year {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+font-weight: 700;
+
 }

@@ -81,6 +81,13 @@ $font__family: 'FHP Sun', sans-serif;
   line-height: 1.25em;
 }
 
+@mixin font__p-large-black {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: $font__regular;
+  line-height: 1.25em;
+}
+
 @mixin font__p {
   font-size: 20px;
   font-weight: $font__regular;

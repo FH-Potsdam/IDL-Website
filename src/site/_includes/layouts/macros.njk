@@ -59,7 +59,14 @@
 {% endmacro %}
 
 {% macro publicationTeaser(p, locale, people) %}
+ 
 <div class="pub-container">
+  
+  {% if lastyear != p.year %}
+			<div class="year" id="{{p.year}}">{{p.year}}</div>
+		{% set lastyear = p.year %}
+    {% endif %}
+ 
 		<h4>{{p.title[locale]}}</h4>
 		<div class="pub-authors">
 			<ul>

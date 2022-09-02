@@ -96,3 +96,39 @@ function toggleMainMenü(e) {
   mainElement[0].classList.toggle('is-mobile-main-nav-open');
   window.scrollTo(0, 0);
 }
+
+
+// Show more
+
+if(document.getElementById('button-projects')){
+const showMoreProjects = document.getElementById('button-projects');
+const previewProjects = document.getElementsByClassName("expand-projects");
+
+
+showMoreProjects.onclick = function () {
+  previewProjects[0].classList.toggle('preview');
+showMoreProjects.style.display = "none";
+//this.style.color="#0000ff";
+}
+}
+
+
+if(document.getElementById('button-pubs')){
+const showMorePubs = document.getElementById('button-pubs');
+const previewPubs = document.getElementsByClassName("expand-pubs");
+
+showMorePubs.onclick = function () {
+  previewPubs[0].classList.toggle('preview');
+  showMorePubs.style.display = "none";
+
+}
+
+}
+
+
+
+
+
+
+
+

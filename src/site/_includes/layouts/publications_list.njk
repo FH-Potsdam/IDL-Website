@@ -1,36 +1,66 @@
 {% include 'header.njk' %}
-{% include 'main.njk' %}
+{#{% include 'main.njk' %}#}
 {% from './macros.njk' import publicationTeaser  %}
-{{ content }}
+{# {{ content }} #}
 
-<div class="entry">
-  <div class="entry-side">
-    <div class="content-nav-widget">
-      <h5>Years</h5>
-      <ul class="content-nav">
-      {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
+
+
+          
+<div class="intro-container max-width">
+<h1>{{title}} <span class="number">({{ publications | length }})</span></h1>
+
+      
+     
+      <div class="release-year">Jahr der Veröffentlichung</div>
+ <div class="year-selector">
+      
+      {% set lastyear = '0' %} 
+      
+      {% for p in publications | sort(true, false, "year") %}
+              {% if lastyear != p.year %}
+              {% if lastyear != '0' %}
+             
+              {% endif %}
+              <a href="#{{p.year}}">{{p.year}}</a>
+            
+              {% set lastyear = p.year %}
+              {% endif %}
+     {% endfor %}
+     {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
       {% for y in years %}
         <li><a href="#{{y}}">{{y}}</a></li>
       {% endfor %} #}
-      </ul>
-    </div>
+
+   </div>
 	</div>
 
-<section>
-    {% set lastyear = '0' %}
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+<div class="publications">
+    {# {% set lastyear = '0' %} #}
     {% set pubSorted = publications %}
     {% for p in publications | sort(true, false, "year") %}
-      {% if lastyear != p.year %}
+     
+      {# {% if lastyear != p.year %}
       {% if lastyear != '0' %}
       </ul>
       {% endif %}
-			<h2 id="{{p.year}}">{{p.year}}</h2>
+			<div class="year" id="{{p.year}}">{{p.year}}</div>
 			<ul>
       {% set lastyear = p.year %}
       {% endif %}
+      #}
+
       {{ publicationTeaser(p, locale, people) }}
     {% endfor %}
       </ul>
-</section>
+</div>
 
 {% include 'footer.njk' %}
