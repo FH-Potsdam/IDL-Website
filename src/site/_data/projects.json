@@ -19,6 +19,9 @@
       "Tangible",
       "Visualization"
     ],
+    "filter_themen": ["Speculation", "App Design"],
+    "filter_services": ["UI/UX", "Design Thinking", "Human-Centered Design"],
+    "filter_art":["Forschung"],
     "subtitle": {
       "en": "Tangible Exploration of Social and Intellectual Networks",
       "de": "Haptische Exploration von sozialen und geistigen Netzwerken"
@@ -515,6 +518,10 @@
       "Maps",
       "Mobile"
     ],
+    "filter_themen": ["Speculation", "App Design"],
+    "filter_services": ["UI/UX"],
+    "filter_art":["Forschung"],
+
     "subtitle": {
       "en": "Location-Based Application Design",
       "de": "Location-Based Application Design"

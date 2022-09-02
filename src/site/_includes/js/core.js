@@ -129,6 +129,3 @@ showMorePubs.onclick = function () {
 
 
 
-
-
-
