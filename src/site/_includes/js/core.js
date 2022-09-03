@@ -125,6 +125,85 @@ showMorePubs.onclick = function () {
 
 }
 
+// FILTER
+
+var projectcards = document.getElementsByClassName('project-container');
+
+//var themeSelect = document.getElementById('selectTheme');
+//var serviceSelect = document.getElementById('selectType');
+
+var theme, service;
+
+function themeType(buttonValue) {  
+  console.log(buttonValue);
+  theme = buttonValue;
+ 
+  const themeButtons = document.querySelectorAll('.selectTheme');
+
+  themeButtons.forEach(themeButtons => {
+    themeButtons.classList.remove("active");
+    if(themeButtons.value == theme){
+      themeButtons.classList.add("active");
+    }
+  });
+
+    display(theme, service, art);
+}
+
+function serviceType(buttonValue) {  
+  console.log(buttonValue);
+  service = buttonValue;
+ 
+  const serviceButtons = document.querySelectorAll('.selectService');
+
+  serviceButtons.forEach(serviceButtons => {
+    serviceButtons.classList.remove("active");
+    if(serviceButtons.value == service){
+      serviceButtons.classList.add("active");
+    }
+  });
+
+    display(theme, service, art);
+}
+
+function artType(buttonValue) {  
+  console.log(buttonValue);
+  art = buttonValue;
+ 
+  const artButtons = document.querySelectorAll('.selectArt');
+
+  artButtons.forEach(artButtons => {
+    artButtons.classList.remove("active");
+    if(artButtons.value == art){
+      artButtons.classList.add("active");
+    }
+  });
+
+    display(theme, service, art);
+}
+
+
+function display(theme, service, art) {
+  Array.from(projectcards).forEach(projectcards => projectcards.classList.remove('hidden'));
+
+  if (theme) {
+    Array.from(projectcards)
+      .filter(projectcards => !projectcards.classList.contains(theme))
+      .forEach(projectcards => projectcards.classList.add('hidden'))
+  }
+  
+  if (service) {
+      Array.from(projectcards)
+      .filter(projectcards => !projectcards.classList.contains(service))
+      .forEach(projectcards => projectcards.classList.add('hidden'))
+  }
+
+  if (art) {
+    Array.from(projectcards)
+    .filter(projectcards => !projectcards.classList.contains(art))
+    .forEach(projectcards => projectcards.classList.add('hidden'))
+}
+}
 
 
 

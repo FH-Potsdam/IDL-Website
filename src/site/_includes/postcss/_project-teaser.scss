@@ -26,7 +26,12 @@
   @media screen and (min-width: 64.0rem) { 
     width: calc(33.33% - 1rem);
   }
+  
 }
+
+.project-container.hidden{
+  display: none; 
+ }
 
 a.project-container {
   text-decoration: none;
@@ -141,3 +146,28 @@ display: inline-block;
   }
   
   /* ENDE DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
+
+  .filter-container {
+    @include max-width;
+    @include font__p;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #000;
+    display: flex;
+    gap: 2rem;
+
+      button {
+        @include font__p;
+        padding: .5rem;
+        background-color: white;
+        border: solid 1px #000;
+        border-radius: 6px;
+      }
+
+      button.active {
+        background-color: var(--idl-brand-color);
+        border: none;
+      }
+  }
+  
+  

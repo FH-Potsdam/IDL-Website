@@ -6,27 +6,60 @@
 
 
 
+ <!-- 
+<label>Select Theme
+  <select size="4" id="selectTheme" onchange="themeType();">
+    <option value="">Alle</option>
+    <option value="geovis">GeoVis</option>
+    <option value="speculation">Speculation</option>
+  </select> 
 
-<div id="filters" class="button-group" data-filter-group="themen">
-  <button data-filter="">All</button>
-  <button data-filter=".GeoVis">GeoVis</button>
-  <button data-filter=".speculation">Speculation</button>
-  <button data-filter=".Service">Service</button>
+</label>
+<label>Select Service
+  <select size="4" id="selectType" onchange="serviceType();">
+    <option value="">Alle</option>
+    <option value="ui-ux">UI/UX</option>
+    <option value="prototyping">Prototyping</option>
+  </select>
+</label>
+  -->
+<div class="filter-container">
+
+<div class="filter-group">
+Themen
+  <div class="button-group">
+  <button class="selectTheme active" value="" onclick='themeType(this.value)'>Alle</button>
+  <button class="selectTheme" value="speculation" onclick='themeType(this.value)'>Speculation</button>
+  <button class="selectTheme" value="dashboard" onclick='themeType(this.value)'>Dashboard</button>
+  <button class="selectTheme" value="geovis" onclick='themeType(this.value)'>GeoVis</button>
+  <button class="selectTheme" value="portal" onclick='themeType(this.value)'>Portal</button>
+  </div>
 </div>
 
-<div class="button-group" data-filter-group="services">
-  <button data-filter="">All</button>
-  <button data-filter=".ui-ux">UI/UX</button>
+<div class="filter-group">
+Services
+  <div class="button-group">
+  <button class="selectService active" value="" onclick='serviceType(this.value)'>Alle</button>
+  <button class="selectService" value="prototyping" onclick='serviceType(this.value)'>Prototyping</button>
+  <button class="selectService" value="ui-ux" onclick='serviceType(this.value)'>UI/UX</button>
+  <button class="selectService" value="human-centered-design" onclick='serviceType(this.value)'>Human-Centered Design</button>
+  <button class="selectService" value="design-thinking" onclick='serviceType(this.value)'>Design Thinking</button>
+  <button class="selectService" value="service-design" onclick='serviceType(this.value)'>Service Design</button>
+  </div>
 </div>
 
-<div class="button-group" data-filter-group="art">
-  <button data-filter="">All</button>
-  <button data-filter=".small">Forschung</button>
-  <button data-filter=".wide">Transfer</button>
+<div class="filter-group">
+Art
+  <div class="button-group">
+  <button class="selectArt active" value="" onclick='artType(this.value)'>Alle</button>
+  <button class="selectArt" value="forschung" onclick='artType(this.value)'>Forschung</button>
+  <button class="selectArt" value="transfer" onclick='artType(this.value)'>Transfer</button>
+  </div>
 </div>
 
+</div>
 
-<div class="projects" data-isotope='{ "itemSelector": ".project-container", "layoutMode": "fitRows" }'>
+<div class="projects">
 {% for p in projects | sort(true, false, "year") %}
 	{{ projectTeaser(p, locale, attachments) }}
 {% endfor %}
