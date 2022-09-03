@@ -144,6 +144,9 @@
     "wp_id": 191,
     "slug": "incom-org",
     "group": null,
+    "filter_themen": ["Portal"],
+    "filter_services": ["UI/UX"],
+    "filter_art":["Forschung"],
     "subtitle": {
       "en": "Communication plattform",
       "de": "Online-Kommunikations-Platform"

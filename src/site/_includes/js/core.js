@@ -132,7 +132,7 @@ var projectcards = document.getElementsByClassName('project-container');
 //var themeSelect = document.getElementById('selectTheme');
 //var serviceSelect = document.getElementById('selectType');
 
-var theme, service;
+var theme, service, art;
 
 function themeType(buttonValue) {  
   console.log(buttonValue);
