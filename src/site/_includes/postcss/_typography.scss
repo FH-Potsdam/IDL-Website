@@ -100,12 +100,12 @@ $font__family: 'FHP Sun', sans-serif;
 }
 
 @mixin font__ui {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: $font__regular;
 }
 
 @mixin font__ui-small {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: $font__regular;
 }
 

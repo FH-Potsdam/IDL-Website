@@ -4,7 +4,8 @@
   @include max-width;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 2rem;
 
   h2 {
     width: 100%;
@@ -22,16 +23,16 @@
   flex-direction: column;
   border: 1px solid #f5f5f5;
   background-color: #fff;
-  margin-bottom: 1.5rem;
   @media screen and (min-width: 64.0rem) { 
-    width: calc(33.33% - 1rem);
+    width: calc(33.33% - 1.3333rem);
   }
   
 }
 
 .project-container.hidden{
-  display: none; 
   opacity: 0;
+  display: none;
+  
  }
 
 a.project-container {
@@ -94,11 +95,15 @@ a.project-container:hover {
   
 }
 
-
+.project-tags-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
 .project-tag {
-@include font__ui;
+@include font__ui-small;
 background-color: var(--background-chip);
-padding: .5rem;
+padding: .4rem;
 border-radius: 6px;
 margin-right: .5rem;
 display: inline-block;
@@ -110,7 +115,7 @@ display: inline-block;
   .project-container:nth-child(4n+1) {  /* or 4n+1 */
     flex-direction: row; 
     width: 100%;
-    margin-bottom: 2rem;
+   
     
   
     .project-sponsor {
@@ -149,6 +154,7 @@ display: inline-block;
   /* ENDE DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
 
   .filter-container {
+    flex-direction: column;
     @include max-width;
     @include font__p;
     margin-top: 4rem;
@@ -158,7 +164,7 @@ display: inline-block;
     gap: 2rem;
 
       button {
-        @include font__p;
+        @include font__ui;
         padding: .5rem;
         background-color: white;
         border: solid 1px #000;
@@ -169,6 +175,16 @@ display: inline-block;
         background-color: var(--idl-brand-color);
         border: none;
       }
+
+      @media screen and (min-width: 64.0rem) { 
+        flex-direction: row;
+      }
+  }
+
+  .button-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
   }
   
   
