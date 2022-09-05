@@ -10,8 +10,7 @@ h1 span.highlight {
     @media screen and (min-width: 64.0rem) { 
      
       @include font__p-large;
-     
-
+   
   }
 
     a, a:link, a:visited {
@@ -23,6 +22,10 @@ h1 span.highlight {
       text-decoration: none;
       margin-right: .5rem;
     }
+  }
+
+  .home p {
+    max-width: 60%;
   }
 
   .intro-container h1:only-child {
