@@ -129,8 +129,49 @@ showMorePubs.onclick = function () {
 
 var projectcards = document.getElementsByClassName('project-container');
 
-//var themeSelect = document.getElementById('selectTheme');
-//var serviceSelect = document.getElementById('selectType');
+
+
+function whatsleft(filterGroup){ 
+/* Filter auschalten, wenn es keine übrigen Projekte gibt */
+
+          const cardtags = [];
+          var x = 0;
+             
+                  Array.from(projectcards).forEach(projectcards => {
+                      if(!projectcards.classList.contains('hidden'))
+                      {
+                        console.log(projectcards.classList.length);
+                        for(var i=1; i <projectcards.classList.length;i++){
+                        cardtags[x] = projectcards.classList[i];
+                        x++;
+                        }
+                        
+                        console.log(cardtags);
+                      
+                       
+                      };
+
+                  });
+         
+          const themeButtons = document.querySelectorAll(filterGroup);
+
+            
+                  Array.from(themeButtons).forEach(themeButtons => {
+                   
+                    if(!cardtags.includes(themeButtons.value))
+                    {
+                      if(!themeButtons.value == ""){
+                      /*themeButtons.classList.add("disabled");*/
+                      themeButtons.setAttribute("disabled","");
+                    }
+                    } else {
+                      themeButtons.removeAttribute("disabled");
+                    }
+              
+                  });
+
+}
+
 
 var theme, service, art;
 
@@ -148,6 +189,8 @@ function themeType(buttonValue) {
   });
 
     display(theme, service, art);
+    whatsleft('.selectService');
+    whatsleft('.selectArt');
 }
 
 function serviceType(buttonValue) {  
@@ -164,6 +207,8 @@ function serviceType(buttonValue) {
   });
 
     display(theme, service, art);
+    whatsleft('.selectTheme');
+    whatsleft('.selectArt');
 }
 
 function artType(buttonValue) {  
@@ -180,6 +225,8 @@ function artType(buttonValue) {
   });
 
     display(theme, service, art);
+    whatsleft('.selectService');
+    whatsleft('.selectTheme');
 }
 
 

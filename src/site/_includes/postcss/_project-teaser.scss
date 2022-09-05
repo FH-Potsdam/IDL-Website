@@ -176,6 +176,11 @@ display: inline-block;
         border: none;
       }
 
+      button:disabled {
+        border: solid 1px #fafafa;
+        
+      }
+
       @media screen and (min-width: 64.0rem) { 
         flex-direction: row;
       }
