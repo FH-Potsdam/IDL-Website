@@ -2,7 +2,21 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const moment = require('moment');
 
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+
 module.exports = function(config) {
+
+  /* Markdown Overrides */
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).use(markdownItAnchor, {
+    permalink: false,
+  });
+  config.setLibrary("md", markdownLibrary);
+  
 
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
@@ -53,5 +67,7 @@ module.exports = function(config) {
     markdownTemplateEngine : "njk",
     passthroughFileCopy: true
   };
+
+  
 
 };

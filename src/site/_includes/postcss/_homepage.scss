@@ -10,7 +10,7 @@ h1 span.highlight {
     @media screen and (min-width: 64.0rem) { 
      
       @include font__p-large;
-      width: 60%;
+     
 
   }
 
@@ -23,4 +23,14 @@ h1 span.highlight {
       text-decoration: none;
       margin-right: .5rem;
     }
+  }
+
+  .intro{
+    width: 100%;
+    @media screen and (min-width: 64.0rem) { 
+     
+      width: 60%;
+     
+
+  }
   }

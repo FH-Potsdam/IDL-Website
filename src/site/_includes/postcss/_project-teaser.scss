@@ -165,6 +165,7 @@ display: inline-block;
 
       button {
         @include font__ui;
+        cursor: pointer;
         padding: .5rem;
         background-color: white;
         border: solid 1px #000;
@@ -178,7 +179,15 @@ display: inline-block;
 
       button:disabled {
         border: solid 1px #fafafa;
+        cursor:default;
         
+      }
+      button[disabled]:hover {
+        background: none;
+    }
+
+      button:hover{
+        background-color: var(--background-info);
       }
 
       @media screen and (min-width: 64.0rem) { 

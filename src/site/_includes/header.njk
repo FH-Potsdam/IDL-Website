@@ -82,8 +82,8 @@
         <li><a {{ 'aria-current=page' if '/people' in page.url }} href="/{{locale}}/people/">{% if lang == 'en' %}People{% else %}Personen{% endif %}</a></li>
         <li><a {{ 'aria-current=page' if '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
         <li class="lang-switch">
-        {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Switch to English (en)"><img src="/images/assets/switch-de.svg"></a> {% endif %}
-        {% if lang == 'de' %} <a href="{{ enUrl }}" hreflang="de" title="Seite in Deutsch anzeigen (de)"><img src="/images/assets/switch-en.svg"></a> {% endif %}
+        {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Switch to English (EN)" alt="Switch to English (EN)"><img src="/images/assets/switch-de.svg"></a> {% endif %}
+        {% if lang == 'de' %} <a href="{{ enUrl }}" hreflang="de" title="Seite in Deutsch anzeigen (DE)" alt="Seite in Deutsch anzeigen (DE)"><img src="/images/assets/switch-en.svg"></a> {% endif %}
         </li>
     </ul>
 

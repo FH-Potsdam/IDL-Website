@@ -49,7 +49,7 @@ Weitere Forschungsschwerpunkte, die unter dem Label Sustainable Interaction Desi
   <figcaption>The Prototyping Lifestyle</figcaption>
 </figure>
 
-### Wir freuens uns auf Ihre Kooperationsanfrage an:
+### Wir freuen uns auf Kooperationsanfragen an:
 <div class="cta">
 Prof. Dr. Frank Heidmann
 

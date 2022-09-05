@@ -24,7 +24,7 @@
 
 {% macro projectTeaser(p, locale, attachments) %}
 
-<a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.name[locale]}}" class="project-container {% for item in p.filter_themen %}{{item | replace ("/", "-") | lower | replace (" ", "-")}} {% endfor %} {% for item in p.filter_services %}{{item | replace ("/", "-") | lower | replace (" ", "-")}} {% endfor %} {% for item in p.filter_art %}{{item | replace ("/", "-") | lower | replace (" ", "-")}} {% endfor %} ">
+<a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.name[locale]}}" class="project-container {% for item in p.filter_themen %}{{item | slug }} {% endfor %} {% for item in p.filter_services %}{{item | slug }} {% endfor %} {% for item in p.filter_art %}{{item | slug }} {% endfor %} ">
 
 		<div class="project-image">
       
@@ -38,7 +38,7 @@
 			</div>
 
 			<div class="project-sponsor">
-				<img src="/images/logos/bmbf.png">
+				<img src="{{p.project_funding_logo}}">
 			</div>
 
 			<div class="project-tags-container">

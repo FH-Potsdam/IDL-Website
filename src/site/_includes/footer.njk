@@ -28,5 +28,21 @@
 
 		
 	</footer>
+{% if title == "Services" %}
+	<script type="text/javascript">
+		window.onload = function () {
+			
+			const heads = document.getElementsByTagName("h2");
+		    Array.from(heads).forEach(heads => {
+			
+			const link = '<div class=""><a href="#'+heads.id+'">'+heads.innerHTML+'</a></div>';
+                     
+					  document.getElementById("anchors").innerHTML += link;
+
+            });
+		}
+</script>
+ {% endif %}
+
 </body>
 </html>

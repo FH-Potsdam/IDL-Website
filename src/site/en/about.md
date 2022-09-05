@@ -2,6 +2,8 @@
 title: About
 subtitle: The Lab
 excerpt: The IDL // Interaction Design Lab combines emerging technologies and data from all areas of our everyday life to create useable, highly aesthetic and interactive products, systems and services. Our work approach combines excellent academic research on HCI (Human-Computer Interaction), InfoVis (Information Visualization) Geovisualization with agile business oriented design methods (Human-Centered Design, Service Design, Design Thinking etc.).
+laufschrift_green: Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab
+laufschrift_black: Data × Technologie × Aesthetics × Interactivity × Science × Services × Systems
 ---
 
 At the <strong>IDL // Interaction Design Lab</strong> senior interaction designer and user experience professionals with years of experience collaborate with master and PhD students from our department of interaction design. The professors from the interface design program guide the projects fullfilling the roles of projectmanager or senior design consultants.

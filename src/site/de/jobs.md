@@ -12,4 +12,7 @@ Das Interaction Design Lab sucht <b>StudentInnen &amp; AbsolventInnen</b> aus de
 
 Bei Interesse schick dein Portfolio an: <a href="mailto:idl@fh-potsdam.de">idl@fh-potsdam.de</a>
 
-![Jobs](/images/jobs.png)
+<figure class="center">
+  <img src="/images/jobs.png" alt="Jobs beim IDL">
+ 
+</figure>

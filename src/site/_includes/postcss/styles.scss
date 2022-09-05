@@ -312,8 +312,8 @@ a:hover {
 .year-selector {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: row;
+  
   gap: .5rem;
   @include font__p;
   a {
@@ -329,5 +329,27 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: .5rem;
 font-weight: 700;
+
+}
+
+
+/* SERVICES */
+
+.services-container{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+    gap: 1rem;
+    @include font__p;
+  
+    a {
+      color: #000;
+    }
+
+    a::before {
+      content: url(/images/assets/arrow-down.svg);
+      text-decoration: none;
+      margin-right: .5rem;
+    }
 
 }
