@@ -170,6 +170,7 @@ display: inline-block;
         background-color: white;
         border: solid 1px #000;
         border-radius: 6px;
+        color: #000;
       }
 
       button.active {
@@ -180,15 +181,10 @@ display: inline-block;
       button:disabled {
         border: solid 1px #fafafa;
         cursor:default;
+        color: rgb(133, 133, 133);
         
       }
-      button[disabled]:hover {
-        background: none;
-    }
-
-      button:hover{
-        background-color: var(--background-info);
-      }
+    
 
       @media screen and (min-width: 64.0rem) { 
         flex-direction: row;

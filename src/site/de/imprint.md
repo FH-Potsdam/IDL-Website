@@ -1,14 +1,16 @@
 ---
-title: Contact & Legal
-subtitle: Interaction Design Lab
+title: Impressum
+
 ---
 
-Fachbereich Design<br />
-Fachhochschule Potsdam<br />
-Kiepenheuerallee 5<br />
+### Interaction Design Lab
+Fachbereich Design
+Fachhochschule Potsdam
+Kiepenheuerallee 5
 14469 Potsdam
 
 [heidmann@fh-potsdam.de](mailto:heidmann@fh-potsdam.de)
+
 
 ### Haftungsausschlus
 Eine Haftung für die Richtigkeit, Vollständigkeit und Aktualität dieser Webseiten kann trotz sorgfältiger Prüfung nicht übernommen werden. Die Fachhochschule Potsdam übernimmt insbesondere keine Haftung für eventuelle Schäden oder Konsequenzen, die durch eine direkte oder indirekte Nutzung der angebotenen Inhalte entstehen.

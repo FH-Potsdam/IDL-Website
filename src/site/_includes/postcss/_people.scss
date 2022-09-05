@@ -221,7 +221,7 @@
 }
 
 .person-excerpt {
-  @include max-width-text;
+  
   @include font__p;
   margin-top: 4rem;
   margin-bottom: 4rem;

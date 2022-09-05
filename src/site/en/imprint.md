@@ -1,6 +1,6 @@
 ---
-title: Contact & Legal
-subtitle: Interaction Design Lab
+title: Imprint
+
 ---
 
 Fachbereich Design

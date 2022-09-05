@@ -1,7 +1,7 @@
 {% include 'header.njk' %}
 {% from './macros.njk' import publicationTeaser, imageById, projectTeaser %}
 
-
+<div class="content-container">
 <div class="person">
       {% if person.image_link %}
 			<img src="{{(person.image_link)}}" alt="" loading="lazy" />
@@ -73,7 +73,7 @@
 
 </div>
 {% endif %}
-
+</div>
 {# {{project.page[locale] | safe}} #}
 
 {% if projectcounter > 0 %}
@@ -117,6 +117,7 @@
     </div>
   {% endif %}
 {% endif %}
+
 
 
 {% include 'footer.njk' %}

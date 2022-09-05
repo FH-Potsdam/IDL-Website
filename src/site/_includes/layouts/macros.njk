@@ -28,7 +28,7 @@
 
 		<div class="project-image">
       
-			<img src="{{imageById(p.thumbnail_id, attachments)}}" loading="lazy">
+			<img src="{{imageById(p.thumbnail_id, attachments)}}" alt="{{p.name[locale]}}" loading="lazy">
 		</div>
 
 		<div class="project-desc-container">
@@ -38,7 +38,7 @@
 			</div>
 
 			<div class="project-sponsor">
-				<img src="{{p.project_funding_logo}}">
+				<img src="{{p.project_funding_logo}}" alt="{{p.project_funding_name}}">
 			</div>
 
 			<div class="project-tags-container">
