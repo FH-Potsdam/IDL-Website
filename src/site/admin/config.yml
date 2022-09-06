@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: static-rewrite
+  repo: fh-potsdam/IDL-Website
 publish_mode: editorial_workflow
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
