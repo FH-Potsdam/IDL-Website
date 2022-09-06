@@ -72,11 +72,11 @@ collections:
       - label: "Project Team"
         name: project_team
         widget: list
-        field: {label: Member, label: member, widget: relation, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
+        field: {label: Member, name: member, widget: relation, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
       - label: "Related Publications"
         name: related_publications
         widget: list
-        field: {label: Publication, label: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
+        field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
   - label: "Pages"
     name: "pages"
     editor:
