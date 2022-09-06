@@ -6,8 +6,81 @@ publish_mode: editorial_workflow
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 collections:
+  - label: "Projects (DE)"
+    name: "projects_de"
+    editor:
+      preview: false
+    folder: "src/site/de/project"
+    create: true
+    fields: &project_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Project Year", name: "project_year", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "Wordpress ID", name: "wp_id", widget: "number"}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
+      - {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Project website", name: "project_website", widget: "string"}
+      - {label: "Project Material", name: "project_material", widget: "string"}
+      - label: "Group"
+        name: "group"
+        widget: "select"
+        options: ["Maps", "Mobile"]
+      - label: "Filter-Themen"
+        name: "filter_themen"
+        widget: "select"
+        options: ["Speculative", "App Design"]
+      - label: "Filter-Services"
+        name: "filter_services"
+        widget: "select"
+        options: ["UI/UX"]
+      - label: "Filter-Art"
+        name: "filter_art"
+        widget: "select"
+        options: ["Forschung"]
+      - label: "Project Team Extern"
+        name: "project_team_external"
+        widget: "list"
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+      - label: "Project Partners"
+        name: "project_partners"
+        widget: "list"
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+      - label: "Project Client"
+        name: "project_client"
+        widget: "list"
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Logo, name: logo, widget: image}
+      - label: "Project Funding"
+        name: "project_funding"
+        widget: "list"
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string}
+          - {label: Logo, name: logo, widget: image}
+      - label: "Project Team"
+        name: project_team
+        widget: list
+        field: {label: Member, label: member, widget: relation, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
+      - label: "Related Publications"
+        name: related_publications
+        widget: list
+        field: {label: Publication, label: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Über uns (DE)"
         name: "about_de"
