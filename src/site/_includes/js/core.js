@@ -175,6 +175,10 @@ function whatsleft(filterGroup){
 
 var theme, service, art;
 
+whatsleft('.selectTheme');
+whatsleft('.selectArt');
+whatsleft('.selectService');
+
 function themeType(buttonValue) {  
   console.log(buttonValue);
   theme = buttonValue;

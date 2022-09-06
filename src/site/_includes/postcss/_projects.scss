@@ -188,13 +188,70 @@ display: inline-block;
 
       @media screen and (min-width: 64.0rem) { 
         flex-direction: row;
+        
       }
   }
 
   .button-group{
     display: flex;
     flex-wrap: wrap;
+    margin-top: .5rem;
     gap: .5rem;
   }
   
+  /* Projekt Detailseite */
+
+.project-hero {
+  @include max-width;
+  margin-top: 2rem;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.project-facts-container {
+  @include max-width;
+  @include font__ui;
+  line-height: 1.5;
+  margin-bottom: 4rem;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row; 
   
+
+  span {
+    opacity: .6;
+    display: block;
+  }
+
+  @media screen and (min-width: 64.0rem) { 
+    margin-top: 1rem;
+    
+  }
+}
+
+.project-facts-container div {
+
+ width: 100%;
+ margin-top: 1rem;
+    
+    a{
+      font-weight: 700;
+      color: #000;
+    }
+
+    a:hover {
+      color: var(--idl-brand-color);
+    }
+
+    ul {
+      list-style-type: none;
+    }
+    @media screen and (min-width: 64.0rem) { 
+      width: 20%;
+      
+    }
+}

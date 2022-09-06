@@ -4,6 +4,7 @@ const moment = require('moment');
 
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const slugify = require('@sindresorhus/slugify')
 
 module.exports = function(config) {
 
@@ -12,7 +13,7 @@ module.exports = function(config) {
     html: true,
     breaks: true,
     linkify: true
-  }).use(markdownItAnchor, {
+  }).use(markdownItAnchor,{ slugify: s => slugify(s) }, {
     permalink: false,
   });
   config.setLibrary("md", markdownLibrary);
