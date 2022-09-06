@@ -10,7 +10,7 @@ collections:
     files:
       - label: "Über uns (DE)"
         name: "about_de"
-        file: "site/de/about.md"
+        file: "src/site/de/about.md"
         fields: &static_meta
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
@@ -19,69 +19,69 @@ collections:
           - {label: Laufschrift (black), name: laufschrift_black, widget: string}
       - label: "About us (EN)"
         name: "about_en"
-        file: "site/en/about.md"
+        file: "src/site/en/about.md"
         fields: *static_meta
       - label: "Kontakt (DE)"
         name: "contact_de"
-        file: "site/de/contact.md"
+        file: "src/site/de/contact.md"
         fields: *static_meta
       - label: "Contact (EN)"
         name: "contact_en"
-        file: "site/en/contact.md"
+        file: "src/site/en/contact.md"
         fields: *static_meta
       - label: "Impressum (DE)"
         name: "imprint_de"
-        file: "site/de/imprint.md"
+        file: "src/site/de/imprint.md"
         fields: *static_meta
       - label: "Legal Note (EN)"
         name: "imprint_en"
-        file: "site/en/imprint.md"
+        file: "src/site/en/imprint.md"
         fields: *static_meta
       - label: "Startseite (DE)"
         name: "index_de"
-        file: "site/de/index.md"
+        file: "src/site/de/index.md"
         fields: *static_meta
       - label: "Home (EN)"
         name: "home_en"
-        file: "site/en/index.md"
+        file: "src/site/en/index.md"
         fields: *static_meta
       - label: "Jobs (DE)"
         name: "jobs_de"
-        file: "site/de/jobs.md"
+        file: "src/site/de/jobs.md"
         fields: *static_meta
       - label: "Jobs (EN)"
         name: "jobs_en"
-        file: "site/en/jobs.md"
+        file: "src/site/en/jobs.md"
         fields: *static_meta
       - label: "Personen (DE)"
         name: "people_de"
-        file: "site/de/people.md"
+        file: "src/site/de/people.md"
         fields: *static_meta
       - label: "People (EN)"
         name: "people_en"
-        file: "site/en/people.md"
+        file: "src/site/en/people.md"
         fields: *static_meta
       - label: "Projekte (DE)"
         name: "projects_de"
-        file: "site/de/projects.md"
+        file: "src/site/de/projects.md"
         fields: *static_meta
       - label: "Projects (EN)"
         name: "projects_en"
-        file: "site/en/projects.md"
+        file: "src/site/en/projects.md"
         fields: *static_meta
       - label: "Publikationen (DE)"
         name: "publications_de"
-        file: "site/de/publications.md"
+        file: "src/site/de/publications.md"
         fields: *static_meta
       - label: "Publications (EN)"
         name: "publications_en"
-        file: "site/en/publications.md"
+        file: "src/site/en/publications.md"
         fields: *static_meta
       - label: "Services (DE)"
         name: "services_de"
-        file: "site/de/services.md"
+        file: "src/site/de/services.md"
         fields: *static_meta
       - label: "Services (EN)"
         name: "services_en"
-        file: "site/en/services.md"
+        file: "src/site/en/services.md"
         fields: *static_meta
