@@ -1,7 +1,5 @@
 ---
 title: Services
-locale: de
-layout: layouts/default.njk
 excerpt: Das Interaction Design Lab verbindet entstehende Technologien und digitale Daten aus allen Lebensbereichen zu nützlichen, ästhetisch hochwertigen, interaktiven Produkten, Systemen und Services. 
 laufschrift_green: Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab
 laufschrift_black: Service Design × UI/UX × Design Thinking × Human-Centered Design × Prototyping
