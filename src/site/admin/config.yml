@@ -10,7 +10,7 @@ collections:
     name: "projects_de"
     editor:
       preview: false
-    folder: "src/site/de/project"
+    folder: "src/site/de/projects"
     create: true
     fields: &project_meta
       - {label: "Name", name: "name", widget: "string"}
