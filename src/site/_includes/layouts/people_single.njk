@@ -4,7 +4,9 @@
 <div class="content-container">
 <div class="person">
       {% if person.image_link %}
+      <div class="portrait">
 			<img src="{{(person.image_link)}}" alt="" loading="lazy" />
+      </div>
       {% endif %}
       
       <div class="person-facts">
