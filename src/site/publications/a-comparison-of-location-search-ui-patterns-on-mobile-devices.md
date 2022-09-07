@@ -8,14 +8,14 @@ year: 2014
 authors:
   - name: ""
     url: ""
-    internal_author_de: Prof. Dr. Sebastian Meier
-    internal_author_en: Prof. Dr. Sebastian Meier
+    internal_author_de: sebastian-meier
+    internal_author_en: sebastian-meier
   - name: ""
     url: ""
-    internal_author_de: Prof. Dr. Frank Heidmann
-    internal_author_en: Prof. Dr. Frank Heidmann
+    internal_author_de: frank-heidmann
+    internal_author_en: frank-heidmann
   - name: ""
     url: ""
-    internal_author_de: Andreas Thom
-    internal_author_en: Andreas Thom
+    internal_author_de: andreas-thom
+    internal_author_en: andreas-thom
 ---
