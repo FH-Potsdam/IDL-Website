@@ -80,14 +80,15 @@
 		<div class="pub-authors">
 			<ul>
          {% for a in p.data.authors %}
-         {{a | dumper}}
 				<li> {% if a.internal_author_de %}
           {% if locale == 'de' %}
           {% set author = a.internal_author_de %}
+          {% set people = collections.people_de %}
           {% else %}
           {% set author = a.internal_author_en %}
+          {% set people = collections.people_en %}
           {% endif %}
-          <a href="{{author.url}}">{{author.name}}</a>
+          <a href="{{peopleById(author,people,'url')}}">{{peopleById(author,people,'url')}}</a>
           {% else %}
           {% if a.url %}
           <a href="{{a.url}}">
@@ -139,10 +140,10 @@
 {% endmacro %}
 #}
 
-{% macro peopleById(id, people) %}
+{% macro peopleById(id, people, key) %}
 {% for p in people %}
-{% if p.wp_id == id %}
-{{ p.slug }}
+{% if p.url == id %}
+{{ p[key] }}
 {% endif %}
 {% endfor %}
 {% endmacro %}
