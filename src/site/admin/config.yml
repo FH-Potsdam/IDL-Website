@@ -81,11 +81,11 @@ collections:
     folder: "src/site/en/projects"
     create: true
     fields:
-      - <<: *project_meta
       - label: "Project Team"
         name: project_team
         widget: list
         field: {label: Member, name: member, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
+      - <<: *project_meta
   - label: "People (DE)"
     name: "people_de"
     editor:
