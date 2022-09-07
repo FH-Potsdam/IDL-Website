@@ -274,7 +274,7 @@ collections:
       - {label: "Outlet", name: "outlet", widget: string, required: false}
       #- {label: "WP ID", name: "wp_id", widget: "number"}
       #- {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Website", name: "website", widget: string, required: false}
       - {label: "Year", name: "year", widget: number, required: false}
       - label: "Authors"
@@ -283,7 +283,8 @@ collections:
         widget: list
         summary: '{{fields.internal_author.name}} / {{fields.name}}'
         fields:
-        - {label: Internal Author, name: internal_author, widget: relation, required: false, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
+        - {label: Internal Author (DE), name: internal_author_de, widget: relation, required: false, collection: people_de, search_fields: [name], value_field: name, display_fields: [name]}
+        - {label: Internal Author (EN), name: internal_author_en, widget: relation, required: false, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
         - {label: External Name, name: name, widget: string, required: false}
         - {label: External Url, name: url, widget: string, required: false}
   - label: "Pages"
