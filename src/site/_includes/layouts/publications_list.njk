@@ -6,7 +6,7 @@
 
           
 <div class="intro-container max-width">
-<h1>{{title}} <span class="number">({{ publications | length }})</span></h1>
+<h1>{{title}} <span class="number">({{ collections.publications | length }})</span></h1>
 
       
      
@@ -15,14 +15,14 @@
       
       {% set lastyear = '0' %} 
       
-      {% for p in publications | sort(true, false, "year") %}
-              {% if lastyear != p.year %}
+      {% for p in collections.publications | sort(true, false, "year") %}
+              {% if lastyear != p.data.year %}
               {% if lastyear != '0' %}
              
               {% endif %}
-              <a href="#{{p.year}}">{{p.year}}</a>
+              <a href="#{{p.data.year}}">{{p.data.year}}</a>
             
-              {% set lastyear = p.year %}
+              {% set lastyear = p.data.year %}
               {% endif %}
      {% endfor %}
      {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
@@ -44,8 +44,8 @@
 
 <div class="publications">
     {# {% set lastyear = '0' %} #}
-    {% set pubSorted = publications %}
-    {% for p in publications | sort(true, false, "year") %}
+    {% set pubSorted = collections.publications %}
+    {% for p in collections.publications | sort(true, false, "year") %}
      
       {# {% if lastyear != p.year %}
       {% if lastyear != '0' %}
