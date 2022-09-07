@@ -14,17 +14,58 @@ if (runProjects) {
     languages.forEach(l => {
       const props = {};
       Object.keys(p).forEach(key => {
-        if (key !== 'page') {
-          if (p[key] && typeof p[key] === 'object' && 'en' in p[key]) {
-            props[key] = p[key][l];
-          } else {
-            props[key] = p[key];
-          }
+        if (p[key] && typeof p[key] === 'object' && 'en' in p[key]) {
+          props[key] = p[key][l];
+        } else {
+          props[key] = p[key];
         }
       });
+
+      props['body'] = props['page'];
+      delete props['page'];
+
+      const mergeKeys = {
+        project_partners: [
+          ['project_partners_name', 'name'],
+          ['project_partners_url', 'url']
+        ],
+        project_team_external: [
+          ['project_team_external_url', 'url'],
+          ['project_team_external_name', 'name']
+        ],
+        project_funding: [
+          ['project_funding_name', 'name'],
+          ['project_funding_url', 'url'],
+          ['project_funding_logo', 'logo']
+        ],
+        project_client: [
+          ['project_client_name', 'name'],
+          ['project_client_url', 'url'],
+          ['project_client_logo', 'logo'],
+        ]
+      }
+
+      Object.keys(mergeKeys).forEach(key => {
+        const els = [];
+        if (typeof props[mergeKeys[key][0][0]] === 'object') {
+          props[mergeKeys[key][0][0]].forEach((obj, i) => {
+            const el = {};
+            mergeKeys[key].forEach(key_value => {
+              el[key_value[1]] = props[key_value[0]][i];
+            });
+            els.push(el);
+          });
+        }
+        props[key] = els;
+        mergeKeys[key].forEach(key_value => {
+          delete props[key_value[0]];
+        });
+      });
+
       let file = YAML.stringify(props);
-      file += '\n---\n\n' + p['page'][l];
       fs.writeFileSync('../src/site/' + l + '/projects/' + p['slug'] + '.md', file, 'utf8');
     });
   });
 }
+
+
