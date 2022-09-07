@@ -18,7 +18,7 @@
         {% if 'Prof.' in name %} Prof. {% endif %}
         {% if 'Dr.' in name %} Dr. {% endif %}
         </div>
-        <h1>{{name | replace ("Prof.", "") | replace ("Dr.", "")}}</h1> 
+        <h1>{{name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</h1> 
 
         <div class="position">{% if subtitle %}{{subtitle}}{% endif %}</div>
 

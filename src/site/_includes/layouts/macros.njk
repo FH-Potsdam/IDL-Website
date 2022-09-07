@@ -86,9 +86,9 @@
           {% else %}
           {% set author = a.internal_author_en %}
           {% endif %}
-          <a href="{{peopleById(author,people,'url')}}">{{peopleById(author,people,'url')}}</a>
+          {{peopleLink(author, people)}}
           {% else %}
-          {% if a.url %}
+          {% if a.url and a.url != 'null' and a.url | length > 3 %}
           <a href="{{a.url}}">
           {% endif %}
           {{a.name}}
@@ -140,8 +140,24 @@
 
 {% macro peopleById(url, people, key) %}
 {% for p in people %}
-{% if p.url == url %}
+{% if url in p.url %}
+{% if key == 'url' %}
 {{ p[key] }}
+{% else %}
+{{ p.data[key] }}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{% macro peopleLink(url, people) %}
+{% for p in people %}
+{% if url in p.url %}
+{% if 'Past' in p.data.group %}
+{{p.data.name}}
+{% else %}
+<a href="{{p.data.url}}">{{p.data.name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</a>
+{% endif %}
 {% endif %}
 {% endfor %}
 {% endmacro %}
