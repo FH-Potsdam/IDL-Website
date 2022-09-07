@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = true;
+const runProjects = false;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/projects.json', 'utf8'));
@@ -69,3 +69,27 @@ if (runProjects) {
 }
 
 
+
+const runPeople = true;
+// people.json > de||en/people/slug
+if (runPeople) {
+  const people = JSON.parse(fs.readFileSync('../src/site/_data/people.json', 'utf8'));
+  people.forEach(p => {
+    languages.forEach(l => {
+      const props = {};
+      Object.keys(p).forEach(key => {
+        if (p[key] && typeof p[key] === 'object' && 'en' in p[key]) {
+          props[key] = p[key][l];
+        } else {
+          props[key] = p[key];
+        }
+      });
+
+      props['body'] = props['page'];
+      delete props['page'];
+
+      let file = YAML.stringify(props);
+      fs.writeFileSync('../src/site/' + l + '/people/' + p['slug'] + '.md', file, 'utf8');
+    });
+  });
+}

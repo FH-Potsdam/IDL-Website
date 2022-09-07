@@ -3,34 +3,34 @@
 
 <div class="content-container">
 <div class="person">
-      {% if person.image_link %}
+      {% if image_link %}
       <div class="portrait">
-			<img src="{{(person.image_link)}}" alt="" loading="lazy" />
+			<img src="{{(image_link)}}" alt="" loading="lazy" />
       </div>
       {% endif %}
       
       <div class="person-facts">
         <div class="title">
-        {% if 'Prof.' in person.name[locale] %} Prof. {% endif %}
-        {% if 'Dr.' in person.name[locale] %} Dr. {% endif %}
+        {% if 'Prof.' in name %} Prof. {% endif %}
+        {% if 'Dr.' in name %} Dr. {% endif %}
         </div>
-        <h1>{{person.name[locale] | replace ("Prof.", "") | replace ("Dr.", "")}}</h1> 
+        <h1>{{name | replace ("Prof.", "") | replace ("Dr.", "")}}</h1> 
 
-        <div class="position">{% if person.subtitle[locale] %}{{person.subtitle[locale]}}{% endif %}</div>
+        <div class="position">{% if subtitle %}{{subtitle}}{% endif %}</div>
 
         <div class="output-container">
 
-          
+          {#
           {% set projectcounter = 0 %}
           {% for p in projects | sort(true, false, "year") %}
-          {% if person.wp_id in p.project_team %}
+          {% if wp_id in p.project_team %}
           {% set projectcounter = projectcounter + 1 %}
           {% endif %}
           {% endfor %}
 
           {% set publicationcounter = 0 %}
           {% for p in publications | sort(true, false, "year") %}
-          {% if person.wp_id in p.authors_ids %}
+          {% if wp_id in p.authors_ids %}
           {% set publicationcounter = publicationcounter + 1 %}
           {% endif %}
           {% endfor %}
@@ -40,19 +40,20 @@
           {% endif %}
 
           {% if publicationcounter > 3 %}
-          <div class="person-publications"><a href="#publications">Publikationen</a> ({{person.publications | length}})</div>
+          <div class="person-publications"><a href="#publications">Publikationen</a> ({{publications | length}})</div>
           {% endif %}
+          #}
         </div>
 
         <div class="person-contacts">
-            {% if person.email %} 
-            <div class="email">E-Mail <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>
+            {% if email %} 
+            <div class="email">E-Mail <a href="mailto:{{ email }}">{{ email }}</a></div>
             {% endif %}
-            {% if person.website %} 
-            <div class="website">Website <a href="{{ person.website }}">{{ person.website }}</a></div>
+            {% if website %} 
+            <div class="website">Website <a href="{{ website }}">{{ website }}</a></div>
             {% endif %}
-            {% if person.twitter %} 
-            <div class="twitter">Twitter <a href="https://twitter.com/{{ person.twitter }}">{{ person.twitter }}</a></div>
+            {% if twitter %} 
+            <div class="twitter">Twitter <a href="https://twitter.com/{{ twitter }}">{{ twitter }}</a></div>
             {% endif %}
         
         </div>
@@ -62,27 +63,27 @@
 </div>
 
       <div class="person-excerpt">
-{% if person.page[locale] %}
-<p>{{person.page[locale] | safe}}</p>
+{% if body %}
+<p>{{body | safe}}</p>
 {% endif %}
       </div>
 
-{% if person.laufschrift_tags %}
+{% if laufschrift_tags %}
 <div class="laufschrift-container">
 
 	<div class="scroll1">Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × </div>
-	<div class="scroll2">{{person.laufschrift_tags}}</div>
+	<div class="scroll2">{{laufschrift_tags}}</div>
 
 </div>
 {% endif %}
 </div>
-{# {{project.page[locale] | safe}} #}
+{# {{project.page | safe}} #}
 
 {% if projectcounter > 0 %}
 <h2 class="projects" id="projects">Projects</h2>
 <div class="projects expand-projects preview">
 {% for p in projects | sort(true, false, "year") %}
-{% if person.wp_id in p.project_team %}
+{% if wp_id in p.project_team %}
 {{ projectTeaser(p, locale, attachments) }}
 {% endif %}
 {% endfor %}
@@ -104,7 +105,7 @@
 <div class="publications expand-pubs preview">
   <h2 id="publications">Publications</h2>
 {% for p in publications | sort(true, false, "year") %}
-{% if person.wp_id in p.authors_ids %}
+{% if wp_id in p.authors_ids %}
 
     
 
