@@ -281,7 +281,7 @@ collections:
         required: false
         name: authors
         widget: list
-        summary: '{{fields.internal_author_de.name}} / {{fields.name}}'
+        summary: '{{fields.internal_author_de}} / {{fields.name}}'
         fields:
         - label: Internal Author (DE)
           name: internal_author_de
