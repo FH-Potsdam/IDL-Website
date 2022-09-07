@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = true;
+const runProjects = false;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/projects.json', 'utf8'));
@@ -74,7 +74,7 @@ if (runProjects) {
 
 
 
-const runPeople = true;
+const runPeople = false;
 // people.json > de||en/people/slug
 if (runPeople) {
   const people = JSON.parse(fs.readFileSync('../src/site/_data/people.json', 'utf8'));
@@ -99,5 +99,55 @@ if (runPeople) {
       let file = YAML.stringify(props);
       fs.writeFileSync('../src/site/' + l + '/people/' + p['slug'] + '.md', file, 'utf8');
     });
+  });
+}
+
+
+
+
+const runPublications = false;
+// publications.json > publications/slug
+if (runPublications) {
+  const publications = JSON.parse(fs.readFileSync('../src/site/_data/publications.json', 'utf8'));
+  publications.forEach(p => {
+    const props = {};
+    Object.keys(p).forEach(key => {
+      if (p[key] && typeof p[key] === 'object' && 'en' in p[key]) {
+        props[key] = p[key]['de'];
+      } else {
+        props[key] = p[key];
+      }
+    });
+
+    props['body'] = props['page'];
+    delete props['page'];
+
+    const mergeKeys = {
+      authors: [
+        ['authors_names', 'name'],
+        ['authors_ids', 'url']
+      ]
+    }
+
+    Object.keys(mergeKeys).forEach(key => {
+      const els = [];
+      if (typeof props[mergeKeys[key][0][0]] === 'object') {
+        props[mergeKeys[key][0][0]].forEach((obj, i) => {
+          const el = {};
+          mergeKeys[key].forEach(key_value => {
+            el[key_value[1]] = props[key_value[0]][i];
+          });
+          els.push(el);
+        });
+      }
+      props[key] = els;
+      mergeKeys[key].forEach(key_value => {
+        delete props[key_value[0]];
+      });
+    });
+
+
+    let file = YAML.stringify(props);
+    fs.writeFileSync('../src/site/publications/' + p['slug'] + '.md', file, 'utf8');
   });
 }
