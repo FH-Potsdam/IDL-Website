@@ -85,11 +85,11 @@ collections:
     folder: "src/site/en/projects"
     create: true
     fields: *project_meta
-  - label: "Projekte (DE)"
-    name: "projects_de"
+  - label: "People (DE)"
+    name: "people_de"
     editor:
       preview: false
-    folder: "src/site/de/projects"
+    folder: "src/site/de/people"
     create: true
     fields: &people_meta
       - {label: "Name", name: "name", widget: "string"}
