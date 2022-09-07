@@ -14,68 +14,78 @@ collections:
     create: true
     fields: &project_meta
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Project Year", name: "project_year", widget: "string"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Wordpress ID", name: "wp_id", widget: "number"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Project Year", name: "project_year", widget: "string", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
-      - {label: "URL (Slug)", name: "slug", widget: "string"}
-      - {label: "Project website", name: "project_website", widget: "string"}
-      - {label: "Project Material", name: "project_material", widget: "string"}
+      #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Project website", name: "project_website", widget: "string", required: false}
+      - {label: "Project Material", name: "project_material", widget: "string", required: false}
       - label: "Group"
         name: "group"
+        required: false
         widget: "select"
         options: ["Maps", "Mobile"]
       - label: "Filter-Themen"
         name: "filter_themen"
         widget: "select"
+        required: false
         options: ["Speculative", "App Design"]
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
+        required: false
         options: ["UI/UX"]
       - label: "Filter-Art"
         name: "filter_art"
         widget: "select"
+        required: false
         options: ["Forschung"]
       - label: "Project Team Extern"
         name: "project_team_external"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: "Project Partners"
         name: "project_partners"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: "Project Client"
         name: "project_client"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
       - label: "Project Funding"
         name: "project_funding"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
       - label: "Related Publications"
         name: related_publications
         widget: list
+        required: false
         field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
       - label: "Project Team"
         name: project_team
+        required: false
         widget: list
         field: {label: Member, name: member, widget: relation, collection: people_de, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "Projects (EN)"
@@ -86,68 +96,78 @@ collections:
     create: true
     fields: &project_meta
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Project Year", name: "project_year", widget: "string"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Wordpress ID", name: "wp_id", widget: "number"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Project Year", name: "project_year", widget: "string", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
-      - {label: "URL (Slug)", name: "slug", widget: "string"}
-      - {label: "Project website", name: "project_website", widget: "string"}
-      - {label: "Project Material", name: "project_material", widget: "string"}
+      #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Project website", name: "project_website", widget: "string", required: false}
+      - {label: "Project Material", name: "project_material", widget: "string", required: false}
       - label: "Group"
         name: "group"
         widget: "select"
+        required: false
         options: ["Maps", "Mobile"]
       - label: "Filter-Themen"
         name: "filter_themen"
         widget: "select"
+        required: false
         options: ["Speculative", "App Design"]
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
+        required: false
         options: ["UI/UX"]
       - label: "Filter-Art"
         name: "filter_art"
         widget: "select"
+        required: false
         options: ["Forschung"]
       - label: "Project Team Extern"
         name: "project_team_external"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: "Project Partners"
         name: "project_partners"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
       - label: "Project Client"
         name: "project_client"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
       - label: "Project Funding"
         name: "project_funding"
         widget: "list"
+        required: false
         summary: '{{fields.name}}'
         fields:
           - {label: Name, name: name, widget: string}
-          - {label: URL, name: url, widget: string}
-          - {label: Logo, name: logo, widget: image}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
       - label: "Related Publications"
         name: related_publications
+        required: false
         widget: list
         field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
       - label: "Project Team"
         name: project_team
+        required: false
         widget: list
         field: {label: Member, name: member, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "People (DE)"
@@ -158,20 +178,21 @@ collections:
     create: true
     fields: &people_meta
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "WP ID", name: "wp_id", widget: "number"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
       - label: "Group"
         name: "group"
+        required: false
         widget: "select"
         options: ["Members", "Associates", "Students", "Past Members", "Past Students"]
-      - {label: "Website", name: "website", widget: string}
-      - {label: "Email", name: "email", widget: string}
-      - {label: "Twitter", name: "twitter", widget: string}
-      - {label: "Thumbnail", name: "thumbnail_id", widget: image}
-      - {label: "Sorting", name: "sort_name", widget: string}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Email", name: "email", widget: string, required: false}
+      - {label: "Twitter", name: "twitter", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail_id", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
   - label: "People (EN)"
     name: "people_en"
     editor:
@@ -187,22 +208,24 @@ collections:
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "WP ID", name: "wp_id", widget: "number"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Website", name: "website", widget: string}
-      - {label: "Date", name: "date", widget: string}
-      - {label: "Thumbnail", name: "thumbnail", widget: image}
-      - {label: "Sorting", name: "sort_name", widget: string}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Date", name: "date", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       - label: "Related Projects"
         name: related_projects
+        required: false
         widget: list
         field: {label: Project, name: project, widget: relation, collection: projects_de, search_fields: [name], value_field: name, display_fields: [name]}
       - label: "Related People"
         name: related_people
+        required: false
         widget: list
         field: {label: People, name: people, widget: relation, collection: people_de, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "Events (EN)"
@@ -213,22 +236,24 @@ collections:
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
-      - {label: "WP ID", name: "wp_id", widget: "number"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Website", name: "website", widget: string}
-      - {label: "Date", name: "date", widget: string}
-      - {label: "Thumbnail", name: "thumbnail", widget: image}
-      - {label: "Sorting", name: "sort_name", widget: string}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Date", name: "date", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       - label: "Related Projects"
         name: related_projects
+        required: false
         widget: list
         field: {label: Project, name: project, widget: relation, collection: projects_en, search_fields: [name], value_field: name, display_fields: [name]}
       - label: "Related People"
         name: related_people
+        required: false
         widget: list
         field: {label: People, name: people, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "Publications"
@@ -239,20 +264,21 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Outlet", name: "outlet", widget: string}
-      - {label: "WP ID", name: "wp_id", widget: "number"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Website", name: "website", widget: string}
-      - {label: "Year", name: "year", widget: number}
+      - {label: "Outlet", name: "outlet", widget: string, required: false}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Year", name: "year", widget: number, required: false}
       - label: "Authors"
+        required: false
         name: authors
         widget: list
         summary: '{{fields.internal_author.name}} / {{fields.name}}'
         fields:
-        - {label: Internal Author, name: internal_author, widget: relation, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
-        - {label: External Name, name: name, widget: string}
-        - {label: External Url, name: url, widget: string}
+        - {label: Internal Author, name: internal_author, widget: relation, required: false, collection: people, search_fields: [name], value_field: name, display_fields: [name]}
+        - {label: External Name, name: name, widget: string, required: false}
+        - {label: External Url, name: url, widget: string, required: false}
   - label: "Pages"
     name: "pages"
     editor:
@@ -263,10 +289,10 @@ collections:
         file: "src/site/de/about.md"
         fields: &static_meta
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Excerpt, name: excerpt, widget: markdown}
-          - {label: Laufschrift (green), name: laufschrift_green, widget: string}
-          - {label: Laufschrift (black), name: laufschrift_black, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Excerpt, name: excerpt, widget: markdown, required: false}
+          - {label: Laufschrift (green), name: laufschrift_green, widget: string, required: false}
+          - {label: Laufschrift (black), name: laufschrift_black, widget: string, required: false}
       - label: "About us (EN)"
         name: "about_en"
         file: "src/site/en/about.md"
