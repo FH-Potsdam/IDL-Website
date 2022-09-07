@@ -3,7 +3,7 @@ backend:
   branch: static-rewrite
   repo: fh-potsdam/IDL-Website
 publish_mode: editorial_workflow
-media_folder: "src/images/uploads"
+media_folder: "src/site/images/uploads"
 public_folder: "/images/uploads"
 collections:
   - label: "Projekte (DE)"
