@@ -8,7 +8,7 @@
   website: ""
   email: ""
   twitter: ""
-  thumbnail_id: null
+  thumbnail_id: ""
   publications: []
   sort_name: "Magiera"
   body: ""

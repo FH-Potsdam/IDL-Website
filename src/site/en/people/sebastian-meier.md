@@ -8,7 +8,7 @@
   website: "http://www.sebastianmeier.eu"
   email: "sebastian.meier@fh-potsdam.de"
   twitter: "seb_meier"
-  thumbnail_id: null
+  thumbnail_id: ""
   image_link: "/images/migration/sebastian-meier.jpg"
   publications: 
     - 328

@@ -92,6 +92,10 @@ if (runPeople) {
       props['body'] = props['page'];
       delete props['page'];
 
+      if (!props['thumbnail_id'] || props['thumbnail_id'] == null) {
+        props['thumbnail_id'] = '';
+      }
+
       let file = YAML.stringify(props);
       fs.writeFileSync('../src/site/' + l + '/people/' + p['slug'] + '.md', file, 'utf8');
     });

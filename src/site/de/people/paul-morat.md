@@ -8,7 +8,7 @@
   website: ""
   email: "paul.morat@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: null
+  thumbnail_id: ""
   publications: []
   sort_name: "Morat"
   body: ""

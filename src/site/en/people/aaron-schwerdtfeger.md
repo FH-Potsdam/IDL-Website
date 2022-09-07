@@ -8,7 +8,7 @@
   website: ""
   email: "aaron.schwerdtfeger@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: null
+  thumbnail_id: ""
   publications: []
   sort_name: "Schwerdtfeger"
   body: ""
