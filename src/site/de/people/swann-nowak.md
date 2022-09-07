@@ -11,4 +11,5 @@
   thumbnail_id: ""
   publications: []
   sort_name: "Nowak"
-  body: ""
+
+---

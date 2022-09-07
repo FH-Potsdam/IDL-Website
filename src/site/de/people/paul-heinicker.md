@@ -11,4 +11,6 @@
   thumbnail_id: 441
   publications: []
   sort_name: "Heinicker"
-  body: "He received his MA in (Interaction) Design from the University of Applied Sciences Potsdam in 2015. He is interested in visual culture and how visual artefacts shape the way we see and understand our society. His research especially focuses on the culture and politics of (data) visualisations."
+
+---
+He received his MA in (Interaction) Design from the University of Applied Sciences Potsdam in 2015. He is interested in visual culture and how visual artefacts shape the way we see and understand our society. His research especially focuses on the culture and politics of (data) visualisations.

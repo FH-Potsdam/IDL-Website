@@ -84,4 +84,15 @@
     - 438
     - 513
   sort_name: "Heidmann"
-  body: "Frank's research and teaching interests in Potsdam lie in Human-Centered Design, research methods in Human-Computer Interaction (HCI) and user experience design including eye tracking technologies, geographic information visualization, and sustainable interaction design. Frank has a diploma and a PhD from the University of Trier, both in Geographical Sciences.\n\nPrior to his professorship in Potsdam, he was head of the <a href=\"http://www.hci.iao.fraunhofer.de/\" target=\"_blank\" rel=\"noopener noreferrer\">Human-Computer Interaction Competence Center</a> at the Fraunhofer Institute for Industrial Engineering (IAO), Stuttgart. The HCI Group at Fraunhofer IAO is widely regarded as one of the leading research and consulting units in Europe, handling the following topics:\n<ul>\n\t<li>Development and application of new technologies for the interaction between people and technology</li>\n\t<li>Conception, design, and development of interactive systems</li>\n\t<li>Graphic, acoustic, and multimodal user interfaces</li>\n\t<li>Development of company-specific style guides and design patterns</li>\n\t<li>Prototyping and usability testing</li>\n</ul>"
+
+---
+Frank's research and teaching interests in Potsdam lie in Human-Centered Design, research methods in Human-Computer Interaction (HCI) and user experience design including eye tracking technologies, geographic information visualization, and sustainable interaction design. Frank has a diploma and a PhD from the University of Trier, both in Geographical Sciences.
+
+Prior to his professorship in Potsdam, he was head of the <a href="http://www.hci.iao.fraunhofer.de/" target="_blank" rel="noopener noreferrer">Human-Computer Interaction Competence Center</a> at the Fraunhofer Institute for Industrial Engineering (IAO), Stuttgart. The HCI Group at Fraunhofer IAO is widely regarded as one of the leading research and consulting units in Europe, handling the following topics:
+<ul>
+	<li>Development and application of new technologies for the interaction between people and technology</li>
+	<li>Conception, design, and development of interactive systems</li>
+	<li>Graphic, acoustic, and multimodal user interfaces</li>
+	<li>Development of company-specific style guides and design patterns</li>
+	<li>Prototyping and usability testing</li>
+</ul>

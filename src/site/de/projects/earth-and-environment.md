@@ -16,7 +16,6 @@
   related_projects: ""
   thumbnail_id: 261
   featured_home: false
-  body: "Die „Earth System Knowledge Platform“ ESKP (Wissensplattform „Erde undUmwelt“) ist ein Gemeinschaftsprojekt von acht Helmholtz-Zentren (u.a. DLR, GFZ, GEOMAR, AWI, KIT). Ziel ist der Aufbau einer umfassenden webbasierten Wissensplattform zu Risiken und Chancen globaler Veränderungen der Umwelt. Dazu soll gesichertes Wissen zu Themen wie Wasser, Boden, Klima oder Naturkatastrophen multimedial (interaktive Karten, Infografiken, Videos etc.) aufbereitet werden, um Gesellschaft, Politik und Wirtschaft eine fundierte Zukunftsvorsorge zu ermöglichen.\n\nDas Webportal soll für eine heterogene NutzerInnengruppe sowohl didaktisch gut aufbereitetes multimediales Wissen zur Erdsystemdynamik visuell-ästhetisch herausgehoben präsentieren als auch aktuelle Informationen und Experten-Bewertungen zu weltweiten Naturkatastrophen zeitnah zur Verfügung stellen.\n\nDas IDL // Interaction Design Lab hat in einem nutzerzentrierten Entwicklungsprozess Informationsarchitektur, Navigationskonzept und responsives Design der Plattform konzipiert und umgesetzt. Dabei konnte das Team auf vielfältige Erfahrungen im Bereich der webbasierten Wissenschaftskommunikation zurückgreifen, die sich in den letzten Jahren als ein Schwerpunkt des R&D-Portfolios des IDL etabliert hat."
   project_partners: []
   project_team_external: []
   project_funding: []
@@ -25,3 +24,10 @@
       name: "Helmholtz-Gemeinschaft"
       url: ""
       logo: ""
+
+---
+Die „Earth System Knowledge Platform“ ESKP (Wissensplattform „Erde undUmwelt“) ist ein Gemeinschaftsprojekt von acht Helmholtz-Zentren (u.a. DLR, GFZ, GEOMAR, AWI, KIT). Ziel ist der Aufbau einer umfassenden webbasierten Wissensplattform zu Risiken und Chancen globaler Veränderungen der Umwelt. Dazu soll gesichertes Wissen zu Themen wie Wasser, Boden, Klima oder Naturkatastrophen multimedial (interaktive Karten, Infografiken, Videos etc.) aufbereitet werden, um Gesellschaft, Politik und Wirtschaft eine fundierte Zukunftsvorsorge zu ermöglichen.
+
+Das Webportal soll für eine heterogene NutzerInnengruppe sowohl didaktisch gut aufbereitetes multimediales Wissen zur Erdsystemdynamik visuell-ästhetisch herausgehoben präsentieren als auch aktuelle Informationen und Experten-Bewertungen zu weltweiten Naturkatastrophen zeitnah zur Verfügung stellen.
+
+Das IDL // Interaction Design Lab hat in einem nutzerzentrierten Entwicklungsprozess Informationsarchitektur, Navigationskonzept und responsives Design der Plattform konzipiert und umgesetzt. Dabei konnte das Team auf vielfältige Erfahrungen im Bereich der webbasierten Wissenschaftskommunikation zurückgreifen, die sich in den letzten Jahren als ein Schwerpunkt des R&D-Portfolios des IDL etabliert hat.

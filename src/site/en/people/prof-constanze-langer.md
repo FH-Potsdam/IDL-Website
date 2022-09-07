@@ -12,4 +12,5 @@
   image_link: "/images/Constanze-Langer-425x350.png"
   publications: []
   sort_name: "Langer"
-  body: ""
+
+---

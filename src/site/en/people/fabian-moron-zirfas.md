@@ -11,4 +11,6 @@
   thumbnail_id: 349
   publications: []
   sort_name: "Zirfas"
-  body: "He also supervises the interface design laboratory. In his spare time he writes automations and tools for design processes and is a freelance motiongrapher."
+
+---
+He also supervises the interface design laboratory. In his spare time he writes automations and tools for design processes and is a freelance motiongrapher.

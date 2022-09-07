@@ -11,4 +11,5 @@
   thumbnail_id: 348
   publications: []
   sort_name: "Dufke"
-  body: ""
+
+---

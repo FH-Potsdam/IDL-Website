@@ -15,4 +15,6 @@
     - 331
     - 332
   sort_name: "Thom"
-  body: "In seiner Forschung im IDL beschäftigt sich Andreas mit neuen Paradigmen im Design von Benutzererlebnissen, sowie dem Design von mobilen Systemen im urbanen Kontext. Seine Interessen und Expertisen liegen in den Bereichen Usability, Benutzererlebnisse, Innovationsprozesse und Entrepreneurship. Des weiteren ist Andreas zuständig für das Eyetracking Labor des IDL. Seit mittlerweile 6 Jahren arbeitet Andreas as Designer und Berater für Firmen im Bereich Interaction Design. Andreas hat einen Bachelor und Master im Bereich Interface Design an der Fachhochschule Potsdam erworben."
+
+---
+In seiner Forschung im IDL beschäftigt sich Andreas mit neuen Paradigmen im Design von Benutzererlebnissen, sowie dem Design von mobilen Systemen im urbanen Kontext. Seine Interessen und Expertisen liegen in den Bereichen Usability, Benutzererlebnisse, Innovationsprozesse und Entrepreneurship. Des weiteren ist Andreas zuständig für das Eyetracking Labor des IDL. Seit mittlerweile 6 Jahren arbeitet Andreas as Designer und Berater für Firmen im Bereich Interaction Design. Andreas hat einen Bachelor und Master im Bereich Interface Design an der Fachhochschule Potsdam erworben.

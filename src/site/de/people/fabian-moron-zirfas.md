@@ -11,4 +11,6 @@
   thumbnail_id: 349
   publications: []
   sort_name: "Zirfas"
-  body: "Außerdem leitet er das Interface Design Labor. Neben seiner Arbeit an der FH Potsdam programmiert er Automationsscripte für die Unterstützung von Designprozessen und arbeitet als Motiongrapher.\n"
+
+---
+Außerdem leitet er das Interface Design Labor. Neben seiner Arbeit an der FH Potsdam programmiert er Automationsscripte für die Unterstützung von Designprozessen und arbeitet als Motiongrapher.

@@ -12,4 +12,6 @@
   publications: 
     - 438
   sort_name: "Galindo"
-  body: "Edmundo joined the IDL and the team of the DIGENTI project in 2017."
+
+---
+Edmundo joined the IDL and the team of the DIGENTI project in 2017.

@@ -23,7 +23,6 @@
   related_projects: ""
   thumbnail_id: 251
   featured_home: false
-  body: "In summer of 2013, Fraunhofer FOKUS commissioned the <strong>IDL // Interaction Design Lab</strong> to redesign the KatWarn iOS application and adapt the interfaces for Android and Windows Phone. The innovative early-warning system for citizens is designed to warn the public in the case of an emergency. The app covers natural disasters like blizzards and flooding, as well as large scale operations within the city. In contrast to common information- and warning-systems, KatWarn is location-based and can be personalized. This means that you can not only tell your application to observe a certain location, like for example your home address and your parents' address, but in addition you can receive real-time information for your current location.\n\n<a href=\"http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_2.jpg\"><img class=\"alignnone wp-image-252 size-content-image\" src=\"http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_2-660x347.jpg\" alt=\"katwarn_2\" width=\"660\" height=\"347\" /></a>"
   project_partners: []
   project_team_external: []
   project_funding: []
@@ -32,3 +31,8 @@
       name: "Fraunhofer FOKUS"
       url: "http://www.fraunhofer.fokus.de"
       logo: 375
+
+---
+In summer of 2013, Fraunhofer FOKUS commissioned the <strong>IDL // Interaction Design Lab</strong> to redesign the KatWarn iOS application and adapt the interfaces for Android and Windows Phone. The innovative early-warning system for citizens is designed to warn the public in the case of an emergency. The app covers natural disasters like blizzards and flooding, as well as large scale operations within the city. In contrast to common information- and warning-systems, KatWarn is location-based and can be personalized. This means that you can not only tell your application to observe a certain location, like for example your home address and your parents' address, but in addition you can receive real-time information for your current location.
+
+<a href="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_2.jpg"><img class="alignnone wp-image-252 size-content-image" src="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/katwarn_2-660x347.jpg" alt="katwarn_2" width="660" height="347" /></a>

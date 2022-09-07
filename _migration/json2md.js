@@ -6,10 +6,10 @@ const languages = [
   'en'
 ];
 
-const runProjects = false;
+const runProjects = true;
 // projects.json > de||en/projects/slug
 if (runProjects) {
-  const projects = JSON.parse(fs.readFileSync('../src/site/_data/projects.json', 'utf8'));
+  const projects = JSON.parse(fs.readFileSync('../src/site/_data/_projects.json', 'utf8'));
   projects.forEach(p => {
     languages.forEach(l => {
       const props = {};
@@ -21,7 +21,7 @@ if (runProjects) {
         }
       });
 
-      props['body'] = props['page'];
+      const page = props['page'];
       delete props['page'];
 
       if (!props['featured_home'] || props['featured_home'] == null) {
@@ -67,6 +67,7 @@ if (runProjects) {
       });
 
       let file = YAML.stringify(props);
+      file += '\n---\n' + page;
       fs.writeFileSync('../src/site/' + l + '/projects/' + p['slug'] + '.md', file, 'utf8');
     });
   });
@@ -74,10 +75,10 @@ if (runProjects) {
 
 
 
-const runPeople = false;
+const runPeople = true;
 // people.json > de||en/people/slug
 if (runPeople) {
-  const people = JSON.parse(fs.readFileSync('../src/site/_data/people.json', 'utf8'));
+  const people = JSON.parse(fs.readFileSync('../src/site/_data/_people.json', 'utf8'));
   people.forEach(p => {
     languages.forEach(l => {
       const props = {};
@@ -89,7 +90,7 @@ if (runPeople) {
         }
       });
 
-      props['body'] = props['page'];
+      const page = props['page'];
       delete props['page'];
 
       if (!props['thumbnail_id'] || props['thumbnail_id'] == null) {
@@ -97,13 +98,11 @@ if (runPeople) {
       }
 
       let file = YAML.stringify(props);
+      file += '\n---\n' + page;
       fs.writeFileSync('../src/site/' + l + '/people/' + p['slug'] + '.md', file, 'utf8');
     });
   });
 }
-
-
-
 
 const runPublications = false;
 // publications.json > publications/slug
@@ -145,7 +144,6 @@ if (runPublications) {
         delete props[key_value[0]];
       });
     });
-
 
     let file = YAML.stringify(props);
     fs.writeFileSync('../src/site/publications/' + p['slug'] + '.md', file, 'utf8');

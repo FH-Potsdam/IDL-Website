@@ -12,4 +12,8 @@
   image_link: ""
   publications: []
   sort_name: "Flechtner"
-  body: "Rahel berufliche Begeisterung bewegt sich im Spannungsfeld zwischen dem Digitalen und dem Physischen. Nach einem Bachelor-Abschluss in Industrie-Design an der FH Magdeburg-Stendal studierte Rahel Interaction Design an der FH Potsdam. Seit 2013 hat sie für verschiedene Designbüros und Forschungseinrichtungen gearbeitet.\nSeit 2020 arbeitet sie an der FH Potsdam und beschäftigt sich im Forschungsprojekt DISA mit digitaler Inklusion im Kontext sozialer Angststörungen. Ein wichtiges Anliegen und ein Fokus ihrer Arbeit ist dabei die Einbindung der Zielgruppe in den Entwicklungs- und Gestaltungsprozess in Form von partizipativen Workshopformaten und Co-Creation Prozessen.\nEin weiterer Schwerpunkt ihrer Arbeit ist das Erlebbarmachen von Ideen durch Prototyping − digital oder physisch, am liebsten irgendwo dazwischen."
+
+---
+Rahel berufliche Begeisterung bewegt sich im Spannungsfeld zwischen dem Digitalen und dem Physischen. Nach einem Bachelor-Abschluss in Industrie-Design an der FH Magdeburg-Stendal studierte Rahel Interaction Design an der FH Potsdam. Seit 2013 hat sie für verschiedene Designbüros und Forschungseinrichtungen gearbeitet.
+Seit 2020 arbeitet sie an der FH Potsdam und beschäftigt sich im Forschungsprojekt DISA mit digitaler Inklusion im Kontext sozialer Angststörungen. Ein wichtiges Anliegen und ein Fokus ihrer Arbeit ist dabei die Einbindung der Zielgruppe in den Entwicklungs- und Gestaltungsprozess in Form von partizipativen Workshopformaten und Co-Creation Prozessen.
+Ein weiterer Schwerpunkt ihrer Arbeit ist das Erlebbarmachen von Ideen durch Prototyping − digital oder physisch, am liebsten irgendwo dazwischen.
