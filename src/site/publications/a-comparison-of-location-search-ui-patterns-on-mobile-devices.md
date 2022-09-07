@@ -8,14 +8,14 @@ year: 2014
 authors:
   - name: ""
     url: ""
-    internal_author_de: sebastian-meier
-    internal_author_en: sebastian-meier
+    internal_author_de: /de/people/sebastian-meier
+    internal_author_en: /en/people/sebastian-meier
   - name: ""
     url: ""
-    internal_author_de: frank-heidmann
-    internal_author_en: frank-heidmann
+    internal_author_de: /de/people/frank-heidmann
+    internal_author_en: /en/people/frank-heidmann
   - name: ""
     url: ""
-    internal_author_de: andreas-thom
-    internal_author_en: andreas-thom
+    internal_author_de: /de/people/andreas-thom
+    internal_author_en: /en/people/andreas-thom
 ---
