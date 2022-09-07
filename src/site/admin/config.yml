@@ -70,10 +70,6 @@ collections:
           - {label: Name, name: name, widget: string}
           - {label: URL, name: url, widget: string}
           - {label: Logo, name: logo, widget: image}
-      - label: "Project Team"
-        name: project_team
-        widget: list
-        field: {label: Member, name: member, widget: relation, collection: people_de, search_fields: [name], value_field: name, display_fields: [name]}
       - label: "Related Publications"
         name: related_publications
         widget: list
@@ -84,7 +80,12 @@ collections:
       preview: false
     folder: "src/site/en/projects"
     create: true
-    fields: *project_meta
+    fields:
+      - <<: *project_meta
+      - label: "Project Team"
+        name: project_team
+        widget: list
+        field: {label: Member, name: member, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "People (DE)"
     name: "people_de"
     editor:
@@ -118,6 +119,47 @@ collections:
     folder: "src/site/en/people"
     create: true
     fields: *people_meta
+  - label: "Events (DE)"
+    name: "events_de"
+    editor:
+      preview: false
+    folder: "src/site/de/events"
+    create: true
+    fields: &event_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "WP ID", name: "wp_id", widget: "number"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Website", name: "website", widget: string}
+      - {label: "Date", name: "date", widget: string}
+      - {label: "Thumbnail", name: "thumbnail", widget: image}
+      - {label: "Sorting", name: "sort_name", widget: string}
+      - label: "Related Projects"
+        name: related_projects
+        widget: list
+        field: {label: Project, name: project, widget: relation, collection: projects_de, search_fields: [name], value_field: name, display_fields: [name]}
+      - label: "Related People"
+        name: related_people
+        widget: list
+        field: {label: People, name: people, widget: relation, collection: people_de, search_fields: [name], value_field: name, display_fields: [name]}
+  - label: "Events (EN)"
+    name: "events_en"
+    editor:
+      preview: false
+    folder: "src/site/en/events"
+    create: true
+    fields:
+      - <<: *event_meta
+      - label: "Related Projects"
+        name: related_projects
+        widget: list
+        field: {label: Project, name: project, widget: relation, collection: projects_en, search_fields: [name], value_field: name, display_fields: [name]}
+      - label: "Related People"
+        name: related_people
+        widget: list
+        field: {label: People, name: people, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "Publications"
     name: "publications"
     editor:
