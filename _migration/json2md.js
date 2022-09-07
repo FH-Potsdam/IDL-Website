@@ -70,7 +70,7 @@ if (runProjects) {
 
 
 
-const runPeople = true;
+const runPeople = false;
 // people.json > de||en/people/slug
 if (runPeople) {
   const people = JSON.parse(fs.readFileSync('../src/site/_data/people.json', 'utf8'));

@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - label: "Projects (DE)"
+  - label: "Projekte (DE)"
     name: "projects_de"
     editor:
       preview: false
@@ -78,6 +78,46 @@ collections:
         name: related_publications
         widget: list
         field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
+  - label: "Projects (EN)"
+    name: "projects_en"
+    editor:
+      preview: false
+    folder: "src/site/en/projects"
+    create: true
+    fields: *project_meta
+  - label: "Projekte (DE)"
+    name: "projects_de"
+    editor:
+      preview: false
+    folder: "src/site/de/projects"
+    create: true
+    fields: &people_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "WP ID", name: "wp_id", widget: "number"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - label: "Group"
+        name: "group"
+        widget: "select"
+        options: ["Members", "Associates", "Students", "Past Members" "Past Students"]
+      - {label: "Website", name: "website", widget: string}
+      - {label: "Email", name: "email", widget: string}
+      - {label: "Twitter", name: "twitter", widget: string}
+      - {label: "Thumbnail", name: "thumbnail_id", widget: image}
+      - {label: "Sorting", name: "sort_name", widget: string}
+      - label: "Related Publications"
+        name: related_publications
+        widget: list
+        field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
+  - label: "People (EN)"
+    name: "people_en"
+    editor:
+      preview: false
+    folder: "src/site/en/people"
+    create: true
+    fields: *people_meta
   - label: "Pages"
     name: "pages"
     editor:
