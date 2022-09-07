@@ -3,9 +3,11 @@
 {% from './macros.njk' import imageById %}
 {{ content | safe }}
 
-{% set people = people | sort(true, false, "sort_name") %}
-
-
+{% if locale == 'de' %}
+{% set people = collections.people_de | sort(true, false, "sort_name") %}
+{% else %}
+{% set people = collections.people_en | sort(true, false, "sort_name") %}
+{% endif %}
 
 	{% for pList in peopleConfig.full %}
 		
@@ -13,26 +15,28 @@
 <h2>{{ pList.title[locale] }}</h2>
 	
 	{% for p in people %}
-		{% if p.group == pList.key %}
+		{% if p.data.group == pList.key %}
 		
 {% if pList.singles %}
 
-<a href="/{{ locale}}/people/{{p.slug}}" title="{{p.name[locale]}}" class="people-container">
+<a href="{{p.url}}" title="{{p.data.name}}" class="people-container">
 
-		<div class="people-image {% if p.image_link %} checked {% endif %}">
-			{% if p.image_link %}
-			<img src="{{(p.image_link)}}" alt="" loading="lazy" />
+		<div class="people-image {% if p.data.image_link or p.data.thumbnail_id %} checked {% endif %}">
+			{% if p.data.thumbnail_id %}
+			<img src="{{(p.data.thumbnail_id)}}" alt="{{p.data.name}}" loading="lazy" />
+			{% elif p.data.image_link %}
+			<img src="{{(p.data.image_link)}}" alt="{{p.data.name}}" loading="lazy" />
 			{% endif %}
 		</div>
 
 		<div class="people-desc-container">
 
 			<div class="people-name">
-				<span>{{p.name[locale]}}</span> 
+				<span>{{p.data.name}}</span> 
 			</div>
             
             <div class="people-position">
-				{{p.subtitle[locale]}}
+				{{p.data.subtitle}}
 			</div>
 
 		</div>
@@ -93,8 +97,8 @@
 	<div class="former-title">{{ pList.title[locale] }}</div>
 	<ul>
 	{% for p in people %}
-		{% if p.group == pList.key %}
-		<li>{{p.name[locale]}}</li>
+		{% if p.data.group == pList.key %}
+		<li>{{p.data.name}}</li>
 		{% endif %}
 	{% endfor %}
 	</ul>

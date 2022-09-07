@@ -6,6 +6,8 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require('@sindresorhus/slugify')
 
+const util = require('util')
+
 module.exports = function(config) {
 
   /* Markdown Overrides */
@@ -22,11 +24,32 @@ module.exports = function(config) {
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
 
+  // Load netlify CMS markdown folders as collections:
+  const mdCollections = [
+    ['projects_de', '/de/projects/*.md'],
+    ['projects_en', '/en/projects/*.md'],
+    ['people_de', '/de/people/*.md'],
+    ['people_en', '/en/people/*.md'],
+    ['events_de', '/de/events/*.md'],
+    ['events_en', '/en/events/*.md'],
+    ['publications', '/publications/*.md'],
+  ];
+
+  mdCollections.forEach(c => {
+    config.addCollection(c[0], function (collectionApi) {
+      return collectionApi.getFilteredByGlob('./src/site' + c[1]);
+    });
+  });
+
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/default.njk');
 
   // Add some utility filters
   config.addFilter("squash", require("./src/utils/filters/squash.js") );
+
+  config.addFilter('dumper', obj => {
+    return util.inspect(obj)
+  });
 
   // add support for syntax highlighting
   config.addPlugin(syntaxHighlight);
