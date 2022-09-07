@@ -5,5 +5,11 @@ slug: a-comparison-of-location-search-ui-patterns-on-mobile-devices
 outlet: "In: Proceedings of the MobileHCI 2014, Sept. 23–26, 2014, Toronto, ON,
   CA, pp. 465-470."
 year: 2014
-authors: []
+authors:
+  - internal_author_de: /de/people/sebastian-meier
+    internal_author_en: /en/people/sebastian-meier
+  - internal_author_de: /de/people/frank-heidmann
+    internal_author_en: /en/people/frank-heidmann
+  - internal_author_de: /de/people/andreas-thom
+    internal_author_en: /en/people/andreas-thom
 ---
