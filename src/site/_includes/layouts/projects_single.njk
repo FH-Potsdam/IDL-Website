@@ -1,1 +1,153 @@
-DEBUG
+{% include 'header.njk' %}
+{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser %}
+
+<div class="intro-container max-width default">
+  <h1>{{name}}</h1>
+
+   {% if excerpt %}
+  <div class="intro">
+ <p>{{excerpt}}</p>
+  </div>
+  {% endif %}
+
+</div>
+
+{#
+<h1>{{name[locale]}}</h1>
+{% if subtitle[locale] %}<h2>{{subtitle[locale]}}</h2>{% endif %}
+{% if excerpt[locale] %}<p>{{excerpt[locale]}}</p>{% endif %}
+#}
+
+{% if thumbnail_id %}
+<div class="project-hero">
+<img src="{{imageById(thumbnail_id, attachments)}}" alt="{{name}}">
+</div>
+{% endif %}
+
+
+<div class="project-facts-container">
+
+  <div class="team">
+    <span>Team</span>
+    <ul>
+    {#
+    {% for p in people | sort(true, false, "sort_name") %}
+    {% if p.wp_id in project_team %}
+    {{ peopleTeaser(p, locale) }}
+    {% endif %}
+    {% endfor %}
+    #}
+    </ul>
+  </div>
+
+
+ {% if filter_services %}
+  <div class="services">
+    <span>Services</span>
+    <ul>
+      
+      {% for s in filter_services %}
+    <li><a href="/{{locale}}/services/#{{s | slugify}}"> {{ s }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+   {% endif %}
+
+
+   {% if project_year %}
+  <div class="year">   
+        <span>
+      {% if locale == 'en' %} Year {% else %} Jahr {% endif %}
+    </span>
+       {{ project_year }}   
+  </div>
+    {% endif %}  
+
+
+ {% if project_partners_name.length > 0 %}
+  <div class="partner">   
+    <span>
+      {% if locale == 'en' %} Partner {% else %} Kooperationspartner {% endif %}
+    </span>
+    <ul>
+    {% for p in project_partners %}
+       
+    <li>{{ p.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endif %}  
+
+
+     {% if project_website %}
+    <div class="website">
+    <span>Website</span>
+       <a href="{{project_website}}">{{project_website}}</a>
+  </div>
+    {% endif %}  
+
+
+      {% if project_funding_logo %}
+    <div class="funding">
+    <span>
+        {% if locale == 'en' %} Sponsor {% else %} Förderer {% endif %}
+    </span>
+       <img src="{{project_funding_logo}}" alt="{{project_funding_name}}">
+    </div>
+    {% endif %}  
+
+
+    {% if project_client_name.length > 0 %}
+    <div class="funding">
+    <span>
+        {% if locale == 'en' %} Client {% else %} Auftraggeber {% endif %}
+    </span>
+       {{project_client_name}}
+    </div>
+    {% endif %}  
+
+ 
+
+</div>
+
+
+
+
+<div class="content-container">
+
+{{body | safe}}
+
+</div>
+
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+{# Publications #}
+{%if related_publications%}
+<div class="publications">
+ <h2>{% if locale == 'en' %}Publications{% else %}Publikationen{% endif %}</h2>
+{#
+{% for p in publications | sort(true, false, "year") %}
+{% if p.wp_id in related_publications %}
+
+
+{{ publicationTeaser(p, locale, people, attachments) }}
+
+{% endif %}
+{% endfor %}
+#}
+</div>
+{% endif %}
+
+
+
+
+
+
+{% include 'footer.njk' %}
