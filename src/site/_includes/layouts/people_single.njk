@@ -3,7 +3,11 @@
 
 <div class="content-container">
 <div class="person">
-      {% if image_link %}
+      {% elif thumbnail_id %}
+      <div class="portrait">
+			<img src="{{(thumbnail_id)}}" alt="{{name}}" loading="lazy" />
+      </div>
+      {% elif image_link %}
       <div class="portrait">
 			<img src="{{(image_link)}}" alt="" loading="lazy" />
       </div>
@@ -63,8 +67,8 @@
 </div>
 
       <div class="person-excerpt">
-{% if body %}
-<p>{{body | safe}}</p>
+{% if page %}
+<p>{{page | safe}}</p>
 {% endif %}
       </div>
 
