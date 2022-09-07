@@ -12,7 +12,7 @@
   related_publications: []
   related_projects: ""
   thumbnail_id: 265
-  featured_home: null
+  featured_home: false
   body: "Das MACE Projekt ist ein europäisches Forschungsprojekt mit Partnern in Italien, Spanien, den Niederlanden, Belgien und Deutschland. Das Projekt ist mitfinanziert durch das eContentplus Programm der europäischen Kommission.\n\nDas Ziel des MACE Projektes ist es e-learning für Architektur in Europa neu zu definieren. Es werden große Massen an Daten aus diversen Sammlungen zusammengeführt, welche in zahlreichen vorangegangenen Projekten erstellte wurden, angereicht werden diese durch Daten aus existierenden Architektur- und Design-Communities.\n\nDas MACE Projekt stellt den Rahmen für gemeinschaftliche e-services, vom finden, sammeln, nutzen bis hin zum diskutieren von e-learning Inhalten, Inhalten die bis dato nur kleinen Nutzergruppen zugänglich waren.\n\nDas Projekt nutz verschiedenste Typen von Metadaten um Inhalte zu verschlagworten: traditionelle Inhalts-Metadaten und Ontologien, Kontext-Metadaten, Kompetenz-Metadaten und Metadaten zum Lernprozess, nutzungsabhängige Metadaten und Metadaten die durch soziale Interaktionen generiert werden, wie z.B. Empfehlung von Nutzern oder Blog-Einträge.\n\nWährend des Projektes haben wir eine ganze Bandbreite an Interfaces und Visualisierungen entwickelt, welche den Benutzern verschiedenste Zugriffe auf die gesammelten Daten liefern. Ein weiterer wichtiger Teil des Projektes war das initiieren einer nachhaltig angelegten Online-Community, welche die Metadaten Anreicherung auch über das Projektende hinaus verfolgt."
   project_partners: 
     - 

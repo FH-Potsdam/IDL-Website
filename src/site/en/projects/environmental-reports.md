@@ -15,7 +15,7 @@
   related_publications: []
   related_projects: ""
   thumbnail_id: 260
-  featured_home: null
+  featured_home: false
   body: "<strong>Concept for user-centered Environmental Reports for the German Ministry for the Environment</strong>\n\nThe goal of this project is the analysis of the status quo of environmental reporting, with a focus on openData and accessible information on the web (e.g. www.umweltbundesamt.de/daten). The analysis is looking into the target audiences, applications, information needs, as well as more global goals from the ministry itself. Going beyond traditional spreadsheets and pdf repots, this project aims at creating concepts and prototypes for modern visualization methods, cartographic services as well as APIs for third party applications.\n\nThe <strong>IDL // Interaction Design Lab</strong> is responsible for the analysis, conception as well as design and development of user centered modules for the next generation of environmental reports."
   project_partners: 
     - 

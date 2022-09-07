@@ -14,7 +14,7 @@
   related_publications: []
   related_projects: ""
   thumbnail_id: 135
-  featured_home: null
+  featured_home: false
   body: "Das Herz des Projektes ist eine intelligente Daten-API, welche es Benutzer_innen und Entwickler_innen erlaubt, in Echtzeit auf eine Bandbreite an Daten zuzugreifen. Diese Daten reichen von Ortsinformationen wie Restaurants und Museen über Wetterinformationen bis hin zu aktuellen Verkehrsinformationen. Diese Daten werden über intelligente Algorithmen miteinander verschnitten. Die Ergebnisse dieser Berechnungen wurden im Rahmen des Forschungsprojektes in ersten Prototypen in die Anwendung eingebracht. Das Hauptaugenmerk des <strong>IDL // Interaction Design Labs</strong> lag dabei auf der benutzerzentrierten Entwicklung eines durchdachten Benutzererlebnisses. Aus der Perspektive der Forschung gab uns die Evaluation der Prototypen darüber hinaus Einsicht in die Bereiche nutzerzentrierter Empfehlungen, Navigation, Privatsphäre und kulturübergreifendes Design.\n\nDas MSNI Forschungsprojekt wurde vom Bundesministerium für Bildung und Forschung finanziert.\n\n"
   project_partners: 
     - 

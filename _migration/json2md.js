@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = false;
+const runProjects = true;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/projects.json', 'utf8'));
@@ -23,6 +23,10 @@ if (runProjects) {
 
       props['body'] = props['page'];
       delete props['page'];
+
+      if (!props['featured_home'] || props['featured_home'] == null) {
+        props['featured_home'] = false;
+      }
 
       const mergeKeys = {
         project_partners: [
@@ -70,7 +74,7 @@ if (runProjects) {
 
 
 
-const runPeople = false;
+const runPeople = true;
 // people.json > de||en/people/slug
 if (runPeople) {
   const people = JSON.parse(fs.readFileSync('../src/site/_data/people.json', 'utf8'));
