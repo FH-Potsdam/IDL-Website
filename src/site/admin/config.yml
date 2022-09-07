@@ -172,10 +172,6 @@ collections:
       - {label: "Twitter", name: "twitter", widget: string}
       - {label: "Thumbnail", name: "thumbnail_id", widget: image}
       - {label: "Sorting", name: "sort_name", widget: string}
-      - label: "Related Publications"
-        name: related_publications
-        widget: list
-        field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: title, display_fields: [title]}
   - label: "People (EN)"
     name: "people_en"
     editor:
@@ -200,6 +196,7 @@ collections:
       - {label: "Date", name: "date", widget: string}
       - {label: "Thumbnail", name: "thumbnail", widget: image}
       - {label: "Sorting", name: "sort_name", widget: string}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       - label: "Related Projects"
         name: related_projects
         widget: list
@@ -225,6 +222,7 @@ collections:
       - {label: "Date", name: "date", widget: string}
       - {label: "Thumbnail", name: "thumbnail", widget: image}
       - {label: "Sorting", name: "sort_name", widget: string}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       - label: "Related Projects"
         name: related_projects
         widget: list
