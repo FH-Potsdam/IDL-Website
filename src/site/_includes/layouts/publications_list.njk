@@ -3,6 +3,11 @@
 {% from './macros.njk' import publicationTeaser  %}
 {# {{ content }} #}
 
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% endif %}
 
           
 <div class="intro-container max-width">

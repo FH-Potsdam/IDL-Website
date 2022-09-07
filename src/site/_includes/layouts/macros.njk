@@ -83,10 +83,8 @@
 				<li> {% if a.internal_author_de %}
           {% if locale == 'de' %}
           {% set author = a.internal_author_de %}
-          {% set people = collections.people_de %}
           {% else %}
           {% set author = a.internal_author_en %}
-          {% set people = collections.people_en %}
           {% endif %}
           <a href="{{peopleById(author,people,'url')}}">{{peopleById(author,people,'url')}}</a>
           {% else %}
@@ -140,9 +138,9 @@
 {% endmacro %}
 #}
 
-{% macro peopleById(id, people, key) %}
+{% macro peopleById(url, people, key) %}
 {% for p in people %}
-{% if p.url == id %}
+{% if p.url == url %}
 {{ p[key] }}
 {% endif %}
 {% endfor %}

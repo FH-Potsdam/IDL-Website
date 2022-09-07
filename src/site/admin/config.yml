@@ -289,7 +289,7 @@ collections:
           required: false
           collection: people_de
           search_fields: [name]
-          value_field: "/de/people/{{slug}}"
+          value_field: "/de/people/{{slug}}/"
           display_fields: [name]
         - label: Internal Author (EN)
           name: internal_author_en
@@ -297,7 +297,7 @@ collections:
           required: false
           collection: people_en
           search_fields: [name]
-          value_field: "/en/people/{{slug}}"
+          value_field: "/en/people/{{slug}}/"
           display_fields: [name]
         - {label: External Name, name: name, widget: string, required: false}
         - {label: External Url, name: url, widget: string, required: false}
