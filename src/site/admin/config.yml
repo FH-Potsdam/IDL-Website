@@ -12,6 +12,7 @@ collections:
       preview: false
     folder: "src/site/de/projects"
     create: true
+    identifier_field: name
     fields: &project_meta
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -94,6 +95,7 @@ collections:
       preview: false
     folder: "src/site/en/projects"
     create: true
+    identifier_field: name
     fields: &project_meta
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -176,6 +178,7 @@ collections:
       preview: false
     folder: "src/site/de/people"
     create: true
+    identifier_field: name
     fields: &people_meta
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -199,6 +202,7 @@ collections:
       preview: false
     folder: "src/site/en/people"
     create: true
+    identifier_field: name
     fields: *people_meta
   - label: "Events (DE)"
     name: "events_de"
@@ -206,6 +210,7 @@ collections:
       preview: false
     folder: "src/site/de/events"
     create: true
+    identifier_field: name
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -234,6 +239,7 @@ collections:
       preview: false
     folder: "src/site/en/events"
     create: true
+    identifier_field: name
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -258,6 +264,7 @@ collections:
         field: {label: People, name: people, widget: relation, collection: people_en, search_fields: [name], value_field: name, display_fields: [name]}
   - label: "Publications"
     name: "publications"
+    identifier_field: title
     editor:
       preview: false
     folder: "src/site/publications"
@@ -283,6 +290,7 @@ collections:
     name: "pages"
     editor:
       preview: false
+    identifier_field: title
     files:
       - label: "Über uns (DE)"
         name: "about_de"
