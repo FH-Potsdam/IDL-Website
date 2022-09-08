@@ -1,5 +1,12 @@
 {% include 'header.njk' %}
 {% from './macros.njk' import publicationTeaser, imageById, projectTeaser %}
+{% if group and group != 'Past Students' and group != 'Past Member' %}
+
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% endif %}
 
 <div class="content-container">
 <div class="person">
@@ -23,30 +30,43 @@
         <div class="position">{% if subtitle %}{{subtitle}}{% endif %}</div>
 
         <div class="output-container">
-
-          {#
+{#
           {% set projectcounter = 0 %}
           {% for p in projects | sort(true, false, "year") %}
           {% if wp_id in p.project_team %}
           {% set projectcounter = projectcounter + 1 %}
           {% endif %}
           {% endfor %}
-
+#}
+          {# THIS IS VERY SLOW FOR SOME REASON #}
+          {#
           {% set publicationcounter = 0 %}
-          {% for p in publications | sort(true, false, "year") %}
-          {% if wp_id in p.authors_ids %}
-          {% set publicationcounter = publicationcounter + 1 %}
-          {% endif %}
+          {% for p in collections.publications %}
+          {%   set foundAuthor = false %}
+          {%   for a in p.data.authors %}
+          {%     if locale == 'de' %}
+          {%       set author = a.internal_author_de %}
+          {%     else %}
+          {%       set author = a.internal_author_en %}
+          {%     endif %}
+          {%     if author and author | length > 3 and (author in page.url or author == page.url) %}
+          {%       set foundAuthor = true %}
+          {%     endif %}
+          {%   endfor %}
+          {%   if foundAuthor %}
+          {%     set publicationcounter = publicationcounter + 1 %}
+          {%   endif %}
           {% endfor %}
+          #}
 
-          {% if projectcounter > 3 %}
+          {% if projectcounter > 0 %}
           <div class="person-projects"><a href="#projects">Projekte</a> ({{ projectcounter }})</div>
           {% endif %}
 
-          {% if publicationcounter > 3 %}
-          <div class="person-publications"><a href="#publications">Publikationen</a> ({{publications | length}})</div>
+          {% if publicationcounter > 0 %}
+          <div class="person-publications"><a href="#publications">Publikationen</a> ({{publicationcounter}})</div>
           {% endif %}
-          #}
+
         </div>
 
         <div class="person-contacts">
@@ -108,14 +128,24 @@
 
 <div class="publications expand-pubs preview">
   <h2 id="publications">Publications</h2>
-{% for p in publications | sort(true, false, "year") %}
-{% if wp_id in p.authors_ids %}
-
-    
-
-{{ publicationTeaser(p, locale, people, attachments) }}
-{% endif %}
+  {#
+{% for p in collections.publications | sort(true, false, "year") %}
+{%   set foundAuthor = false %}
+{%   for a in p.data.authors %}
+{%     if locale == 'de' %}
+{%       set author = a.internal_author_de %}
+{%     else %}
+{%       set author = a.internal_author_en %}
+{%     endif %}
+{%     if author and author | length > 3 and (author in page.url or author == page.url) %}
+{%       set foundAuthor = true %}
+{%     endif %}
+{%   endfor %}
+{%   if foundAuthor %}
+{{     publicationTeaser(p, locale, people) }}
+{%   endif %}
 {% endfor %}
+#}
 </div>
   {% if publicationcounter > 3 %}
   <div class="more-link">
@@ -126,5 +156,5 @@
 {% endif %}
 
 
-
+{% endif %}
 {% include 'footer.njk' %}

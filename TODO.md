@@ -1,2 +1,4 @@
 - Script to rename and resize images
 - link people > projects from projects > people
+
+- speed up rendering through global map

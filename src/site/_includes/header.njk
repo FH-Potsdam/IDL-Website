@@ -49,11 +49,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
 
-
+{% if page.url %}
   {% set lang = page.url.slice(1, 3) %}
     {% set enUrl = page.url | replace("/de/", "/en/") %}
     {% set deUrl = page.url | replace("/en/", "/de/") %}
-
+{% endif %}
   <header>
     <a id="logo" href="/{{locale}}/" rel="home">
     <img src="/images/assets/idl-logo.svg" alt="Interaction Design Lab Startseite">
@@ -75,12 +75,12 @@
         <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/>
       </svg></button>
     <ul class="ncl" id="menu-list" hidden>
-     <li><a {{ 'aria-current=page' if '/about' in page.url }} href="/{{locale}}/about/">{% if lang == 'en' %}About{% else %}Über uns{% endif %}</a></li>
-        <li><a {{ 'aria-current=page' if '/projects' in page.url }} href="/{{locale}}/projects/">{% if lang == 'en' %}Projects{% else %}Projekte{% endif %}</a></li>
-        <li><a {{ 'aria-current=page' if '/publications' in page.url }} href="/{{locale}}/publications/">{% if lang == 'en' %}Publications{% else %}Publikationen{% endif %}</a></li>
-        <li><a {{ 'aria-current=page' if '/services' in page.url }} href="/{{locale}}/services/">{% if lang == 'en' %}Services{% else %}Services{% endif %}</a></li>
-        <li><a {{ 'aria-current=page' if '/people' in page.url }} href="/{{locale}}/people/">{% if lang == 'en' %}People{% else %}Personen{% endif %}</a></li>
-        <li><a {{ 'aria-current=page' if '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
+     <li><a {{ 'aria-current=page' if page.url and '/about' in page.url }} href="/{{locale}}/about/">{% if lang == 'en' %}About{% else %}Über uns{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/projects' in page.url }} href="/{{locale}}/projects/">{% if lang == 'en' %}Projects{% else %}Projekte{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/publications' in page.url }} href="/{{locale}}/publications/">{% if lang == 'en' %}Publications{% else %}Publikationen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/services' in page.url }} href="/{{locale}}/services/">{% if lang == 'en' %}Services{% else %}Services{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/people' in page.url }} href="/{{locale}}/people/">{% if lang == 'en' %}People{% else %}Personen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
         <li class="lang-switch">
         {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Seite in Deutsch anzeigen (DE)" alt="Seite in Deutsch anzeigen (DE)"><img src="/images/assets/switch-de.svg" alt="Seite in Deutsch anzeigen (DE)"></a> {% endif %}
         {% if lang == 'de' %} <a href="{{ enUrl }}" hreflang="de" title="Switch to English (EN)" alt="Switch to English (EN)"><img src="/images/assets/switch-en.svg" alt="Switch to English (EN)"></a> {% endif %}
