@@ -17,7 +17,7 @@
   related_projects: ""
   thumbnail_id: 494
   featured_home: true
-  thumbnail: ""
+  thumbnail: null
   project_partners: 
     - 
       name: "JGU Mainz"

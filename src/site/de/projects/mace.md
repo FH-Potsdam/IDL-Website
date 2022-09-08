@@ -13,7 +13,7 @@
   related_projects: ""
   thumbnail_id: 265
   featured_home: false
-  thumbnail: ""
+  thumbnail: null
   project_partners: 
     - 
       name: "Prof. Vitorio Spigai (IUAV)"

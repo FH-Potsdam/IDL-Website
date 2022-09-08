@@ -13,7 +13,7 @@
   related_projects: ""
   thumbnail_id: 247
   featured_home: false
-  thumbnail: ""
+  thumbnail: null
   project_partners: 
     - 
       name: "Raureif"

@@ -22,7 +22,7 @@
   related_projects: ""
   thumbnail_id: 432
   featured_home: false
-  thumbnail: ""
+  thumbnail: null
   project_partners: 
     - 
       name: "University of Potsdam"

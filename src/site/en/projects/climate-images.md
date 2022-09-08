@@ -14,7 +14,7 @@
   related_projects: ""
   thumbnail_id: 443
   featured_home: true
-  thumbnail: ""
+  thumbnail: null
   project_partners: []
   project_team_external: 
     - 
