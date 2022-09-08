@@ -8,10 +8,15 @@
     - "Mobile"
   subtitle: "Location and context-based services"
   project_year: "2012 – 2013"
-  project_team: []
+  project_team: 
+    - /en/people/sebastian-meier
+    - /en/people/andreas-thom
+    - /en/people/frank-heidmann
   project_website: "http://www.m-s-n-i.de/"
   project_material: ""
-  related_publications: []
+  related_publications:
+    - /publications/interkulturelle-nutzeranforderungen-erheben
+    - /publications/too-many-markers-revisited-an-empirical-analysis-of-web-based-methods-for-overcoming-the-problem-of-too-many-markers-in-zoomable-mapping-applications
   related_projects: ""
   thumbnail_id: 135
   featured_home: false

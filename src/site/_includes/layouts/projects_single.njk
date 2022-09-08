@@ -135,19 +135,18 @@
 {% endif %}
 
 {# Publications #}
-{%if related_publications%}
+
+{%if related_publications %}
 <div class="publications">
  <h2>{% if locale == 'en' %}Publications{% else %}Publikationen{% endif %}</h2>
-{#
-{% for p in publications | sort(true, false, "year") %}
-{% if p.wp_id in related_publications %}
 
-
-{{ publicationTeaser(p, locale, people, attachments) }}
-
+{% for p in collections.publications | sort(true, false, "year") %}
+{% for r in related_publications %}
+{% if p.fileSlug | stripUrl in r | stripUrl %}
+{{ publicationTeaser(p, locale, people) }}
 {% endif %}
 {% endfor %}
-#}
+{% endfor %}
 </div>
 {% endif %}
 
