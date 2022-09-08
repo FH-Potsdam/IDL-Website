@@ -1,6 +1,13 @@
 {% include 'header.njk' %}
 {% include 'main.njk' %}
 {% from './macros.njk' import projectTeaser %}
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% set projects = collections.projects_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% set projects = collections.projects_de %}
+{% endif %}
 
 {{ content }}
 
@@ -64,7 +71,7 @@ Art
 
 <div class="projects">
 {% for p in projects | sort(true, false, "year") %}
-	{{ projectTeaser(p, locale, attachments) }}
+	{{ projectTeaser(p) }}
 {% endfor %}
 </div>
 
