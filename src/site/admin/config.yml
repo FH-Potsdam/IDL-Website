@@ -119,7 +119,7 @@ collections:
         name: "filter_themen"
         widget: "select"
         required: false
-        options: "Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"
+        options: ["Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"]
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
