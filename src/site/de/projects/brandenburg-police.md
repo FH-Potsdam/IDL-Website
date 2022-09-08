@@ -10,8 +10,11 @@ featured_home: true
 project_website: http://polizei.brandenburg.de
 project_material: ""
 group: null
-filter_themen: Portal
-filter_services: UI/UX
+filter_themen:
+  - Portal
+filter_services:
+  - UI/UX
+  - Human-Centered Design
 project_team_external: []
 project_team:
   - /de/people/sebastian-meier/
@@ -20,7 +23,8 @@ project_team:
 slug: brandenburg-police
 thumbnail_id: 247
 related_projects: ""
-filter_art: Transfer
+filter_art:
+  - Transfer
 project_partners:
   - name: Raureif
     url: http://raureif.net
