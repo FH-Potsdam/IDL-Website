@@ -8,7 +8,7 @@
   website: ""
   email: "paula.schuster@fh-potsdam.de"
   twitter: "@paunklet"
-  thumbnail_id: 496
+  thumbnail_id: null
   publications: 
     - 513
   sort_name: "Schuster"

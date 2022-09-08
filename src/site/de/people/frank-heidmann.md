@@ -8,7 +8,7 @@
   website: ""
   email: "heidmann@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 346
+  thumbnail_id: null
   image_link: "/images/frank-heidmann.jpg"
   laufschrift_tags: "Dashboards × GeoVis × Prototyping × Concept × Dashboards × GeoVis × Prototyping"
   publications: 

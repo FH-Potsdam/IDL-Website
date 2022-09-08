@@ -8,7 +8,7 @@
   website: "http://tillnagel.com"
   email: "fhp@tillnagel.com"
   twitter: "@tillnm"
-  thumbnail_id: 80
+  thumbnail_id: null
   publications: 
     - 73
     - 75

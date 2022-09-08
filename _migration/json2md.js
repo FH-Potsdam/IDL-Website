@@ -85,7 +85,7 @@ if (runProjects) {
 
 
 
-const runPeople = false;
+const runPeople = true;
 // people.json > de||en/people/slug
 if (runPeople) {
   const people = JSON.parse(fs.readFileSync('../src/site/_data/_people.json', 'utf8'));
@@ -103,8 +103,8 @@ if (runPeople) {
       const page = props['page'];
       delete props['page'];
 
-      if (!props['thumbnail_id'] || props['thumbnail_id'] == null) {
-        props['thumbnail_id'] = '';
+      if (!props['thumbnail_id'] || props['thumbnail_id'] == null || props['thumbnail_id'].length < 4 || typeof props['thumbnail_id'] !== 'string') {
+        props['thumbnail_id'] = null;
       }
 
       let file = YAML.stringify(props);

@@ -8,7 +8,7 @@
   website: "http://www.fh-potsdam.de/person/person-action/klaus-dufke/show/Person/"
   email: "dufke@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 348
+  thumbnail_id: null
   publications: []
   sort_name: "Dufke"
 

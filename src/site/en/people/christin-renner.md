@@ -8,7 +8,7 @@
   website: "https://maschinen-emotionen.webflow.io"
   email: "christin.renner@fh-potsdam.de"
   twitter: "@weallstart"
-  thumbnail_id: ""
+  thumbnail_id: null
   publications: []
   sort_name: "Renner"
 

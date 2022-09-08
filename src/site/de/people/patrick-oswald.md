@@ -8,7 +8,7 @@
   website: ""
   email: "patrick.oswald@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: ""
+  thumbnail_id: null
   publications: []
   sort_name: "Oswald"
 

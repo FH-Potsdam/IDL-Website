@@ -8,7 +8,7 @@
   website: "https://www.fh-potsdam.de/hochschule-netzwerk/personen/constanze-langer"
   email: "langer@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 240
+  thumbnail_id: null
   image_link: "/images/Constanze-Langer-425x350.png"
   publications: []
   sort_name: "Langer"

@@ -8,7 +8,7 @@
   website: ""
   email: "edmundo.mejia.galindo@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 437
+  thumbnail_id: null
   publications: 
     - 438
   sort_name: "Galindo"

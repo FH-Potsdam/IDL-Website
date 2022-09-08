@@ -8,7 +8,7 @@
   website: "http://esono.com"
   email: "boris.mueller@fh-potsdam.de"
   twitter: "@borism"
-  thumbnail_id: 90
+  thumbnail_id: null
   image_link: "/images/boris-mueller.jpg"
   publications: 
     - 193

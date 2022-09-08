@@ -8,7 +8,7 @@
   website: "http://mariandoerk.de"
   email: "doerk@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 239
+  thumbnail_id: null
   publications: []
   sort_name: "Dörk"
 

@@ -8,7 +8,7 @@
   website: ""
   email: "jordi.tost.val@fh-potsdam.de"
   twitter: "@jorditost"
-  thumbnail_id: 497
+  thumbnail_id: null
   image_link: "/images/Tost-Jordi-2019-4zu5_web-425x350.jpg"
   publications: 
     - 226

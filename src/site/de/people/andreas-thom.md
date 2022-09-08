@@ -8,7 +8,7 @@
   website: ""
   email: "thom@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 353
+  thumbnail_id: null
   publications: 
     - 328
     - 329

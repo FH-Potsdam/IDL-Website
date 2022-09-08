@@ -8,7 +8,7 @@
   website: ""
   email: ""
   twitter: ""
-  thumbnail_id: ""
+  thumbnail_id: null
   publications: []
   sort_name: "Hoinkins"
 

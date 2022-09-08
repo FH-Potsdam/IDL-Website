@@ -8,7 +8,7 @@
   website: ""
   email: "stange@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: 238
+  thumbnail_id: null
   publications: []
   sort_name: "Stange"
 

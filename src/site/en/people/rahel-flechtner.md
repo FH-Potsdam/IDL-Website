@@ -8,7 +8,7 @@
   website: ""
   email: "rahel.flechtner@fh-potsdam.de"
   twitter: ""
-  thumbnail_id: ""
+  thumbnail_id: null
   image_link: ""
   publications: []
   sort_name: "Flechtner"

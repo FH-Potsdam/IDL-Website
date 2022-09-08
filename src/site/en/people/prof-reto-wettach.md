@@ -8,7 +8,7 @@
   website: ""
   email: "wettach@fh-potsdam.de"
   twitter: "retowettach"
-  thumbnail_id: 347
+  thumbnail_id: null
   image_link: "/images/reto-wettach.jpg"
   publications: []
   sort_name: "Wettach"

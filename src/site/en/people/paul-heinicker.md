@@ -8,7 +8,7 @@
   website: "http://paulheinicker.com"
   email: "heinicker@fh-potsdam.de"
   twitter: "paulpunkt"
-  thumbnail_id: 441
+  thumbnail_id: null
   publications: []
   sort_name: "Heinicker"
 

@@ -8,7 +8,7 @@
   website: "http://fabianmoronzirfas.me/"
   email: "moron-zirfas@fh-potsdam.de"
   twitter: "fabiantheblind"
-  thumbnail_id: 349
+  thumbnail_id: null
   publications: []
   sort_name: "Zirfas"
 
