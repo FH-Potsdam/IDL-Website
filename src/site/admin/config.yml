@@ -35,17 +35,17 @@ collections:
         name: "filter_themen"
         widget: "select"
         required: false
-        options: ["Speculative", "App Design"]
+        options: ["Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"]
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
         required: false
-        options: ["UI/UX"]
+        options: ["Prototyping", "UI/UX", "Human-Centered Design", "Design Thinking", "Service Design"]
       - label: "Filter-Art"
         name: "filter_art"
         widget: "select"
         required: false
-        options: ["Forschung"]
+        options: ["Forschung", "Transfer"]
       - label: "Project Team Extern"
         name: "project_team_external"
         widget: "list"
@@ -119,17 +119,17 @@ collections:
         name: "filter_themen"
         widget: "select"
         required: false
-        options: ["Speculative", "App Design"]
+        options: "Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
         required: false
-        options: ["UI/UX"]
+        options: ["Prototyping", "UI/UX", "Human-Centered Design", "Design Thinking", "Service Design"]
       - label: "Filter-Art"
         name: "filter_art"
         widget: "select"
         required: false
-        options: ["Forschung"]
+        options: ["Research", "Transfer"]
       - label: "Project Team Extern"
         name: "project_team_external"
         widget: "list"
