@@ -41,6 +41,11 @@ module.exports = function(config) {
     });
   });
 
+  config.addCollection('map', function (collectionApi) {
+    const all = collectionApi.getAll();
+    return [];
+  });
+
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/default.njk');
 
@@ -55,7 +60,8 @@ module.exports = function(config) {
   config.addPlugin(syntaxHighlight);
 
   // minify the html output
-  config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
+  // this breaks for permalink: false
+  // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
   // compress and combine js files
   config.addFilter("jsmin", function(code) {
