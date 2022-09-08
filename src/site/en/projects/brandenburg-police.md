@@ -1,32 +1,33 @@
 ---
-  name: "Brandenburg Police"
-  excerpt: ""
-  wp_id: 184
-  slug: "brandenburg-police"
-  group: null
-  subtitle: "UX/UI Design for a Government Portal"
-  project_year: "2011-2015"
-  project_team: []
-  project_website: "http://polizei.brandenburg.de"
-  project_material: ""
-  related_publications: []
-  related_projects: ""
-  thumbnail_id: 247
-  featured_home: false
-  thumbnail: null
-  project_partners: 
-    - 
-      name: "Raureif"
-      url: "http://raureif.net/en/"
-  project_team_external: []
-  project_funding: []
-  project_client: 
-    - 
-      name: "Zentraldienst der Polizei"
-      url: ""
-      logo: null
-      logo_id: 376
-
+wp_id: 184
+name: Brandenburg Police
+subtitle: UX/UI Design for a Government Portal
+project_year: 2011-2015
+year: 2011
+thumbnail: /images/uploads/bildschirmfoto-2015-12-21-um-18.13.04.png
+excerpt: ""
+featured_home: false
+project_website: http://polizei.brandenburg.de
+project_material: ""
+project_team_external: []
+project_team:
+  - /en/people/sebastian-meier/
+  - /en/people/frank-heidmann/
+  - /en/people/jan-erik-stange/
+slug: brandenburg-police
+thumbnail_id: 247
+related_projects: ""
+group: null
+project_partners:
+  - name: Raureif
+    url: http://raureif.net
+project_client:
+  - name: Zentraldienst der Polizei
+    url: ""
+    logo: /images/uploads/2012-11-05_logo_zdpol_5.png
+    logo_id: 376
+project_funding: []
+related_publications: []
 ---
 <a href="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43.png"><img class="alignnone wp-image-248 size-content-image" src="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43-660x234.png" alt="Bildschirmfoto 2015-12-21 um 18.18.43" width="660" height="234" /></a>
 
