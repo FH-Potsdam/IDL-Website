@@ -16,6 +16,7 @@
   related_projects: ""
   thumbnail_id: 262
   featured_home: false
+  thumbnail: ""
   project_partners: 
     - 
       name: "DELPHI IMM GmbH"

@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = false;
+const runProjects = true;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/_projects.json', 'utf8'));
@@ -23,6 +23,8 @@ if (runProjects) {
 
       const page = props['page'];
       delete props['page'];
+
+      props['thumbnail'] = '';
 
       if (!props['featured_home'] || props['featured_home'] == null) {
         props['featured_home'] = false;

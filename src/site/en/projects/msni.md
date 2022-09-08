@@ -15,6 +15,7 @@
   related_projects: ""
   thumbnail_id: 135
   featured_home: false
+  thumbnail: ""
   project_partners: 
     - 
       name: "idpraxis GmbH"

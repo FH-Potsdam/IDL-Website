@@ -15,6 +15,7 @@
   related_projects: ""
   thumbnail_id: 101
   featured_home: false
+  thumbnail: ""
   project_partners: 
     - 
       name: "Carl Zeiss Jena"

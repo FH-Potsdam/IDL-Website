@@ -15,6 +15,7 @@
   related_projects: ""
   thumbnail_id: 230
   featured_home: false
+  thumbnail: ""
   project_partners: 
     - 
       name: "Raureif"

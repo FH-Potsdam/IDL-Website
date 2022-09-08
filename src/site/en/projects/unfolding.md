@@ -14,6 +14,7 @@
   related_projects: ""
   thumbnail_id: 232
   featured_home: false
+  thumbnail: ""
   project_partners: []
   project_team_external: []
   project_funding: []

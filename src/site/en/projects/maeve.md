@@ -29,6 +29,7 @@
   related_projects: ""
   thumbnail_id: 45
   featured_home: true
+  thumbnail: ""
   project_partners: 
     - 
       name: "IUAV University of Venice"
