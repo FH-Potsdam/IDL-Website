@@ -142,7 +142,7 @@
 
 {% for p in collections.publications | sort(true, false, "year") %}
 {% for r in related_publications %}
-{% if p.fileSlug | stripUrl in r | stripUrl %}
+{% if r and r | length > 3 and p.fileSlug | stripUrl in r | stripUrl %}
 {{ publicationTeaser(p, locale, people) }}
 {% endif %}
 {% endfor %}
