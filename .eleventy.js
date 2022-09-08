@@ -50,7 +50,7 @@ module.exports = function(config) {
   });
 
   const stripUrl = (url) => {
-    if (url) {
+    if (url && (typeof url === 'string')) {
       url = url.trim();
       if (url.slice(-1) === '/') {
         url = url.slice(0, -1);
@@ -111,22 +111,27 @@ module.exports = function(config) {
             map.lists['people_de_projects'] = {};
             map.lists['people_en_projects'] = {};
           }
+          let lang = 'en';
+          if (c[0].indexOf('_de') > -1) {
+            lang = 'de';
+          }
+
           // create list of publications per author
-          // const foundAuthors = {de:[],en:[]};
-          // item.data.authors.forEach(a => {
-          //   if (a.internal_author_de && a.internal_author_de.length > 3) {
-          //     foundAuthors.de.push(stripUrl(a.internal_author_de));
-          //     foundAuthors.en.push(stripUrl(a.internal_author_en));
-          //   }
-          // });
-          // Object.keys(foundAuthors).forEach(lang => {
-          //   foundAuthors[lang].forEach(author => {
-          //     if(!(author in map.lists['people_' + lang + '_publications'])) {
-          //       map.lists['people_' + lang + '_publications'][author] = [];
-          //     }
-          //     map.lists['people_' + lang + '_publications'][author].push(i);
-          //   });
-          // });
+          const foundAuthors = [];
+          item.data.project_team.forEach(a => {
+            if (a && a.length > 3) {
+              foundAuthors.push(stripUrl(a));
+            }
+          });
+
+
+          foundAuthors.forEach(author => {
+            if(!(author in map.lists['people_' + lang + '_projects'])) {
+              map.lists['people_' + lang + '_projects'][author] = [];
+            }
+            map.lists['people_' + lang + '_projects'][author].push(i);
+          });
+
         }
       });
     });

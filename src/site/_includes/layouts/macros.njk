@@ -59,10 +59,10 @@
 	</a>	
   {% endmacro %}
 
-{% macro peopleTeaser(p, locale) %}
+{% macro peopleTeaser(p) %}
 <li>
-  <a href="/{{locale}}/people/{{p.slug}}/" title="{{p.name[locale]}}">
-    {{p.name[locale]}}
+  <a href="{{p.url}}" title="{{p.data.name}}">
+    {{p.data.name}}
   </a>
 </li>
 {% endmacro %}

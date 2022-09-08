@@ -4,8 +4,10 @@
 
 {% if locale == 'de' %}
 {% set people = collections.people_de %}
+{% set projects = collections.projects_de %}
 {% else %}
 {% set people = collections.people_en %}
+{% set projects = collections.projects_de %}
 {% endif %}
 
 <div class="content-container">
@@ -30,18 +32,8 @@
         <div class="position">{% if subtitle %}{{subtitle}}{% endif %}</div>
 
         <div class="output-container">
-{#
-          {% set projectcounter = 0 %}
-          {% for p in projects | sort(true, false, "year") %}
-          {% if wp_id in p.project_team %}
-          {% set projectcounter = projectcounter + 1 %}
-          {% endif %}
-          {% endfor %}
-#}
 
-
-          
-          
+          {% set projectcounter = collections.map.lists['people_' + locale + '_projects'][page.url | stripUrl] | length %}
           {% if projectcounter > 0 %}
           <div class="person-projects"><a href="#projects">Projekte</a> ({{ projectcounter }})</div>
           {% endif %}
@@ -90,10 +82,8 @@
 {% if projectcounter > 0 %}
 <h2 class="projects" id="projects">Projects</h2>
 <div class="projects expand-projects preview">
-{% for p in projects | sort(true, false, "year") %}
-{% if wp_id in p.project_team %}
-{{ projectTeaser(p, locale, attachments) }}
-{% endif %}
+{% for pId in collections.map.lists['people_' + locale + '_projects'][page.url | stripUrl] %}
+{{     projectTeaser(projects[pId]) }}
 {% endfor %}
 </div>
     {% if projectcounter > 3 %}

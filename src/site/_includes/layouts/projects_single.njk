@@ -24,9 +24,9 @@
 {% if excerpt[locale] %}<p>{{excerpt[locale]}}</p>{% endif %}
 #}
 
-{% if thumbnail_id %}
+{% if thumbnail %}
 <div class="project-hero">
-<img src="{{imageById(thumbnail_id, attachments)}}" alt="{{name}}">
+<img src="{{thumbnail}}" alt="{{name}}">
 </div>
 {% endif %}
 
@@ -36,13 +36,13 @@
   <div class="team">
     <span>Team</span>
     <ul>
-    {#
+    {% for t in project_team %}
     {% for p in people | sort(true, false, "sort_name") %}
-    {% if p.wp_id in project_team %}
-    {{ peopleTeaser(p, locale) }}
+    {% if t | length > 3 and p.url | stripUrl in t | stripUrl %}
+    {{ peopleTeaser(p) }}
     {% endif %}
     {% endfor %}
-    #}
+    {% endfor %}
     </ul>
   </div>
 
@@ -120,9 +120,9 @@
 
 
 <div class="content-container">
-
-{{body | safe}}
-
+{% if content %}
+<p>{{content | safe}}</p>
+{% endif %}
 </div>
 
 {% if laufschrift_green and laufschrift_black %}

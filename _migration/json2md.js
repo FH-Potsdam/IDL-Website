@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = true;
+const runProjects = false;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/_projects.json', 'utf8'));
