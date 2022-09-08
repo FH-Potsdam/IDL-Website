@@ -60,10 +60,12 @@ if (runProjects) {
               el[key_value[1]] = props[key_value[0]][i];
             });
             if (key === 'project_funding') {
-              el['project_funding_logo'] = null;
+              el['logo_id'] = el['logo'];
+              el['logo'] = null;
             }
             if (key === 'project_client') {
-              el['project_client_logo'] = null;
+              el['logo_id'] = el['logo'];
+              el['logo'] = null;
             }
             els.push(el);
           });

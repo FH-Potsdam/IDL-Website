@@ -24,8 +24,8 @@
     - 
       name: "Helmholtz-Gemeinschaft"
       url: ""
-      logo: ""
-      project_client_logo: null
+      logo: null
+      logo_id: ""
 
 ---
 Die „Earth System Knowledge Platform“ ESKP (Wissensplattform „Erde undUmwelt“) ist ein Gemeinschaftsprojekt von acht Helmholtz-Zentren (u.a. DLR, GFZ, GEOMAR, AWI, KIT). Ziel ist der Aufbau einer umfassenden webbasierten Wissensplattform zu Risiken und Chancen globaler Veränderungen der Umwelt. Dazu soll gesichertes Wissen zu Themen wie Wasser, Boden, Klima oder Naturkatastrophen multimedial (interaktive Karten, Infografiken, Videos etc.) aufbereitet werden, um Gesellschaft, Politik und Wirtschaft eine fundierte Zukunftsvorsorge zu ermöglichen.

@@ -39,8 +39,8 @@
     - 
       name: "Umweltbundesamt"
       url: "http://www.umweltbundesamt.de"
-      logo: 369
-      project_client_logo: null
+      logo: null
+      logo_id: 369
 
 ---
 <strong>Concept for user-centered Environmental Reports for the German Ministry for the Environment</strong>
