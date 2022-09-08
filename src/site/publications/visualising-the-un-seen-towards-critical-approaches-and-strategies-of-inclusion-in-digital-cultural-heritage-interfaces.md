@@ -8,8 +8,8 @@
       name: "Glinka, K."
       url: "null"
     - 
-      name: "Meier, S."
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
       name: "Dörk, M."
       url: "null"

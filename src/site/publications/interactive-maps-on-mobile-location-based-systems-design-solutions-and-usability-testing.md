@@ -8,7 +8,7 @@
       name: "Hermann, F."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Harris, D. et al. (Eds.): Human-Centred Computing. Proceedings of HCII 2003, 10th International Conference on Human-Computer Interaction, Volume 3, Crete, Greece. Mahwah, N.J.: Lawrence Erlbaum, pp. 1258-1262."
   body: ""

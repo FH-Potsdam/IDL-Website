@@ -11,7 +11,7 @@
       name: "Duval, E."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "Demo Abstracts at the Conference on Hypertext and Hypermedia (Hypertext) (2011)."
   body: ""

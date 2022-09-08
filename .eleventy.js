@@ -26,24 +26,112 @@ module.exports = function(config) {
 
   // Load netlify CMS markdown folders as collections:
   const mdCollections = [
-    ['projects_de', '/de/projects/*.md'],
-    ['projects_en', '/en/projects/*.md'],
     ['people_de', '/de/people/*.md'],
     ['people_en', '/en/people/*.md'],
+    ['publications', '/publications/*.md'],
+    ['projects_de', '/de/projects/*.md'],
+    ['projects_en', '/en/projects/*.md'],
     ['events_de', '/de/events/*.md'],
     ['events_en', '/en/events/*.md'],
-    ['publications', '/publications/*.md'],
   ];
 
   mdCollections.forEach(c => {
     config.addCollection(c[0], function (collectionApi) {
-      return collectionApi.getFilteredByGlob('./src/site' + c[1]);
+      const items = collectionApi.getFilteredByGlob('./src/site' + c[1]);
+      if (c[0] === 'publications' || c[0] === 'projects_de' || c[0] === 'projects_en'){
+        items.sort((a, b) => {
+          const aYear = a.data.year || 0;
+          const bYear = b.data.year || 0;
+          return parseInt(bYear) - parseInt(aYear);
+        });
+      }
+      return items;
     });
   });
 
+  const stripUrl = (url) => {
+    if (url) {
+      url = url.trim();
+      if (url.slice(-1) === '/') {
+        url = url.slice(0, -1);
+      }
+    }
+    return url;
+  };
+
   config.addCollection('map', function (collectionApi) {
-    const all = collectionApi.getAll();
-    return [];
+    const map = {
+      indices: {},
+      lists: {}
+    };
+
+    mdCollections.forEach(c => {
+      if (!(c[0] in map.indices)) {
+        map.indices[c[0]] = {};
+      }
+
+      let items = collectionApi.getFilteredByGlob('./src/site' + c[1]);
+      if (c[0] === 'publications' || c[0] === 'projects_de' || c[0] === 'projects_en'){
+        items.sort((a, b) => {
+          const aYear = a.data.year || 0;
+          const bYear = b.data.year || 0;
+          return parseInt(bYear) - parseInt(aYear);
+        });
+      }
+
+      items.forEach((item, i) => {
+        // from url to index in collection
+        map.indices[c[0]][stripUrl(item.url)] = i;
+
+        if (c[0] === 'publications') {
+          if (!('people_de_publications' in map.lists)) {
+            map.lists['people_de_publications'] = {};
+            map.lists['people_en_publications'] = {};
+          }
+          // create list of publications per author
+          const foundAuthors = {de:[],en:[]};
+          item.data.authors.forEach(a => {
+            if (a.internal_author_de && a.internal_author_de.length > 3) {
+              foundAuthors.de.push(stripUrl(a.internal_author_de));
+              foundAuthors.en.push(stripUrl(a.internal_author_en));
+            }
+          });
+          Object.keys(foundAuthors).forEach(lang => {
+            foundAuthors[lang].forEach(author => {
+              if(!(author in map.lists['people_' + lang + '_publications'])) {
+                map.lists['people_' + lang + '_publications'][author] = [];
+              }
+              map.lists['people_' + lang + '_publications'][author].push(i);
+            });
+          });
+        }
+
+        if (c[0] === 'projects_de' || c[0] === 'projects_en') {
+          if (!('people_de_projects' in map.lists)) {
+            map.lists['people_de_projects'] = {};
+            map.lists['people_en_projects'] = {};
+          }
+          // create list of publications per author
+          // const foundAuthors = {de:[],en:[]};
+          // item.data.authors.forEach(a => {
+          //   if (a.internal_author_de && a.internal_author_de.length > 3) {
+          //     foundAuthors.de.push(stripUrl(a.internal_author_de));
+          //     foundAuthors.en.push(stripUrl(a.internal_author_en));
+          //   }
+          // });
+          // Object.keys(foundAuthors).forEach(lang => {
+          //   foundAuthors[lang].forEach(author => {
+          //     if(!(author in map.lists['people_' + lang + '_publications'])) {
+          //       map.lists['people_' + lang + '_publications'][author] = [];
+          //     }
+          //     map.lists['people_' + lang + '_publications'][author].push(i);
+          //   });
+          // });
+        }
+      });
+    });
+
+    return map;
   });
 
   // Layout aliases can make templates more portable
@@ -78,6 +166,10 @@ module.exports = function(config) {
     locale = locale ? locale : "en";
     moment.locale(locale);
     return moment(date).format(format);
+  });
+
+  config.addNunjucksFilter("stripUrl", function (url) {
+    return stripUrl(url);
   });
 
   // pass some assets right through

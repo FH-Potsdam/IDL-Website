@@ -8,7 +8,7 @@
       name: "Hovfenschield, E."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Stephanidis, C. (Ed.): Universal Access in Health Telematics. Berlin: Springer, pp. 240-254."
   body: ""

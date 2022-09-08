@@ -5,7 +5,7 @@
   year: 2013
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Ammann, B. et al. (Eds.) InterFlex. Querdenken erwünscht. Potsdam, pp. 43-45."
   body: ""

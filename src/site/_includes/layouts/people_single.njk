@@ -38,31 +38,15 @@
           {% endif %}
           {% endfor %}
 #}
-          {# THIS IS VERY SLOW FOR SOME REASON #}
-          {#
-          {% set publicationcounter = 0 %}
-          {% for p in collections.publications %}
-          {%   set foundAuthor = false %}
-          {%   for a in p.data.authors %}
-          {%     if locale == 'de' %}
-          {%       set author = a.internal_author_de %}
-          {%     else %}
-          {%       set author = a.internal_author_en %}
-          {%     endif %}
-          {%     if author and author | length > 3 and (author in page.url or author == page.url) %}
-          {%       set foundAuthor = true %}
-          {%     endif %}
-          {%   endfor %}
-          {%   if foundAuthor %}
-          {%     set publicationcounter = publicationcounter + 1 %}
-          {%   endif %}
-          {% endfor %}
-          #}
 
+
+          
+          
           {% if projectcounter > 0 %}
           <div class="person-projects"><a href="#projects">Projekte</a> ({{ projectcounter }})</div>
           {% endif %}
 
+          {% set publicationcounter = collections.map.lists['people_' + locale + '_publications'][page.url | stripUrl] | length %}
           {% if publicationcounter > 0 %}
           <div class="person-publications"><a href="#publications">Publikationen</a> ({{publicationcounter}})</div>
           {% endif %}
@@ -128,24 +112,11 @@
 
 <div class="publications expand-pubs preview">
   <h2 id="publications">Publications</h2>
-  {#
-{% for p in collections.publications | sort(true, false, "year") %}
-{%   set foundAuthor = false %}
-{%   for a in p.data.authors %}
-{%     if locale == 'de' %}
-{%       set author = a.internal_author_de %}
-{%     else %}
-{%       set author = a.internal_author_en %}
-{%     endif %}
-{%     if author and author | length > 3 and (author in page.url or author == page.url) %}
-{%       set foundAuthor = true %}
-{%     endif %}
-{%   endfor %}
-{%   if foundAuthor %}
-{{     publicationTeaser(p, locale, people) }}
-{%   endif %}
+
+{% for pId in collections.map.lists['people_' + locale + '_publications'][page.url | stripUrl] %}
+{{     publicationTeaser(collections.publications[pId], locale, people) }}
 {% endfor %}
-#}
+
 </div>
   {% if publicationcounter > 3 %}
   <div class="more-link">

@@ -11,7 +11,7 @@
       name: "Till Nagel"
       url: 34
     - 
-      name: "Frank Heidmann"
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "INPUT 2010"
   body: ""

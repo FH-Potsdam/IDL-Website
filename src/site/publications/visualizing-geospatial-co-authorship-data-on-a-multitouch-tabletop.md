@@ -11,7 +11,7 @@
       name: "Duval, E."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In Proceedings of the 11th International Symposium on Smart Graphics, vol. 6815 of Lecture Notes in Computer Science. Springer, 2011, pp. 134–137."
   body: ""

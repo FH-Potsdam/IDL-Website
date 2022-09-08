@@ -8,7 +8,7 @@
       name: "Ringbauer, B."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Jacko, J. & Stephanidis, C. (Eds.): Proceedings of HCII 2003, 10th International Conference on Human-Computer Interaction, Volume 1, Crete, Greece. Mahwah, N.J.: Lawrence Erlbaum, pp. 1228-1232."
   body: ""

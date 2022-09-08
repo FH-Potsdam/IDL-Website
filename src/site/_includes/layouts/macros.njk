@@ -22,33 +22,33 @@
 #}
 
 
-{% macro projectTeaser(p, locale, attachments) %}
+{% macro projectTeaser(p) %}
 
-<a href="/{{locale}}/projects/{{p.slug}}/" title="{{p.name[locale]}}" class="project-container {% for item in p.filter_themen %}{{item | slug }} {% endfor %} {% for item in p.filter_services %}{{item | slug }} {% endfor %} {% for item in p.filter_art %}{{item | slug }} {% endfor %} ">
+<a href="{{p.url}}" title="{{p.data.name}}" class="project-container {% for item in p.data.filter_themen %}{{item | slug }} {% endfor %} {% for item in p.data.filter_services %}{{item | slug }} {% endfor %} {% for item in p.data.filter_art %}{{item | slug }} {% endfor %} ">
 
 		<div class="project-image">
       
-			<img src="{{imageById(p.thumbnail_id, attachments)}}" alt="{{p.name[locale]}}" loading="lazy">
+			<img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
 		</div>
 
 		<div class="project-desc-container">
 
 			<div class="project-name">
-				<span>{{p.name[locale]}}</span> {{p.subtitle[locale]}}
+				<span>{{p.data.name}}</span> {{p.data.subtitle}}
 			</div>
 
 			<div class="project-sponsor">
-				<img src="{{p.project_funding_logo}}" alt="{{p.project_funding_name}}">
+				<img src="{{p.data.project_funding_logo}}" alt="{{p.data.project_funding_name}}">
 			</div>
 
 			<div class="project-tags-container">
-        {% for item in p.filter_themen %}
+        {% for item in p.data.filter_themen %}
         <div class="project-tag">{{item}}</div>
         {% endfor %}
-        {% for item in p.filter_services %}
+        {% for item in p.data.filter_services %}
         <div class="project-tag">{{item}}</div>
         {% endfor %}
-        {% for item in p.filter_art %}
+        {% for item in p.data.filter_art %}
         <div class="project-tag">{{item}}</div>
         {% endfor %}
 
@@ -156,7 +156,7 @@
 {% if 'Past' in p.data.group %}
 {{p.data.name}}
 {% else %}
-<a href="{{p.data.url}}">{{p.data.name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</a>
+<a href="{{p.url}}">{{p.data.name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</a>
 {% endif %}
 {% endif %}
 {% endfor %}

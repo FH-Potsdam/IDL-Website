@@ -1,6 +1,13 @@
 {% include 'header.njk' %}
 {% from './macros.njk' import projectTeaser, publicationTeaser %}
 
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% set projects = collections.projects_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% set projects = collections.projects_de %}
+{% endif %}
 
 <div class="intro-container max-width home">
 	{{ content | safe }}
@@ -45,8 +52,8 @@
 	
 	
 		{% for p in projects | sort(true, false, "year") %}
-			{% if p.featured_home == true %}
-			{{ projectTeaser(p, locale, attachments) }}
+			{% if p.data.featured_home == true %}
+			{{ projectTeaser(p) }}
 			{% endif %}
 		{% endfor %}
 
@@ -88,7 +95,7 @@
 	-->
 	
 
-{% for p in publications | sort(true, false, 'year') %}
+{% for p in collections.publications | sort(true, false, 'year') %}
 {% if loop.index < 4 %}
 {{publicationTeaser(p, locale, people)}}
 {% endif %}

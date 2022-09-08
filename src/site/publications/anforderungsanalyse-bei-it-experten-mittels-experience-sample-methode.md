@@ -8,10 +8,10 @@
       name: "Thom, A."
       url: 132
     - 
-      name: "Meier, S."
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Endmann, A., Fischer, H. & Krökel, M. (Hrsg.): Mensch und Computer 2015 – Usability Professionals. Berlin: De Gruyter Oldenbourg. pp. 133-143."
   body: ""

@@ -5,8 +5,8 @@
   year: 2012
   authors: 
     - 
-      name: "Meier, Sebastian"
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
       name: "Landstorfer, Johannes"
       url: "null"

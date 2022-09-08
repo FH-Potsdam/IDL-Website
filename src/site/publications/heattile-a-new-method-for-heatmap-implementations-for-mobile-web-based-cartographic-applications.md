@@ -5,11 +5,11 @@
   year: 2014
   authors: 
     - 
-      name: "Meier, S."
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
     - 
       name: "Thom, A."
       url: 132

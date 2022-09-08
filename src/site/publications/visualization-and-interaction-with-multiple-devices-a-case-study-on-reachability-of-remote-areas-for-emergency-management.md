@@ -8,7 +8,7 @@
       name: "Jordi Tost"
       url: 113
     - 
-      name: "Frank Heidmann"
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "i-com, Journal of Interactive Media. Special Issue: Human-Computer Interaction in Geovisualization"
   body: ""

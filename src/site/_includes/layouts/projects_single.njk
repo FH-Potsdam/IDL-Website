@@ -1,6 +1,12 @@
 {% include 'header.njk' %}
 {% from './macros.njk' import imageById, peopleTeaser, publicationTeaser %}
 
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% endif %}
+
 <div class="intro-container max-width default">
   <h1>{{name}}</h1>
 

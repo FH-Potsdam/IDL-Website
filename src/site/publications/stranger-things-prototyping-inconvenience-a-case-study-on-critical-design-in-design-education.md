@@ -11,7 +11,7 @@
       name: "Paula L. Schuster"
       url: 487
     - 
-      name: "Frank Heidmann"
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "ACM DIS 2020 Workshop – Speculative and Critical Design in Education: Practice and Perspectives"
   body: ""

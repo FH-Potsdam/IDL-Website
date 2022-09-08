@@ -5,10 +5,10 @@
   year: 2014
   authors: 
     - 
-      name: "Meier, S."
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Computational Science and Its Applications (ICCSA), 2014 14th International Conference on Computational Science and Its Applications, pp. 121-125."
   body: ""

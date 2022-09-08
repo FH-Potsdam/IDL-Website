@@ -5,7 +5,7 @@
   year: 1999
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "(Forschen und Wissen, Unterreihe Informatik), Herdecke: GCA-Verlag."
   body: ""

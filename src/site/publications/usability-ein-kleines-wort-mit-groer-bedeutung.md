@@ -5,7 +5,7 @@
   year: 2007
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Hinz. K. et al. (Eds.): Designmanagement. Berlin: FHTW Berlin"
   body: ""

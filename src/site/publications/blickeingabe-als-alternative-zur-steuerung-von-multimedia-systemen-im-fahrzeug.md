@@ -5,7 +5,7 @@
   year: 2005
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Vehicle Interaction Summit II: Interaktive Systeme im Fahrzeug. Institutszentrum Stuttgart der Fraunhofer-Gesellschaft (32 pp.). Stuttgart: Fraunhofer IAO."
   body: ""

@@ -8,10 +8,10 @@
       name: "Thom, A."
       url: 132
     - 
-      name: "Meier, S."
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "UP14, Stuttgart. http://dl.mensch-und-computer.de/handle/123456789/3925."
   body: ""

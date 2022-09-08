@@ -6,7 +6,7 @@ const languages = [
   'en'
 ];
 
-const runProjects = true;
+const runProjects = false;
 // projects.json > de||en/projects/slug
 if (runProjects) {
   const projects = JSON.parse(fs.readFileSync('../src/site/_data/_projects.json', 'utf8'));
@@ -75,7 +75,7 @@ if (runProjects) {
 
 
 
-const runPeople = true;
+const runPeople = false;
 // people.json > de||en/people/slug
 if (runPeople) {
   const people = JSON.parse(fs.readFileSync('../src/site/_data/_people.json', 'utf8'));
@@ -107,7 +107,7 @@ if (runPeople) {
 const runPublications = false;
 // publications.json > publications/slug
 if (runPublications) {
-  const publications = JSON.parse(fs.readFileSync('../src/site/_data/publications.json', 'utf8'));
+  const publications = JSON.parse(fs.readFileSync('../src/site/_data/_publications.json', 'utf8'));
   publications.forEach(p => {
     const props = {};
     Object.keys(p).forEach(key => {
@@ -132,10 +132,23 @@ if (runPublications) {
       const els = [];
       if (typeof props[mergeKeys[key][0][0]] === 'object') {
         props[mergeKeys[key][0][0]].forEach((obj, i) => {
-          const el = {};
+          let el = {};
           mergeKeys[key].forEach(key_value => {
             el[key_value[1]] = props[key_value[0]][i];
           });
+          if (el.url === 112 || el.url === '112') {
+            el = {
+              internal_author_de: '/de/people/sebastian-meier',
+              internal_author_en: '/en/people/sebastian-meier'
+            };
+          }
+          if (el.url === 33 || el.url === '33' || el.name === 'Heidmann, Frank') {
+            el = {
+              internal_author_de: '/de/people/frank-heidmann',
+              internal_author_en: '/en/people/frank-heidmann'
+            };
+          }
+
           els.push(el);
         });
       }

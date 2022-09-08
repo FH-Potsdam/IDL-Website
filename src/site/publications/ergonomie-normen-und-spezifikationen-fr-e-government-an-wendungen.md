@@ -5,7 +5,7 @@
   year: 2004
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Kommune 21, Heft 02/2004, pp. 16-17."
   body: ""

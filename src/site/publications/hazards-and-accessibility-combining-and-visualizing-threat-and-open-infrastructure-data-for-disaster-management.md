@@ -11,8 +11,8 @@
       name: "Fabian Ehmel"
       url: 402
     - 
-      name: "Frank Heidmann"
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
     - 
       name: "Stephanie M. Olen"
       url: "null"

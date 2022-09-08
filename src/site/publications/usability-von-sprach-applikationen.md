@@ -11,7 +11,7 @@
       name: "Biesterfeld, J."
       url: "null"
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "Stuttgart: Fraunhofer IRB Verlag."
   body: ""

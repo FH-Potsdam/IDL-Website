@@ -5,7 +5,7 @@
   year: 2008
   authors: 
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
   outlet: "In: Bullinger, H.-P. (Ed.): Technology Guide. Berlin: Springer, pp. 216-221."
   body: ""

@@ -5,7 +5,7 @@
   year: 2015
   authors: 
     - 
-      name: "Meier, S"
-      url: 112
+      internal_author_de: "/de/people/sebastian-meier"
+      internal_author_en: "/en/people/sebastian-meier"
   outlet: "Proceedings of the ICC 2015, Cartography - Maps Connecting the World (Springer)"
   body: ""

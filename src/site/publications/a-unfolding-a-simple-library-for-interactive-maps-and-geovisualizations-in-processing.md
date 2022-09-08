@@ -8,8 +8,8 @@
       name: "Nagel, T."
       url: 34
     - 
-      name: "Heidmann, F."
-      url: 33
+      internal_author_de: "/de/people/frank-heidmann"
+      internal_author_en: "/en/people/frank-heidmann"
     - 
       name: "Duval, E."
       url: "null"
