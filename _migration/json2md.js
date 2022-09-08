@@ -59,6 +59,12 @@ if (runProjects) {
             mergeKeys[key].forEach(key_value => {
               el[key_value[1]] = props[key_value[0]][i];
             });
+            if (key === 'project_funding') {
+              el['project_funding_logo'] = null;
+            }
+            if (key === 'project_client') {
+              el['project_client_logo'] = null;
+            }
             els.push(el);
           });
         }

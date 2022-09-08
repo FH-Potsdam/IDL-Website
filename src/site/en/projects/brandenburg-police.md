@@ -25,6 +25,7 @@
       name: "Zentraldienst der Polizei"
       url: ""
       logo: 376
+      project_client_logo: null
 
 ---
 <a href="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43.png"><img class="alignnone wp-image-248 size-content-image" src="http://dev.jorditost.com/idl/wp-content/uploads/2015/11/Bildschirmfoto-2015-12-21-um-18.18.43-660x234.png" alt="Bildschirmfoto 2015-12-21 um 18.18.43" width="660" height="234" /></a>

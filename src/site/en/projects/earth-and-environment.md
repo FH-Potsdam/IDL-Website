@@ -25,6 +25,7 @@
       name: "Helmholtz-Gemeinschaft"
       url: ""
       logo: ""
+      project_client_logo: null
 
 ---
 The „Earth System Knowledge Platform“ ESKP is a collaborative project (eight Helmholtz Centres, e.g. DLR, GFZ, GEOMAR, AWI, KIT). The aim of this project is to establish a web-based knowledge platform that focuses on the risks and chances that arise from the changes in our global environment. For that purpose, well-grounded knowledge on the topics of water, soil, climate- or natural-disasters will be edited in form of interactive maps, infographics, videos etc.. The platform serves as a source for society, politics and the economy and enables them to profoundly plan a better future.

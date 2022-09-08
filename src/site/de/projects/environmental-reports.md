@@ -40,6 +40,7 @@
       name: "Umweltbundesamt"
       url: "http://www.umweltbundesamt.de"
       logo: 369
+      project_client_logo: null
 
 ---
 <strong>Concept for user-centered environmental reporting of</strong><strong> the Federal Environment Agency</strong>

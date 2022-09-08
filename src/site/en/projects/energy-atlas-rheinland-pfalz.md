@@ -28,6 +28,7 @@
       name: "Energieagentur Rheinland-Pfalz"
       url: ""
       logo: 372
+      project_client_logo: null
 
 ---
 With the development of the Energy Atlas the "Energy Turnaround" is becoming more than a rhetorical figure for Rhineland-Palatinate. The web portal offers a rich variety of information on renewable energy. The interested public can require information on all aspects of renewable energy and heating from the production, through transport down to the energy consumption of the last few years. Specific projects are introduced in detail, to offer insights into what actions are helping to make the energy turnaround a reality. All the information is georeferenced and is available through maps and various search interfaces.

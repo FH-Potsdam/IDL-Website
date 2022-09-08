@@ -28,6 +28,7 @@
       name: "Energieagentur Rheinland-Pfalz"
       url: ""
       logo: 372
+      project_client_logo: null
 
 ---
 Mit der Umsetzung des Energieatlasses bleibt die Energiewende in Rheinland-Pfalz nicht mehr nur ein politisches Statement, sondern wird transparent für die Bürgerinnen und Bürger. Das Webportal bietet eine Fülle von Informationen zu Erneuerbaren Energien. Interessierte Bürger können sich über die Entwicklung der Erneuerbaren Energien im Hinblick auf Strom und Wärme, von der Erzeugung, der Einspeisung bis hin zum Verbrauch in den letzten Jahren erkundigen. Ein Projektsteckbrief stellt einzelne herausragende Maßnahmen oder Projekte, die einen Beitrag zur Energiewende leisten, dar. Energiesteckbriefe beschreiben die Entwicklungen in komprimierter Form für die einzelnen Verwaltungseinheiten, sowohl für das Land Rheinland-Pfalz, als auch für die Landkreise und die Verbandsgemeinden. Alle Daten sind georeferenziert und können über dynamisch generierte Karten verortet werden. Umfangreiche Filterfunktionen erlauben dabei eine gezielte Auswahl, z.B. hinsichtlich spezifischer alternativer Energieträger oder Regionen.
