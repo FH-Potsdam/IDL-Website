@@ -1,18 +1,17 @@
 ---
-  name: "Prof. Reto Wettach"
-  excerpt: ""
-  wp_id: 158
-  slug: "prof-reto-wettach"
-  group: "Associates"
-  subtitle: "Professur für physische und virtuelle Interfaces und Service Design"
-  website: ""
-  email: "wettach@fh-potsdam.de"
-  twitter: "retowettach"
-  thumbnail_id: null
-  image_link: "/images/reto-wettach.jpg"
-  publications: []
-  sort_name: "Wettach"
-
+wp_id: 158
+excerpt: ""
+publications: []
+name: Prof. Reto Wettach
+slug: prof-reto-wettach
+subtitle: Professur für physische und virtuelle Interfaces und Service Design
+group: Associates
+website: ""
+email: wettach@fh-potsdam.de
+twitter: retowettach
+thumbnail_id: /images/uploads/reto-wettach.jpg
+sort_name: Wettach
+image_link: /images/reto-wettach.jpg
 ---
 Reto Wettach is a Professor at the University of Applied Sciences in Potsdam/Germany, where he teaches “Physical Interaction Design”. His research focuses on the following topics:
 – Tangible and Ambient Interaction
