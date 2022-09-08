@@ -88,11 +88,13 @@ collections:
         name: related_publications
         widget: list
         required: false
+        summary: '{{fields.publication}}'
         field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: "/publications/{{slug}}/", display_fields: [title]}
       - label: "Project Team"
         name: project_team
         required: false
         widget: list
+        summary: '{{fields.member}}'
         field: {label: Member, name: member, widget: relation, collection: people_de, search_fields: [name], value_field: "/de/people/{{slug}}/", display_fields: [name]}
   - label: "Projects (EN)"
     name: "projects_en"
@@ -176,11 +178,13 @@ collections:
         name: related_publications
         required: false
         widget: list
+        summary: '{{fields.publication}}'
         field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: "/publications/{{slug}}/", display_fields: [title]}
       - label: "Project Team"
         name: project_team
         required: false
         widget: list
+        summary: '{{fields.member}}'
         field: {label: Member, name: member, widget: relation, collection: people_en, search_fields: [name], value_field: "/en/people/{{slug}}/", display_fields: [name]}
   - label: "People (DE)"
     name: "people_de"
@@ -237,11 +241,13 @@ collections:
         name: related_projects
         required: false
         widget: list
+        summary: '{{fields.project}}'
         field: {label: Project, name: project, widget: relation, collection: projects_de, search_fields: [name], value_field: "/de/projects/{{slug}}/", display_fields: [name]}
       - label: "Related People"
         name: related_people
         required: false
         widget: list
+        summary: '{{fields.people}}'
         field: {label: People, name: people, widget: relation, collection: people_de, search_fields: [name], value_field: "/de/people/{{slug}}/", display_fields: [name]}
   - label: "Events (EN)"
     name: "events_en"
@@ -266,11 +272,13 @@ collections:
         name: related_projects
         required: false
         widget: list
+        summary: '{{fields.project}}'
         field: {label: Project, name: project, widget: relation, collection: projects_en, search_fields: [name], value_field: "/en/projects/{{slug}}/", display_fields: [name]}
       - label: "Related People"
         name: related_people
         required: false
         widget: list
+        summary: '{{fields.people}}'
         field: {label: People, name: people, widget: relation, collection: people_en, search_fields: [name], value_field: "/en/people/{{slug}}/", display_fields: [name]}
   - label: "Publications"
     name: "publications"
