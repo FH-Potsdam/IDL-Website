@@ -1,10 +1,12 @@
 {% include 'header.njk' %}
-{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser %}
+{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser, eventTeaser %}
 
 {% if locale == 'de' %}
 {% set people = collections.people_de %}
+{% set events = collections.events_de %}
 {% else %}
 {% set people = collections.people_en %}
+{% set events = collections.events_en %}
 {% endif %}
 
 <div class="intro-container max-width default">
@@ -134,6 +136,17 @@
 </div>
 {% endif %}
 
+<section>
+	<div class="projects">
+  <h2 id="publications">Aktivitäten</h2>
+
+{% for pId in collections.map.lists['projects_' + locale + '_events'][page.url | stripUrl] %}
+{{     eventTeaser(events[pId]) }}
+{% endfor %}
+
+  </div>
+</section>
+
 {# Publications #}
 
 {%if related_publications %}
@@ -149,9 +162,6 @@
 {% endfor %}
 </div>
 {% endif %}
-
-
-
 
 
 

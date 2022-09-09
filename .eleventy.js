@@ -133,6 +133,34 @@ module.exports = function(config) {
           });
 
         }
+
+        if (c[0] === 'events_de' || c[0] === 'events_en') {
+          if (!('projects_de_events' in map.lists)) {
+            map.lists['projects_de_events'] = {};
+            map.lists['projects_en_events'] = {};
+          }
+          let lang = 'en';
+          if (c[0].indexOf('_de') > -1) {
+            lang = 'de';
+          }
+
+          // create list of events per project
+          const foundProjects = [];
+          item.data.related_projects.forEach(p => {
+            if (p && p.length > 3) {
+              foundProjects.push(stripUrl(p));
+            }
+          });
+
+
+          foundProjects.forEach(project => {
+            if(!(project in map.lists['projects_' + lang + '_events'])) {
+              map.lists['projects_' + lang + '_events'][project] = [];
+            }
+            map.lists['projects_' + lang + '_events'][project].push(i);
+          });
+
+        }
       });
     });
 

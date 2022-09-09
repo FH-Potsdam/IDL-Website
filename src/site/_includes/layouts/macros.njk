@@ -57,7 +57,22 @@
 		</div>
 
 	</a>	
-  {% endmacro %}
+{% endmacro %}
+
+
+{% macro eventTeaser(p) %}
+<a href="{{p.url}}" title="{{p.data.name}}">
+  <div class="project-image">
+    <img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
+  </div>
+  <div class="project-desc-container">
+    <div class="project-name">
+      <span>{{p.data.name}}</span> {{p.data.subtitle}}
+    </div>
+  </div>
+</a>	
+{% endmacro %}
+
 
 {% macro peopleTeaser(p) %}
 <li>

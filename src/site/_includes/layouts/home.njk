@@ -1,12 +1,13 @@
 {% include 'header.njk' %}
-{% from './macros.njk' import projectTeaser, publicationTeaser %}
+{% from './macros.njk' import projectTeaser, publicationTeaser, eventTeaser %}
 
 {% if locale == 'de' %}
 {% set people = collections.people_de %}
 {% set projects = collections.projects_de %}
+{% set events = collections.events_de %}
 {% else %}
 {% set people = collections.people_en %}
-{% set projects = collections.projects_de %}
+{% set events = collections.events_de %}
 {% endif %}
 
 <div class="intro-container max-width home">
@@ -67,7 +68,29 @@
 	</div>
 
 </section>
-	
+
+{% set events_home = 0 %}
+{% for p in events | sort(true, false, "year") %}
+	{% if p.data.featured_home == true %}
+	{% set events_home = events_home + 1 %}
+	{% endif %}
+{% endfor %}
+
+{% if events_home > 0 %}
+<section>
+	<div class="projects">
+		<h2>{% if lang == 'en' %}Events{% else %}Aktivitäten{% endif %}</h2>	
+
+		{% for p in events | sort(true, false, "sort_name") %}
+			{% if p.data.featured_home == true %}
+			{{ eventTeaser(p) }}
+			{% endif %}
+		{% endfor %}
+
+	</div>
+
+</section>
+{% endif %}
 
 <section>
 	<div class="publications">
