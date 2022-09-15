@@ -1,36 +1,36 @@
 ---
-  name: "DataSkop"
-  excerpt: "User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität"
-  wp_id: 540
-  slug: "dataskop"
-  group: 
-    - "Prototyping"
-    - "Speculation"
-    - "Visualization"
-  filter_themen: 
-    - "Dashboard"
-  filter_services: 
-    - "UI/UX"
-    - "Human-Centered Design"
-  filter_art: 
-    - "Transfer"
-  subtitle: "User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität"
-  project_year: "2020-2023"
-  project_team: 
-    - 219
-    - 517
-  project_website: "http://dataskop.net"
-  project_material: null
-  related_publications: []
-  related_projects: ""
-  thumbnail_id: 541
-  featured_home: true
-  thumbnail: null
-  project_partners: []
-  project_team_external: []
-  project_funding: []
-  project_client: []
-
+wp_id: 540
+name: DataSkop
+subtitle: User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität
+project_year: 2020-2023
+thumbnail: null
+excerpt: User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität
+featured_home: true
+project_website: http://dataskop.net
+project_material: null
+group:
+  - Prototyping
+  - Speculation
+  - Visualization
+filter_themen:
+  - Dashboard
+  - PhysicalService
+filter_services:
+  - UI/UX
+  - Human-Centered Design
+project_team_external: []
+project_team:
+  - 219
+  - 517
+slug: dataskop
+thumbnail_id: 541
+related_projects: ""
+filter_art:
+  - Transfer
+project_partners: []
+project_client: []
+project_funding: []
+related_publications: []
 ---
 Die Prozesse algorithmischer Entscheidungen durchdringen zunehmend das Alltagsleben und dies geschieht oft auf nicht nachvollziehbarer Art und Weise. Das vom BMBF-geförderte Projekt DataSkop thematisiert die Potentiale von innovativen User Interfaces und verständlichen Visualisierungen zur Förderung der digitalen Souveränität von Nutzer*innen.
 
