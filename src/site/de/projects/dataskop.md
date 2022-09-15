@@ -14,7 +14,6 @@ group:
   - Visualization
 filter_themen:
   - Dashboard
-  - PhysicalService
 filter_services:
   - UI/UX
   - Human-Centered Design
