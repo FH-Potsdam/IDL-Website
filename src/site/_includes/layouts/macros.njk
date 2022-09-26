@@ -62,14 +62,18 @@
 
 {% macro eventTeaser(p) %}
 <a href="{{p.url}}" title="{{p.data.name}}">
-  <div class="project-image">
+  <div class="event">
     <img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
-  </div>
-  <div class="project-desc-container">
-    <div class="project-name">
-      <span>{{p.data.name}}</span> {{p.data.subtitle}}
+    <div class="event-desc-container">
+      <div class="event-name">
+        <span>{{p.data.name}}</span> {{p.data.subtitle}}
+      </div>
+      <div class="event-date">
+        {{p.data.date | safe}}
+      </div>
     </div>
   </div>
+  
 </a>	
 {% endmacro %}
 
@@ -95,7 +99,8 @@
 		<div class="pub-authors">
 			<ul>
          {% for a in p.data.authors %}
-				<li> {% if a.internal_author_de %}
+				<li> 
+          {% if a.internal_author_de %}
           {% if locale == 'de' %}
           {% set author = a.internal_author_de %}
           {% else %}
@@ -104,15 +109,13 @@
           {{peopleLink(author, people)}}
           {% else %}
           {% if a.url and a.url != 'null' and a.url | length > 3 %}
-          <a href="{{a.url}}">
-          {% endif %}
+          <a href="{{a.url}}">{{a.name}}</a>
+          {% else %}
           {{a.name}}
-          {% if a.url %}
-          </a>
           {% endif %}
           {% endif %}
-    </li>
-    {% endfor %}
+          </li>
+    {%- endfor %}
 			
 			</ul>
 		</div>

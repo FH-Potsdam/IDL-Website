@@ -8,6 +8,7 @@
 @import '_projects.scss';
 @import '_people.scss';
 @import '_footer.scss';
+@import '_events.scss';
 
 
 
@@ -225,7 +226,6 @@
 
  .content-container figure {
   @include max-width;
-  
   margin-top: 2rem;
   margin-bottom: 2rem;
 

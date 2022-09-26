@@ -1,0 +1,45 @@
+.event-container{
+  
+  @include max-width;
+  
+}
+
+.event {
+  width: 100%;
+  display: flex;
+  padding-top: 33%;
+  position: relative;  
+  background-color: black;
+  
+  img {
+    position: absolute;
+   opacity: .6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+}
+
+.event-desc-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 2rem;
+  background-color: red;
+  height: 100%;
+
+  font-size: 36px;
+  margin-bottom: .5rem;
+  span {
+    font-weight: 700;
+    display: block;
+  }
+
+}

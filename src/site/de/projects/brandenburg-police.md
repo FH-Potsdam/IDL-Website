@@ -16,8 +16,9 @@ filter_services:
   - UI/UX
   - Human-Centered Design
 project_team_external:
-  - name: TEST
+  - name: A Test
     url: www.gstltr.de
+  - name: V Test
 project_team:
   - /de/people/sebastian-meier/
   - /de/people/frank-heidmann/
@@ -30,6 +31,7 @@ filter_art:
 project_partners:
   - name: Raureif
     url: http://raureif.net
+  - name: BOLD
 project_client:
   - name: Zentraldienst der Polizei
     url: ""

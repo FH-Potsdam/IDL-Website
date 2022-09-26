@@ -27,7 +27,9 @@ $layout__border-radius: 10px;
  @include max-width;
 }
 
-
+@mixin borders {
+  border: 1px #fafafa solid;
+}
 
 
 

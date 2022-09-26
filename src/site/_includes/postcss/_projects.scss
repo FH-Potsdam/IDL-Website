@@ -205,6 +205,7 @@ display: inline-block;
 
 .project-hero {
   @include max-width;
+
   margin-top: 2rem;
 
   img {
@@ -220,13 +221,14 @@ display: inline-block;
   margin-bottom: 4rem;  
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row; 
   
 
   span {
     opacity: .6;
     display: block;
+    font-weight: 400;
   }
 
   @media screen and (min-width: 64.0rem) { 
@@ -235,13 +237,20 @@ display: inline-block;
   }
 }
 
-.project-facts-container div {
-
- width: 100%;
+.block {
+  @media screen and (min-width: 64.0rem) { 
+    width: 25%;
+    
+  }
+}
+.project-facts-container .facts {
+  width: 100%;
  margin-top: 1rem;
+ font-weight: 700;
+
     
     a{
-      font-weight: 700;
+      
       color: #000;
     }
 
@@ -252,8 +261,13 @@ display: inline-block;
     ul {
       list-style-type: none;
     }
-    @media screen and (min-width: 64.0rem) { 
-      width: 20%;
-      
+    
+
+    img{
+      width: 75%;
+      padding-top: 1rem;
     }
+
+    
+
 }
