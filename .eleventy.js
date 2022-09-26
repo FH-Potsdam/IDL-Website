@@ -5,6 +5,7 @@ const moment = require('moment');
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require('@sindresorhus/slugify')
+const implicitFigures = require('markdown-it-implicit-figures');
 
 const util = require('util')
 
@@ -17,9 +18,10 @@ module.exports = function(config) {
     linkify: true
   }).use(markdownItAnchor,{ slugify: s => slugify(s) }, {
     permalink: false,
-  });
-  config.setLibrary("md", markdownLibrary);
+  }).use(implicitFigures);
   
+  config.setLibrary("md", markdownLibrary);
+
 
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;

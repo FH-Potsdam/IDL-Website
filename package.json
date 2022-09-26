@@ -29,16 +29,17 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "cssnano": "^5.1.13",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.4",
+    "markdown-it-implicit-figures": "^0.10.0",
     "moment": "^2.29.4",
+    "postcss": "^8.4.16",
     "postcss-color-mix": "^1.1.0",
     "postcss-import": "^15.0.0",
     "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^5.0.6",
     "postcss-normalize": "^10.0.1",
     "precss": "^4.0.0",
-    "uglify-js": "^3.17.0",
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.4",
-    "postcss": "^8.4.16",
-    "postcss-nested": "^5.0.6"
+    "uglify-js": "^3.17.0"
   }
 }
