@@ -15,7 +15,9 @@ filter_themen:
 filter_services:
   - UI/UX
   - Human-Centered Design
-project_team_external: []
+project_team_external:
+  - name: TEST
+    url: www.gstltr.de
 project_team:
   - /de/people/sebastian-meier/
   - /de/people/frank-heidmann/
@@ -33,8 +35,12 @@ project_client:
     url: ""
     logo: /images/uploads/2012-11-05_logo_zdpol_5.png
     logo_id: 376
-project_funding: []
-related_publications: []
+project_funding:
+  - name: TEST FUNDING
+    url: www.gstltr.de
+    logo: https://schnittstellengestalter.de/media/site/490ba41627-1656067895/schnittstellengestalter-logo-dark.svg
+related_publications:
+  - /publications/a-unfolding-a-simple-library-for-interactive-maps-and-geovisualizations-in-processing/
 ---
 In 2011, the **IDL // Interaction Design Lab** was commissioned to guide the Brandenburg State Police through the redesign process of their online communication portal. The project started with the initial usability studies of the existing portal, continued with an analysis of their target audiences and resulted in the redesign of the corporate design - including an overhaul of the logo, typography and color palette. All efforts are integrated in the final redesign of the overall web portal.
 
