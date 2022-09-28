@@ -16,10 +16,21 @@ footer {
 
 .footer-logo-container{
     width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     
         
     @media screen and (min-width: 48.0rem) { 
+     
+      justify-content: space-between;
+    }
+
+    @media screen and (min-width: 64.0rem) { 
+      justify-content: flex-start;
       width: 50%;
+      
     }
     
         img{
@@ -27,7 +38,7 @@ footer {
             margin-bottom: 2rem;
 
             @media screen and (min-width: 48.0rem) { 
-                margin-right: 4rem;
+               
               }
            
         }
@@ -35,7 +46,8 @@ footer {
 
 .legal-container{
     width: 100%;
-    @media screen and (min-width: 48.0rem) { 
+
+    @media screen and (min-width: 64.0rem) { 
         width: 50%;
       }
 
@@ -56,10 +68,15 @@ footer {
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       justify-content: space-between;
+       justify-content: center;
        @media screen and (min-width: 48.0rem) { 
-        justify-content: flex-end;
+        
         flex-direction: row;
+      }
+
+      @media screen and (min-width: 64.0rem) { 
+        justify-content: flex-end;
+        
       }
       
     }

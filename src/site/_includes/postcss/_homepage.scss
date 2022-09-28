@@ -4,7 +4,7 @@ h1 span.highlight {
 
   .intro-container p {
     margin-top: 2rem;
-    
+    line-height: 1.5;
     @include font__p;
     
     @media screen and (min-width: 64.0rem) { 
@@ -25,12 +25,19 @@ h1 span.highlight {
   }
 
   .home p {
-    max-width: 60%;
+    width: 100%;
+    hyphens: auto;
+    line-height: 1.3;
+    @media screen and (min-width: 87.5em) { 
+     
+      width: 60%;
+
+  }
   }
 
   .intro-container h1:only-child {
     width: 100%;
-    margin-bottom: 6rem;
+    
   }
 
   .intro{
@@ -38,7 +45,6 @@ h1 span.highlight {
     @media screen and (min-width: 64.0rem) { 
      
       width: 60%;
-     
 
   }
   }

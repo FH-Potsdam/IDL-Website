@@ -14,7 +14,7 @@ Das <strong>IDL // Interaction Design Lab</strong> begleitet mit seinen Forschun
 
 <figure>
   <img src="/images/eye-tracking-mobile.jpg" alt="mobile eye-trakcing">
-  <figcaption><strong>mæve</strong> User Testing des Prototypen <a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption>mæve User Testing des Prototypen</figcaption>
 </figure>
 
 
@@ -24,7 +24,7 @@ Die Anwendungsfelder der Forschungs- und Entwicklungsarbeiten im IDL sind vielf�
 
 <figure>
   <img src="/images/visualization_img.jpg" alt="mobile eye-trakcing">
-  <figcaption> Visualisierung <a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption>Visualisierung</figcaption>
 </figure>
 
 
@@ -34,7 +34,7 @@ In der Auftragsforschung hat sich in den letzten Jahren ein thematischer Schwerp
 
 <figure>
   <img src="/images/maeve_installation_2-e1288790434777.jpg" alt="maeve">
-  <figcaption> <strong>mæve</strong> Installation<a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption> mæve Installation</figcaption>
 </figure>
 
 

@@ -116,13 +116,20 @@ strong {font-weight:$font__bold;}
 h1 { 
   @include font__h1; 
   font-size: 36px;
-}
-@media screen and (min-width: 64.0rem) { 
-  h1 { 
-    @include font__h1; 
+
+  @media screen and (min-width: 48em) { 
+    font-size: 64px;
+    
+  }
+
+  @media screen and (min-width: 87.5em) { 
     font-size: 86px;
+    
   }
 }
+
+
+
 
 h2 { @include font__h2; }
 h3 { @include font__h3; }

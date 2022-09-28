@@ -17,6 +17,7 @@ header {
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 #logo img {
@@ -37,9 +38,9 @@ padding: 0;
 .lang-switch{
     display: block;
 
-    @media screen and (min-width: 64.0rem) { 
+    @media screen and (min-width: 87.5rem) { 
        
-            display: block;
+            display: flex;
             margin-left: 4rem;
      
     }
@@ -58,7 +59,7 @@ padding: 0;
 /* Mobile Navigation */
 nav {
     display: flex;
-    @media screen and (min-width: 64.0rem) { 
+    @media screen and (min-width: 87.5rem) { 
  
        width: 60%;
     }
@@ -79,12 +80,12 @@ nav {
       position: relative;
       z-index: 10;
       
-      @media screen and (min-width: 48.0rem) { 
+      @media screen and (min-width: 48.0em) { 
         font-size: 1.5rem;
         line-height: 2rem;
       }
   
-      @media screen and (min-width: 64.0rem) { 
+      @media screen and (min-width: 87.5em) { 
          
         display: none;
      }
@@ -124,14 +125,18 @@ nav {
        z-index: 100;
       width: 100%;
       list-style-type: none;
+      font-size: 2rem;
+      line-height: 2;
+
+      
         
-      @media screen and (max-width: 64.0rem) { 
+      @media screen and (max-width: 87.5em) { 
         position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
       }
-      @media screen and (min-width: 64.0rem) { 
+      @media screen and (min-width: 87.5em) { 
         display: flex;
         font-size: 1.25rem;
         gap: 1rem;
@@ -143,7 +148,7 @@ nav {
     
     .is-mobile-main-nav-open & {
 
-        @media screen and (max-width: 64.0rem) { 
+        @media screen and (max-width: 87.5em) { 
           background: #fff;
           display: flex;
           flex-direction: column;
@@ -162,16 +167,9 @@ nav {
         padding-top: 1rem;
         padding-bottom: .25rem;
         font-weight: 800;
-    
         
-        @media screen and (max-width: 64.0rem) { 
-          display: flex;
-          align-items: center;
-         font-size: 24px;
-         
-          
-        }
         
+       
       }
 
         a:hover {
@@ -189,7 +187,7 @@ nav {
     }
 
     [aria-current="page"] {
-        @media screen and (min-width: 64.0rem) { 
+        @media screen and (min-width: 87.5em) { 
         border-bottom: 6px var(--idl-brand-color) solid;
         }
     }

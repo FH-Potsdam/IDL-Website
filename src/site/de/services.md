@@ -13,14 +13,14 @@ Design Thinking ist ein Ansatz, der zum Lösen von Problemen und zur Entwicklung
 
 <figure>
   <img src="/images/eye-tracking-mobile.jpg" alt="mobile eye-trakcing">
-  <figcaption><strong>mæve</strong> User Testing des Prototypen <a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption><strong>mæve</strong> User Testing des Prototypen</figcaption>
 </figure>
 
 Laut Tim Brown (IDEO) geht es beim Design Thinking einfach ausgedrückt darum, die „Sensibilität und die Methoden eines Designers zu nutzen, um die Bedürfnisse der Menschen mit dem technologisch Machbaren und dem, was eine tragfähige Geschäftsstrategie in Kundennutzen und Marktchancen umwandeln kann, in Einklang zu bringen.“[2] Design Thinking basiert auf der Annahme, dass Probleme besser gelöst werden können, wenn Menschen unterschiedlicher Disziplinen in einem die Kreativität fördernden Umfeld zusammenarbeiten, gemeinsam eine Fragestellung entwickeln, die Bedürfnisse und Motivationen von Menschen berücksichtigen und dann Konzepte entwickeln, die mehrfach geprüft werden.[3] Der Ansatz orientiert sich an Gestaltungsprozessen von Designern, die ihre Arbeit in Kombination mehrerer Schritte ausführen. Zugleich steht das Wort Thinking dafür, dass wie faktenbezogen die Machbarkeit und Wirtschaftlichkeit der Innovationen systematisch untersucht werden.[4] Nach einem anderen Verständnis bedeutet Design Thinking „any process that applies the methods of industrial designers to problems beyond how a product should look“ („jeder Prozess, der die Methoden von Industriedesignern auf Probleme anwendet, die über das Aussehen eines Produkts hinausgehen“).[5] Design Thinking vereint also drei grundlegende Kernaspekte: Nutzen, Umsetzbarkeit und Marktfähigkeit. Es werden dementsprechend der Nutzen für die Menschen in der Rolle der Nutzerinnen und Nutzer, die technologische Umsetzbarkeit und die wirtschaftliche Marktfähigkeit in Einklang gebracht, um eine perfekte Innovation entstehen zu lassen und das Problem einwandfrei zu lösen. Alle Punkte sollten gleich gewichtet werden.[6]
 
 <figure>
   <img src="/images/visualization_img.jpg" alt="mobile eye-trakcing">
-  <figcaption> Visualisierung <a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption> Visualisierung</figcaption>
 </figure>
 
 
@@ -34,7 +34,7 @@ Service-Design bezeichnet den Prozess der Gestaltung von Dienstleistungen. Es is
 
 <figure>
   <img src="/images/maeve_installation_2-e1288790434777.jpg" alt="maeve">
-  <figcaption> <strong>mæve</strong> Installation<a href="https://www.google.com">zum Projekt</a></figcaption>
+  <figcaption> <strong>mæve</strong> Installation</figcaption>
 </figure>
 
 Service-Design gestaltet die Schnittstellen der verschiedenen an einer Dienstleistung beteiligten Systeme. Dies beinhaltet sowohl die Kommunikation zwischen den beteiligten Menschen, als auch die benötigten Mittel und Prozesse. Mit Hilfe spezifischer Methoden werden in einem in mehrere Phasen aufgeteilten Prozess die Schnittstellen der Interaktion zwischen Dienstleister und Dienstleistungsempfänger aufgezeigt, bewertet und in ein „Service-Produkt“ umgewandelt. Der methodische Prozess dient unter anderem dazu, dokumentierbare Ergebnisse zu erhalten, die im Folgenden eine Basis für die Weiterentwicklung des Service bieten. Dabei werden verschiedene empirische oder kreative Methoden verwendet, um Nutzeranforderungen, Rollenmodelle, Service-Ergonomie und Marktfähigkeit des Service zu berücksichtigen.

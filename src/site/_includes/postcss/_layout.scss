@@ -6,6 +6,10 @@ $layout__border-radius: 10px;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  @media screen and (min-width: 48.0rem) { 
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
   @media screen and (min-width: 64.0rem) { 
     padding-left: 6rem;
     padding-right: 6rem;
@@ -16,10 +20,12 @@ $layout__border-radius: 10px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  @media screen and (min-width: 64.0rem) { 
-    max-width: 786px;
+ 
+
+  @media screen and (min-width: 48.0rem) { 
+    max-width: 790px;
+    padding: 0;
+
   }
 }
 

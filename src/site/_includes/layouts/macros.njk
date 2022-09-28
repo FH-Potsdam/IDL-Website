@@ -61,18 +61,26 @@
 
 
 {% macro eventTeaser(p) %}
-<a href="{{p.url}}" title="{{p.data.name}}">
-  <div class="event">
+<a class="event" href="{{p.url}}" title="{{p.data.name}}">
+ 
     <img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
     <div class="event-desc-container">
+
       <div class="event-name">
         <span>{{p.data.name}}</span> {{p.data.subtitle}}
+        <div class="event-date">
+        {{p.data.datum}}
       </div>
-      <div class="event-date">
-        {{p.data.date | safe}}
+      <div class="event-time">
+        {{p.data.uhrzeit}}
+      </div>
+      </div>
+      
+      <div class="more-link">
+        Mehr Informationen
       </div>
     </div>
-  </div>
+
   
 </a>	
 {% endmacro %}

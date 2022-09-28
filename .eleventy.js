@@ -18,7 +18,9 @@ module.exports = function(config) {
     linkify: true
   }).use(markdownItAnchor,{ slugify: s => slugify(s) }, {
     permalink: false,
-  }).use(implicitFigures);
+  }).use(implicitFigures, {
+    figcaption: true
+  });
   
   config.setLibrary("md", markdownLibrary);
 

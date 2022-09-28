@@ -96,6 +96,7 @@
 
 
 <section>
+	
 	<div class="publications">
 	<h2>{% if lang == 'en' %}Recent Publications{% else %}Publikationen{% endif %}</h2>
 
@@ -131,7 +132,7 @@
 
 	<div class="more-link">
 		{% set lang = page.url.slice(1, 3) %}
-	<a href="/{{locale}}/projects/" class="button">{% if lang == 'en' %}Show all publications{% else %}Alle Publikationen anzeigen{% endif %}</a>
+	<a href="/{{locale}}/publications/" class="button">{% if lang == 'en' %}Show all publications{% else %}Alle Publikationen anzeigen{% endif %}</a>
 	</div>
 
 </section>

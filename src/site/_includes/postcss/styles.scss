@@ -27,19 +27,24 @@
   font-size: 60px;
   position: relative;
   width: 100%;
-  height: 20vh;
+  height: 150px;
   font-weight: $font__black;
   font-style: italic;
-  margin-top: 4rem;
+  padding-top: 4rem;
+   overflow: hidden;
  
-  
-  overflow: hidden;
-  @media screen and (min-width: 48.0rem) { 
-    overflow: visible;
+   @media screen and (min-width: 48.0rem) { 
+    height: 240px;
     overflow-x: clip;
-    margin-top: 8rem;
-  margin-bottom: 4rem;
+    
+  padding-bottom: 8rem;
  }
+
+ @media screen and (min-width: 64.0rem) { 
+
+  margin-top: 4rem;
+  padding-bottom: 12rem;
+}
 }
 
 .scroll1 {
@@ -54,10 +59,16 @@
   position: absolute;
   white-space: nowrap;
   color: var(--idl-brand-color);
-  @media screen and (min-width: 64.0rem) { 
+ 
+ @media screen and (min-width: 48em) { 
        
-    font-size: 86px;
- }
+  font-size: 64px;
+}
+
+@media screen and (min-width: 87.5em) { 
+       
+  font-size: 86px;
+}
 }
 .scroll2 {
   transform-origin: 50% 50%;
@@ -69,9 +80,15 @@
   left: -25%;
   position: absolute;
   white-space: nowrap;
-  @media screen and (min-width: 64.0rem) { 
+  
+@media screen and (min-width: 48em) { 
        
-   font-size: 86px;
+  font-size: 64px;
+}
+
+@media screen and (min-width: 87.5em) { 
+       
+  font-size: 86px;
 }
   
 }
@@ -80,12 +97,20 @@
 /* Laufschrift Ende */
 
 .publications{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   @include max-width-text;
   @include font__p;
   margin-top: 4rem;
 
   .year {
     @include font__p-large;
+  }
+
+  @media screen and (min-width: 48em) { 
+       
+    padding-left:4rem;
+  padding-right: 4rem;
   }
 }
 
@@ -192,11 +217,18 @@
 
 }
 
+.content-container {
+  @include max-width;
+}
 
 .content-container p, .content-container h2, .content-container h3, .content-container h4, .content-container ul  {
   margin-bottom: 1rem;
-
+  
   @include max-width-text;
+ }
+
+ .content-container h2 {
+  margin-top: 4rem;
  }
 
  .content-container ul{
@@ -213,6 +245,7 @@
 
  .content-container p {
   line-height: 1.5;
+  
  }
 
  .content-container h3 {
@@ -226,17 +259,22 @@
 
  .content-container figure {
   @include max-width;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 0;
+  padding-right: calc((100% - 790px) / 2);
 
   img {
     width: 100%;
     @media screen and (min-width: 64.0rem) { 
-      width: 80.75%;
+     
    }
   }
+
   @media screen and (min-width: 64.0rem) { 
     display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
  }
 
  }
@@ -261,9 +299,11 @@
 
  }
 
- .content-container figure:nth-child(odd) {
+ .content-container figure:nth-of-type(odd) {
   @media screen and (min-width: 64.0rem) { 
     flex-direction: row-reverse;
+    padding-left: calc((100% - 790px) / 2);
+    padding-right: 0;
  }
  
  }
@@ -271,24 +311,22 @@
  .content-container figcaption {
   @include font__p;
   line-height: 1.5;
-  @media screen and (min-width: 64.0rem) { 
-    padding-left: 2rem;
- }
+  padding-top: .5rem;
   
   
   strong{
-    display: block;
+   
   }
 
   a{
-    display: block;
+    padding-left: 1rem;
   }
  }
 
- .content-container figure:nth-child(odd) figcaption {
+ .content-container figure:nth-of-type(odd) figcaption {
   @media screen and (min-width: 64.0rem) { 
     padding-left: 0;
-    padding-right: 2rem;
+  
     text-align: right;
  }
  

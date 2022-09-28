@@ -15,6 +15,10 @@
     flex-direction: column;
     border: 1px solid #f5f5f5;
     background-color: #fff;
+
+    @media screen and (min-width: 48.0rem) { 
+      width: calc(50% - 1rem);
+    }
     
     @media screen and (min-width: 64.0rem) { 
       width: calc(33.33% - 1rem);
@@ -151,17 +155,17 @@
 /* Start People Single View */
 
 .person {
-  @include max-width;
+ 
   display: flex;
   flex-direction: column;
   gap: 2rem;
 
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 48.0rem) { 
     flex-direction: row;
   }
   .portrait{
-    @media screen and (min-width: 64.0rem) { 
-      width: 50%;
+    @media screen and (min-width: 48.0rem) { 
+    
     }
   }
 
