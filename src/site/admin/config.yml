@@ -334,6 +334,7 @@ collections:
           - {label: Excerpt, name: excerpt, widget: markdown, required: false}
           - {label: Laufschrift (green), name: laufschrift_green, widget: string, required: false}
           - {label: Laufschrift (black), name: laufschrift_black, widget: string, required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "About us (EN)"
         name: "about_en"
         file: "src/site/en/about.md"
