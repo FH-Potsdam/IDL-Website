@@ -40,7 +40,7 @@
 			<div class="project-sponsor">
         {% for f in p.data.project_funding %}
         {% if f.logo %}
-        <span>Gefördert durch</span>
+        <span>{% if locale == 'en' %}Founded by{% else %}Gefördert durchE{% endif %}</span>
 				<img src="{{f.logo}}" alt="{{f.name}}">
         {% endif %}
         {% endfor %}
