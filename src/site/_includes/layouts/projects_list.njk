@@ -9,6 +9,7 @@
 {% set projects = collections.projects_de %}
 {% endif %}
 
+{% set lang = page.url.slice(1, 3) %}
 {{ content }}
 
 
@@ -71,7 +72,7 @@ Art
 
 <div class="projects">
 {% for p in projects | sort(true, false, "year") %}
-	{{ projectTeaser(p) }}
+	{{ projectTeaser(p, lang) }}
 {% endfor %}
 </div>
 

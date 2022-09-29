@@ -22,7 +22,7 @@
 #}
 
 
-{% macro projectTeaser(p) %}
+{% macro projectTeaser(p, lang) %}
 
 <a href="{{p.url}}" title="{{p.data.name}}" class="project-container {% for item in p.data.filter_themen %}{{item | slug }} {% endfor %} {% for item in p.data.filter_services %}{{item | slug }} {% endfor %} {% for item in p.data.filter_art %}{{item | slug }} {% endfor %} ">
 
@@ -40,7 +40,9 @@
 			<div class="project-sponsor">
         {% for f in p.data.project_funding %}
         {% if f.logo %}
-        <span>{% if locale == 'en' %}Founded by{% else %}Gefördert durchE{% endif %}</span>
+      
+      
+        <span>{% if lang == 'en' %}Founded by{% else %}Gefördert durch{% endif %}</span>
 				<img src="{{f.logo}}" alt="{{f.name}}">
         {% endif %}
         {% endfor %}
@@ -65,7 +67,7 @@
 {% endmacro %}
 
 
-{% macro eventTeaser(p) %}
+{% macro eventTeaser(p, lang) %}
 <a class="event" href="{{p.url}}" title="{{p.data.name}}">
  
     <img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
@@ -82,7 +84,8 @@
       </div>
       
       <div class="more-link">
-        Mehr Informationen
+        
+       {% if lang == 'en' %}Details{% else %}Mehr Informationen{% endif %}
       </div>
     </div>
 
