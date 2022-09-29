@@ -51,8 +51,20 @@ a.project-container:hover {
 
 
 .project-sponsor {
-  height: 80px;
+  height: 100px;
   display: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  img{
+    max-height: 100px;
+  }
+
+  span {
+    display: block;
+    line-height: 2rem;
+    opacity: .6;
+    @include font__ui-small;
+  }
   
 }
 
@@ -276,8 +288,9 @@ display: inline-block;
     
 
     img{
-      width: 75%;
+      max-width: 75%;
       padding-top: 1rem;
+      max-height: 150px;
     }
 
     

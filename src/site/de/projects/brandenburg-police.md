@@ -39,8 +39,8 @@ project_client:
     logo_id: 376
 project_funding:
   - name: TEST FUNDING
-    url: www.gstltr.de
-    logo: https://schnittstellengestalter.de/media/site/490ba41627-1656067895/schnittstellengestalter-logo-dark.svg
+    url: ""
+    logo: ""
 related_publications:
   - /publications/a-unfolding-a-simple-library-for-interactive-maps-and-geovisualizations-in-processing/
 ---

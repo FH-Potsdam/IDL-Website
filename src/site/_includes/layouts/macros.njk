@@ -38,7 +38,12 @@
 			</div>
 
 			<div class="project-sponsor">
-				<img src="{{p.data.project_funding_logo}}" alt="{{p.data.project_funding_name}}">
+        {% for f in p.data.project_funding %}
+        {% if f.logo %}
+        <span>Gefördert durch</span>
+				<img src="{{f.logo}}" alt="{{f.name}}">
+        {% endif %}
+        {% endfor %}
 			</div>
 
 			<div class="project-tags-container">
@@ -132,9 +137,9 @@
 			{{p.data.outlet}}
 		</div>
     
-    {% if p.data.website %}
+    {% if p.data.project_pdf %}
 		<div class="download-link">
-			<a href="{{p.data.website}}">DOWNLOAD PDF</a>
+			<a href="{{p.data.project_pdf}}" target="_blank">DOWNLOAD PDF</a>
 		</div>
     {% endif %}
     

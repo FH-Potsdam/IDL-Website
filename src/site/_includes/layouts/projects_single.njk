@@ -124,7 +124,11 @@
         {% if locale == 'en' %} Sponsor {% else %} Gefördert durch {% endif %}
     </span>
     {% for p in project_funding  %}
+    {%if p.logo %}
        <a href="//{{p.url}}" target="_blank"> <img src="{{p.logo}}" alt="{{p.name}}"> </a>
+       {% else %}
+       {{p.name}}
+       {% endif %}
     
     {% endfor %}
 
