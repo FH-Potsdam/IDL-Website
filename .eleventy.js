@@ -191,16 +191,6 @@ module.exports = function(config) {
   // this breaks for permalink: false
   // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
-  // compress and combine js files
-  config.addFilter("jsmin", function(code) {
-    const UglifyJS = require("uglify-js");
-    let minified = UglifyJS.minify(code);
-      if( minified.error ) {
-          console.log("UglifyJS error: ", minified.error);
-          return code;
-      }
-      return minified.code;
-  });
 
   config.addNunjucksFilter("date", function (date, format, locale) {
     locale = locale ? locale : "en";
