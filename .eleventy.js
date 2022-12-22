@@ -217,6 +217,7 @@ module.exports = function(config) {
     });
   });
 
+  // helper function to get file name from manifest file
   function getFileNameFromManifest(fileName, manifest) {
     const _fileName = fileName;
     const _pathJSON = require(manifest);
@@ -224,7 +225,9 @@ module.exports = function(config) {
     return _output;
   }
 
-  // {{ core.js | jsfile }}
+  // filter for JavaScript files with hash for cachebusting example.js → example-KQQJAVBG.js
+  // usage example: {{ core.js | jsfile }}
+  // only file name, do not include path
   config.addFilter("jsfile", function (fileName) {
     if (env === "prod") {
       return getFileNameFromManifest(fileName, `./dist/js/manifest.json`);
