@@ -1,10 +1,4 @@
 	</main>
-	{% set js %}
-  {% include "js/core.js" %}
-{% endset %}
-<script>
-  {{ js | safe }}
-</script>
 
 	<footer>
 		<div class="footer-logo-container">
@@ -28,6 +22,9 @@
 
 		
 	</footer>
+
+	<script src="{{ '/js/core.js' | url }}"></script>
+
 {% if title == "Services" %}
 	<script type="text/javascript">
 		window.onload = function () {
