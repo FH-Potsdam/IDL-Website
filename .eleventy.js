@@ -7,7 +7,10 @@ const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require('@sindresorhus/slugify')
 const implicitFigures = require('markdown-it-implicit-figures');
 
-const util = require('util')
+const util = require('util');
+
+const esbuild = require("esbuild");
+
 
 module.exports = function(config) {
 
@@ -209,6 +212,18 @@ module.exports = function(config) {
     return stripUrl(url);
   });
 
+  // use esbuild to bundle and minify JavaScript
+  config.on("eleventy.before", async () => {
+    await esbuild.build({
+      entryPoints: ["src/site/_includes/js/core.js"],
+      bundle: true,
+      outdir: "dist/js",
+      minify: true,
+      sourcemap: process.env.ELEVENTY_ENV !== "prod",
+      target: ["chrome106", "firefox106", "safari15", "edge106"]
+    });
+  });
+
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/fonts");
@@ -216,6 +231,7 @@ module.exports = function(config) {
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
+
   return {
     dir: {
       input: "src/site",
