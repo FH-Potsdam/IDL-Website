@@ -1,4 +1,3 @@
-
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const moment = require('moment');
 
@@ -10,6 +9,7 @@ const implicitFigures = require('markdown-it-implicit-figures');
 const util = require('util');
 
 const esbuild = require("esbuild");
+const manifestPlugin = require('esbuild-plugin-manifest')
 
 
 module.exports = function(config) {
@@ -210,8 +210,27 @@ module.exports = function(config) {
       outdir: "dist/js",
       minify: true,
       sourcemap: process.env.ELEVENTY_ENV !== "prod",
-      target: ["chrome106", "firefox106", "safari15", "edge106"]
+      target: ["chrome106", "firefox106", "safari15", "edge106"],
+      plugins: [manifestPlugin({
+        shortNames: true
+      })]
     });
+  });
+
+  function getFileNameFromManifest(fileName, manifest) {
+    const _fileName = fileName;
+    const _pathJSON = require(manifest);
+    const _output = _pathJSON[_fileName];
+    return _output;
+  }
+
+  // {{ core.js | jsfile }}
+  config.addFilter("jsfile", function (fileName) {
+    if (env === "prod") {
+      return getFileNameFromManifest(fileName, `./dist/js/manifest.json`);
+    } else {
+      return fileName;
+    }
   });
 
   // pass some assets right through
