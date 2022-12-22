@@ -4,10 +4,11 @@
   "description": "eleventy based static site for interaction design lab at university of applied sciences potsdam",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
-    "build": "cross-env ELEVENTY_ENV=prod eleventy",
-    "seed": "cross-env ELEVENTY_ENV=seed eleventy"
+    "clean": "del-cli 'dist'",
+    "start": "npm run clean && npm run dev",
+    "dev": "npm run clean && cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "build": "npm run clean && cross-env ELEVENTY_ENV=prod eleventy",
+    "seed": "npm run clean && cross-env ELEVENTY_ENV=seed eleventy"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "cross-env": "7.0.3",
     "cssnano": "^5.1.13",
-    "esbuild": "0.16.10",
+    "del-cli": "^5.0.0",
+    "esbuild": "^0.16.10",
     "fast-xml-parser": "^4.0.9",
     "html-minifier": "^4.0.0",
     "json2yaml": "^1.1.0",
