@@ -1,55 +1,47 @@
-	</main>
+		</main>
 
-	<footer>
-		<div class="footer-logo-container">
+		<footer>
+			<div class="footer-logo-container">
+				<a href="http://interface.fh-potsdam.de" aria-label="Interface.fh-potsdam.de aufrufen" target="_blank"><img src="/images/assets/fhp-logo.svg" alt="Interface.fh-potsdam.de aufrufen"></a>
+				<a href="http://idl.fh-potsdam.de" aria-label="Startseite des IDL"><img src="/images/assets/idl-logo-black.svg" alt="Startseite des IDL"></a>
+			</div>
 
-			<a href="http://interface.fh-potsdam.de" aria-label="Interface.fh-potsdam.de aufrufen" target="_blank"><img src="/images/assets/fhp-logo.svg" alt="Interface.fh-potsdam.de aufrufen"></a>
-			<a href="http://idl.fh-potsdam.de" aria-label="Startseite des IDL"><img src="/images/assets/idl-logo-black.svg" alt="Startseite des IDL"></a>
+			<div class="legal-container">
+				<ul>
+					<li><a href="/{{locale}}/contact/">Kontakt</a></li>
+					<li><a href="/{{locale}}/imprint/">Impressum</a></li>
+					<li><a href="https://www.fh-potsdam.de/datenschutz" target="_blank">Datenschutz</a></li>
+				</ul>
+			</div>
 
-		</div>
+			<div class="copyright">© FH Potsdam</div>	
+		</footer>
 
-		<div class="legal-container">
-			<ul>
-				<li><a href="/{{locale}}/contact/">Kontakt</a></li>
-				<li><a href="/{{locale}}/imprint/">Impressum</a></li>
-				<li><a href="https://www.fh-potsdam.de/datenschutz" target="_blank">Datenschutz</a></li>
-				
-			</ul>
+		<script src="{{ '/js/core.js' | url }}"></script>
 
-		</div>
-
-		<div class="copyright">© FH Potsdam</div>
-
-		
-	</footer>
-
-	<script src="{{ '/js/core.js' | url }}"></script>
-
-{% if title == "Services" %}
-	<script type="text/javascript">
-		window.onload = function () {
-			
-			const heads = document.getElementsByTagName("h2");
+	{% if title == "Services" %}
+		<script>
+			window.onload = function () {
+				const heads = document.getElementsByTagName("h2");
 		    Array.from(heads).forEach(heads => {
-			
-			const link = '<div class=""><a href="#'+heads.id+'">'+heads.innerHTML+'</a></div>';
-                     
-					  document.getElementById("anchors").innerHTML += link;
+					const link = '<div class=""><a href="#'+heads.id+'">'+heads.innerHTML+'</a></div>';
+					document.getElementById("anchors").innerHTML += link;
+				});
+			}
+		</script>
+	{% endif %}
 
-            });
-		}
-</script>
- {% endif %}
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-</body>
+	<script>
+	  if (window.netlifyIdentity) {
+	    window.netlifyIdentity.on("init", user => {
+	      if (!user) {
+	        window.netlifyIdentity.on("login", () => {
+	          document.location.href = "/admin/";
+	        });
+	      }
+	    });
+	  }
+	</script>
+
+	</body>
 </html>
