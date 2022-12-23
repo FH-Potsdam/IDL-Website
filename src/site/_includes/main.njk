@@ -1,29 +1,23 @@
 <div class="intro-container max-width default">
-	
-<h1>{{title}}</h1>
-{# {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %} #}
-{% if excerpt %}
-<div class="intro">
-<p>{{excerpt}}</p>
+	<h1>{{title}}</h1>
 
-{% if title == "Services" %}
-<div id="anchors" class="services-container">
-	
- </div>
- {% endif %}
+	{# {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %} #}
 
+	{% if excerpt %}
+	<div class="intro">
+		<p>{{excerpt}}</p>
+
+		{% if title == "Services" %}
+		<div id="anchors" class="services-container"></div>
+	 	{% endif %}
+
+	</div>
+	{% endif %}
 </div>
-{% endif %}
-
-</div>
-
-
 
 {% if laufschrift_green and laufschrift_black %}
 <div class="laufschrift-container">
-
 	<div class="scroll1">{{laufschrift_green}}</div>
 	<div class="scroll2">{{laufschrift_black}}</div>
-
 </div>
 {% endif %}
