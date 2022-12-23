@@ -241,15 +241,12 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/fonts");
   config.addPassthroughCopy("./src/site/admin");
 
-  
+  // use legacy BS to serve files
   config.setServerOptions({
     module: "@11ty/eleventy-server-browsersync",
     notify: true,
     port: 3000,
     open: true,
-    files: ["./dist/css/**/*.css", "./dist/js/**/*.js"]
-  });
-
     files: ["./dist/css/**/*.css"]
   });
 
