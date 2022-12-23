@@ -1,4 +1,5 @@
 package-lock.json
+.DS_Store
 
 wp-config.php
 wp-content/uploads/
