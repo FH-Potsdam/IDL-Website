@@ -10,6 +10,7 @@ $font__family: "FHP Sun", sans-serif;
   font-family: "FHP Sun";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("/fonts/FHPSun-Regular-subset.woff2") format("woff2");
 }
 
@@ -17,6 +18,7 @@ $font__family: "FHP Sun", sans-serif;
   font-family: "FHP Sun";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("/fonts/FHPSun-Bold-subset.woff2") format("woff2");
 }
 
@@ -24,6 +26,7 @@ $font__family: "FHP Sun", sans-serif;
   font-family: "FHP Sun";
   font-style: italic;
   font-weight: 900;
+  font-display: swap;
   src: url("/fonts/FHPSun-BlackItalic-subset.woff2") format("woff2");
 }
 
