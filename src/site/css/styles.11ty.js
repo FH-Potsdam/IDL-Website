@@ -24,7 +24,10 @@ module.exports = class {
       require('postcss-import'),
       require('postcss-mixins'),
       require('postcss-color-mix'),
-      require('cssnano')
+      require('css-mqpacker')({
+        sort: true
+      }),
+      require('cssnano'),
     ])
     .process(rawCss, { from: rawFilepath })
     .then(result => result.css);
