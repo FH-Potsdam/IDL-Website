@@ -250,6 +250,9 @@ module.exports = function(config) {
     files: ["./dist/css/**/*.css", "./dist/js/**/*.js"]
   });
 
+    files: ["./dist/css/**/*.css"]
+  });
+
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
 
