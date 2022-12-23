@@ -211,9 +211,11 @@ module.exports = function(config) {
       minify: true,
       sourcemap: process.env.ELEVENTY_ENV !== "prod",
       target: ["chrome106", "firefox106", "safari15", "edge106"],
-      plugins: [manifestPlugin({
-        shortNames: true
-      })]
+      plugins: [
+        manifestPlugin({
+          shortNames: true
+        })
+      ]
     });
   });
 
@@ -229,11 +231,7 @@ module.exports = function(config) {
   // usage example: {{ core.js | jsfile }}
   // only file name, do not include path
   config.addFilter("jsfile", function (fileName) {
-    if (env === "prod") {
-      return getFileNameFromManifest(fileName, `./dist/js/manifest.json`);
-    } else {
-      return fileName;
-    }
+    return getFileNameFromManifest(fileName, `./dist/js/manifest.json`);
   });
 
   // pass some assets right through
