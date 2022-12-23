@@ -241,6 +241,15 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/fonts");
   config.addPassthroughCopy("./src/site/admin");
 
+  
+  config.setServerOptions({
+    module: "@11ty/eleventy-server-browsersync",
+    notify: true,
+    port: 3000,
+    open: true,
+    files: ["./dist/css/**/*.css", "./dist/js/**/*.js"]
+  });
+
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
 
