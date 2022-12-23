@@ -3,30 +3,29 @@
 $font__regular: 400;
 $font__bold: 700;
 $font__black: 900;
-$font__family: 'FHP Sun', sans-serif;
+$font__family: "FHP Sun", sans-serif;
 
 /* FHPSun-regular */
 @font-face {
-  font-family: 'FHP Sun';
+  font-family: "FHP Sun";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/FHPSun-Regular-subset.woff2') format('woff2');
+  src: url("/fonts/FHPSun-Regular-subset.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'FHP Sun';
+  font-family: "FHP Sun";
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/FHPSun-Bold-subset.woff2') format('woff2');
+  src: url("/fonts/FHPSun-Bold-subset.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'FHP Sun';
+  font-family: "FHP Sun";
   font-style: italic;
   font-weight: 900;
-  src: url('/fonts/FHPSun-BlackItalic-subset.woff2') format('woff2');
+  src: url("/fonts/FHPSun-BlackItalic-subset.woff2") format("woff2");
 }
-
 
 * {
   text-rendering: optimizeLegibility;
@@ -34,28 +33,22 @@ $font__family: 'FHP Sun', sans-serif;
 }
 
 @mixin font__h1 {
- 
   font-weight: $font__black;
   font-style: italic;
   line-height: 1em;
- 
 }
 
-
-  @mixin font__h1 {
-    
-    font-weight: $font__black;
-    font-style: italic;
-    line-height: 1em;
-   
-  }
-
+@mixin font__h1 {
+  font-weight: $font__black;
+  font-style: italic;
+  line-height: 1em;
+}
 
 @mixin font__h2 {
   font-size: 32px;
   font-weight: $font__regular;
   margin-bottom: 2rem;
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 64rem) {
     font-size: 48px;
   }
 }
@@ -69,11 +62,10 @@ $font__family: 'FHP Sun', sans-serif;
   font-size: 30px;
   font-weight: $font__black;
   font-style: italic;
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 64rem) {
     font-size: 36px;
   }
 }
-
 
 @mixin font__p-large {
   font-size: 28px;
@@ -93,7 +85,6 @@ $font__family: 'FHP Sun', sans-serif;
   font-weight: $font__regular;
 }
 
-
 @mixin font__topline {
   font-size: 10px;
   font-weight: $font__bold;
@@ -109,34 +100,37 @@ $font__family: 'FHP Sun', sans-serif;
   font-weight: $font__regular;
 }
 
-b {font-weight:$font__bold;}
-strong {font-weight:$font__bold;}
+b {
+  font-weight: $font__bold;
+}
+strong {
+  font-weight: $font__bold;
+}
 
-
-h1 { 
-  @include font__h1; 
+h1 {
+  @include font__h1;
   font-size: 36px;
-
-  @media screen and (min-width: 48em) { 
+  @media screen and (min-width: 48em) {
     font-size: 64px;
-    
   }
-
-  @media screen and (min-width: 87.5em) { 
+  @media screen and (min-width: 87.5em) {
     font-size: 86px;
-    
   }
 }
 
+h2 {
+  @include font__h2;
+}
+h3 {
+  @include font__h3;
+}
+h4 {
+  @include font__h4;
+}
 
-
-
-h2 { @include font__h2; }
-h3 { @include font__h3; }
-h4 { @include font__h4; }
-
-p { @include font__p; }
-
+p {
+  @include font__p;
+}
 
 .tag {
   @include font__ui-small;

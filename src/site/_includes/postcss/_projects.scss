@@ -6,83 +6,71 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2rem;
-
   h2 {
     width: 100%;
   }
 }
 
-
-
 .project-container {
-  
   width: 100%;
   padding: 0;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   border: 1px solid #f5f5f5;
   background-color: #fff;
-
-  @media screen and (min-width: 48.0rem) { 
+  @media screen and (min-width: 48rem) {
     width: calc(50% - 1rem);
   }
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 64rem) {
     width: calc(33.33% - 1.333rem);
   }
-  
 }
 
-.project-container.hidden{
+.project-container.hidden {
   opacity: 0;
   display: none;
-  
- }
+}
 
 a.project-container {
   text-decoration: none;
   color: var(--text-default);
-  transition: all ease .25s;
+  transition: all ease 0.25s;
 }
 
 a.project-container:hover {
   transform: scale(1.05);
 }
 
-
 .project-sponsor {
   height: 100px;
   display: none;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  img{
+  img {
     max-height: 100px;
   }
-
   span {
     display: block;
     line-height: 2rem;
-    opacity: .6;
+    opacity: 0.6;
     @include font__ui-small;
   }
-  
 }
 
 .project-image {
   width: 100%;
   display: flex;
   padding-top: 56.25%;
-  position: relative;  
-  
+  position: relative;
   img {
     position: absolute;
-   
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-    width:100%;
-    height:100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
   }
@@ -99,200 +87,161 @@ a.project-container:hover {
   justify-content: space-between;
   padding: 1rem;
   height: 100%;
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 64rem) {
     padding: 2rem;
   }
 }
 
-.project-name{
+.project-name {
   @include font__p;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   span {
     font-weight: 700;
   }
-  
 }
 
-.project-tags-container{
+.project-tags-container {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 .project-tag {
-@include font__ui-small;
-background-color: var(--background-chip);
-padding: .4rem;
-border-radius: 6px;
-margin-right: .5rem;
-display: inline-block;
+  @include font__ui-small;
+  background-color: var(--background-chip);
+  padding: 0.4rem;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  display: inline-block;
 }
 
 /* DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
-@media screen and (min-width: 64.0rem) { 
-
-  .project-container:nth-child(4n+1) {  /* or 4n+1 */
-    flex-direction: row; 
+@media screen and (min-width: 64rem) {
+  .project-container:nth-child(4n + 1) {
+    /* or 4n+1 */
+    flex-direction: row;
     width: 100%;
-   
-    
-  
     .project-sponsor {
       display: inline-block;
     }
-  
     .project-image {
       width: 66.66%;
       padding: 0;
       aspect-ratio: 16/9;
     }
-  
-    .project-name{
+    .project-name {
       font-size: 20px;
     }
-  
     .project-desc-container {
       width: 33.33%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 2rem;
-      
     }
-  
-    .project-name{
+    .project-name {
       font-size: 36px;
-    
       span {
         font-weight: 700;
       }
     }
   }
-  }
-  
-  /* ENDE DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
+}
 
-  .filter-container {
-    flex-direction: column;
-    @include max-width;
-    @include font__p;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    color: #000;
-    display: flex;
-    gap: 2rem;
+/* ENDE DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
 
-      button {
-        @include font__ui;
-        cursor: pointer;
-        padding: .5rem;
-        background-color: white;
-        border: solid 1px #000;
-        border-radius: 6px;
-        color: #000;
-      }
-
-      button.active {
-        background-color: var(--idl-brand-color);
-        border: none;
-      }
-
-      button:disabled {
-        border: solid 1px #fafafa;
-        cursor:default;
-        color: rgb(133, 133, 133);
-        
-      }
-    
-
-      @media screen and (min-width: 64.0rem) { 
-        flex-direction: row;
-        
-      }
-  }
-
-  .button-group{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: .5rem;
-    gap: .5rem;
-  }
-  
-  /* Projekt Detailseite */
-
-.project-hero {
+.filter-container {
   @include max-width;
+  @include font__p;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: #000;
+  display: flex;
+  gap: 2rem;
+  @media screen and (min-width: 64rem) {
+    flex-direction: row;
+  }
+  button {
+    @include font__ui;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: white;
+    border: solid 1px #000;
+    border-radius: 6px;
+    color: #000;
+  }
+  button.active {
+    background-color: var(--idl-brand-color);
+    border: none;
+  }
+  button:disabled {
+    border: solid 1px #fafafa;
+    cursor: default;
+    color: rgb(133, 133, 133);
+  }
+}
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+}
+
+/* Projekt Detailseite */
+
+.project-hero  {
+  @include max-width;
   margin-top: 2rem;
-
   img {
     width: 100%;
   }
-
 }
 
 .project-facts-container {
   @include max-width;
   @include font__ui;
   line-height: 1.5;
-  margin-bottom: 4rem;  
+  margin-bottom: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  flex-direction: column; 
-  
-  
-
+  flex-direction: column;
+  @media screen and (min-width: 500px) {
+    margin-top: 1rem;
+    flex-direction: row;
+  }
   span {
-    opacity: .6;
+    opacity: 0.6;
     display: block;
     font-weight: 400;
   }
-
-  @media screen and (min-width: 500px) { 
-    margin-top: 1rem;
-    flex-direction: row;
-    
-  }
-
 }
 
 .block {
-
-  @media screen and (min-width:500px) { 
+  @media screen and (min-width: 500px) {
     width: 50%;
-    
   }
-  @media screen and (min-width: 1024px) { 
+  @media screen and (min-width: 1024px) {
     width: 25%;
-    
   }
 }
 .project-facts-container .facts {
   width: 100%;
- margin-top: 1rem;
- font-weight: 700;
-
-    
-    a{
-      
-      color: #000;
-    }
-
-    a:hover {
+  margin-top: 1rem;
+  font-weight: 700;
+  a {
+    color: #000;
+    &:hover {
       color: var(--idl-brand-color);
     }
-
-    ul {
-      list-style-type: none;
-    }
-    
-
-    img{
-      max-width: 75%;
-      padding-top: 1rem;
-      max-height: 150px;
-    }
-
-    
-
+  }
+  ul {
+    list-style-type: none;
+  }
+  img {
+    max-width: 75%;
+    padding-top: 1rem;
+    max-height: 150px;
+  }
 }

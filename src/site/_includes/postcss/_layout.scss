@@ -6,11 +6,11 @@ $layout__border-radius: 10px;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  @media screen and (min-width: 48.0rem) { 
+  @media screen and (min-width: 48rem) {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  @media screen and (min-width: 64.0rem) { 
+  @media screen and (min-width: 64rem) {
     padding-left: 6rem;
     padding-right: 6rem;
   }
@@ -20,51 +20,44 @@ $layout__border-radius: 10px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
- 
-
-  @media screen and (min-width: 48.0rem) { 
+  @media screen and (min-width: 48rem) {
     max-width: 790px;
     padding: 0;
-
   }
 }
 
-.max-width{
- @include max-width;
+.max-width {
+  @include max-width;
 }
 
 @mixin borders {
   border: 1px #fafafa solid;
 }
 
-
-
-
-
 @mixin view {
   background-color: $color__white;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15), 0px 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: $layout__border-radius;
   padding: 17px 23px;
-  margin:10px;
+  margin: 10px;
 }
 
 @mixin button-bright {
-  border-width:0;
+  border-width: 0;
   border-radius: 100px;
   background-color: $color__accent-brightest;
   color: $color__accent;
   cursor: pointer;
-  padding:10px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   &:hover {
     color: $color__accent-brightest;
     background-color: $color__accent;
   }
-  &.invert{
+  &.invert {
     color: $color__accent-brightest;
     background-color: $color__accent;
-    &:hover{
+    &:hover {
       background-color: $color__accent-brightest;
       color: $color__accent;
     }
@@ -73,17 +66,17 @@ $layout__border-radius: 10px;
 
 @mixin button-bright-small {
   @include button-bright;
-  padding:6px 12px;
+  padding: 6px 12px;
 }
 
 @mixin button-light {
-  text-align:left;
-  background:none;
-  border:none;
-  margin:0;
-  padding:0;
+  text-align: left;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
   cursor: pointer;
-  color:$color__default-bright;
+  color: $color__default-bright;
   &:hover {
     color: $color__default-medium;
   }
@@ -96,16 +89,16 @@ $layout__border-radius: 10px;
 }
 
 hr.spacer {
-  height:1px;
-  background:none;
+  height: 1px;
+  background: none;
   border: none;
-  width:100%;
-  clear:both;
-  margin-top:10px;
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
 }
 
-body>div.hasHeader {
-  padding-top:50px;
+body > div.hasHeader {
+  padding-top: 50px;
 }
 
 button.primary {
@@ -114,16 +107,17 @@ button.primary {
 button.secondary {
   @include button-light;
 }
-button.stretch{
+button.stretch {
   width: 100%;
   text-align: center;
 }
 
-button.prev, button.next {
+button.prev,
+button.next {
   @include button-bright;
-  text-align:center;
+  text-align: center;
   &::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 7px;
     height: 10px;
@@ -137,21 +131,21 @@ button.prev, button.next {
   }
 }
 
-button.prev::before{
-  mask: url('./assets/images/svg/mini-arrow-left.svg');
+button.prev::before {
+  mask: url("./assets/images/svg/mini-arrow-left.svg");
 }
 
-button.next::before{
-  mask: url('./assets/images/svg/mini-arrow-right.svg');
+button.next::before {
+  mask: url("./assets/images/svg/mini-arrow-right.svg");
 }
 
-.columns{
+.columns {
   display: flex;
   flex-direction: row;
-  &.start{
+  &.start {
     justify-content: start;
   }
-  &.between{
+  &.between {
     justify-content: space-between;
   }
   &.center {

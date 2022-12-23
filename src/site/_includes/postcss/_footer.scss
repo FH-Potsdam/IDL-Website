@@ -1,103 +1,76 @@
 footer {
-    display: flex;
-    align-items: flex-start;
-    @include max-width;
-    padding-top: 4rem;
-    border-top: 1px solid var(--background-chip) ;
-    margin-top: 4rem;
-    padding-bottom: 4rem;
-    flex-wrap: wrap;
-    @include font__p;
-
-    @media screen and (min-width: 48.0rem) { 
-      
-     }
+  @include max-width;
+  @include font__p;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4rem;
+  border-top: 1px solid var(--background-chip);
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
 }
 
-.footer-logo-container{
-    width: 100%;
-    display: flex;
-    gap: 2rem;
+.footer-logo-container {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  @media screen and (min-width: 48rem) {
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 64rem) {
     justify-content: flex-start;
-    flex-wrap: wrap;
-    
-        
-    @media screen and (min-width: 48.0rem) { 
-     
-      justify-content: space-between;
-    }
-
-    @media screen and (min-width: 64.0rem) { 
-      justify-content: flex-start;
-      width: 50%;
-      
-    }
-    
-        img{
-
-            margin-bottom: 2rem;
-
-            @media screen and (min-width: 48.0rem) { 
-               
-              }
-           
-        }
+    width: 50%;
+  }
+  img {
+    margin-bottom: 2rem;
+  }
 }
 
-.legal-container{
-    width: 100%;
+.legal-container {
+  width: 100%;
 
-    @media screen and (min-width: 64.0rem) { 
-        width: 50%;
-      }
+  @media screen and (min-width: 64rem) {
+    width: 50%;
+  }
 
-    a {
-        color: #000;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        display: inline-block;
-       
-        
+  a {
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    &:hover {
+      color: var(--idl-brand-color);
+      padding-bottom: 0.5rem;
     }
-    a:hover {
-        color: var(--idl-brand-color);
-        padding-bottom: .5rem;
-    }
-    
-    ul {
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-       justify-content: center;
-       @media screen and (min-width: 48.0rem) { 
-        
-        flex-direction: row;
-      }
+  }
 
-      @media screen and (min-width: 64.0rem) { 
-        justify-content: flex-end;
-        
-      }
-      
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (min-width: 48rem) {
+      flex-direction: row;
     }
+    @media screen and (min-width: 64rem) {
+      justify-content: flex-end;
+    }
+  }
 
-    ul li {
-        list-style-type: none;
-        @media screen and (min-width: 48.0rem) { 
-           margin-left: 2rem;
-          }
-        
+  ul li {
+    list-style-type: none;
+    @media screen and (min-width: 48rem) {
+      margin-left: 2rem;
     }
+  }
 }
 
 .copyright {
-    
-    margin-top: 2rem;
-    width: 100%;
-    
-
-    @media screen and (min-width: 48.0rem) { 
-      text-align: center;
-      }
-    
+  margin-top: 2rem;
+  width: 100%;
+  @media screen and (min-width: 48rem) {
+    text-align: center;
+  }
 }

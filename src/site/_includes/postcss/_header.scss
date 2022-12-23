@@ -1,205 +1,163 @@
 header {
-    @include max-width;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    
-
-    @media screen and (min-width: 64.0rem) { 
-    
-        margin-bottom: 4em;
-    
-    }
+  @include max-width;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  @media screen and (min-width: 64rem) {
+    margin-bottom: 4em;
+  }
 }
 
-html{
+html {
   scroll-behavior: smooth;
-  
 }
 
 #logo img {
-height: 45px;
-padding: 0;
-
-    @media screen and (min-width: 64.0rem) { 
-    
-            height: 60px;
-        
-    }
-
+  height: 45px;
+  padding: 0;
+  @media screen and (min-width: 64rem) {
+    height: 60px;
+  }
 }
 
-
-
-
-.lang-switch{
-    display: block;
-
-    @media screen and (min-width: 87.5rem) { 
-       
-            display: flex;
-            margin-left: 4rem;
-     
-    }
+.lang-switch {
+  display: block;
+  @media screen and (min-width: 87.5rem) {
+    display: flex;
+    margin-left: 4rem;
+  }
 }
 
-
-.menu-icon{
-
-    display: inline-block;
-@media screen and (min-width: 64.0rem) { 
-   
-        display: none;
-    }
+.menu-icon {
+  display: inline-block;
+  @media screen and (min-width: 64rem) {
+    display: none;
+  }
 }
 
 /* Mobile Navigation */
 nav {
-    display: flex;
-    @media screen and (min-width: 87.5rem) { 
- 
-       width: 60%;
-    }
+  display: flex;
+  @media screen and (min-width: 87.5rem) {
+    width: 60%;
   }
+}
 
-
-  .navigation {
-    
-    button {
-      background: transparent;
-      font-size: 1.125rem;
-      line-height: 1.5rem;
-      border: none;
-      padding: 0;
-      margin-top: 0.3125rem;
-      height: 2.75rem;
-      color: currentColor;
-      position: relative;
-      z-index: 10;
-      
-      @media screen and (min-width: 48.0em) { 
-        font-size: 1.5rem;
-        line-height: 2rem;
-      }
-  
-      @media screen and (min-width: 87.5em) { 
-         
-        display: none;
-     }
-    }
-
-    svg {
-        transform: translateY(-0.0625rem);
-        margin-right: 0.25rem;
-        width: 1.5rem;
-        height: 1.5rem;
-        @media screen and (min-width: 48.0rem) { 
-          margin-right: 0.375rem;
-          width: 1.75rem;
-          height: 1.75rem;
-        }
-      }
-    
-    button[aria-expanded="false"] svg {
-        opacity: 1;
-      }
-        path {
-          fill: currentColor;
-          &:nth-of-type(2) {
-            display: none;
-          }
-        }
-        button[aria-expanded="true"] path:nth-of-type(1) {
-          display: none;
-        }
-        button[aria-expanded="true"] path:nth-of-type(2) {
-          display: block;
-        }
-    
-    ul {
-        
-       @include max-width;
-       z-index: 100;
-      width: 100%;
-      list-style-type: none;
-      font-size: 2rem;
-      line-height: 2;
-
-      
-        
-      @media screen and (max-width: 87.5em) { 
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-      }
-      @media screen and (min-width: 87.5em) { 
-        display: flex;
-        font-size: 1.25rem;
-        gap: 1rem;
-        margin-top: 0.375rem;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0;
-      }
-    
-    .is-mobile-main-nav-open & {
-
-        @media screen and (max-width: 87.5em) { 
-          background: #fff;
-          display: flex;
-          flex-direction: column;
-          margin-top: 8rem;
-        }
-      }
-
-      
-    
-    
-
-    a, a:visited {
-        text-decoration: none;
-        color: var(--text-default);
-       
-        padding-top: 1rem;
-        padding-bottom: .25rem;
-        font-weight: 800;
-        
-        
-       
-      }
-
-        a:hover {
-            @media screen and (min-width: 64.0rem) { 
-            border-bottom: 6px var(--idl-brand-color) solid;
-            }
-        }
-
-        .lang-switch a:hover {
-            border: none;
-           
-        }
-    
-     
-    }
-
-    [aria-current="page"] {
-        @media screen and (min-width: 87.5em) { 
-        border-bottom: 6px var(--idl-brand-color) solid;
-        }
-    }
-
-  }
-
-  .is-mobile-main-nav-open {
-   
+.navigation {
+  button {
+    background: transparent;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    border: none;
+    padding: 0;
+    margin-top: 0.3125rem;
+    height: 2.75rem;
+    color: currentColor;
     position: relative;
-    overflow: hidden;
+    z-index: 10;
+    @media screen and (min-width: 48em) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    @media screen and (min-width: 87.5em) {
+      display: none;
+    }
   }
 
-  .main.is-mobile-main-nav-open {
+  svg {
+    transform: translateY(-0.0625rem);
+    margin-right: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    @media screen and (min-width: 48rem) {
+      margin-right: 0.375rem;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+
+  button[aria-expanded="false"] svg {
+    opacity: 1;
+  }
+  path {
+    fill: currentColor;
+    &:nth-of-type(2) {
+      display: none;
+    }
+  }
+  button[aria-expanded="true"] path:nth-of-type(1) {
     display: none;
   }
+  button[aria-expanded="true"] path:nth-of-type(2) {
+    display: block;
+  }
+
+  ul {
+    @include max-width;
+    z-index: 100;
+    width: 100%;
+    list-style-type: none;
+    font-size: 2rem;
+    line-height: 2;
+    @media screen and (max-width: 87.5em) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+    }
+    @media screen and (min-width: 87.5em) {
+      display: flex;
+      font-size: 1.25rem;
+      gap: 1rem;
+      margin-top: 0.375rem;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+    }
+
+    .is-mobile-main-nav-open & {
+      @media screen and (max-width: 87.5em) {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        margin-top: 8rem;
+      }
+    }
+
+    a,
+    a:visited {
+      text-decoration: none;
+      color: var(--text-default);
+      padding-top: 1rem;
+      padding-bottom: 0.25rem;
+      font-weight: 800;
+    }
+
+    a:hover {
+      @media screen and (min-width: 64rem) {
+        border-bottom: 6px var(--idl-brand-color) solid;
+      }
+    }
+
+    .lang-switch a:hover {
+      border: none;
+    }
+  }
+
+  [aria-current="page"] {
+    @media screen and (min-width: 87.5em) {
+      border-bottom: 6px var(--idl-brand-color) solid;
+    }
+  }
+}
+
+.is-mobile-main-nav-open {
+  position: relative;
+  overflow: hidden;
+}
+
+.main.is-mobile-main-nav-open {
+  display: none;
+}
