@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/FH-Potsdam/IDL-Website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0-canary.23",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "@11ty/eleventy-server-browsersync": "^1.0.2",
     "cross-env": "7.0.3",
     "cssnano": "^5.1.13",
     "del-cli": "^5.0.0",
