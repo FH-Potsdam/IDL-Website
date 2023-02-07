@@ -3,7 +3,7 @@
   excerpt: "Rahel is a research associate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
   wp_id: 538
   slug: "rahel-flechtner"
-  group: "Members"
+  group: "Past Members"
   subtitle: "Research Associate"
   website: ""
   email: "rahel.flechtner@fh-potsdam.de"

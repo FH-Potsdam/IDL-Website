@@ -234,6 +234,10 @@ module.exports = function(config) {
     return getFileNameFromManifest(fileName, `./dist/js/manifest.json`);
   });
 
+  config.addFilter("sortByName", function (people) {
+    return people.sort((a, b) => a.data.sort_name.localeCompare(b.data.sort_name));
+  });
+
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/fonts");

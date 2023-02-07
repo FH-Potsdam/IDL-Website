@@ -3,7 +3,7 @@
   excerpt: "Paula ist wissenschaftliche Mitarbeiterin am Interaction Design Lab (IDL) der Fachhochschule Potsdam.\n"
   wp_id: 487
   slug: "paula-schuster"
-  group: "Members"
+  group: "Past Members"
   subtitle: "Wissenschaftliche Mitarbeiterin"
   website: ""
   email: "paula.schuster@fh-potsdam.de"

@@ -101,6 +101,7 @@ a.people-container:hover {
 }
 
 .former-container {
+  margin-top: 3rem;
   @include max-width;
   display: flex;
   justify-content: space-between;

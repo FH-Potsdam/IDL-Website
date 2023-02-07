@@ -14,14 +14,14 @@
 <div class="people">
 <h2>{{ pList.title[locale] }}</h2>
 	
-	{% for p in people %}
+	{% for p in people | sortByName %}
 		{% if p.data.group == pList.key %}
 		
 {% if pList.singles %}
 
 <a href="{{p.url}}" title="{{p.data.name}}" class="people-container">
 
-		<div class="people-image {% if p.data.image_link or p.data.thumbnail_id %} checked {% endif %}">
+		<div class="people-image {% if p.data.image_link or p.data.thumbnail_id %} not-checked {% endif %}">
 			{% if p.data.thumbnail_id %}
 			<img src="{{(p.data.thumbnail_id)}}" alt="{{p.data.name}}" loading="lazy" />
 			{% elif p.data.image_link %}
@@ -51,36 +51,6 @@
 </div>
 {% endfor %}
 
-{#
-{% for pList in peopleConfig.full %}
-<div class="people">
-	<h2>{{ pList.title[locale] }}</h2>
-	<ul>
-	{% for p in people %}
-		{% if p.group == pList.key %}
-		<li>
-{% if pList.singles %}
-			<a  href="/{{ locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
-				<img src="{{imageById(p.thumbnail_id)}}" alt="" loading="lazy" />
-				<img src="{{(p.image_link)}}" alt="" loading="lazy" />
-			</a>
-			<a href="/{{locale}}/people/{{p.slug}}" title="{{p.name[locale]}}">
-				<h2>{{p.name[locale]}}</h2>
-				<span>{{p.subtitle[locale]}}</span>
-			</a>
-{% else %}
-			<img src="{{imageById(p.thumbnail_id)}}" alt="" loading="lazy" />
-			<h2>{{p.name[locale]}}</h2>
-			<span>{{p.subtitle[locale]}}</span>
-{% endif %}
-		</li>
-		{% endif %}
-	{% endfor %}
-	</ul>
-</div>
-{% endfor %}
-#}
-
 
 {% if laufschrift_green and laufschrift_black %}
 <div class="laufschrift-container">
@@ -96,7 +66,7 @@
 <div class="former">
 	<div class="former-title">{{ pList.title[locale] }}</div>
 	<ul>
-	{% for p in people %}
+	{% for p in people | sortByName %}
 		{% if p.data.group == pList.key %}
 		<li>{{p.data.name}}</li>
 		{% endif %}

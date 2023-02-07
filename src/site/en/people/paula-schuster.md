@@ -3,7 +3,7 @@
   excerpt: "Paula is a research associate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
   wp_id: 487
   slug: "paula-schuster"
-  group: "Members"
+  group: "Past Members"
   subtitle: "Research Associate"
   website: ""
   email: "paula.schuster@fh-potsdam.de"
