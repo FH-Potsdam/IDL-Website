@@ -7,7 +7,7 @@ year: 2011
 thumbnail: /images/uploads/bildschirmfoto-2015-12-21-um-18.13.04.png
 excerpt: ""
 featured_home: true
-project_website: http://polizei.brandenburg.de
+project_website: https://polizei.brandenburg.de
 project_material: ""
 group: null
 filter_themen:

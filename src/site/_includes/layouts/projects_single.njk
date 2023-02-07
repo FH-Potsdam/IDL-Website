@@ -112,7 +112,7 @@
      {% if project_website %}
     <div class="facts website">
     <span>Website</span>
-       <a href="{{project_website}}">{{project_website}}</a>
+       <a href="{{project_website}}">{{project_website | replace("https://", "") | replace("http://", "") | replace("www.", "")}}</a>
   </div>
     {% endif %}  
 </div>
