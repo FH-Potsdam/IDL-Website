@@ -238,16 +238,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/fonts");
   config.addPassthroughCopy("./src/site/admin");
-
-  // use legacy BS to serve files
-  config.setServerOptions({
-    module: "@11ty/eleventy-server-browsersync",
-    notify: true,
-    port: 3000,
-    open: true,
-    files: ["./dist/css/**/*.css"]
-  });
-
+  
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
 

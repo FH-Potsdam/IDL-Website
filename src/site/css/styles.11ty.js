@@ -18,15 +18,15 @@ module.exports = class {
 
   async render ({ rawCss, rawFilepath }) {
     return await postcss([
-      // require('postcss-comment'),
       require('postcss-normalize'),
-      require('precss'),
+      require('postcss-extend-rule'),
+      require('postcss-advanced-variables'),
+      require('postcss-preset-env'),
+      require('postcss-atroot'),
+      require('postcss-property-lookup'),
+      require('postcss-nested'),
       require('postcss-import'),
       require('postcss-mixins'),
-      require('postcss-color-mix'),
-      require('css-mqpacker')({
-        sort: true
-      }),
       require('cssnano'),
     ])
     .process(rawCss, { from: rawFilepath })
