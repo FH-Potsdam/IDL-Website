@@ -96,9 +96,13 @@
 
 {% macro peopleTeaser(p) %}
 <li>
+  {% if "Past" in p.data.group %}
+  {{p.data.name}}
+  {% else %}
   <a href="{{p.url}}" title="{{p.data.name}}">
     {{p.data.name}}
   </a>
+  {% endif %}
 </li>
 {% endmacro %}
 
