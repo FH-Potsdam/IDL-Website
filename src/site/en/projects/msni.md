@@ -62,6 +62,6 @@ Spatial data visualisations and interactions play an important part in many of o
 
 Furthermore, we developed a custom algorithm for generating personalised recommendation heatmaps in realtime for users of the application. Providing a novel way of exploring personalised recommendation in large spatial context.
 
-![](/images/uploads/msni-präsentation.044.png)
+![](/images/uploads/msni-präsentation.044-crop.png)
 
 MSNI is a research project of the design department of the University of Applied Sciences in Potsdam and is funded by the \[German Federal Ministry of Education and Research (BMBF)](http://www.bmbf.de).
