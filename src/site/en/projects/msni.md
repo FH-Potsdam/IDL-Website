@@ -8,6 +8,7 @@ thumbnail: /images/uploads/jourway_pm.jpg
 excerpt: The research project ‘MSNI’ is looking into the field of location and
   context based services in the area of regional-information-services.
 featured_home: false
+laufschrift_tags: Geovisualization x Maps x Mobile x User Research x Parametric Design
 project_website: http://www.m-s-n-i.de/
 project_material: ""
 group:
@@ -19,16 +20,9 @@ filter_themen:
 filter_services:
   - Human-Centered Design
   - Prototyping
-project_team_external: []
-project_team:
-  - /en/people/sebastian-meier/
-  - /en/people/andreas-thom/
-  - /en/people/frank-heidmann/
-slug: msni
-thumbnail_id: 135
-related_projects: ""
 filter_art:
   - Research
+project_team_external: []
 project_partners:
   - name: idpraxis GmbH
     url: http://www.idpraxis.de/
@@ -44,6 +38,13 @@ project_client: []
 project_funding:
   - logo: /images/uploads/bmbf-logo-de.jpg
     name: Bundesministerium für Bildung und Forschung
+project_team:
+  - /en/people/sebastian-meier/
+  - /en/people/andreas-thom/
+  - /en/people/frank-heidmann/
+slug: msni
+thumbnail_id: 135
+related_projects: ""
 related_publications:
   - /publications/too-many-markers-revisited-an-empirical-analysis-of-web-based-methods-for-overcoming-the-problem-of-too-many-markers-in-zoomable-mapping-applications/
   - /publications/interkulturelle-nutzeranforderungen-erheben/
