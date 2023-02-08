@@ -48,6 +48,20 @@ related_publications:
   - /publications/too-many-markers-revisited-an-empirical-analysis-of-web-based-methods-for-overcoming-the-problem-of-too-many-markers-in-zoomable-mapping-applications/
   - /publications/interkulturelle-nutzeranforderungen-erheben/
 ---
-Heart of the project is a smart data-API that offers real-time access to regional data from a wide range of providers, ranging from restaurants to traffic information. Gathered and organized through a smart location- and context-based algorithm, the data is brought together in several mobile application prototypes. Our main focus lies in developing an in-depth user experience through design research and thoughtful interactions and designs. The evaluated prototypes should provide insights into the fields of recommendation behaviour, navigation, privacy, and cross-cultural design, etc.
+MSNI stands for "mobile semantic navigation and information". The research project was investigating how different user groups search for information while traveling and how a service could provide spatial- and contextual-based information while respecting the user's privacy. In order to achive this, a large consortium of partners was developing solutions for the necessary components, from semantic search algorithms (Fraunhofer Fokus) to 3D visualisations of urban surroundings (3D RealityMaps).
 
-MSNI is a research project of the design department of the University of Applied Sciences in Potsdam and is funded by the [German Federal Ministry of Education and Research (BMBF)](http://www.bmbf.de).
+![Work packages of project partners along a user journey.](/images/uploads/msni-structure.jpg "Work packages of project partners along a user journey.")
+
+Our main focus within the project is developing an in-depth user experience through design research and thoughtful interactions and designs. Therefore, we conducted several user studies to investigate mobile information search patterns and user needs. Based on the results prototypes for designed and build. Those prototypes helped us gain further insights into the fields of recommendation behaviour, navigation, privacy, and cross-cultural design, etc.
+
+![](/images/uploads/msni-präsentation.052.png)
+
+Spatial data visualisations and interactions play an important part in many of our projects at the Interaction Design Lab. As part of this project we explored different ways of visual spatial navigation, depending on the users context and tasks, switching between traditional 2D maps, to satellite imagery, to bird-view imagery, to high quality 3D visualisations.
+
+![](/images/uploads/msni-präsentation.022.png)
+
+Furthermore, we developed a custom algorithm for generating personalised recommendation heatmaps in realtime for users of the application. Providing a novel way of exploring personalised recommendation in large spatial context.
+
+![](/images/uploads/msni-präsentation.044.png)
+
+MSNI is a research project of the design department of the University of Applied Sciences in Potsdam and is funded by the \[German Federal Ministry of Education and Research (BMBF)](http://www.bmbf.de).
