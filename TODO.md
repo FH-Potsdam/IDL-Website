@@ -2,3 +2,16 @@
 - link people > projects from projects > people
 - Home Intro Text
 - Width of publications / title size?!
+
+SEB:
+
+- ANCI
+- Polizei
+- UBA 1
+- UBA 2
+- Smart City
+- Open Data Cloud Services
+- Parametric Design
+- IASS
+- KatWarn
+

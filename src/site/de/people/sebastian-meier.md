@@ -20,6 +20,7 @@ website: http://www.sebastianmeier.eu
 email: sebastian.meier@fh-potsdam.de
 twitter: seb_meier
 thumbnail_id: /images/uploads/profile-landscape-idl.jpg
+laufschrift_tags: "Visualisierung x Holistische Gestaltung x Inklusives Design x Digitale Souveranität"
 sort_name: Meier
 image_link: /images/migration/sebastian-meier.jpg
 ---
