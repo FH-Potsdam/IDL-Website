@@ -26,13 +26,15 @@ image_link: /images/migration/sebastian-meier.jpg
 ---
 An der Schnittstelle von mensch-zentrierter Gestaltung und technologischer Innovation erforscht Sebastian Meier neue Formen der Wissensvermittlung. Von urbaner Datenvisualisierung als Werkzeuge partizipativer Teilhabe, Expertenwerkzeugen zur Unterstützungs von Entscheidungsprozessen, bis hin zu Ausstellungen und Exponaten zur Vermittlung komplexer Sachverhalte, wird ein ganzheitlicher Ansatz verfolgt, um zielgruppengerechte Lösungen zu erforschen und entwickeln.
 
-## Forschungsschwerpunkte:
+**Forschungsschwerpunkte:**
 
 * Klimawandel und Nachhaltigkeit in der Vermittlung
 * Digitale Teilhabe, Literacy und Souveranität
 * Stadtentwicklung und Partizipation
 * Open Data in Komunal-, Landes- und Bundesbehörden
 
-Sebastian Meier ist Co-Inititator der CityVis Inititative, die sich um einen weltweiten Austausch in Forschung und Anwendung zu den Themen urbaner Datenvisualisierung bemüht. Neben zahlreichen Workshops, gibts Symposien und Ausstellungen, welche versuchen das Wissen einer breiten Zielgruppe aufzubereiten. Als Sektions- und Kommissionsleiter innerhalb der Deutschen Gesellschaft für Kartographie, betreibt er besonders Nachwuchsförderung an der Schnittstelle von Design und Kartographie. 
+<br />
 
-Vor seiner Arbeit an der Fachhochschule Potsdam kooperierte er als Gastprofessor an der HafenCity Universität Hamburg mit dem dortigen CityScienceLab und dem g2lab, im Kontext von Stadtplanung und Partizipation. Als wissenschaftlicher Leiter des CityLAB Berlin, eine Einrichtung der Senatskanzlei Berlin und der Technologiestiftung Berlin, projektierte er Vorhaben auf Landesebene zu Themen rund um Open Data, Smart City und Nachhaltigkeit.
+Sebastian Meier ist Co-Inititator der [CityVis](https://www.cityvis.io/) Inititative, die sich um einen weltweiten Austausch in Forschung und Anwendung zu den Themen urbaner Datenvisualisierung bemüht. Neben zahlreichen Workshops, gibts Symposien und Ausstellungen, welche versuchen das Wissen einer breiten Zielgruppe aufzubereiten. Als Sektions- und Kommissionsleiter innerhalb der [Deutschen Gesellschaft für Kartographie](https://visualisierung.dgfk.net/de/), betreibt er besonders Nachwuchsförderung an der Schnittstelle von Design und Kartographie. 
+
+Vor seiner Arbeit an der Fachhochschule Potsdam kooperierte er als Gastprofessor an der HafenCity Universität Hamburg mit dem dortigen [CityScienceLab](https://www.hcu-hamburg.de/research/csl) und dem [g2lab](http://www.geomatik-hamburg.de/g2lab/), im Kontext von Stadtplanung und Partizipation. Als wissenschaftlicher Leiter des [CityLAB Berlin](https://citylab-berlin.org/), eine Einrichtung der Senatskanzlei Berlin und der [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/), projektierte er Vorhaben auf Landesebene zu Themen rund um Open Data, Smart City und Nachhaltigkeit.

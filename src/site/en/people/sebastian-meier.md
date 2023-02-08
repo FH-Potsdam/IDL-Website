@@ -26,13 +26,15 @@ image_link: /images/migration/sebastian-meier.jpg
 ---
 At the intersection of human-centred Design and technological innovation, Sebastian Meier explores new forms of knowledge transfer. From urban data visualisation as a means for participation, to expert tools for decision making support, to exhibitions and digital forms of storytelling to communicate complex issues, his research tries to take an holistic approach to find people-oriented solutions.
 
-## Research Foci:
+**Research Foci:**
 
 * Mediating Climate Change and Sustainability
 * Digital Participation, Literacy and Sovereignty
 * Urban Planning and Participation
 * Open Data in the local, state and federal administration
 
-Sebastian Meier is co-founder of the CityVis initiative, which supports a global community of academic and applied visualisation professionals, to exchange ideas and foster knowledge exchange. Besides several academic workshops, conferences and exhibitions try to disseminate knowledge to a broader audience. As a chapter and commission lead within the Germany Cartographic Association, he is promoting young talent at the intersection of design and cartography.
+<br />
 
-Before his work at the University of Applied Sciences Potsdam, he collaborated with the HafenCity University's CityScienceLab and g2lab, as a guest professor in the department for geoinformatics, investigating the interplay of urban planning and citizen participation. As the research director of Berlin's CityLAB, an initiative of Berlin's senate chancellery and the Technologiestiftung Berlin, he was driving research and development on topics like Open Data, Smart City and Sustainability in the state of Berlin.
+Sebastian Meier is co-founder of the [CityVis](https://www.cityvis.io/) initiative, which supports a global community of academic and applied visualisation professionals, to exchange ideas and foster knowledge exchange. Besides several academic workshops, conferences and exhibitions try to disseminate knowledge to a broader audience. As a chapter and commission lead within the [Germany Cartographic Association](https://visualisierung.dgfk.net/de/), he is promoting young talent at the intersection of design and cartography.
+
+Before his work at the University of Applied Sciences Potsdam, he collaborated with the HafenCity University's [CityScienceLab](https://www.hcu-hamburg.de/research/csl) and [g2lab](http://www.geomatik-hamburg.de/g2lab/), as a guest professor in the department for geoinformatics, investigating the interplay of urban planning and citizen participation. As the research director of Berlin's [CityLAB Berlin](https://citylab-berlin.org/), an initiative of Berlin's senate chancellery and the [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/), he was driving research and development on topics like Open Data, Smart City and Sustainability in the state of Berlin.
