@@ -3,41 +3,38 @@
   <head>
   	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if title == "Home" %}
+{% set metaTitle = "Interaction Design Lab" %}
+{% else %}
+{% set metaTitle = title + " | Interaction Design Lab" %}
+{% endif %}
+    <title>{{metaTitle}}</title>
 
-    <!-- ⚠️ TODO: needs dynamic scription -->
-    <title>IDL | Interaction Design Lab University of Applied Sciences Potsdam</title>
+    <meta name="description" content="{% if locale == 'en' %}The Interaction Design Lab is the research laboratory of the Interface Design Programme at the University of Applied Sciences in Potsdam, Germany. The lab is a space for international interaction design experts from industry and academia. It provides an interface between education, research and development, transfer of technology, design and knowledge and creates a space for multidisciplinary projects.{% else %}Das Interaction Design Lab ist die Forschungseinrichtung des Studiengangs Interface Design an der Fachhochschule Potsdam. Das Labor beherbergt ein internationales Team an Forscher_innen, Designer_innen und Entwickler_innen, die ihre Wurzeln in Wissenschaft und Industrie haben. Wir schaffen eine Schnittstelle zwischen Lehre, Forschung, Entwicklung, Technologietransfer, Design und Wissenstransfer und öffnen damit einen Raum für multidisziplinäre Projekte.{% endif %}" />
 
-    <!-- ⚠️ TODO: needs dynamic scription -->
-    <meta name="description" content="The Interaction Design Lab is the research laboratory of the Interface Design Programme at the University of Applied Sciences in Potsdam, Germany. The lab is a space for international interaction design experts from industry and academia. It provides an interface between education, research and development, transfer of technology, design and knowledge and creates a space for multidisciplinary projects." />
-
-
-    <!-- ⚠️ TODO: Part needs dynamic localization and URLs  -->
     <link rel="canonical" href="/" />
 
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="{% if locale == 'en' %}en_US{% else %}de_DE{% endif %}" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="IDL | Interaction Design Lab University of Applied Sciences Potsdam" />
-    <meta property="og:description" content="The Interaction Design Lab is the research laboratory of the Interface Design Programme at the University of Applied Sciences in Potsdam, Germany. The lab is a space for international interaction design experts from industry and academia. It provides an interface between education, research and development, transfer of technology, design and knowledge and creates a space for multidisciplinary projects." />
-    <meta property="og:url" content="/" />
-    <meta property="og:site_name" content="IDL | Interaction Design Lab University of Applied Sciences Potsdam" />
-    <meta property="og:image" content="//idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg" />
+    <meta property="og:title" content="{{metaTitle}}" />
+    <meta property="og:description" content="{{excerpt}}" />
+    <meta property="og:url" content="{{url}}" />
+    <meta property="og:site_name" content="IDL | Interaction Design Lab" />
+    <meta property="og:image" content="/images/idl-social-media.jpg" />
 
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:description" content=""/>
-    <meta name="twitter:title" content="IDL | Interaction Design Lab University of Applied Sciences Potsdam"/>
-    <meta name="twitter:url" content="/">
+    <meta name="twitter:description" content="{{excerpt}}"/>
+    <meta name="twitter:title" content="{{metaTitle}}"/>
+    <meta name="twitter:url" content="{{url}}">
     <meta name="twitter:site" content="@idpotsdam"/>
-    <meta name="twitter:image" content="//idl.fh-potsdam.de/wp-content/uploads/2016/01/idl-website.jpg"/>
+    <meta name="twitter:image" content="/images/idl-social-media.jpg"/>
     <meta name="twitter:creator" content="@idpotsdam"/>
 
 	  
     <meta name='robots' content='max-image-preview:large' />
 
-    <link rel="shortcut icon" href="/wp-content/themes/IDL/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/styles.css">
-
-    <!-- ⚠️ TODO: is this conform to DSGVO -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>

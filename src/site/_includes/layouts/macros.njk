@@ -143,10 +143,15 @@
 		<div class="pub-desc">
 			{{p.data.outlet}}
 		</div>
-    
-    {% if p.data.project_pdf %}
+    {# Legacy data format #}
+    {% if not p.data.project_pdf and p.data.website %}
+    {% set pdfsite = p.data.website %}
+    {% elif p.data.project_pdf %}
+    {% set pdfsite = p.data.project_pdf %}
+    {% endif %}
+    {% if pdfsite %}
 		<div class="download-link">
-			<a href="{{p.data.project_pdf}}" target="_blank">DOWNLOAD PDF</a>
+			<a href="{{pdfsite}}" target="_blank">DOWNLOAD PDF</a>
 		</div>
     {% endif %}
     
