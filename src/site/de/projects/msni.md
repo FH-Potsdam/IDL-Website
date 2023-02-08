@@ -62,6 +62,6 @@ Räumliche Datenvisualisierungen und Interaktionen spielen in vielen unserer Pro
 
 Darüber hinaus haben wir einen eigenen Algorithmus entwickelt, um für die Nutzer*innen der Anwendung personalisierte Empfehlungs-Heatmaps in Echtzeit zu erstellen. Damit bieten wir eine neuartige Möglichkeit, personalisierte Empfehlungen in einem großen räumlichen Kontext zu erkunden.
 
-![](/images/uploads/msni-präsentation.044.png)
+![](/images/uploads/msni-präsentation.044-crop.png)
 
 MSNI ist ein Forschungsprojekt des Fachbereichs Design der Fachhochschule Potsdam und wird durch das Bundesministerium für Bildung und Forschung (BMBF) gefördert (http://www.bmbf.de).
