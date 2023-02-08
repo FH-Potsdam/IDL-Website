@@ -24,6 +24,7 @@ collections:
       #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       - {label: "Project website", name: "project_website", widget: "string", required: false}
       - {label: "Project Material", name: "project_material", widget: "string", required: false}
       - label: "Group"
@@ -114,6 +115,7 @@ collections:
       #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
       - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
       #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       - {label: "Project website", name: "project_website", widget: "string", required: false}
       - {label: "Project Material", name: "project_material", widget: "string", required: false}
       - label: "Group"
@@ -197,6 +199,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
       #- {label: "WP ID", name: "wp_id", widget: "number"}
       #- {label: "Slug", name: "slug", widget: "string"}
@@ -229,6 +232,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
       #- {label: "WP ID", name: "wp_id", widget: "number"}
       #- {label: "Slug", name: "slug", widget: "string"}
@@ -261,6 +265,7 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       #- {label: "WP ID", name: "wp_id", widget: "number"}
       #- {label: "Slug", name: "slug", widget: "string"}
       - {label: "Website", name: "website", widget: string, required: false}
