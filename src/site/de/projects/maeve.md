@@ -29,7 +29,7 @@
   related_projects: ""
   thumbnail_id: 45
   featured_home: true
-  thumbnail: null
+  thumbnail: /images/uploads/maeve_installation_3.jpg
   project_partners: 
     - 
       name: "IUAV University of Venice"

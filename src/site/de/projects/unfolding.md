@@ -14,7 +14,7 @@
   related_projects: ""
   thumbnail_id: 232
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/unfolding-teaser.jpg
   project_partners: []
   project_team_external: []
   project_funding: []

@@ -22,7 +22,7 @@
   related_projects: ""
   thumbnail_id: 432
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/digenti-teaser.jpg
   project_partners: 
     - 
       name: "University of Potsdam"

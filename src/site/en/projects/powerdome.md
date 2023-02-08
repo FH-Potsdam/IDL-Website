@@ -15,7 +15,7 @@
   related_projects: ""
   thumbnail_id: 101
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/Dome_089.jpg
   project_partners: 
     - 
       name: "Carl Zeiss Jena"

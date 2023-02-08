@@ -16,7 +16,7 @@
   related_projects: ""
   thumbnail_id: 260
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/environmental-report-teaser.jpg
   project_partners: 
     - 
       name: "DELPHI IMM GmbH,"

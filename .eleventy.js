@@ -125,12 +125,13 @@ module.exports = function(config) {
 
           // create list of publications per author
           const foundAuthors = [];
-          item.data.project_team.forEach(a => {
-            if (a && a.length > 3) {
-              foundAuthors.push(stripUrl(a));
-            }
-          });
-
+          if ('project_team' in item.data) {
+            item.data.project_team.forEach(a => {
+              if (a && a.length > 3) {
+                foundAuthors.push(stripUrl(a));
+              }
+            });
+          }
 
           foundAuthors.forEach(author => {
             if(!(author in map.lists['people_' + lang + '_projects'])) {

@@ -16,7 +16,7 @@
   related_projects: ""
   thumbnail_id: 262
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/energieatlas-teaser.jpg
   project_partners: 
     - 
       name: "DELPHI IMM GmbH"

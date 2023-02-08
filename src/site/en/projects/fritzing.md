@@ -15,7 +15,7 @@
   related_projects: ""
   thumbnail_id: 233
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/fritzing.jpg
   project_partners: []
   project_team_external: []
   project_funding: []

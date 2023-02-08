@@ -19,7 +19,7 @@
   related_projects: ""
   thumbnail_id: 264
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/incom_screen.jpg
   project_partners: []
   project_team_external: 
     - 

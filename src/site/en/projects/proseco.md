@@ -15,7 +15,7 @@
   related_projects: ""
   thumbnail_id: 243
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/aranea-teaser.jpg
   project_partners: []
   project_team_external: []
   project_funding: []

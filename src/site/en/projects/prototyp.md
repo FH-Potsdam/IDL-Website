@@ -17,7 +17,7 @@
   related_projects: ""
   thumbnail_id: 494
   featured_home: true
-  thumbnail: null
+  thumbnail: /images/uploads/IMG_2240-scaled.jpg
   project_partners: 
     - 
       name: "JGU Mainz"

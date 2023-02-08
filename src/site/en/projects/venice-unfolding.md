@@ -20,7 +20,7 @@
   related_projects: ""
   thumbnail_id: 263
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/VENICE-UNFOLDING-4.jpg
   project_partners: 
     - 
       name: "IUAV University of Venice"

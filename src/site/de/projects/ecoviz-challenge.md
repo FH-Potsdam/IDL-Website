@@ -15,7 +15,7 @@
   related_projects: ""
   thumbnail_id: 230
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/EcoC_IDLHP01.jpg
   project_partners: 
     - 
       name: "Raureif"

@@ -16,7 +16,7 @@
   related_projects: ""
   thumbnail_id: 261
   featured_home: false
-  thumbnail: null
+  thumbnail: /images/uploads/earth-and-environment-teaser.jpg
   project_partners: []
   project_team_external: []
   project_funding: []
