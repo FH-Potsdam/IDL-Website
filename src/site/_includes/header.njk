@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% if title == "Home" %}
 {% set metaTitle = "Interaction Design Lab" %}
+{% elseif not title and name %}
+{% set metaTitle = (name | replace ("Prof. ", "") | replace ("Dr. ", "")) + " | Interaction Design Lab" %}
 {% else %}
 {% set metaTitle = title + " | Interaction Design Lab" %}
 {% endif %}
