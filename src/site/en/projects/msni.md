@@ -4,7 +4,7 @@ name: MSNI
 subtitle: Location and context-based services
 project_year: 2012 – 2013
 year: 2012
-thumbnail: /images/uploads/bildschirmfoto-2015-12-22-um-02.07.39.png
+thumbnail: /images/uploads/jourway_pm.jpg
 excerpt: The research project ‘MSNI’ is looking into the field of location and
   context based services in the area of regional-information-services.
 featured_home: false
