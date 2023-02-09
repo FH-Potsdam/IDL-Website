@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const moment = require('moment');
 
@@ -220,11 +222,13 @@ module.exports = function(config) {
     });
   });
 
+  // watch js to trigger rebuild
+  config.addWatchTarget("./src/site/_includes/js/core.js");
+
   // helper function to get file name from manifest file
   function getFileNameFromManifest(fileName, manifest) {
-    const _fileName = fileName;
-    const _pathJSON = require(manifest);
-    const _output = _pathJSON[_fileName];
+    const jsonContent = JSON.parse(fs.readFileSync(manifest, 'utf8'));
+    const _output = jsonContent[fileName];
     return _output;
   }
 
