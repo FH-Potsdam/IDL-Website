@@ -18,6 +18,7 @@
     - "Forschung"
   subtitle: "Tangible Exploration of Social and Intellectual Networks"
   project_year: 2009
+  year: 2009
   project_team: 
     - 34
     - 38

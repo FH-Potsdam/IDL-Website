@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "Portal and Visualization Design for Rhineland-Palatinate"
   project_year: 2015
+  year: 2015
   project_team: 
     - 33
   project_website: "http://www.energieatlas.rlp.de"

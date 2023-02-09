@@ -9,6 +9,7 @@
     - "Tangible"
   subtitle: "Prototyping im Critical Design"
   project_year: "2018 – 2021"
+  year: 2018
   project_team: []
   project_website: ""
   project_material: ""

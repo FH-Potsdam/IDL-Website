@@ -6,6 +6,7 @@
   group: null
   subtitle: "Metadata für Architektur-Inhalte in Europa"
   project_year: "2006 – 2009"
+  year: 2006
   project_team: []
   project_website: "http://mace-project.eu/"
   project_material: ""

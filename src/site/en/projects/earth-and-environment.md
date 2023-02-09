@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "Platform Design"
   project_year: "2012-2015"
+  year: 2012
   project_team: 
     - 33
   project_website: "http://eskp.de/"

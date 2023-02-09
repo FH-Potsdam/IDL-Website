@@ -16,6 +16,7 @@
     - "Transfer"
   subtitle: "User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität"
   project_year: "2020-2023"
+  year: 2020
   project_team: 
     - 219
     - 517

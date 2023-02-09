@@ -12,6 +12,7 @@
     - "Forschung"
   subtitle: "Communication plattform"
   project_year: "2004 – current"
+  year: 2004
   project_team: []
   project_website: "http://about.incom.org/"
   project_material: ""

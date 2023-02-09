@@ -3,6 +3,7 @@ wp_id: 540
 name: DataSkop
 subtitle: User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität
 project_year: 2020-2023
+year: 2020
 thumbnail: /images/uploads/dataskop-teaser.jpg
 excerpt: User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität
 featured_home: true

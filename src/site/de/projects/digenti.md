@@ -11,6 +11,7 @@
     - "Visualization"
   subtitle: "Multi-modale Interaktionskonzepte für Katastrophenmanagement"
   project_year: "2015 – 2017"
+  year: 2015
   project_team: []
   project_website: ""
   project_material: ""

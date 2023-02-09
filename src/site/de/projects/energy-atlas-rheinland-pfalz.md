@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "Portaldesign und Visualisierungen für das Land Rheinland-Pfalz"
   project_year: 2015
+  year: 2015
   project_team: 
     - 33
   project_website: "http://www.energieatlas.rlp.de"

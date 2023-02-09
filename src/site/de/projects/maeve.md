@@ -18,6 +18,7 @@
     - "Forschung"
   subtitle: "Haptische Exploration von sozialen und geistigen Netzwerken"
   project_year: 2009
+  year: 2009
   project_team: 
     - 34
     - 38

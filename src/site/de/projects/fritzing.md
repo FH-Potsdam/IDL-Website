@@ -8,6 +8,7 @@
     - "Tangible"
   subtitle: "Physical Computing Platform"
   project_year: "2006-2009"
+  year: 2006
   project_team: []
   project_website: "http://fritzing.org"
   project_material: ""

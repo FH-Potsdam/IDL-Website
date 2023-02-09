@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "Visualisierungen für Netzwerk-Sicherheits-Dashboards"
   project_year: "2012-2014"
+  year: 2012
   project_team: []
   project_website: ""
   project_material: ""

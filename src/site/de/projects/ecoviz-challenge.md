@@ -7,6 +7,7 @@
     - "Mobile"
   subtitle: "Forschung zu \"transformational Products\""
   project_year: "2010 - 2011"
+  year: 2010
   project_team: 
     - 33
   project_website: "http://www.eco-challenge.eu"

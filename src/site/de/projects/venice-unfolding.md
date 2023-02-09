@@ -8,6 +8,7 @@
     - "Tangible"
   subtitle: "Haptische Visualisierung von Architekturprojekten"
   project_year: 2009
+  year: 2009
   project_team: 
     - 33
   project_website: ""

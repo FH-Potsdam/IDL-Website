@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "IT Security Dashboard"
   project_year: "2014-2016"
+  year: 2014
   project_team: []
   project_website: ""
   project_material: ""

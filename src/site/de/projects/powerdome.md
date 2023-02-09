@@ -8,6 +8,7 @@
     - "Visualization"
   subtitle: "Interaktive Visuailsierungen für ein immersives Displaysystem"
   project_year: "Since 2009"
+  year: 2009
   project_team: []
   project_website: ""
   project_material: ""
