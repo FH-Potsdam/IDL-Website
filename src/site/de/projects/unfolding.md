@@ -7,9 +7,11 @@
     - "Maps"
   subtitle: "Bibliothek für Karten und Geovisualisierung"
   project_year: ""
-  project_team: []
+  project_team:
+  - /de/people/till-nagel/
   project_website: "http://www.unfoldingmaps.org"
   project_material: ""
+  year: 2010
   related_publications: []
   related_projects: ""
   thumbnail_id: 232

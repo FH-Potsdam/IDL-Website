@@ -1,6 +1,6 @@
 ---
   name: "SASER"
-  excerpt: ""
+  excerpt: "Visualisierungen für Netzwerk-Sicherheits-Dashboards"
   wp_id: 142
   slug: "saser"
   group: 
@@ -8,7 +8,11 @@
     - "Visualization"
   subtitle: "Visualisierungen für Netzwerk-Sicherheits-Dashboards"
   project_year: "2012-2014"
-  project_team: []
+  year: 2012
+  project_team:
+  - /de/people/prof-reto-wettach
+  - /de/people/jan-erik-stange
+  - /de/people/johannes-landstorfer
   project_website: ""
   project_material: ""
   related_publications: []
@@ -16,9 +20,25 @@
   thumbnail_id: 143
   featured_home: false
   thumbnail: /images/uploads/saser-teaser.png
-  project_partners: []
+  project_partners:
+  - name: Nokia Solutions and Networks Management International GmbH
+  - name: Technische Universität Dortmund
+  - name: Fraunhofer AISEC
+  - name: IxDS GmbH
+  - name: Universität Würzburg
+  - name: Universität Tübingen
+  - name: Technische Universität Braunschweig
+  - name: Zuse Institut Berlin (ZIB)
+  - name: Ruhr Universität Bochum
+  - name: Fraunhofer Gesellschaft HHI
+  - name: Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften
+  - name: Technische Universität München
+  - name: Technische Universität Berlin
+  - name: Coriant R&D GmbH
+
   project_team_external: []
-  project_funding: []
+  project_funding:
+  - logo: /images/uploads/bmbf-logo-de.jpg
   project_client: []
 
 ---

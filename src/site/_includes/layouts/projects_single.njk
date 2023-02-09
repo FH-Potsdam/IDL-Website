@@ -121,7 +121,7 @@
       {% if project_funding.length > 0 %}
     <div class="facts funding">
     <span>
-        {% if locale == 'en' %} Founded by {% else %} Gefördert durch {% endif %}
+        {% if locale == 'en' %} Funded by {% else %} Gefördert durch {% endif %}
     </span>
     {% for p in project_funding  %}
     {%if p.url %}<a href="{{p.url}}" target="_blank">{% endif %} 

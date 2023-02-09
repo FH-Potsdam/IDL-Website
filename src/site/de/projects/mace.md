@@ -1,13 +1,19 @@
 ---
   name: "MACE"
-  excerpt: ""
+  excerpt: "Metadata für Architektur-Inhalte in Europa"
   wp_id: 192
   slug: "mace"
   group: null
   subtitle: "Metadata für Architektur-Inhalte in Europa"
   project_year: "2006 – 2009"
-  project_team: []
-  project_website: "http://mace-project.eu/"
+  year: 2006
+  project_team:
+  - /de/people/prof-boris-muller/
+  - /de/people/moritz-stefaner
+  - /de/people/tina-deiml-seibt
+  - /de/people/till-nagel
+  - /de/people/larissa-pschetz
+  project_website: "https://mace-project.eu"
   project_material: ""
   related_publications: []
   related_projects: ""

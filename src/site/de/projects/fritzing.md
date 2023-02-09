@@ -1,6 +1,6 @@
 ---
   name: "Fritzing"
-  excerpt: ""
+  excerpt: "Physical Computing Platform"
   wp_id: 189
   slug: "fritzing"
   group: 
@@ -8,7 +8,10 @@
     - "Tangible"
   subtitle: "Physical Computing Platform"
   project_year: "2006-2009"
-  project_team: []
+  year: 2006
+  project_team:
+  - /de/people/prof-reto-wettach
+  - /de/people/andre-knorig
   project_website: "http://fritzing.org"
   project_material: ""
   related_publications: []
