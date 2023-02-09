@@ -1,6 +1,6 @@
 ---
   name: "Powerdome"
-  excerpt: "Our Powerdome system enables us to project real time media and interactive visualizations in a immersive fulldome environment."
+  excerpt: "Interaktive Visuailsierungen für ein immersives Displaysystem"
   wp_id: 36
   slug: "powerdome"
   group: 
@@ -9,7 +9,9 @@
   subtitle: "Interaktive Visuailsierungen für ein immersives Displaysystem"
   project_year: "Since 2009"
   year: 2009
-  project_team: []
+  project_team:
+    - /de/people/prof-boris-muller/
+    - /de/people/till-nagel/
   project_website: ""
   project_material: ""
   related_publications: []
@@ -35,11 +37,10 @@
   project_client: []
 
 ---
-The Powerdome system is the result of a unique collaboration between Carl Zeiss Jena, Fraunhofer FIRST and the Interface Design department of the University of Applied Sciences Potsdam. It enables us to project real-time media and interactive visualizations in a fulldome environment. The system gives us the opportunity to develop new and innovative interactive experiences in an immersive space.
+Das Powerdome-System ist das Ergebnis einer einzigartigen Zusammenarbeit zwischen Carl Zeiss Jena, Fraunhofer FIRST und dem Fachgebiet Interface Design der Fachhochschule Potsdam. Es ermöglicht uns, Echtzeitmedien und interaktive Visualisierungen in einer Fulldome-Umgebung zu projizieren. Das System gibt uns die Möglichkeit, neue und innovative interaktive Erfahrungen in einem immersiven Raum zu entwickeln.
 
-The Powerdome is located at the Urania Planetarium in Potsdam. It enriches the Planetarium’s scope of astronomical presentations while offering technical capabilities far beyond imparting astronomical contents. On the part of the FH Potdam, the emphasis is on the interactive visualization of information and data, one of the major research areas of the <strong>IDL // Interaction Design Lab</strong> and the FH Potsdam in general.
+Der Powerdome befindet sich im Urania Planetarium in Potsdam. Es bereichert das Spektrum der astronomischen Präsentationen des Planetariums und bietet technische Möglichkeiten, die weit über die Vermittlung astronomischer Inhalte hinausgehen. Seitens der FH Potsdam liegt der Schwerpunkt auf der interaktiven Visualisierung von Informationen und Daten, einem der großen Forschungsgebiete des <strong>IDL // Interaction Design Lab</strong> und der FH Potsdam im Allgemeinen.
 
-With a dome-projection system such as the Powerdome, both didactic-narrative and scientific-explorative aims can be pursued. In either case, the central concern is the visualization and impartation of complex knowledge.
+Mit einem Kuppelprojektionssystem wie dem Powerdome können sowohl didaktisch-narrative als auch wissenschaftlich-explorative Ziele verfolgt werden. In jedem Fall geht es um die Visualisierung und Vermittlung von komplexem Wissen.
 
-To meet these special demands, the Fraunhofer FIRST and the FH Potsdam jointly upgraded the Powerdome ImageGenerator. The modified system makes it possible to access any visual format in real-time and present it on the dome. It enables engineers and designers to develop a broad scope of visualizations for a scientific context. The high resolution of the Powerdome permits minutely detailed presentations, while the spatial structure of the dome projection provides immersion into interactive data worlds.
-
+Um diesen besonderen Anforderungen gerecht zu werden, haben Fraunhofer FIRST und die FH Potsdam gemeinsam den Powerdome ImageGenerator weiterentwickelt. Das modifizierte System ermöglicht es, auf jedes visuelle Format in Echtzeit zuzugreifen und es auf der Kuppel zu präsentieren. Es ermöglicht Ingenieuren und Designern, ein breites Spektrum an Visualisierungen für einen wissenschaftlichen Kontext zu entwickeln. Die hohe Auflösung des Powerdome ermöglicht detailgetreue Präsentationen, während die räumliche Struktur der Kuppelprojektion das Eintauchen in interaktive Datenwelten ermöglicht.

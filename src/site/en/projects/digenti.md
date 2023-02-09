@@ -9,17 +9,21 @@
     - "Multitouch"
     - "Tangible"
     - "Visualization"
-  subtitle: "Multi-modal Interaction for Disaster Management"
+  subtitle: "Multi-modal Disaster Management"
   project_year: "2015 – 2017"
   year: 2015
-  project_team: []
+  project_team:
+  - /de/people/jordi-tost
+  - /de/people/frank-heidmann
+  - /de/people/edmundo-galindo
+  - /de/people/fabian-ehmel
+  - /de/people/swann-nowak
   project_website: ""
   project_material: ""
   related_publications: 
-    - 498
-    - 438
-    - 426
-    - 428
+    - /publications/communicating-landslide-risk-by-combining-hazard-and-open-infrastructure-data-in-interactive-visualizations
+    - /publications/hazards-and-accessibility-combining-and-visualizing-threat-and-open-infrastructure-data-for-disaster-management
+    - /publications/visualization-and-interaction-with-multiple-devices-a-case-study-on-reachability-of-remote-areas-for-emergency-management
   related_projects: ""
   thumbnail_id: 432
   featured_home: false
@@ -43,14 +47,14 @@ The research project DIGENTI (DIGitaler ENtscheiderTIsch) looks into the field
 
 In disaster situations, the managing process has been established since decades and is mostly analog. Disaster managers still use paper maps, paper-based data sources and other analog tools. Also, the communication between managers and official institutions, stakeholders or even citizens is often voice- or paper-based. While paper has its benefits due to its flexibility and transportability, uncertain and constantly changing disaster situations require up-to-date reliable data in order to maintain situation awareness and support rapid decision-making.
 
-In this context, the research interests of the<strong> IDL // Interaction Design Lab</strong> are Natural User Interfaces (NUI), geovisualization, and exploration of environmental and crowdsourced social media data to support the managing process, increase situation awareness, and engage collaboration.
+![](/images/uploads/digenti-IMG_2519_02_opt.jpg)
+
+In this context, the research interests of the **IDL // Interaction Design Lab** are Natural User Interfaces (NUI), geovisualization, and exploration of environmental and crowdsourced social media data to support the managing process, increase situation awareness, and engage collaboration.
+
+![](/images/uploads/digenti-IMG_2489_02_opt.jpg)
 
 The project goal is to design, prototype, and implement tangible multi-touch interfaces in multi-modal environments for different scenarios in the field of disaster management based on a user-centered design process.
 
-The project is funded by the <a href="http://www.bmwi.de/" target="_blank" rel="noopener noreferrer">Federal Ministry for Economic Affairs and Energy (BMWi)</a> and is a cooperation with the <a href="http://www.geo.uni-potsdam.de/welcome.html" target="_blank" rel="noopener noreferrer">University of Potsdam</a>, <a href="http://www.geo-airbusds.com/" target="_blank" rel="noopener noreferrer">Infoterra GmbH</a>, <a href="http://www.delphi-imm.de/" target="_blank" rel="noopener noreferrer">DELPHI IMM GmbH</a> and partners from Colombia.
+The project is funded by the [Federal Ministry for Economic Affairs and Energy (BMWi)](https://www.bmwi.de/) and is a cooperation with the [University of Potsdam](https://www.geo.uni-potsdam.de/welcome.html), [Infoterra GmbH](https://www.geo-airbusds.com/), [DELPHI IMM GmbH](https://www.delphi-imm.de/) and partners from Colombia.
 
-<a href="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2519_02_opt.jpg"><img class="size-large wp-image-433" src="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2519_02_opt-1024x768.jpg" alt="" width="1024" height="768" /></a>
-
-<a href="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2489_02_opt.jpg"><img class="size-large wp-image-435" src="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2489_02_opt-1024x768.jpg" alt="" width="1024" height="768" /></a>
-
-<a href="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2498_02_opt.jpg"><img class="size-large wp-image-434" src="https://idl.fh-potsdam.de/wp-content/uploads/2015/07/IMG_2498_02_opt-1024x768.jpg" alt="" width="1024" height="768" /></a>
+![](/images/uploads/digenti-IMG_2498_02_opt.jpg)

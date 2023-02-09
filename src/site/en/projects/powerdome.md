@@ -9,7 +9,9 @@
   subtitle: "Interactive Visualizations in an Immersive Environment"
   project_year: "Since 2009"
   year: 2009
-  project_team: []
+  project_team: 
+  - /en/people/prof-boris-muller/
+  - /en/people/till-nagel/
   project_website: ""
   project_material: ""
   related_publications: []

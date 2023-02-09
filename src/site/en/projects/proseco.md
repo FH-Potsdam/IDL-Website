@@ -1,15 +1,18 @@
 ---
   name: "ProSeco"
-  excerpt: ""
+  excerpt: "IT Security Dashboard"
   wp_id: 242
   slug: "proseco"
   group: 
     - "Security"
     - "Visualization"
   subtitle: "IT Security Dashboard"
-  project_year: "2014-2016"
+  project_year: "2014 - 2016"
   year: 2014
-  project_team: []
+  project_team:
+  - /de/people/frank-heidmann
+  - /de/people/andreas-thom
+  - /de/people/tim-schenk
   project_website: ""
   project_material: ""
   related_publications: []
@@ -19,7 +22,8 @@
   thumbnail: /images/uploads/aranea-teaser.jpg
   project_partners: []
   project_team_external: []
-  project_funding: []
+  project_funding:
+  - logo: /images/uploads/bmwk-logo.jpg
   project_client: []
 
 ---

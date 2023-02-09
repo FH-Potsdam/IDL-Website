@@ -1,6 +1,6 @@
 ---
   name: "EcoViz"
-  excerpt: ""
+  excerpt: "Forschung zu \"transformational Products\""
   wp_id: 187
   slug: "ecoviz-challenge"
   group: 
@@ -9,8 +9,9 @@
   project_year: "2010 - 2011"
   year: 2010
   project_team: 
-    - 33
-  project_website: "http://www.eco-challenge.eu"
+    - /de/people/frank-heidmann
+    - /de/people/alexander-warth
+    - /de/people/prof-reto-wettach
   project_material: ""
   related_publications: []
   related_projects: ""
@@ -20,18 +21,15 @@
   project_partners: 
     - 
       name: "Raureif"
-      url: "http://raureif.net/de/"
+      url: "https://raureif.net/de/"
   project_team_external: []
-  project_funding: []
+  project_funding:
+    - name: Ministerium für Wissenschaft, Forschung und Kultur des Landes Brandenburg
   project_client: []
 
 ---
-The research project ‘EcoViz’ makes a contribution to the conception, design and market implementation of so-called ‘transformational products’. The main idea of these products is self-realization, which means the ability of humans to recognize their potential and exploit it. EcoViz developed and evaluated basic concepts of transformational products in the field of sustainability.
+Das Forschungsprojekt „EcoViz“ leistet einen Beitrag zur Konzeption, Gestaltung und Markteinführung sogenannter „Transformationsprodukte“. Der Leitgedanke dieser Produkte ist die Selbstverwirklichung, also die Fähigkeit des Menschen, sein Potenzial zu erkennen und auszuschöpfen. EcoViz hat grundlegende Konzepte von Transformationsprodukten im Bereich Nachhaltigkeit entwickelt und evaluiert.
 
-Developed by the Company ‘raureif’, ‘EcoChallenge’ is one exemplary product which has already been brought to market since EcoViz has started. ‘EcoChallenge’ is an app for iPhone and it has the goal of long-term attitudinal and behavioral changes in the everyday consumers' life, regarding their sustainability performance.
+„EcoChallenge“ wurde von der Firma „raureif“ entwickelt und ist ein beispielhaftes Produkt, das seit dem Start von EcoViz bereits auf den Markt gebracht wurde. „EcoChallenge“ ist eine App für das iPhone und hat das Ziel, langfristige Einstellungs- und Verhaltensänderungen im Verbraucheralltag in Bezug auf ihre Nachhaltigkeitsleistung zu erreichen.
 
-‘EcoViz’ is a research project at the design department of the University of Applied Sciences in Potsdam and is funded by the Ministry of Science, Research and Culture of Brandenburg.
-
-For more information on the project ‘EcoViz’ and related projects see <a href="http://www.consuming-energy.org">www.consuming-energy.org</a>.
-
-The official website of ‘EcoChallenge’ with more information on this project example is <a href="http://www.eco-challenge.eu">www.eco-challenge.eu</a>.
+„EcoViz“ ist ein Forschungsprojekt am Fachbereich Design der Fachhochschule Potsdam und wird vom Ministerium für Wissenschaft, Forschung und Kultur des Landes Brandenburg gefördert.

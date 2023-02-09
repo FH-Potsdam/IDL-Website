@@ -1,6 +1,6 @@
 ---
   name: "Environmental Reports"
-  excerpt: ""
+  excerpt: "UX/UI Analyse und Konzept"
   wp_id: 255
   slug: "environmental-reports"
   group: 
@@ -8,9 +8,12 @@
     - "Maps"
     - "Visualization"
   subtitle: "UX/UI Analyse und Konzept"
-  project_year: "2015-2017"
+  project_year: "2015 - 2017"
   year: 2015
-  project_team: []
+  project_team:
+  - /de/people/frank-heidmann
+  - /de/people/sebastian-meier
+  - /de/people/andreas-thom
   project_website: ""
   project_material: ""
   related_publications: []
@@ -39,13 +42,12 @@
   project_client: 
     - 
       name: "Umweltbundesamt"
-      url: "http://www.umweltbundesamt.de"
-      logo: null
-      logo_id: 369
+      url: "https://www.umweltbundesamt.de"
+      logo: /images/uploads/uba_logo.png
 
 ---
-<strong>Concept for user-centered environmental reporting of</strong><strong> the Federal Environment Agency</strong>
+**Konzept zur nutzer-zentrierten Umweltberichterstattung** für das Umweltbundesamt Deutschland.
 
-The goal of this project is the analysis of the status quo of environmental reporting with a focus on openData and accessible information on the web (e.g. www.umweltbundesamt.de/daten). The analysis is looking into the target audiences, applications, information needs, as well as more global goals from the Federal Environment Agency itself. Going beyond traditional spreadsheets and pdf repots, this project aims at creating concepts and prototypes for modern visualization methods, cartographic services, as well as APIs for third party applications.
+Ziel dieses Projektes ist die Analyse des Status quo der Umweltberichterstattung mit Fokus auf offene Daten und zugängliche Informationen im Web (z. B. [www.umweltbundesamt.de/daten](https://www.umweltbundesamt.de/daten) ). Die Analyse untersucht die Zielgruppen, Anwendungen, Informationsbedürfnisse sowie globalere Ziele des Umweltbundesamtes selbst. Dieses Projekt geht über traditionelle Tabellenkalkulationen und PDF-Berichte hinaus und zielt darauf ab, Konzepte und Prototypen für moderne Visualisierungsmethoden, kartografische Dienste sowie APIs für Anwendungen von Drittanbietern zu erstellen.
 
-The <strong>IDL // Interaction Design Lab</strong> is responsible for the analysis, conception, as well as the design and development of user-centered modules for the next generation of environmental reports.
+Das **IDL // Interaction Design Lab** verantwortet die Analyse, Konzeption sowie das Design und die Entwicklung von nutzerzentrierten Modulen für die nächste Generation von Umweltberichten.

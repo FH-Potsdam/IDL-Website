@@ -10,7 +10,10 @@
   subtitle: "UX/UI Analysis and Concept"
   project_year: "2015-2017"
   year: 2015
-  project_team: []
+  project_team:
+  - /en/people/frank-heidmann
+  - /en/people/sebastian-meier
+  - /en/people/andreas-thom
   project_website: ""
   project_material: ""
   related_publications: []
@@ -40,12 +43,11 @@
     - 
       name: "Umweltbundesamt"
       url: "http://www.umweltbundesamt.de"
-      logo: null
-      logo_id: 369
+      logo: /images/uploads/uba_logo.png
 
 ---
-<strong>Concept for user-centered Environmental Reports for the German Ministry for the Environment</strong>
+**Concept for user-centered environmental reporting** for the Federal Environment Agency Germany.
 
-The goal of this project is the analysis of the status quo of environmental reporting, with a focus on openData and accessible information on the web (e.g. www.umweltbundesamt.de/daten). The analysis is looking into the target audiences, applications, information needs, as well as more global goals from the ministry itself. Going beyond traditional spreadsheets and pdf repots, this project aims at creating concepts and prototypes for modern visualization methods, cartographic services as well as APIs for third party applications.
+The goal of this project is the analysis of the status quo of environmental reporting with a focus on openData and accessible information on the web (e.g. [www.umweltbundesamt.de/daten](https://www.umweltbundesamt.de/daten)). The analysis is looking into the target audiences, applications, information needs, as well as more global goals from the Federal Environment Agency itself. Going beyond traditional spreadsheets and pdf repots, this project aims at creating concepts and prototypes for modern visualization methods, cartographic services, as well as APIs for third party applications.
 
-The <strong>IDL // Interaction Design Lab</strong> is responsible for the analysis, conception as well as design and development of user centered modules for the next generation of environmental reports.
+The **IDL // Interaction Design Lab** is responsible for the analysis, conception, as well as the design and development of user-centered modules for the next generation of environmental reports.

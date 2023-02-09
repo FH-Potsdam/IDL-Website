@@ -1,6 +1,6 @@
 ---
   name: "Energy Atlas"
-  excerpt: ""
+  excerpt: "Portal and Visualization Design for Rhineland-Palatinate"
   wp_id: 253
   slug: "energy-atlas-rheinland-pfalz"
   group: 
@@ -10,8 +10,10 @@
   project_year: 2015
   year: 2015
   project_team: 
-    - 33
-  project_website: "http://www.energieatlas.rlp.de"
+    - /en/people/frank-heidmann
+    - /en/people/gunnar-friedrich
+    - /en/people/jens-rauenbusch
+  project_website: "https://www.energieatlas.rlp.de"
   project_material: ""
   related_publications: []
   related_projects: ""
@@ -27,10 +29,6 @@
   project_client: 
     - 
       name: "Energieagentur Rheinland-Pfalz"
-      url: ""
-      logo: null
-      logo_id: 372
-
 ---
 With the development of the Energy Atlas the "Energy Turnaround" is becoming more than a rhetorical figure for Rhineland-Palatinate. The web portal offers a rich variety of information on renewable energy. The interested public can require information on all aspects of renewable energy and heating from the production, through transport down to the energy consumption of the last few years. Specific projects are introduced in detail, to offer insights into what actions are helping to make the energy turnaround a reality. All the information is georeferenced and is available through maps and various search interfaces.
 

@@ -1,6 +1,6 @@
 ---
   name: "DataSkop"
-  excerpt: ""
+  excerpt: "User interfaces & visualizations to promote digital sovereignty"
   wp_id: 540
   slug: "dataskop"
   group: 
@@ -14,12 +14,12 @@
     - "Human-Centered Design"
   filter_art: 
     - "Transfer"
-  subtitle: "User Interfaces & Visualisierungen zur Förderung von digitaler Souveränität"
+  subtitle: "Promoting Digital Sovereignty"
   project_year: "2020-2023"
   year: 2020
   project_team: 
-    - 219
-    - 517
+    - /en/people/prof-constanze-langer
+    - /en/people/christin-renner
   project_website: "http://dataskop.net"
   project_material: null
   related_publications: []
@@ -29,16 +29,19 @@
   thumbnail: /images/uploads/dataskop-teaser.jpg
   project_partners: []
   project_team_external: []
-  project_funding: []
+  project_funding:
+    - logo: /images/uploads/bmbf-logo-de.jpg
   project_client: []
 
 ---
-Die Prozesse algorithmischer Entscheidungen durchdringen zunehmend das Alltagsleben und dies geschieht oft auf nicht nachvollziehbarer Art und Weise. Das vom BMBF-geförderte Projekt DataSkop thematisiert die Potentiale von innovativen User Interfaces und verständlichen Visualisierungen zur Förderung der digitalen Souveränität von Nutzer*innen.
+The processes of algorithmic decision-making are increasingly permeating everyday life, and this often happens in an incomprehensible way. The DataSkop project, funded by the BMBF, addresses the potential of innovative user interfaces and understandable visualizations to promote the digital sovereignty of users.
 
-Ziel von DataSkop ist es, die digitale Souveränität, und damit die Kompetenzen des Individuums, zu stärken – d. h. informiert mit Daten umzugehen, sicher in digitalen Umgebungen zu agieren, algorithmische Strukturen zu erkennen und in Grundzügen zu verstehen sowie interessengeleitet Themensetzungen zu beurteilen.
+The aim of DataSkop is to strengthen digital sovereignty and thus the skills of the individual - i. H. dealing with data in an informed manner, acting safely in digital environments, recognizing algorithmic structures and understanding them in general, and assessing interest-based topics.
 
-Das Projekt DataSkop entwickelt ein solches System in Form einer plattform-unabhängigen Infrastruktur, die aus einer Datenspendeplattform und einem persönlichen Daten-Dashboard besteht. Dabei werden innovative Visualisierungskonzepte und kompetenzfördernde Lehr- und Lernszenarios für die Bildungsarbeit entwickelt. Die Nutzenden lernen dabei den selbstbestimmten Umgang mit Daten, neue Fertigkeiten und Verständnis im Umgang mit Technologien.
-Veröffentlichungen
+The DataSkop project is developing such a system in the form of a platform-independent infrastructure consisting of a data donation platform and a personal data dashboard. In doing so, innovative visualization concepts and competence-enhancing teaching and learning scenarios are developed for educational work. The users learn how to use data in a self-determined manner, new skills and an understanding of how to use technologies.
 
-Am 15. Juli 2021 wurde ein neues Datenspende-Tool veröffentlicht, das den YouTube-Algorithmus zum Bundestagswahlkampf untersuchte. Das gemeinsame Ziel des Forschungsverbundes war es, die Personalisierungen durch das Empfehlungssystem der Video-Plattform YouTube während des Bundestagswahlkampfs zu analysieren. Durch die Informationen von Nutzer*innen darüber, welche Videos sie bisher gesehen haben und welchen Kanälen sie folgen, lassen sich Zusammenhänge und Muster zwischen Nutzungsverhalten und dem Empfehlungs-Algorithmus erkennen. 
-Erste Ergebnisse zur Auswertung der Analyse wurden im Herbst 2021 auf der Website von AlgorithmWatch und beim Medienpartner Der Spiegel bereits veröffentlicht. Die Open-Source-Plattform DataSkop wird ab Mitte 2022 auch anderen Forschungseinrichtungen, NGOs und Redaktionen für weitere Datenspendeprojekte zur Verfügung stehen.
+### Publications
+
+On July 15, 2021, a new data donation tool was released that examined YouTube's federal election campaign algorithm. The joint goal of the research network was to analyze the personalizations made by the recommendation system of the video platform YouTube during the federal election campaign. Information from users about which videos they have seen so far and which channels they follow makes it possible to identify connections and patterns between usage behavior and the recommendation algorithm.
+
+The first results for evaluating the analysis were already published in autumn 2021 on the AlgorithmWatch website and by media partner Der Spiegel. The open source platform DataSkop will also be available to other research institutions, NGOs and editorial offices for further data donation projects from mid-2022.

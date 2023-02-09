@@ -1,6 +1,6 @@
 ---
   name: "Earth and Environment"
-  excerpt: ""
+  excerpt: "Platform Design"
   wp_id: 256
   slug: "earth-and-environment"
   group: 
@@ -10,8 +10,12 @@
   project_year: "2012-2015"
   year: 2012
   project_team: 
-    - 33
-  project_website: "http://eskp.de/"
+    - /en/people/frank-heidmann
+    - /en/people/lennart-hildebrandt
+    - /en/people/ben-schmitt
+    - /en/people/thomas-petrach
+    - /en/people/jan-munchberger
+  project_website: "https://eskp.de"
   project_material: ""
   related_publications: []
   related_projects: ""
