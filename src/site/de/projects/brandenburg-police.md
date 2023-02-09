@@ -4,10 +4,10 @@ name: Polizei Brandenburg
 subtitle: UX/UI Design für ein staatliches Internet-Portal
 project_year: 2011-2015
 year: 2011
-thumbnail: /images/uploads/bildschirmfoto-2015-12-21-um-18.13.04.png
-excerpt: ""
+thumbnail: /images/uploads/polizei-teaser2.jpg
+excerpt: "UX/UI Design für ein staatliches Internet-Portal"
 featured_home: true
-project_website: http://polizei.brandenburg.de
+project_website: https://polizei.brandenburg.de
 project_material: ""
 group: null
 filter_themen:
@@ -16,9 +16,8 @@ filter_services:
   - UI/UX
   - Human-Centered Design
 project_team_external:
-  - name: A Test
-    url: www.gstltr.de
-  - name: V Test
+  - name: Gerhard Schmal
+  - name: Sarah Matzke
 project_team:
   - /de/people/sebastian-meier/
   - /de/people/frank-heidmann/
@@ -31,7 +30,6 @@ filter_art:
 project_partners:
   - name: Raureif
     url: http://raureif.net
-  - name: BOLD
 project_client:
   - name: Zentraldienst der Polizei
     url: ""
@@ -44,10 +42,10 @@ project_funding:
 related_publications:
   - /publications/a-unfolding-a-simple-library-for-interactive-maps-and-geovisualizations-in-processing/
 ---
-In 2011, the **IDL // Interaction Design Lab** was commissioned to guide the Brandenburg State Police through the redesign process of their online communication portal. The project started with the initial usability studies of the existing portal, continued with an analysis of their target audiences and resulted in the redesign of the corporate design - including an overhaul of the logo, typography and color palette. All efforts are integrated in the final redesign of the overall web portal.
+2011 wurde das **IDL // Interaction Design Lab** beauftragt, die Landespolizei Brandenburg bei der Neugestaltung ihres Online-Kommunikationsportals zu begleiten. Das Projekt begann mit ersten Usability-Studien des bestehenden Portals, setzte sich mit einer Analyse der Zielgruppen fort und mündete in der Neugestaltung des Corporate Designs - einschließlich einer Überarbeitung des Logos, der Typografie und der Farbpalette. Alle Bemühungen fließen in die endgültige Neugestaltung des gesamten Webportals ein.
 
-![Portal der Polizei Brandenburg](/images/uploads/bildschirmfoto-2015-12-21-um-18.13.30.png "Portal der Polizei Brandenburg ")
+![](/images/uploads/bildschirmfoto-2015-12-21-um-18.18.43.png)
 
-The new portal provides citizen with more convenient ways of getting in touch with the police. From getting a permit for a demonstration to reporting your stolen bike or car, all interaction and communication needs can be met with one unified interface. The new website is accessible from mobile devices, tablets as well as desktop devices, providing citizens with all the information they need, wherever and whenever they need them. Beyond the website, we collaborated with [Raureif ](http://raureif.net)to create a mobile application for Android and iOS.
+Das neue Portal bietet Bürger\*innen komfortablere Möglichkeiten, mit der Polizei in Kontakt zu treten. Von der Einholung einer Genehmigung für eine Vorführung bis zur Meldung Ihres gestohlenen Fahrrads oder Autos können alle Interaktions- und Kommunikationsanforderungen mit einer einheitlichen Oberfläche erfüllt werden. Die neue Website ist über Mobilgeräte, Tablets und Desktop-Geräte zugänglich und bietet den Bürger\*innen alle Informationen, die sie benötigen, wo und wann immer sie sie brauchen. Über die Website hinaus haben wir mit [Raureif](http://raureif.net) zusammengearbeitet, um eine mobile Anwendung für Android und iOS zu erstellen.
 
-![Logo der Polizei Brandenburg](/images/uploads/bildschirmfoto-2015-12-21-um-18.18.43.png "Logo der Polizei Brandenburg")
+![](/images/uploads/polizei-teaser.jpg)
