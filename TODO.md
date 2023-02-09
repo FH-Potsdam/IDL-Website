@@ -11,6 +11,5 @@ SEB:
 - UBA 2       > ??
 - Smart City  > Create > 
 - Parametric  > Create > BASE > 
-- IASS        > Create > BASE > IMAGES > 
 - KatWarn     > Create > BASE > IMAGES >
 
