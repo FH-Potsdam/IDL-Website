@@ -232,6 +232,9 @@ module.exports = function(config) {
     return _output;
   }
 
+  // check modification of JS files 
+  eleventyConfig.addWatchTarget("./src/site/_includes/js/");
+
   // filter for JavaScript files with hash for cachebusting example.js → example-KQQJAVBG.js
   // usage example: {{ core.js | jsfile }}
   // only file name, do not include path
