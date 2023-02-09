@@ -9,6 +9,4 @@ SEB:
 
 - UBA 1 > GeoVisStory      > Create >
 
-- Parametric  > Create > BASE > 
-
 - Smart City  > Create > 
