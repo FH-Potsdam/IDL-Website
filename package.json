@@ -21,33 +21,32 @@
   },
   "homepage": "https://github.com/FH-Potsdam/IDL-Website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.23",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "cross-env": "7.0.3",
-    "cssnano": "^5.1.13",
+    "cssnano": "^5.1.14",
     "del-cli": "^5.0.0",
-    "esbuild": "^0.16.10",
+    "esbuild": "^0.17.6",
     "esbuild-plugin-manifest": "^0.5.0",
     "fast-xml-parser": "^4.0.9",
     "html-minifier": "^4.0.0",
+    "json2yaml": "^1.1.0",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "markdown-it-implicit-figures": "^0.10.0",
     "moment": "^2.29.4",
     "postcss": "^8.4.21",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-atroot": "^0.2.3",
+    "postcss-extend-rule": "^4.0.0",
     "postcss-import": "^15.0.0",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^5.0.6",
     "postcss-normalize": "^10.0.1",
-    "postcss-advanced-variables": "^3.0.1",
-    "postcss-atroot": "^0.2.3",
-    "postcss-extend-rule": "^4.0.0",
     "postcss-preset-env": "^8.0.1",
-    "postcss-property-lookup": "^3.0.0",
-    "gsap": "^3.11.4",
-    "uglify-js": "^3.17.0"
+    "postcss-property-lookup": "^3.0.0"
   },
   "dependencies": {
-    "json2yaml": "^1.1.0"
+    "gsap": "^3.11.4"
   }
 }
