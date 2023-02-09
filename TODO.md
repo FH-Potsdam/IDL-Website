@@ -6,12 +6,10 @@
 SEB:
 - Older Publications
 
-- CityVis     > Create > BASE > 
 - Polizei     > Create > 
 - UBA 1       > Create >
 - UBA 2       > ??
 - Smart City  > Create > 
-- ODCS        > Create > BASE > 
 - Parametric  > Create > BASE > 
 - IASS        > Create > BASE > IMAGES > 
 - KatWarn     > Create > BASE > IMAGES >
