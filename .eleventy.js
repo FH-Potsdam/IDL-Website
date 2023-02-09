@@ -208,7 +208,7 @@ module.exports = function(config) {
   // use esbuild to bundle and minify JavaScript
   config.on("eleventy.before", async () => {
     await esbuild.build({
-      entryPoints: ["src/site/_includes/js/core.js"],
+      entryPoints: ["src/site/_includes/js/core.js", "src/site/_includes/js/filter-projects.js"],
       bundle: true,
       outdir: "dist/js",
       minify: true,
@@ -223,7 +223,7 @@ module.exports = function(config) {
   });
 
   // watch js to trigger rebuild
-  config.addWatchTarget("./src/site/_includes/js/core.js");
+  config.addWatchTarget("./src/site/_includes/js/");
 
   // helper function to get file name from manifest file
   function getFileNameFromManifest(fileName, manifest) {

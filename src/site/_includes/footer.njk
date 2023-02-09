@@ -19,6 +19,10 @@
 
 		<script src="/js/{{ 'core.js' | jsfile }}" async></script>
 
+		{% if layout == "layouts/projects_list.njk" %}
+		<script src="/js/{{ 'filter-projects.js' | jsfile }}" async></script>
+		{% endif %}
+
 	{% if title == "Services" %}
 		<script>
 			window.onload = function () {

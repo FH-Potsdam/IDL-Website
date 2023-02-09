@@ -12,62 +12,41 @@
 {% set lang = page.url.slice(1, 3) %}
 {{ content }}
 
-
-
- <!-- 
-<label>Select Theme
-  <select size="4" id="selectTheme" onchange="themeType();">
-    <option value="">Alle</option>
-    <option value="geovis">GeoVis</option>
-    <option value="speculation">Speculation</option>
-  </select> 
-
-</label>
-<label>Select Service
-  <select size="4" id="selectType" onchange="serviceType();">
-    <option value="">Alle</option>
-    <option value="ui-ux">UI/UX</option>
-    <option value="prototyping">Prototyping</option>
-  </select>
-</label>
-  -->
 <div class="filter-container">
-
-<div class="filter-group">
-Themen
-  <div class="button-group">
-  <button class="selectTheme filterButtons active" value="" onclick='themeType(this.value)'>Alle</button>
-  <button class="selectTheme filterButtons" value="speculation" onclick='themeType(this.value)'>Speculation</button>
-  <button class="selectTheme filterButtons" value="dashboard" onclick='themeType(this.value)'>Dashboard</button>
-  <button class="selectTheme filterButtons" value="geovis" onclick='themeType(this.value)'>GeoVis</button>
-  <button class="selectTheme filterButtons" value="infovis" onclick='themeType(this.value)'>InfoVis</button>
-  <button class="selectTheme filterButtons" value="portal" onclick='themeType(this.value)'>Portal</button>
-  <button class="selectTheme filterButtons" value="physical" onclick='themeType(this.value)'>Physical</button>
-  <button class="selectTheme filterButtons" value="service" onclick='themeType(this.value)'>Service</button>
+  <div class="filter-group">
+  Themen
+    <div class="button-group | js-filter-button-group">
+      <button class="selectTheme filterButtons | js-button active" value="">Alle</button>
+      <button class="selectTheme filterButtons | js-button" value="speculation">Speculation</button>
+      <button class="selectTheme filterButtons | js-button" value="dashboard">Dashboard</button>
+      <button class="selectTheme filterButtons | js-button" value="geovis">GeoVis</button>
+      <button class="selectTheme filterButtons | js-button" value="infovis">InfoVis</button>
+      <button class="selectTheme filterButtons | js-button" value="portal">Portal</button>
+      <button class="selectTheme filterButtons | js-button" value="physical">Physical</button>
+      <button class="selectTheme filterButtons | js-button" value="service">Service</button>
+    </div>
   </div>
-</div>
 
-<div class="filter-group">
-Services
-  <div class="button-group">
-  <button class="selectService filterButtons active" value="" onclick='serviceType(this.value)'>Alle</button>
-  <button class="selectService filterButtons" value="prototyping" onclick='serviceType(this.value)'>Prototyping</button>
-  <button class="selectService filterButtons" value="uiux" onclick='serviceType(this.value)'>UI/UX</button>
-  <button class="selectService filterButtons" value="human-centered-design" onclick='serviceType(this.value)'>Human-Centered Design</button>
-  <button class="selectService filterButtons" value="design-thinking" onclick='serviceType(this.value)'>Design Thinking</button>
-  <button class="selectService filterButtons" value="service-design" onclick='serviceType(this.value)'>Service Design</button>
+  <div class="filter-group">
+  Services
+    <div class="button-group | js-filter-button-group">
+      <button class="selectService filterButtons | js-button active" value="">Alle</button>
+      <button class="selectService filterButtons | js-button" value="prototyping">Prototyping</button>
+      <button class="selectService filterButtons | js-button" value="uiux">UI/UX</button>
+      <button class="selectService filterButtons | js-button" value="human-centered-design">Human-Centered Design</button>
+      <button class="selectService filterButtons | js-button" value="design-thinking">Design Thinking</button>
+      <button class="selectService filterButtons | js-button" value="service-design">Service Design</button>
+    </div>
   </div>
-</div>
 
-<div class="filter-group">
-Art
-  <div class="button-group">
-  <button class="selectArt filterButtons active" value="" onclick='artType(this.value)'>Alle</button>
-  <button class="selectArt filterButtons" value="forschung" onclick='artType(this.value)'>Forschung</button>
-  <button class="selectArt filterButtons" value="transfer" onclick='artType(this.value)'>Transfer</button>
+  <div class="filter-group">
+  Art
+    <div class="button-group | js-filter-button-group">
+      <button class="selectArt filterButtons | js-button active" value="">Alle</button>
+      <button class="selectArt filterButtons | js-button" value="forschung">Forschung</button>
+      <button class="selectArt filterButtons | js-button" value="transfer">Transfer</button>
+    </div>
   </div>
-</div>
-
 </div>
 
 <div class="projects">
@@ -77,10 +56,8 @@ Art
 </div>
 
 <div class="laufschrift-container">
-
 	<div class="scroll1">Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × </div>
 	<div class="scroll2">Aufträge × Forschung × Kooperation × Wirtschaft × Karten × UX/UI × Visualisierung</div>
-
 </div>
 
 {% include 'footer.njk' %}
