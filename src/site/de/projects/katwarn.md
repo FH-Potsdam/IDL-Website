@@ -31,6 +31,7 @@
     - name: Philipp Geuder
     - name: Lionel Michel
   project_funding: []
+  laufschrift_tags: Geo-Visualization x UI/UX x Mobile x Platform x Interaction Design
   project_client: 
     - 
       name: "Fraunhofer FOKUS"
@@ -38,10 +39,16 @@
       logo: /images/uploads/fraunhofer-fokus-logo.jpg
 
 ---
-In summer of 2013, Fraunhofer FOKUS commissioned the <strong>IDL // Interaction Design Lab</strong> to redesign the KatWarn iOS application and adapt the interfaces for Android and Windows Phone. The innovative early-warning system for citizens is designed to warn the public in the case of an emergency. The app covers natural disasters like blizzards and flooding, as well as large scale operations within the city. In contrast to common information- and warning-systems, KatWarn is location-based and can be personalized. This means that you can not only tell your application to observe a certain location, like for example your home address and your parents' address, but in addition you can receive real-time information for your current location.
+Moderne digitale Dienste müssen so konzipiert und gebaut werden, dass sie auf verschiedenen Plattformen und Geräten laufen und sich für intuitive Interaktionen nahtlos in jede Architektur integrieren. Fraunhofer FOKUS entwickelt und betreibt das Frühwarnsystem KatWarn in Deutschland. Eine digitale Infrastruktur, die Warnungen von Behörden an Bürger\*innen übermittelt.
 
 ![](/images/uploads/katwarn-1-1200.jpg)
-![](/images/uploads/katwarn-2-1200.jpg)
+
+Seit 2013 unterstützen das IDL Fraunhofer Fokus beim Aufbau eines integrierten und benutzerfreundlichen Designsystems über eine Vielzahl von Ökosystemen hinweg. Von iOS-Geräten über Android und Windows Phone bis hin zu Smart Watches wie der Apple Watch und Public Displays unterschiedlicher Größen. Jede Infrastruktur hat seine eigene Designmethodik und Anforderungen, an die Designs angepasst werden müssen, während die Designidentität des Systems beibehalten wird.
+
 ![](/images/uploads/katwarn-3-1200.jpg)
+
+Im Gegensatz zu herkömmlichen Informations- und Warnsystemen ist KatWarn ortsbezogen und personalisiert, das heißt, Sie können Ihrer Anwendung nicht nur mitteilen, einen bestimmten Ort zu überwachen, wie zum Beispiel Ihre Wohnadresse und die Adresse Ihrer Eltern, sondern zusätzlich können sie Echtzeitinformationen für Ihren aktuellen Standort erhalten.
+<br />
+
 ![](/images/uploads/katwarn-4-1200.jpg)
 ![](/images/uploads/katwarn-5-1200.jpg)
