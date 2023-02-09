@@ -14,7 +14,7 @@
 
    {% if excerpt %}
   <div class="intro">
- <p>{{excerpt}}</p>
+ <p>{{excerpt | safe}}</p>
   </div>
   {% endif %}
 
@@ -124,12 +124,14 @@
         {% if locale == 'en' %} Founded by {% else %} Gefördert durch {% endif %}
     </span>
     {% for p in project_funding  %}
-    {%if p.logo %}
-       <a href="//{{p.url}}" target="_blank"> <img src="{{p.logo}}" alt="{{p.name}}"> </a>
-       {% else %}
-       {{p.name}}
-       {% endif %}
-    
+    {%if p.url %}<a href="{{p.url}}" target="_blank">{% endif %} 
+      {%if p.logo %}
+      <img src="{{p.logo}}" alt="{{p.name}}">
+      {% else %}
+      {{p.name}}
+      {% endif %}
+      <br />
+    {%if p.url %}</a>{% endif %} 
     {% endfor %}
 
       
