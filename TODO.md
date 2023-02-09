@@ -6,10 +6,8 @@
 - tags
 
 SEB:
-- Older Publications
 
 - UBA 1 > GeoVisStory      > Create >
-- UBA 2 > DEHSt      > ??
 
 - Parametric  > Create > BASE > 
 
