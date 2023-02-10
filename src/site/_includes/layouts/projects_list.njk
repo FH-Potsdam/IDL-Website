@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<div class="projects">
+<div class="projects" id="projects">
 {% for p in projects | sort(true, false, "year") %}
 	{{ projectTeaser(p, lang) }}
 {% endfor %}
