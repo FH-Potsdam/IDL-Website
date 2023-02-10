@@ -117,7 +117,7 @@ a.project-container:hover {
 
 /* DAS IST FÜR JEDER 1. und 4. GROSSE KACHEL */
 @media screen and (min-width: 64rem) {
-  .project-container:nth-child(4n + 1) {
+  section > .projects .project-container:nth-child(4n + 1) {
     /* or 4n+1 */
     flex-direction: row;
     width: 100%;
@@ -244,5 +244,29 @@ a.project-container:hover {
     max-width: 75%;
     padding-top: 1rem;
     max-height: 150px;
+  }
+}
+
+
+/* PROJEKT DETAIL */
+
+.projectdetail {
+  
+  margin-top: 8rem;
+  h1 {
+    width: 100%;
+    @media screen and (min-width: 75rem) {
+      width: 70%;
+    }
+  }
+
+  .intro {
+    width: 100%;
+    @media screen and (min-width: 48rem) {
+      width: 70%;
+    }
+    @media screen and (min-width: 75rem) {
+      width: 60%;
+    }
   }
 }

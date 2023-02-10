@@ -324,6 +324,17 @@
   font-weight: 700;
 }
 
+.pubs-container {
+  @media screen and (min-width: 64rem) {
+    margin-top: 8rem;
+    
+  }
+  h1 {
+    padding-top: 2rem;
+    
+  }
+}
+
 /* SERVICES */
 
 .services-container {
