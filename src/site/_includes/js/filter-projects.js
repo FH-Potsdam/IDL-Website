@@ -142,23 +142,28 @@ function display(theme, service, art) {
 }
 */
 
+let initialordercards = Array.from(document.getElementsByClassName("project-container"));
+
 
 // Geändert, damit nth child funktioniert und jede 4te Karte groß angezeigt werden kann.
 
 function display(theme, service, art) {
 
-  Array.from(projectcards).forEach((projectcards) => {
+  Array.from(initialordercards).forEach((initialordercards) => {
 
-    console.log("found");
-    document.getElementById("projects").insertBefore(projectcards, document.getElementById("projects").lastChild);
+    document.getElementById("projects").insertBefore(initialordercards, document.getElementById("projects").lastChild);
+
   });
+  
 
   let activeProjectCards = document.getElementById("active-project-cards");
   if (!activeProjectCards) {
     activeProjectCards = document.createElement("div");
     activeProjectCards.id = "active-project-cards";
   } else {
-    activeProjectCards.innerHTML = "";
+    //activeProjectCards.innerHTML = "";
+    activeProjectCards.remove();
+    
   }
 
 
@@ -170,6 +175,7 @@ function display(theme, service, art) {
       (!service || projectcards.classList.contains(service)) &&
       (!art || projectcards.classList.contains(art))
     ) {
+      
       activeProjectCards.appendChild(projectcards);
     } else {
       projectcards.classList.add("hidden");
@@ -177,6 +183,7 @@ function display(theme, service, art) {
   });
 
   const parent = document.getElementById("projects");
+ 
   parent.insertBefore(activeProjectCards, parent.firstChild);
 }
 
