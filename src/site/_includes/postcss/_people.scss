@@ -144,6 +144,7 @@ a.people-container:hover {
 
 .person {
   display: flex;
+  
   flex-direction: column;
   gap: 2rem;
   @media screen and (min-width: 48rem) {
@@ -171,8 +172,8 @@ a.people-container:hover {
   @media screen and (min-width: 48rem) {
     max-width: 30vw;
   }
-  @media screen and (min-width: 64rem) {
-    max-width: 50vw;
+  @media screen and (min-width: 87.5rem) {
+   width: 50%;
   }
 }
 
