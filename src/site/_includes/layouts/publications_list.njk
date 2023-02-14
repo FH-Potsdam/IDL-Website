@@ -15,12 +15,13 @@
 
       
      
-      <div class="release-year">Jahr der Veröffentlichung</div>
+      <div class="release-year">{% if locale == 'de' %}der letzten 10 Jahre:{% else %}of the last 10 years:{% endif %}</div>
  <div class="year-selector">
       
       {% set lastyear = '0' %} 
       
       {% for p in collections.publications | sort(true, false, "year") %}
+          {% if p.data.year | age <= 10 %}
               {% if lastyear != p.data.year %}
               {% if lastyear != '0' %}
              
@@ -29,6 +30,7 @@
             
               {% set lastyear = p.data.year %}
               {% endif %}
+          {% endif %}
      {% endfor %}
      {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
       {% for y in years %}
@@ -61,8 +63,9 @@
       {% set lastyear = p.year %}
       {% endif %}
       #}
-
-      {{ publicationTeaser(p, locale, people) }}
+      {% if p.data.year | age <= 10 %}
+        {{ publicationTeaser(p, locale, people) }}
+      {% endif %}
     {% endfor %}
       </ul>
 </div>

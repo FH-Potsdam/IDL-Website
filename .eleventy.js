@@ -205,6 +205,11 @@ module.exports = function(config) {
     return stripUrl(url);
   });
 
+  config.addNunjucksFilter("age", function (year) {
+    const currentYear = (new Date()).getFullYear();
+    return currentYear - parseInt(year);
+  });
+
   // use esbuild to bundle and minify JavaScript
   config.on("eleventy.before", async () => {
     await esbuild.build({
