@@ -1,6 +1,6 @@
 ---
       title: "Nachtalb: A Multisensory Neurofeedback VR-Interface"
-      slug: "Nachtalb:-A-Multisensory-Neurofeedback-VR-Interface"
+      slug: "Nachtalb-A-Multisensory-Neurofeedback-VR-Interface"
       year: 2022
       outlet: "ACM SIGGRAPH 2022 Immersive Pavilion (SIGGRAPH '22). Association for Computing Machinery, New York, NY, USA, Article 14, 1–2."
       body: ""

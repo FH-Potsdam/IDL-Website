@@ -1,6 +1,6 @@
 ---
       title: "Gleich und doch verschieden: Herausforderungen an Städte im internationalen Vergleich"
-      slug: "Gleich-und-doch-verschieden:-Herausforderungen-an-Stadte-im-internationalen-Vergleich"
+      slug: "Gleich-und-doch-verschieden-Herausforderungen-an-Stadte-im-internationalen-Vergleich"
       year: 2021
       outlet: ", Fachhochschule Potsdam"
       body: ""

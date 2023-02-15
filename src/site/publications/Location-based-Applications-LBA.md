@@ -1,6 +1,6 @@
 ---
       title: "Location based Applications (LBA)"
-      slug: "Location-based-Applications-(LBA)"
+      slug: "Location-based-Applications-LBA"
       year: 2008
       outlet: "Interfaces, Journal (UK), Issue 77"
       body: ""

@@ -1,6 +1,6 @@
 ---
       title: "Open Geo Tools — A State of the Art Report. The democratization of geo-tools and data continues."
-      slug: "Open-Geo-Tools-A-State-of-the-Art-Report.-The-democratization-of-geo-tools-and-data-continues."
+      slug: "Open-Geo-Tools-A-State-of-the-Art-Report-The-democratization-of-geo-tools-and-data-continues"
       year: 2016
       outlet: "Proceedings of the 64th German Cartography conference"
       body: ""

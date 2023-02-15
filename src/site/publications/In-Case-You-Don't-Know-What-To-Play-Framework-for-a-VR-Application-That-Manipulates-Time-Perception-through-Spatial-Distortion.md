@@ -1,6 +1,6 @@
 ---
       title: "In Case You Don’t Know What To Play: Framework for a VR Application That Manipulates Time Perception through Spatial Distortion"
-      slug: "In-Case-You-Don't-Know-What-To-Play:-Framework-for-a-VR-Application-That-Manipulates-Time-Perception-through-Spatial-Distortion"
+      slug: "In-Case-You-Don't-Know-What-To-Play-Framework-for-a-VR-Application-That-Manipulates-Time-Perception-through-Spatial-Distortion"
       year: 2021
       outlet: "Proceedings of Mensch Und Computer 2021 p.609–613, Association for Computing Machinery, Ingolstadt, Germany"
       body: ""

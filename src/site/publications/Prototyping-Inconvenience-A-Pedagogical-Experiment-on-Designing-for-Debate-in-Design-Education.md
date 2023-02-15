@@ -1,6 +1,6 @@
 ---
       title: "Prototyping Inconvenience: A Pedagogical Experiment on Designing for Debate in Design Education"
-      slug: "Prototyping-Inconvenience:-A-Pedagogical-Experiment-on-Designing-for-Debate-in-Design-Education"
+      slug: "Prototyping-Inconvenience-A-Pedagogical-Experiment-on-Designing-for-Debate-in-Design-Education"
       year: 2022
       outlet: "IxD&A Journal   (51) p.81–110"
       body: ""

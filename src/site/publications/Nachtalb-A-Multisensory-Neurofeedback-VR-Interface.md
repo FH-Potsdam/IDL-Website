@@ -1,6 +1,6 @@
 ---
       title: "Nachtalb: A Multisensory Neurofeedback VR-Interface"
-      slug: "Nachtalb:-A-Multisensory-Neurofeedback-VR-Interface"
+      slug: "Nachtalb-A-Multisensory-Neurofeedback-VR-Interface"
       year: 2021
       outlet: "SIGGRAPH Asia 2021 XR, Association for Computing Machinery, Tokyo, Japan"
       body: ""

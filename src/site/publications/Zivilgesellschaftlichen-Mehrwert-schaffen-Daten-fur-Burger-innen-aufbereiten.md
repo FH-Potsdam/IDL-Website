@@ -1,6 +1,6 @@
 ---
       title: "Zivilgesellschaftlichen Mehrwert schaffen - Daten für Bürger*innen aufbereiten"
-      slug: "Zivilgesellschaftlichen-Mehrwert-schaffen-Daten-fur-Burger*innen-aufbereiten"
+      slug: "Zivilgesellschaftlichen-Mehrwert-schaffen-Daten-fur-Burger-innen-aufbereiten"
       year: 2018
       outlet: "Magazine by the Office for statistics Berlin-Brandenburg"
       body: ""

@@ -1,6 +1,6 @@
 ---
       title: "Wahrnehmungsstrukturen und User Experience des digitalen Kulturerbes. Ein Blick auf museale Online-Sammlungen"
-      slug: "Wahrnehmungsstrukturen-und-User-Experience-des-digitalen-Kulturerbes.-Ein-Blick-auf-museale-Online-Sammlungen"
+      slug: "Wahrnehmungsstrukturen-und-User-Experience-des-digitalen-Kulturerbes-Ein-Blick-auf-museale-Online-Sammlungen"
       year: 2022
       outlet: "Konferenzabstracts DHd2022. Kulturen des digitalen Gedächtnisses p.411–414, Potsdam, Germany"
       body: ""
