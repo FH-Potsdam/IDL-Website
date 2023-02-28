@@ -1,15 +1,15 @@
 ---
   name: "Prof. Dr. Frank Heidmann"
-  excerpt: "Frank Heidmann is Professor of Human-Computer Interaction (HCI) at the Potsdam University of Applied Sciences."
+  excerpt: "Frank Heidmann is Professor for the Design of Software Interfaces at the Potsdam University of Applied Sciences."
   wp_id: 33
   slug: "frank-heidmann"
   group: "Members"
-  subtitle: "Professor für Mensch-Maschine Interaktion"
+  subtitle: "-	Professur für Design of Software Interfaces"
   website: ""
-  email: "heidmann@fh-potsdam.de"
+  email: "frank.heidmann@fh-potsdam.de"
   twitter: ""
   thumbnail_id: null
-  image_link: "/images/frank-heidmann.jpg"
+  image_link: "/images/uploads/frank-heidmann.png"
   laufschrift_tags: "Dashboards × GeoVis × Prototyping × Concept × Dashboards × GeoVis × Prototyping"
   publications: 
     - 73
