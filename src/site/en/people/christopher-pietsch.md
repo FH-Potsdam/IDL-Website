@@ -21,5 +21,3 @@ He has published most of his work as open source, such as the [VIKUS Viewer](htt
 Christopher holds a degree in Interface Design from the University of Applied Sciences in Potsdam, Germany. His bachelor's thesis was on brain-computer interfaces.
 
 A new area of interest for Christopher is the fusion between **artificial intelligence and interaction design**. He is exploring how these two fields can work together to create intuitive and engaging user experiences. He believes AI can help design personalized and adaptive interfaces that are more responsive to user needs and preferences.
-
-Translated with www.DeepL.com/Translator (free version)
