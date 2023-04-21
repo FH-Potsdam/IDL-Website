@@ -4,7 +4,7 @@
   wp_id: 33
   slug: "frank-heidmann"
   group: "Members"
-  subtitle: "-	Professur für Design of Software Interfaces"
+  subtitle: "Professur für Design of Software Interfaces"
   website: ""
   email: "frank.heidmann@fh-potsdam.de"
   twitter: ""
