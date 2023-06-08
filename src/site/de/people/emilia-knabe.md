@@ -4,7 +4,7 @@
   wp_id: 9001
   slug: "emilia-knabe"
   group: "Members"
-  subtitle: "Research Associate"
+  subtitle: "Wissenschaftliche Mitarbeiterin"
   website: ""
   email: "emilia.knabe@fh-potsdam.de"
   twitter: null

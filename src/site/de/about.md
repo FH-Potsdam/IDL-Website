@@ -7,7 +7,7 @@ laufschrift_black: Daten × Technologie × Ästhetik × Interaktivität × Forsc
 ---
 
 ### Synergien
-Im <strong>IDL // Interaction Design Lab</strong> kooperieren Senior Interaction Designer_innen und User Experience Professionals mit langjähriger Erfahrung im Agenturkontext und Projektmanagement mit Master- und PhD-Studierenden unserer Designstudiengänge. Die Professor_innen des Interfacedesign-Programms der FHP agieren in wechselnden Rollen als Projektleiter_innen und/oder Senior Consultants.
+Im <strong>IDL // Interaction Design Lab</strong> kooperieren Senior Interaction Designer*innen und User Experience Professionals mit langjähriger Erfahrung im Agenturkontext und Projektmanagement mit Master- und PhD-Studierenden unserer Designstudiengänge. Die Professor*innen des Interfacedesign-Programms der FHP agieren in wechselnden Rollen als Projektleiter*innen und/oder Senior Consultants.
 
 Das <strong>IDL // Interaction Design Lab</strong> begleitet mit seinen Forschungs- und Entwicklungsvorhaben den digitalen Wandel und nimmt dabei stets die Perspektive der Nutzerinnen und Nutzer ein. Anforderungen und Wünsche, aber auch Skepsis und Ängste gegenüber neuen digitalen Lebenswelten auf der einen Seite und aktuelle technologische Entwicklungen und rasant wachsende digitale Datenbestände auf der anderen Seite stellen den Ausgangspunkt der Forschungsarbeiten dar.
 
@@ -40,7 +40,7 @@ In der Auftragsforschung hat sich in den letzten Jahren ein thematischer Schwerp
 
 Im Bereich der hoheitlichen Forschung werden aktuell Projekte zu innovativen Formen der Mensch-Computer Interaktion auf großformatigen Multi-Touch-Tischen für das Katastrophenmanagement durchgeführt sowie Dashboards und Informationsvisualisierungen für IT-Security-Anwendungen konzipiert.
 
-Weitere Forschungsschwerpunkte, die unter dem Label Sustainable Interaction Design zusammengefasst werden, adressieren die Transformation hin zu stärker nachhaltigen Lebens- und Arbeitsweisen. Die mehrfach ausgezeichnete mobile App EcoChallenge steht beispielhaft für transformationale Produkte, welche&nbsp;Nutzerinnen und Nutzer neben Informationen zu einem umweltfreundlichen Verhalten Aufgaben stellen, sogenannte Challenges, die gemeinsam mit Freund_innen gelöst werden sollen.
+Weitere Forschungsschwerpunkte, die unter dem Label Sustainable Interaction Design zusammengefasst werden, adressieren die Transformation hin zu stärker nachhaltigen Lebens- und Arbeitsweisen. Die mehrfach ausgezeichnete mobile App EcoChallenge steht beispielhaft für transformationale Produkte, welche&nbsp;Nutzerinnen und Nutzer neben Informationen zu einem umweltfreundlichen Verhalten Aufgaben stellen, sogenannte Challenges, die gemeinsam mit Freund*innen gelöst werden sollen.
 
 <figure class="center">
   <img src="/images/prototyping_lrg.jpg" alt="Prototyping">

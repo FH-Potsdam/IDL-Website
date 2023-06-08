@@ -87,15 +87,15 @@
   project_client: []
 
 ---
-mæve verbindet die Einreichungen des studentischen Everyville Wettbewerbs und stellt diese in den größeren Kontext der MACE Inhalte und Metadaten. Indem die Besucher_innen physische Projektkarten auf den interaktiven Tisch legen, können die präsentierten Projekte eingebettet in ein organisches Netzwerk verwandter Projekte, Personen und Medien, exploriert werden.
+mæve verbindet die Einreichungen des studentischen Everyville Wettbewerbs und stellt diese in den größeren Kontext der MACE Inhalte und Metadaten. Indem die Besucher*innen physische Projektkarten auf den interaktiven Tisch legen, können die präsentierten Projekte eingebettet in ein organisches Netzwerk verwandter Projekte, Personen und Medien, exploriert werden.
 
 ![](/images/uploads/maeve_installation_2-e1288790434777.jpg)
 
-Die Installation besteht aus einem interaktiven Tisch sowie einer großen Projektionsfläche. Während die Benutzer_innen mit den einzelnen Objekten auf dem Tisch interagieren, werden verknüpfte Medieninhalte auf den Projektionsflächen abgebildet.
+Die Installation besteht aus einem interaktiven Tisch sowie einer großen Projektionsfläche. Während die Benutzer*innen mit den einzelnen Objekten auf dem Tisch interagieren, werden verknüpfte Medieninhalte auf den Projektionsflächen abgebildet.
 
 ![](/images/uploads/maeve_screen_1-e1288790418133.jpg)
 
-Die zehn Gewinnerprojekte des studentischen Everyville Wettbewerbs werden auf physischen Karten dargestellt. Sobald eine Karte auf den Tisch gelegt wird, öffnet sich automatisch eine Kontextebene, auf welcher verwandte Projekte und Stichworte um die Karte herum angeordnet werden. Wird eine weitere Karte auf den Tisch gelegt, wird der Raum zwischen den Karten für eine Netzwerkdarstellung genutzt, welche die Überschneidungen der beiden Projekte sichtbar macht. Neben den studentischen Beiträgen beinhaltet die Installation auch ausgewählte Projekte aus der MACE Sammlung. Diese Inhalte sind ebenfalls auf Karten abgebildet und erlauben es den Besucher_innen die Everyville Inhalte mit den MACE Inhalten zu verknüpfen. Da die Karten-Interaktion nicht auf eine Person beschränkt ist, ist es auch ganzen Gruppen möglich, die Inhalte zusammen zu erforschen.
+Die zehn Gewinnerprojekte des studentischen Everyville Wettbewerbs werden auf physischen Karten dargestellt. Sobald eine Karte auf den Tisch gelegt wird, öffnet sich automatisch eine Kontextebene, auf welcher verwandte Projekte und Stichworte um die Karte herum angeordnet werden. Wird eine weitere Karte auf den Tisch gelegt, wird der Raum zwischen den Karten für eine Netzwerkdarstellung genutzt, welche die Überschneidungen der beiden Projekte sichtbar macht. Neben den studentischen Beiträgen beinhaltet die Installation auch ausgewählte Projekte aus der MACE Sammlung. Diese Inhalte sind ebenfalls auf Karten abgebildet und erlauben es den Besucher*innen die Everyville Inhalte mit den MACE Inhalten zu verknüpfen. Da die Karten-Interaktion nicht auf eine Person beschränkt ist, ist es auch ganzen Gruppen möglich, die Inhalte zusammen zu erforschen.
 
 <iframe style="width:100%; aspect-ratio:16/9; max-height: 80%;" src="https://player.vimeo.com/video/16245192?h=d3b824a73b" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
