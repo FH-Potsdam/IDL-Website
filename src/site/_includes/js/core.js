@@ -48,8 +48,8 @@ const htmlElement = document.documentElement;
 const bodyElement = document.body;
 const mainElement = document.getElementsByClassName("main");
 
-mainNavButton.addEventListener("click", toggleMainMenü);
-function toggleMainMenü(e) {
+mainNavButton.addEventListener("click", toggleMainMenu);
+function toggleMainMenu(e) {
   let _this = e.currentTarget;
   let expanded = _this.getAttribute("aria-expanded") === "true" || false;
   let menu = _this.nextElementSibling;
