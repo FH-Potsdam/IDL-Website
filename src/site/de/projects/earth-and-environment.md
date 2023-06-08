@@ -1,37 +1,35 @@
 ---
-  name: "Erde und Umwelt"
-  excerpt: "Plattform Design"
-  wp_id: 256
-  slug: "earth-and-environment"
-  group: 
-    - "Maps"
-    - "Visualization"
-  subtitle: "Plattform Design"
-  project_year: "2012-2015"
-  year: 2012
-  project_team: 
-    - /de/people/frank-heidmann
-    - /de/people/lennart-hildebrandt
-    - /de/people/ben-schmitt
-    - /de/people/thomas-petrach
-    - /de/people/jan-munchberger
-  project_website: "https://eskp.de"
-  project_material: ""
-  related_publications: []
-  related_projects: ""
-  thumbnail_id: 261
-  featured_home: false
-  thumbnail: /images/uploads/earth-and-environment-teaser.jpg
-  project_partners: []
-  project_team_external: []
-  project_funding: []
-  project_client: 
-    - 
-      name: "Helmholtz-Gemeinschaft"
-      url: ""
-      logo: null
-      logo_id: ""
-
+wp_id: 256
+name: Erde und Umwelt
+project_year: 2012-2015
+excerpt: ""
+project_team_external: []
+project_team:
+  - /de/people/frank-heidmann
+  - /de/people/lennart-hildebrandt
+  - /de/people/ben-schmitt
+  - /de/people/thomas-petrach
+  - /de/people/jan-munchberger
+slug: earth-and-environment
+thumbnail: /images/uploads/earth-and-environment-teaser.jpg
+project_material: ""
+thumbnail_id: 261
+related_projects: ""
+subtitle: Plattform Design
+year: 2012
+featured_home: false
+project_website: https://eskp.de
+group:
+  - Maps
+  - Visualization
+project_partners: []
+project_client:
+  - name: Helmholtz-Gemeinschaft
+    url: ""
+    logo: null
+    logo_id: ""
+project_funding: []
+related_publications: []
 ---
 Die „Earth System Knowledge Platform“ ESKP (Wissensplattform „Erde undUmwelt“) ist ein Gemeinschaftsprojekt von acht Helmholtz-Zentren (u.a. DLR, GFZ, GEOMAR, AWI, KIT). Ziel ist der Aufbau einer umfassenden webbasierten Wissensplattform zu Risiken und Chancen globaler Veränderungen der Umwelt. Dazu soll gesichertes Wissen zu Themen wie Wasser, Boden, Klima oder Naturkatastrophen multimedial (interaktive Karten, Infografiken, Videos etc.) aufbereitet werden, um Gesellschaft, Politik und Wirtschaft eine fundierte Zukunftsvorsorge zu ermöglichen.
 
