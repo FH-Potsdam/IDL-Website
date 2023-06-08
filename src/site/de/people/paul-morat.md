@@ -3,7 +3,7 @@
   excerpt: "Paul ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
   wp_id: 535
   slug: "paul-morat"
-  group: "Students"
+  group: "Past Students"
   subtitle: "Studentischer Mitarbeiter"
   website: ""
   email: "paul.morat@fh-potsdam.de"

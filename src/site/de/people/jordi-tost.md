@@ -1,10 +1,10 @@
 ---
   name: "Jordi Tost"
-  excerpt: "Jordi ist wissenschaftlicher Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam.\n"
+  excerpt: "Jordi ist PhD Candidate am Interaction Design Lab der Fachhochschule Potsdam.\n"
   wp_id: 113
   slug: "jordi-tost"
   group: "Members"
-  subtitle: "Wissenschaftlicher Mitarbeiter"
+  subtitle: "PhD Candidate"
   website: ""
   email: "jordi.tost.val@fh-potsdam.de"
   twitter: "@jorditost"

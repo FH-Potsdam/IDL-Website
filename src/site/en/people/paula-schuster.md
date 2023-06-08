@@ -1,12 +1,13 @@
 ---
   name: "Paula L. Schuster"
-  excerpt: "Paula is a research associate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
+  excerpt: "Paula is a PhD candidate at the Interaction Design Lab of the University of Applied Sciences Potsdam."
   wp_id: 487
   slug: "paula-schuster"
-  group: "Past Members"
-  subtitle: "Research Associate"
+  group: "Members"
+  subtitle: "PhD Candidate"
   website: ""
   email: "paula.schuster@fh-potsdam.de"
+  image_link: "/images/4_Paula_groß_YAS_7026--660x545.jpg"
   twitter: "@paunklet"
   thumbnail_id: null
   publications: 
@@ -18,7 +19,7 @@ After completing her studies in communication in social and economic contexts at
 
 In her master’s thesis in design, she explored prototyping in the design process and developed theories and tools to clarify the different roles of prototypes.
 
-Since 2018 Paula has been part of research projects at IDL. In the PROTOTYP project she investigates prototypes as a communication medium of possible futures. In the DISA project she investigates digital inclusion in the context of social anxiety. Her focus is on participatory prototyping with affected people.
+Since 2018 Paula has been part of research projects at the **Interaction Design Lab**. In the PROTOTYP project she investigated prototypes as a communication medium of possible futures. In the DISA project she investigated digital inclusion in the context of social anxiety. Her focus is on participatory prototyping with affected people.
 
 She also works as a freelance consultant for design processes and co-design.
 
