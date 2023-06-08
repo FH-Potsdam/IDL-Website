@@ -9,7 +9,7 @@
   email: "qasem.safariallahkheili@fh-potsdam.de"
   twitter: null
   thumbnail_id: null
-  image_link: "/images/qasem-safari.jpg"
+  image_link: "/images/uploads/qasem-safari.jpg"
   publications: 
   sort_name: "Qasem"
 

@@ -39,6 +39,6 @@ thumbnail_id: 135
 related_projects: ""
 related_publications:
 ---
-Im Rahmen des 5-jährigen Verbundvorhabens "InnoWest", konzentrieren sich die Forscher*innen der FH Potsdam, THB und HNEE auf nachhaltige Entwicklung im ländlichen Raum von Nord-West-Brandenburg. Neben Projekten zur nachhaltigen Bildung und Bauen, fokussieren wir uns auf nutzerzentrierte und datengestützte Lösungen für Zivilgesellschaft, Verwaltung und Industrie. Unter Einbindung lokaler und regionaler Akteur*innen sollen innovative Anwendungen entwickelt werden, welche die Transformationsprozesse im ländlichen Raum unterstützen und begleiten sollen.
+Im Rahmen des 5-jährigen Verbundvorhabens "InnoWest", konzentrieren sich die Forscher\*innen der FH Potsdam, THB und HNEE auf nachhaltige Entwicklung im ländlichen Raum von Nord-West-Brandenburg. Neben Projekten zur nachhaltigen Bildung und Bauen, fokussieren wir uns auf nutzerzentrierte und datengestützte Lösungen für Zivilgesellschaft, Verwaltung und Industrie. Unter Einbindung lokaler und regionaler Akteur\*innen sollen innovative Anwendungen entwickelt werden, welche die Transformationsprozesse im ländlichen Raum unterstützen und begleiten sollen.
 
 
