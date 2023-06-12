@@ -44,6 +44,7 @@ sections2.forEach((section2) => {
 // Mobile Menu
 
 const mainNavButton = document.getElementById("mainNavButton");
+const menulist = document.getElementById("menu-list");
 const htmlElement = document.documentElement;
 const bodyElement = document.body;
 const mainElement = document.getElementsByClassName("main");
@@ -58,6 +59,12 @@ function toggleMainMenu(e) {
   bodyElement.classList.toggle("is-mobile-main-nav-open");
   mainElement[0].classList.toggle("is-mobile-main-nav-open");
   window.scrollTo(0, 0);
+
+  if (menulist.hasAttribute("hidden")) {
+    menulist.removeAttribute("hidden");
+  } else {
+    menulist.setAttribute("hidden", true);
+  }
 }
 
 // Show more
