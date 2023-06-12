@@ -124,15 +124,6 @@ nav {
       font-size: 1.25rem;
     }
 
-    .is-mobile-main-nav-open & {
-      @media screen and (max-width: 64.0em) {
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        margin-top: 8rem;
-      }
-    }
-
     a,
     a:visited {
       text-decoration: none;
@@ -157,6 +148,15 @@ nav {
     @media screen and (min-width: 64em) {
       border-bottom: 6px var(--idl-brand-color) solid;
     }
+  }
+}
+
+.is-mobile-main-nav-open .navigation ul {
+  @media screen and (max-width: 64.0em) {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
   }
 }
 
