@@ -14,36 +14,33 @@
 
 <div class="filter-container">
   <div class="filter-group">
-  Themen
+  {% if locale == "de" %}Themen{% else %}Topics{% endif %}
     <div class="button-group | js-filter-button-group">
-      <button class="selectTheme filterButtons | js-button active" value="">Alle</button>
-      <button class="selectTheme filterButtons | js-button" value="speculation">Speculation</button>
+      <button class="selectTheme filterButtons | js-button active" value="">{% if locale == "de" %}Alle{% else %}All{% endif %}</button>
       <button class="selectTheme filterButtons | js-button" value="dashboard">Dashboard</button>
       <button class="selectTheme filterButtons | js-button" value="geovis">GeoVis</button>
       <button class="selectTheme filterButtons | js-button" value="infovis">InfoVis</button>
-      <button class="selectTheme filterButtons | js-button" value="portal">Portal</button>
-      <button class="selectTheme filterButtons | js-button" value="physical">Physical</button>
-      <button class="selectTheme filterButtons | js-button" value="service">Service</button>
+      <button class="selectTheme filterButtons | js-button" value="wissensportal">Wissensportal</button>
+      <button class="selectTheme filterButtons | js-button" value="extended-reality">Extended Reality</button>
     </div>
   </div>
 
   <div class="filter-group">
-  Services
+  {% if locale == "de" %}Services{% else %}Services{% endif %}
     <div class="button-group | js-filter-button-group">
-      <button class="selectService filterButtons | js-button active" value="">Alle</button>
+      <button class="selectService filterButtons | js-button active" value="">{% if locale == "de" %}Alle{% else %}All{% endif %}</button>
       <button class="selectService filterButtons | js-button" value="prototyping">Prototyping</button>
-      <button class="selectService filterButtons | js-button" value="uiux">UI/UX</button>
-      <button class="selectService filterButtons | js-button" value="human-centered-design">Human-Centered Design</button>
-      <button class="selectService filterButtons | js-button" value="design-thinking">Design Thinking</button>
-      <button class="selectService filterButtons | js-button" value="service-design">Service Design</button>
+      <button class="selectService filterButtons | js-button" value="speculative-design">Speculative Design</button>
+      <button class="selectService filterButtons | js-button" value="user-research">User Research</button>
+      <button class="selectService filterButtons | js-button" value="ux-evaluation">UX-Evaluation</button>
     </div>
   </div>
 
   <div class="filter-group">
   Art
     <div class="button-group | js-filter-button-group">
-      <button class="selectArt filterButtons | js-button active" value="">Alle</button>
-      <button class="selectArt filterButtons | js-button" value="forschung">Forschung</button>
+      <button class="selectArt filterButtons | js-button active" value="">{% if locale == "de" %}Alle{% else %}All{% endif %}</button>
+      <button class="selectArt filterButtons | js-button" value="forschung">{% if locale == "de" %}Forschung{% else %}Research{% endif %}</button>
       <button class="selectArt filterButtons | js-button" value="transfer">Transfer</button>
     </div>
   </div>
