@@ -32,7 +32,6 @@
     <meta name="twitter:image" content="/images/idl-social-media.jpg"/>
     <meta name="twitter:creator" content="@idpotsdam"/>
 
-	  
     <meta name='robots' content='max-image-preview:large' />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -82,7 +81,7 @@
         <li><a {{ 'aria-current=page' if page.url and '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
         <li class="lang-switch">
         {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Seite in Deutsch anzeigen (DE)" alt="Seite in Deutsch anzeigen (DE)"><img src="/images/assets/switch-de.svg" alt="Seite in Deutsch anzeigen (DE)"></a> {% endif %}
-        {% if lang == 'de' %} <a href="{{ enUrl }}" hreflang="de" title="Switch to English (EN)" alt="Switch to English (EN)"><img src="/images/assets/switch-en.svg" alt="Switch to English (EN)"></a> {% endif %}
+        {% if lang != 'en' %} <a href="{{ enUrl }}" hreflang="de" title="Switch to English (EN)" alt="Switch to English (EN)"><img src="/images/assets/switch-en.svg" alt="Switch to English (EN)"></a> {% endif %}
         </li>
     </ul>
 
