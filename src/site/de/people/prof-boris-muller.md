@@ -1,24 +1,24 @@
 ---
-  name: "Prof. Boris Müller"
-  excerpt: "Boris ist Professor für Interaktionsdesign im Studiengang Interface Design der Fachhochschule Potsdam und Design Consultant."
-  wp_id: 38
-  slug: "prof-boris-muller"
-  group: "Associates"
-  subtitle: "Professor für Interaktions-Design"
-  website: "http://esono.com"
-  email: "boris.mueller@fh-potsdam.de"
-  twitter: "@borism"
-  thumbnail_id: null
-  image_link: "/images/boris-mueller.jpg"
-  publications: 
-    - 193
-    - 194
-    - 284
-    - 339
-    - 340
-    - 341
-  sort_name: "Müller"
-
+wp_id: 38
+excerpt: Boris ist Professor für Interaktionsdesign im Studiengang Interface
+  Design der Fachhochschule Potsdam und Design Consultant.
+publications:
+  - 193
+  - 194
+  - 284
+  - 339
+  - 340
+  - 341
+name: Prof. Boris Müller
+slug: prof-boris-muller
+subtitle: Professor für Interaction Design
+website: http://esono.com
+email: boris.mueller@fh-potsdam.de
+twitter: "@borism"
+thumbnail_id: null
+sort_name: Müller
+image_link: /images/boris-mueller.jpg
+group: Associates
 ---
 Prof. Boris Müller hat ein Diplom in Grafikdesign von der Hochschule der Künste Bremen und einen Master in Computer Related Design vom Royal College of Art in London.
 
