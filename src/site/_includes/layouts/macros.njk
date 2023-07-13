@@ -35,7 +35,7 @@
 
 			<div class="project-tags-container">
         {% for item in p.data.filter_themen %}
-        <div class="project-tag">{% if item == "Wissensportal" and lang == "en" %}Knowledge Portal{% else %}{{item}}{% endif %}</div>
+        <div class="project-tag">{{translateThemen(item, lang)}}</div>
         {% endfor %}
         {% for item in p.data.filter_services %}
         <div class="project-tag">{{item}}</div>
@@ -51,6 +51,25 @@
 	</a>	
 {% endmacro %}
 
+{% macro translateThemen(item, lang) %}
+  {% if lang == "en" %}
+    {% if item == "Wissensportal" %}
+      Knowledge Portal
+    {% elif item == "Interaktion im Raum" %}
+      Interaction in Space
+    {% elif item == "Wissensvermittlung" %}
+      Knowledge Transfer
+    {% elif item == "Wissenschaftskommunikation" %}
+      Science Communication
+    {% elif item == "KI" %}
+      AI
+    {% else %}
+      {{item}}
+    {% endif %}
+  {% else %}
+    {{item}}
+  {% endif %}
+{% endmacro %}
 
 {% macro eventTeaser(p, lang) %}
 <a class="event" href="{{p.url}}" title="{{p.data.name}}">
