@@ -3,10 +3,12 @@
   excerpt: "Designing the future materially. Prototypes as communication medium of the new."
   wp_id: 491
   slug: "prototyp"
-  group: 
-    - "Prototyping"
-    - "Speculation"
-    - "Tangible"
+  filter_themen: []
+  filter_services:
+    - Prototyping
+    - Speculative Design
+  filter_art:
+    - Forschung
   subtitle: "Prototyping in Critical Design"
   project_year: "2018 – 2021"
   year: 2018

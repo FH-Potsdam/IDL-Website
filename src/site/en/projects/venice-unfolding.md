@@ -9,6 +9,18 @@
   subtitle: "Tangible Geo-Visualization of Architectural Projects"
   project_year: 2009
   year: 2009
+  filter_themen:
+    - GeoVis
+    - InfoVis
+    - Wissensportal
+    - Eye-Tracking
+    - Interaktion im Raum
+    - Tangible
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Forschung
   project_team: 
     - /en/people/till-nagel/
   project_website: ""
@@ -49,7 +61,7 @@ Venice Unfolding is a case study on tangible geo-visualization on an interactive
 
 This tangible user interface consists of a large display showing projects on a map, and a polyhedral object to browse these data interactively by selecting and filtering various metadata facets. The object reduces the barrier between the physical world and virtual data and eases the understanding of faceted geographical data. Thus enabling urban planners and citizens alike to participate in the discovery and analysis of information referring to the physical world.
 
-This project was a collaboration of the **IDL // Interaction Design Lab** with the architectural faculty of the IUAV University of Venice, and the City of Venice, Urban Department.
+This project was a collaboration of the **Interaction Design Lab** with the architectural faculty of the IUAV University of Venice, and the City of Venice, Urban Department.
 
 ### Interaction
 

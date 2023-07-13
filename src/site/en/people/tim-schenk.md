@@ -15,7 +15,7 @@
 ---
 Tim Schenk is a research associate with the Interaction Design Lab at the
 University of Applied Sciences Potsdam. He is currently working on a
-IDL research project to develop an IT security dashboard. His main
+**Interaction Design Lab** research project to develop an IT security dashboard. His main
 fields of interest are product development for audio-visual content,
 rapid prototyping and entrepreneurship. Tim was awarded for his work by e.g.  ‘Digital Sparks’ of ZKM Karlsruhe and Fraunhofer
 Institute for Media Commuinication and the ‘Gründerpreis Multimedia’

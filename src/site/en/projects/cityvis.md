@@ -9,13 +9,11 @@ excerpt: Visualization as a tool for analysis, exploration and communication has
 laufschrift_tags: Geovisualisation x Information Visualisation x Urban Planning
 project_website: https://www.cityvis.io
 project_material: ""
-group:
-  - Highlight
-  - Portal
 filter_themen:
-  - Portal
-filter_services:
-  - Human-Centered Design
+  - Wissensportal
+  - GeoVis
+  - InfoVis
+filter_services: []
 filter_art:
   - Forschung
 project_team_external:

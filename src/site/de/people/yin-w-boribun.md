@@ -3,8 +3,8 @@
   excerpt: ""
   wp_id: 183
   slug: "yin-w-boribun"
-  group: "Students"
-  subtitle: ""
+  group: "Members"
+  subtitle: "Eye Tracking / Interfacewerkstatt"
   website: ""
   email: ""
   twitter: ""

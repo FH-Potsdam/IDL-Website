@@ -3,13 +3,13 @@
   excerpt: "Online-Kommunikations-Platform"
   wp_id: 191
   slug: "incom-org"
-  group: null
   filter_themen: 
-    - "Portal"
-  filter_services: 
-    - "UI/UX"
+    - Wissensportal
+    - Open Source Software
+  filter_services:
+    - Prototyping
   filter_art: 
-    - "Forschung"
+    - Forschung
   subtitle: "Online-Kommunikations-Platform"
   project_year: "2004 – aktuell"
   year: 2004

@@ -11,11 +11,16 @@ project_website: https://innowest-brandenburg.de/
 project_material: ""
 group:
   - Highlight
-  - Portal
+  - GeoVis
+  - InfoVis
 filter_themen:
-  - Portal
+  - GeoVis
+  - InfoVis
+  - Wissensportal
 filter_services:
-  - Human-Centered Design
+  - User Research
+  - UX-Evaluation
+  - Prototyping
 filter_art:
   - Forschung
 project_team_external:

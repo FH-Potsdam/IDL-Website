@@ -3,8 +3,15 @@
   excerpt: "Forschung zu \"transformational Products\""
   wp_id: 187
   slug: "ecoviz-challenge"
-  group: 
-    - "Mobile"
+  filter_themen:
+    - Wissensportal
+    - Mobile
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Transfer
+    - Forschung
   subtitle: "Forschung zu \"transformational Products\""
   project_year: "2010 - 2011"
   year: 2010

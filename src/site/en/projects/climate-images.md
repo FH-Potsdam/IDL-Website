@@ -3,8 +3,13 @@
   excerpt: "Similarity as a criterion for comparing images in image studies, computer and visualization science using the example of climate images on the web"
   wp_id: 413
   slug: "climate-images"
-  group: 
-    - "Visualization"
+  filter_themen: 
+    - "Dashboard"
+    - InfoVis
+  filter_services: 
+    - Prototyping
+  filter_art: 
+    - Forschung
   subtitle: "Analysing networked climate images"
   project_year: "2017 – 2020"
   year: 2017

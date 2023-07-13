@@ -3,10 +3,12 @@
   excerpt: "UX/UI Analyse und Konzept"
   wp_id: 255
   slug: "environmental-reports"
-  group: 
-    - "Highlight"
-    - "Maps"
-    - "Visualization"
+  filter_themen: []
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Transfer
   subtitle: "UX/UI Analyse und Konzept"
   project_year: "2015 - 2017"
   year: 2015
@@ -50,4 +52,4 @@
 
 Ziel dieses Projektes ist die Analyse des Status quo der Umweltberichterstattung mit Fokus auf offene Daten und zugängliche Informationen im Web (z. B. [www.umweltbundesamt.de/daten](https://www.umweltbundesamt.de/daten) ). Die Analyse untersucht die Zielgruppen, Anwendungen, Informationsbedürfnisse sowie globalere Ziele des Umweltbundesamtes selbst. Dieses Projekt geht über traditionelle Tabellenkalkulationen und PDF-Berichte hinaus und zielt darauf ab, Konzepte und Prototypen für moderne Visualisierungsmethoden, kartografische Dienste sowie APIs für Anwendungen von Drittanbietern zu erstellen.
 
-Das **IDL // Interaction Design Lab** verantwortet die Analyse, Konzeption sowie das Design und die Entwicklung von nutzerzentrierten Modulen für die nächste Generation von Umweltberichten.
+Das **Interaction Design Lab** verantwortet die Analyse, Konzeption sowie das Design und die Entwicklung von nutzerzentrierten Modulen für die nächste Generation von Umweltberichten.

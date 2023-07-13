@@ -1,6 +1,6 @@
 ---
   name: "Paul Morat"
-  excerpt: "Paul ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
+  excerpt: "Paul ist studentischer Mitarbeiter am Interaction Design Lab der Fachhochschule Potsdam."
   wp_id: 535
   slug: "paul-morat"
   group: "Past Students"

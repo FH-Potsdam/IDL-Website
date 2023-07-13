@@ -9,15 +9,12 @@ excerpt: "Offene Online Plattform für die Vermittlung von Generativer Gestaltun
 laufschrift_tags: Interface Design x Generative Gestaltung x Produktdesign x Kommunikationsdesign
 project_website: https://parametric-design.fh-potsdam.de
 project_material: ""
-group:
-  - Highlight
-  - Portal
 filter_themen:
-  - Portal
+  - Wissensportal
 filter_services:
-  - Human-Centered Design
+  - UX-Evaluation
 filter_art:
-  - Transfer
+  - Forschung
 project_team_external:
 - name: Jolanta Paliszewska
   url: https://www.vispal.de

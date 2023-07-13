@@ -9,14 +9,11 @@ excerpt: TODO TODO
 laufschrift_tags: Data Visualisation x Science Communication
 project_website: "https://www.umweltbundesamt.de/daten/zusammenhaenge-erkunden"
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
 filter_services:
-  - Human-Centered Design
-  - UI/UX
+  - UX-Evaluation
 filter_art:
   - Transfer
 project_team_external:
@@ -35,6 +32,6 @@ The focus of this project was the development of innovative and systematic produ
 
 Based on the results of the requirements analysis, Studio NAND developed an interactive data visualization to make it easier to experience the systemic interrelationships of environmental issues. The implementation of the interrelationships mainly refers to two major areas: First, it is about the analysis and presentation of cross-topic interrelationships of the articles on the Federal Environment Agency website. Using text mining, all articles on the Federal Environment Agency website are examined and analyzed for relevant environmental terms. In an interactive visualization, the terms found can be presented individually for specific questions in an impact model, in which, among other things, connections between causes, measures and effects are considered.
 
-IDL is responsible for the analysis of user needs, personae development, as well as the conception, realization and evaluation of the co-design workshop with stakeholders from environmental reporting, policy consulting, and the public sector. 
+**Interaction Design Lab** is responsible for the analysis of user needs, personae development, as well as the conception, realization and evaluation of the co-design workshop with stakeholders from environmental reporting, policy consulting, and the public sector. 
 !!!!
 

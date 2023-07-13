@@ -2,7 +2,15 @@
 name: Smart City Potsdam
 excerpt: "Inclusive Participation"
 slug: "smart-city-potsdam"
-group: []
+filter_themen:
+  - Wissensportal
+  - Wissensvermittlung
+  - Partizipation
+filter_services:
+  - Prototyping
+  - User Research
+filter_art:
+  - Forschung
 subtitle: "Inclusive Participation"
 project_year: "2022 - 2025"
 project_team: 

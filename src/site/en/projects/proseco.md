@@ -3,9 +3,14 @@
   excerpt: "IT Security Dashboard"
   wp_id: 242
   slug: "proseco"
-  group: 
-    - "Security"
-    - "Visualization"
+  filter_themen:
+    - InfoVis
+    - Dashboard
+  filter_services:
+    - Prototyping
+    - UX-Evaluation
+  filter_art:
+    - Forschung
   subtitle: "IT Security Dashboard"
   project_year: "2014 - 2016"
   year: 2014

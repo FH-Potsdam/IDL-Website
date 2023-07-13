@@ -3,10 +3,12 @@
   excerpt: "Zukunft materiell entwerfen. Prototypen als Kommunikationsmedien des Neuen."
   wp_id: 491
   slug: "prototyp"
-  group: 
-    - "Prototyping"
-    - "Speculation"
-    - "Tangible"
+  filter_themen: []
+  filter_services:
+    - Prototyping
+    - Speculative Design
+  filter_art:
+    - Forschung
   subtitle: "Prototyping im Critical Design"
   project_year: "2018 – 2021"
   year: 2018

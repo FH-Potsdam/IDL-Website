@@ -9,14 +9,10 @@ excerpt: The project explores the connections between Sustainability and Inner C
 laufschrift_tags: Information Visualization x Platform x Science Communication
 project_website: https://www.ama-project.org
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
-filter_services:
-  - Human-Centered Design
-  - UI/UX
+filter_services: []
 filter_art:
   - Transfer
 project_team_external:

@@ -5,6 +5,15 @@ slug: "smart-city-potsdam"
 group: []
 subtitle: "Inklusive Partizipation"
 project_year: "2022 - 2025"
+filter_themen:
+  - Wissensportal
+  - Wissensvermittlung
+  - Partizipation
+filter_services:
+  - Prototyping
+  - User Research
+filter_art:
+  - Forschung
 project_team: 
   - /de/people/emilia-knabe
   - /de/people/sebastian-meier

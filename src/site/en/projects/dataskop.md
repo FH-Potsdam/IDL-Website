@@ -3,17 +3,13 @@
   excerpt: "User interfaces & visualizations to promote digital sovereignty"
   wp_id: 540
   slug: "dataskop"
-  group: 
-    - "Prototyping"
-    - "Speculation"
-    - "Visualization"
   filter_themen: 
     - "Dashboard"
+    - InfoVis
   filter_services: 
-    - "UI/UX"
-    - "Human-Centered Design"
+    - Prototyping
   filter_art: 
-    - "Transfer"
+    - Forschung
   subtitle: "Promoting Digital Sovereignty"
   project_year: "2020-2023"
   year: 2020

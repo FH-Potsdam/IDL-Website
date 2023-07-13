@@ -11,15 +11,13 @@ featured_home: false
 laufschrift_tags: Geovisualisierung x Karten x Mobil x User Research x Generative Gestaltung
 project_website: http://www.m-s-n-i.de/
 project_material: ""
-group:
-  - Highlight
-  - Mobile
 filter_themen:
-  - Portal
   - GeoVis
+  - Wissensportal
+  - InfoVis
 filter_services:
   - Prototyping
-  - Human-Centered Design
+  - UX-Evaluation
 filter_art:
   - Forschung
 project_team_external: []

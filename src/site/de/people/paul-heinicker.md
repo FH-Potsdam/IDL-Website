@@ -1,6 +1,6 @@
 ---
   name: "Paul Heinicker"
-  excerpt: "Paul is a research associate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
+  excerpt: "Paul is a research associate at the Interaction Design Lab of the University of Applied Sciences Potsdam."
   wp_id: 439
   slug: "paul-heinicker"
   group: "Past Members"

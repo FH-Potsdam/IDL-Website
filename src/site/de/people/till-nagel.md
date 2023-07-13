@@ -1,5 +1,5 @@
 ---
-  name: "Dr. Till Nagel"
+  name: "Prof. Dr. Till Nagel"
   excerpt: ""
   wp_id: 34
   slug: "till-nagel"

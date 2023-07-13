@@ -3,19 +3,15 @@
   excerpt: "Die interaktive Installation »mæve« (MACE-Everyville) ermöglicht die visuelle und haptische exploration sozialer und intellektueller Netzwerke von Architektur Projekten."
   wp_id: 44
   slug: "maeve"
-  group: 
-    - "Highlight"
-    - "Tangible"
-    - "Visualization"
   filter_themen: 
-    - "Speculation"
-    - "Dashboard"
+    - InfoVis
+    - Dashboard
+    - Interaktion im Raum
   filter_services: 
-    - "UI/UX"
-    - "Design Thinking"
-    - "Human-Centered Design"
+    - UX-Evaluation
+    - Prototyping
   filter_art: 
-    - "Forschung"
+    - Forschung
   subtitle: "Haptische Exploration von sozialen und geistigen Netzwerken"
   project_year: 2009
   year: 2009

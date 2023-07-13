@@ -1,6 +1,6 @@
 ---
   name: "Patrick Oswald"
-  excerpt: "Patrick ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
+  excerpt: "Patrick ist studentischer Mitarbeiter am Interaction Design Lab der Fachhochschule Potsdam."
   wp_id: 493
   slug: "patrick-oswald"
   group: "Past Students"

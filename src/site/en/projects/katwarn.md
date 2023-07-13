@@ -3,15 +3,16 @@
   excerpt: "Design of an integrated digital multi-channel early warning system."
   wp_id: 185
   slug: "katwarn"
-  group: 
-    - "Maps"
-    - "Mobile"
   filter_themen: 
-    - "App Design"
+    - GeoVis
+    - InfoVis
+    - Wissensportal
+    - Mobile
   filter_services: 
-    - "UI/UX"
-  filter_art: 
-    - "Transfer"
+    - Prototyping
+    - UX-Evaluation
+  filter_art:
+    - Transfer
   subtitle: "Early Warning Systems"
   project_year: "2013 - 2015"
   year: 2013
@@ -43,7 +44,7 @@ Modern digital services need to be designed and build to run on various platform
 
 ![](/images/uploads/katwarn-1-1200.jpg)
 
-Since 2013 the IDL is supporting Fraunhofer Fokus by building an integrated and user-friendly design system across a variety of eco-systems. From iOS devices to Android and Windows Phone, to Smart Watches like the Apple Watch, to public displays of varying sizes. Each with their own design methodology and requirements, which designs need to be adapted to, while maintaining the design identity of the system.
+Since 2013 the **Interaction Design Lab** is supporting Fraunhofer Fokus by building an integrated and user-friendly design system across a variety of eco-systems. From iOS devices to Android and Windows Phone, to Smart Watches like the Apple Watch, to public displays of varying sizes. Each with their own design methodology and requirements, which designs need to be adapted to, while maintaining the design identity of the system.
 
 ![](/images/uploads/katwarn-3-1200.jpg)
 

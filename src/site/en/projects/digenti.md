@@ -3,12 +3,14 @@
   excerpt: "DIGENTI combines satellite remote sensing, geovisualization and natural interaction on tangible, multi-touch and multi-modal environments for Disaster Management."
   wp_id: 119
   slug: "digenti"
-  group: 
-    - "Highlight"
-    - "Maps"
-    - "Multitouch"
-    - "Tangible"
-    - "Visualization"
+  filter_themen:
+    - InfoVis
+    - GeoVis
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Forschung
   subtitle: "Multi-modal Disaster Management"
   project_year: "2015 – 2017"
   year: 2015
@@ -49,7 +51,7 @@ In disaster situations, the managing process has been established since decades
 
 ![](/images/uploads/digenti-IMG_2519_02_opt.jpg)
 
-In this context, the research interests of the **IDL // Interaction Design Lab** are Natural User Interfaces (NUI), geovisualization, and exploration of environmental and crowdsourced social media data to support the managing process, increase situation awareness, and engage collaboration.
+In this context, the research interests of the **Interaction Design Lab** are Natural User Interfaces (NUI), geovisualization, and exploration of environmental and crowdsourced social media data to support the managing process, increase situation awareness, and engage collaboration.
 
 ![](/images/uploads/digenti-IMG_2489_02_opt.jpg)
 

@@ -3,9 +3,14 @@
   excerpt: "Our Powerdome system enables us to project real time media and interactive visualizations in a immersive fulldome environment."
   wp_id: 36
   slug: "powerdome"
-  group: 
-    - "Highlight"
-    - "Visualization"
+  filter_themen:
+    - Interaktion im Raum
+    - Wissensvermittlung
+    - InfoVis
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Forschung
   subtitle: "Interactive Visualizations in an Immersive Environment"
   project_year: "Since 2009"
   year: 2009

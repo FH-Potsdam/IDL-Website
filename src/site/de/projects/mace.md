@@ -3,7 +3,14 @@
   excerpt: "Metadata für Architektur-Inhalte in Europa"
   wp_id: 192
   slug: "mace"
-  group: null
+  filter_themen: 
+    - GeoVis
+    - InfoVis
+    - Wissensportal
+  filter_services: 
+    - UX-Evaluation
+  filter_art:
+    - Forschung
   subtitle: "Metadata für Architektur-Inhalte in Europa"
   project_year: "2006 – 2009"
   year: 2006

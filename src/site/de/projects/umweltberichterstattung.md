@@ -9,14 +9,11 @@ excerpt: TODO TODO
 laufschrift_tags: Datenvisualisierung x Wissenschaftskommunikation
 project_website: "https://www.umweltbundesamt.de/daten/zusammenhaenge-erkunden"
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
 filter_services:
-  - Human-Centered Design
-  - UI/UX
+  - UX-Evaluation
 filter_art:
   - Transfer
 project_team_external:
@@ -35,5 +32,5 @@ Im Fokus dieses Vorhabens stand die Entwicklung von innovativen und systemischen
 
 Auf Basis der Ergebnisse der Anforderungsanalyse wurde durch Studio NAND eine interaktive Datenvisualisierung zur besseren Erfahrbarmachung von systemischen Zusammenhängen von Umweltthemen entwickelt. Die Umsetzung der Zusammenhänge bezieht sich im Wesentlichen auf zwei große Bereiche: Zum einen geht es um die Analyse und Darstellung von themenübergreifenden Zusammenhängen der Beiträge auf der Umweltbundesamt Website. Mittels Text Mining werden alle Artikel auf der Website des Umweltbundesamtes nach relevanten Umweltbegriffen untersucht und analysiert. In einer interaktiven Visualisierung lassen sich die gefundenen Begriffe in einem Wirkungsmodell, bei dem u.a. Zusammenhänge zwischen Ursachen, Maßnahmen und Auswirkungen betrachtet werden, individuell für bestimmte Fragestellungen darstellen.
 
-Das IDL verantwortet im Projekt die Analyse der Nutzer*innenbedürfnisse, Personae-Entwicklung, sowie die Konzeption, Durchführung und Auswertung des Co-Design-Workshop mit Stakeholdern der Umweltberichterstattung, Politikberatung 
+Das **Interaction Design Lab** verantwortet im Projekt die Analyse der Nutzer*innenbedürfnisse, Personae-Entwicklung, sowie die Konzeption, Durchführung und Auswertung des Co-Design-Workshop mit Stakeholdern der Umweltberichterstattung, Politikberatung 
 !!!!

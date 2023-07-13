@@ -9,5 +9,5 @@
         - 
           internal_author_de: "/de/people/frank-heidmann"
           internal_author_en: "/en/people/frank-heidmann"
-      project_pdf: "https://doi.org/10.1145/3473856.3474035;http://dx.doi.org/10.1145/3473856.3474035"
+      project_pdf: "https://doi.org/10.1145/3473856.3474035"
       

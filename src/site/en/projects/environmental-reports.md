@@ -3,10 +3,12 @@
   excerpt: ""
   wp_id: 255
   slug: "environmental-reports"
-  group: 
-    - "Highlight"
-    - "Maps"
-    - "Visualization"
+  filter_themen: []
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Transfer
   subtitle: "UX/UI Analysis and Concept"
   project_year: "2015-2017"
   year: 2015
@@ -50,4 +52,4 @@
 
 The goal of this project is the analysis of the status quo of environmental reporting with a focus on openData and accessible information on the web (e.g. [www.umweltbundesamt.de/daten](https://www.umweltbundesamt.de/daten)). The analysis is looking into the target audiences, applications, information needs, as well as more global goals from the Federal Environment Agency itself. Going beyond traditional spreadsheets and pdf repots, this project aims at creating concepts and prototypes for modern visualization methods, cartographic services, as well as APIs for third party applications.
 
-The **IDL // Interaction Design Lab** is responsible for the analysis, conception, as well as the design and development of user-centered modules for the next generation of environmental reports.
+The **Interaction Design Lab** is responsible for the analysis, conception, as well as the design and development of user-centered modules for the next generation of environmental reports.

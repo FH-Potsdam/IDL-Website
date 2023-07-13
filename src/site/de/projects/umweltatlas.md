@@ -9,14 +9,12 @@ excerpt: TODO TODO
 laufschrift_tags: Eye Tracking, Usability Testing, Evaluation, Plattform
 project_website: https://www.berlin.de/umweltatlas/
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
+  - Eye-Tracking
 filter_services:
-  - Usability Testing
-  - Eye Tracking
+  - UX-Evaluation
 filter_art:
   - Transfer
 project_team_external:
@@ -33,4 +31,4 @@ Der Umweltatlas Berlin bietet nicht nur einen zentralen Zugang, sondern auch ein
 
 Mit dem Projekt verfolgte die Senatsverwaltung für Stadtentwicklung und Wohnen das Ziel, die Usability und User Experience (UX) des multimedialen Daten- und Informationsangebotes zu verbessern. Eine deutlich gesteigerte Nutzerzentrierung, die schnelle Auffindbarkeit von Informationen sowie die systematische Verknüpfung der verschiedenen Medientypen waren zentrale Entwicklungsziele des Vorhabens. 
 
-Das IDL hat im Projekt die Planung und Durchführung eines Usability Tests zur Evaluation und Optimierung der Navigation und Benutzer*innenführung übernommen. 
+Das **Interaction Design Lab** hat im Projekt die Planung und Durchführung eines Usability Tests zur Evaluation und Optimierung der Navigation und Benutzer*innenführung übernommen. 

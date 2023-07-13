@@ -9,14 +9,10 @@ excerpt: Das Projekt erforscht die Verbindungen zwischen den wissenschftlichen G
 laufschrift_tags: Informationsvisualisierung x Plattform x Wissenschaftskommunikation
 project_website: https://www.ama-project.org
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
-filter_services:
-  - Human-Centered Design
-  - UI/UX
+filter_services: []
 filter_art:
   - Transfer
 project_team_external:

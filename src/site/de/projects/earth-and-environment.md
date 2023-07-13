@@ -19,9 +19,15 @@ subtitle: Plattform Design
 year: 2012
 featured_home: false
 project_website: https://eskp.de
-group:
-  - Maps
-  - Visualization
+filter_themen:
+  - Wissensportal
+  - InfoVis
+  - GeoVis
+filter_services:
+  - UX-Evaluation
+  - Prototyping
+filter_art:
+  - Transfer
 project_partners: []
 project_client:
   - name: Helmholtz-Gemeinschaft
@@ -35,4 +41,4 @@ Die „Earth System Knowledge Platform“ ESKP (Wissensplattform „Erde undUmwe
 
 Das Webportal soll für eine heterogene NutzerInnengruppe sowohl didaktisch gut aufbereitetes multimediales Wissen zur Erdsystemdynamik visuell-ästhetisch herausgehoben präsentieren als auch aktuelle Informationen und Experten-Bewertungen zu weltweiten Naturkatastrophen zeitnah zur Verfügung stellen.
 
-Das IDL // Interaction Design Lab hat in einem nutzerzentrierten Entwicklungsprozess Informationsarchitektur, Navigationskonzept und responsives Design der Plattform konzipiert und umgesetzt. Dabei konnte das Team auf vielfältige Erfahrungen im Bereich der webbasierten Wissenschaftskommunikation zurückgreifen, die sich in den letzten Jahren als ein Schwerpunkt des R&D-Portfolios des IDL etabliert hat.
+Das **Interaction Design Lab** hat in einem nutzerzentrierten Entwicklungsprozess Informationsarchitektur, Navigationskonzept und responsives Design der Plattform konzipiert und umgesetzt. Dabei konnte das Team auf vielfältige Erfahrungen im Bereich der webbasierten Wissenschaftskommunikation zurückgreifen, die sich in den letzten Jahren als ein Schwerpunkt des R&D-Portfolios des **Interaction Design Lab** etabliert hat.

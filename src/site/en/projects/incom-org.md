@@ -5,11 +5,12 @@
   slug: "incom-org"
   group: null
   filter_themen: 
-    - "Portal"
-  filter_services: 
-    - "UI/UX"
+    - Wissensportal
+    - Open Source Software
+  filter_services:
+    - Prototyping
   filter_art: 
-    - "Forschung"
+    - Forschung
   subtitle: "Communication plattform"
   project_year: "2004 – current"
   year: 2004

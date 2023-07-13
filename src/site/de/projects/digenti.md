@@ -3,12 +3,14 @@
   excerpt: "DIGENTI kombiniert Satellitenfernerkundung, Geovisualisierung und natürliche Interaktion in greifbaren, Multi-Touch- und multimodalen Umgebungen für das Katastrophenmanagement."
   wp_id: 119
   slug: "digenti"
-  group: 
-    - "Highlight"
-    - "Maps"
-    - "Multitouch"
-    - "Tangible"
-    - "Visualization"
+  filter_themen:
+    - InfoVis
+    - GeoVis
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Forschung
   subtitle: "Multi-modales Katastrophen&shy;management"
   project_year: "2015 – 2017"
   year: 2015
@@ -50,7 +52,7 @@ In Katastrophensituationen ist der Managementprozess seit Jahrzehnten etabliert
 
 ![](/images/uploads/digenti-IMG_2519_02_opt.jpg)
 
-In diesem Zusammenhang sind die Forschungsinteressen des **IDL // Interaction Design Lab** Natural User Interfaces (NUI), Geovisualisierung und Exploration von Umwelt- und Crowdsourcing-Daten aus sozialen Medien, um den Managementprozess zu unterstützen, das Situationsbewusstsein zu erhöhen und sich zu engagieren Zusammenarbeit.
+In diesem Zusammenhang sind die Forschungsinteressen des **Interaction Design Lab** Natural User Interfaces (NUI), Geovisualisierung und Exploration von Umwelt- und Crowdsourcing-Daten aus sozialen Medien, um den Managementprozess zu unterstützen, das Situationsbewusstsein zu erhöhen und sich zu engagieren Zusammenarbeit.
 
 ![](/images/uploads/digenti-IMG_2489_02_opt.jpg)
 

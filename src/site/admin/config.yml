@@ -27,24 +27,18 @@ collections:
       - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
       - {label: "Project website", name: "project_website", widget: "string", required: false}
       - {label: "Project Material", name: "project_material", widget: "string", required: false}
-      - label: "Group"
-        name: "group"
-        required: false
-        multiple: true
-        widget: "select"
-        options: ["Maps", "Mobile"]
       - label: "Filter-Themen"
         name: "filter_themen"
         widget: "select"
         required: false
         multiple: true
-        options: ["Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"]
+        options: ["Dashboard", "GeoVis", "InfoVis", "Wissensportal", "Open Source Software", "Extended Reality", "Eye-Tracking","Tangible","Interaktion im Raum",Wissenschaftskommunikation","Wissensvermittlung", "Mobile"]
       - label: "Filter-Services"
         name: "filter_services"
         widget: "select"
         required: false
         multiple: true
-        options: ["Prototyping", "UI/UX", "Human-Centered Design", "Design Thinking", "Service Design"]
+        options: ["Prototyping", "Speculative Design", "User Research", "UX-Evaluation"]
       - label: "Filter-Art"
         name: "filter_art"
         widget: "select"

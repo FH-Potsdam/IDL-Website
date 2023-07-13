@@ -11,17 +11,15 @@ featured_home: false
 laufschrift_tags: Geovisualization x Maps x Mobile x User Research x Parametric Design
 project_website: http://www.m-s-n-i.de/
 project_material: ""
-group:
-  - Highlight
-  - Mobile
 filter_themen:
-  - Portal
   - GeoVis
+  - Wissensportal
+  - InfoVis
 filter_services:
-  - Human-Centered Design
   - Prototyping
+  - UX-Evaluation
 filter_art:
-  - Research
+  - Forschung
 project_team_external: []
 project_partners:
   - name: idpraxis GmbH

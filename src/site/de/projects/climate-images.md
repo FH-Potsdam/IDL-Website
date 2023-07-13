@@ -3,8 +3,13 @@
   excerpt: "Ähnlichkeit als Kriterium von Bildvergleichen in den Bildwissenschaften und in der Informatik- und Visualisierungsforschung am Beispiel von Klimabildern im Internet"
   wp_id: 413
   slug: "climate-images"
-  group: 
-    - "Visualization"
+  filter_themen: 
+    - "Dashboard"
+    - InfoVis
+  filter_services: 
+    - Prototyping
+  filter_art: 
+    - Forschung
   subtitle: "Neue Potentiale zur Analyse vernetzter Klimabilder"
   project_year: "2017 – 2020"
   year: 2017

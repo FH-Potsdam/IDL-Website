@@ -3,9 +3,15 @@
   excerpt: "Platform Design"
   wp_id: 256
   slug: "earth-and-environment"
-  group: 
-    - "Maps"
-    - "Visualization"
+  filter_themen:
+    - Wissensportal
+    - InfoVis
+    - GeoVis
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Transfer
   subtitle: "Platform Design"
   project_year: "2012-2015"
   year: 2012
@@ -37,4 +43,4 @@ The „Earth System Knowledge Platform“ ESKP is a collaborative project (eight
 
 The portal provides a heterogenous target audience with a highly aesthetic, thoughtful, and didactic presentation of information in multimedia environments as well as with up-to-date information from experts on natural risks and disasters from around the world.
 
-The IDL is responsible for the user-centered design process, the development of a new information architecture, navigational concepts and new responsive design for the platform. The team was able to use their knowledge on science communication concepts, which has become one of our research foci over the last few years.
+The **Interaction Design Lab** is responsible for the user-centered design process, the development of a new information architecture, navigational concepts and new responsive design for the platform. The team was able to use their knowledge on science communication concepts, which has become one of our research foci over the last few years.

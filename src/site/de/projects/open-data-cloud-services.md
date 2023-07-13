@@ -9,15 +9,14 @@ excerpt: Wie können Offene Daten so optimiert werden, dass Zivilgesellschaft, V
 laufschrift_tags: Open Data x Data Science x Machine Learning x Open Source
 project_website: https://www.opendataservices.de
 project_material: ""
-group:
-  - Highlight
-  - Portal
 filter_themen:
-  - Portal
-filter_services:
-  - Human-Centered Design
+  - Wissensportal
+  - Data Science
+  - KI
+  - Open Source Software
+filter_services: []
 filter_art:
-  - Transfer
+  - Forschung
 project_team_external:
   - name: Fabian Dinklage
   - name: Katrin Glinka

@@ -68,7 +68,7 @@
     <ul>
       
       {% for s in filter_services %}
-    <li><a href="/{{locale}}/services/#{{s | slugify}}"> {{ s }}</a></li>
+    <li><a href="/{{locale}}/services/#service-{{s | slugify}}"> {{ s }}</a></li>
     {% endfor %}
     </ul>
   </div>

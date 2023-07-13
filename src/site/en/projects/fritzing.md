@@ -3,9 +3,13 @@
   excerpt: "Physical Computing Platform"
   wp_id: 189
   slug: "fritzing"
-  group: 
-    - "Prototyping"
-    - "Tangible"
+  filter_themen: 
+    - Tangible
+    - Open Source Software
+  filter_services:
+    - Prototyping
+  filter_art: 
+    - Forschung
   subtitle: "Physical Computing Platform"
   project_year: "2006-2009"
   year: 2006

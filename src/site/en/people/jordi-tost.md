@@ -1,6 +1,6 @@
 ---
   name: "Jordi Tost"
-  excerpt: "Jordi Tost is a PhD candidate at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
+  excerpt: "Jordi Tost is a PhD candidate at the Interaction Design Lab of the University of Applied Sciences Potsdam."
   wp_id: 113
   slug: "jordi-tost"
   group: "Members"

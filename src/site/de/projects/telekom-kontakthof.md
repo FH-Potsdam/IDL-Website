@@ -9,15 +9,12 @@ excerpt: TODO TODO
 laufschrift_tags: Hardware-Prototyping x Ausstellungsdesign x Wissenschaftskommunikation
 project_website: ""
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
   - InfoVis
-filter_services:
-  - Hardware-Prototyping, 
-  - Ausstellungsdesign 
+  - Extended Reality
   - Wissenschaftskommunikation
+filter_services:
+  - Prototyping
 filter_art:
   - Transfer
 project_team_external: []

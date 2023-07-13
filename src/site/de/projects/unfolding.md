@@ -7,6 +7,13 @@
     - "Maps"
   subtitle: "Bibliothek für Karten und Geovisualisierung"
   project_year: ""
+  filter_themen:
+    - GeoVis
+    - Open Source Software
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Forschung
   project_team:
   - /de/people/till-nagel/
   project_website: "http://www.unfoldingmaps.org"

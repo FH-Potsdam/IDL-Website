@@ -9,15 +9,12 @@ excerpt: Online portal for teaching parametric design principles and an introduc
 laufschrift_tags: Computer Aided Design x Interface Design x Product Design x Communication Design x Parametric Design
 project_website: https://parametric-design.fh-potsdam.de
 project_material: ""
-group:
-  - Highlight
-  - Portal
 filter_themen:
-  - Portal
+  - Wissensportal
 filter_services:
-  - Human-Centered Design
+  - UX-Evaluation
 filter_art:
-  - Transfer
+  - Forschung
 project_team_external:
 - name: Jolanta Paliszewska
   url: https://www.vispal.de

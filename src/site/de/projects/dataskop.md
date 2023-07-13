@@ -9,14 +9,13 @@ excerpt: User Interfaces & Visualisierungen zur F√∂rderung von digitaler Souver√
 featured_home: true
 project_website: http://dataskop.net
 project_material: null
-group:
+filter_themen: 
+  - "Dashboard"
+  - InfoVis
+filter_services: 
   - Prototyping
-  - Speculation
-  - Visualization
-filter_themen:
-  - Dashboard
-filter_services:
-  - UI/UX
+filter_art: 
+  - Forschung
 project_team_external: []
 project_team:
   - /de/people/prof-constanze-langer
@@ -24,8 +23,6 @@ project_team:
 slug: dataskop
 thumbnail_id: 541
 related_projects: ""
-filter_art:
-  - Transfer
 project_partners: []
 project_client: []
 project_funding: 

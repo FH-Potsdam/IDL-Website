@@ -3,9 +3,14 @@
   excerpt: "Interaktive Visuailsierungen für ein immersives Displaysystem"
   wp_id: 36
   slug: "powerdome"
-  group: 
-    - "Highlight"
-    - "Visualization"
+  filter_themen:
+    - Interaktion im Raum
+    - Wissensvermittlung
+    - InfoVis
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Forschung
   subtitle: "Interaktive Visuailsierungen für ein immersives Displaysystem"
   project_year: "Since 2009"
   year: 2009
@@ -39,7 +44,7 @@
 ---
 Das Powerdome-System ist das Ergebnis einer einzigartigen Zusammenarbeit zwischen Carl Zeiss Jena, Fraunhofer FIRST und dem Fachgebiet Interface Design der Fachhochschule Potsdam. Es ermöglicht uns, Echtzeitmedien und interaktive Visualisierungen in einer Fulldome-Umgebung zu projizieren. Das System gibt uns die Möglichkeit, neue und innovative interaktive Erfahrungen in einem immersiven Raum zu entwickeln.
 
-Der Powerdome befindet sich im Urania Planetarium in Potsdam. Es bereichert das Spektrum der astronomischen Präsentationen des Planetariums und bietet technische Möglichkeiten, die weit über die Vermittlung astronomischer Inhalte hinausgehen. Seitens der FH Potsdam liegt der Schwerpunkt auf der interaktiven Visualisierung von Informationen und Daten, einem der großen Forschungsgebiete des <strong>IDL // Interaction Design Lab</strong> und der FH Potsdam im Allgemeinen.
+Der Powerdome befindet sich im Urania Planetarium in Potsdam. Es bereichert das Spektrum der astronomischen Präsentationen des Planetariums und bietet technische Möglichkeiten, die weit über die Vermittlung astronomischer Inhalte hinausgehen. Seitens der FH Potsdam liegt der Schwerpunkt auf der interaktiven Visualisierung von Informationen und Daten, einem der großen Forschungsgebiete des **Interaction Design Lab** und der FH Potsdam im Allgemeinen.
 
 Mit einem Kuppelprojektionssystem wie dem Powerdome können sowohl didaktisch-narrative als auch wissenschaftlich-explorative Ziele verfolgt werden. In jedem Fall geht es um die Visualisierung und Vermittlung von komplexem Wissen.
 

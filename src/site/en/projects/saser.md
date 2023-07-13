@@ -3,9 +3,12 @@
   excerpt: "Visualizations for Network Security Dashboards"
   wp_id: 142
   slug: "saser"
-  group: 
-    - "Security"
-    - "Visualization"
+  filter_themen:
+    - InfoVis
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Transfer
   subtitle: "Visualizations for Network Security Dashboards"
   project_year: "2012-2014"
   year: 2012
@@ -41,4 +44,4 @@
   project_client: []
 
 ---
-In the research project SaSER (Safe and Secure European Routing), the **IDL // Interaction Design Lab** is investigating the role of information visualization in supporting security experts’ tasks while monitoring complex computer networks. In close collaboration with security experts, guidelines for information visualization in the area of network security will be developed. A prototype will serve as a tool for evaluating interface design and visualizations in several iterations. Some of the questions we focus on are: What are the limits of automated data analysis and pattern recognition? Where does human visual perception offer an advantage that algorithms can’t provide? On a more abstract level, the application of the developed guidelines to other complex dynamic networks will be explored.
+In the research project SaSER (Safe and Secure European Routing), the **Interaction Design Lab** is investigating the role of information visualization in supporting security experts’ tasks while monitoring complex computer networks. In close collaboration with security experts, guidelines for information visualization in the area of network security will be developed. A prototype will serve as a tool for evaluating interface design and visualizations in several iterations. Some of the questions we focus on are: What are the limits of automated data analysis and pattern recognition? Where does human visual perception offer an advantage that algorithms can’t provide? On a more abstract level, the application of the developed guidelines to other complex dynamic networks will be explored.

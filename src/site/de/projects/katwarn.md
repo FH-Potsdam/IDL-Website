@@ -3,15 +3,16 @@
   excerpt: "Design eines integrierten digitalen multi-modalen Frühwarnsystems."
   wp_id: 185
   slug: "katwarn"
-  group: 
-    - "Maps"
-    - "Mobile"
   filter_themen: 
-    - "App Design"
+    - GeoVis
+    - InfoVis
+    - Wissensportal
+    - Mobile
   filter_services: 
-    - "UI/UX"
-  filter_art: 
-    - "Transfer"
+    - Prototyping
+    - UX-Evaluation
+  filter_art:
+    - Transfer
   subtitle: "Frühwarnsysteme"
   project_year: "2013 - 2015"
   year: 2013
@@ -43,7 +44,7 @@ Moderne digitale Dienste müssen so konzipiert und gebaut werden, dass sie auf v
 
 ![](/images/uploads/katwarn-1-1200.jpg)
 
-Seit 2013 unterstützen das IDL Fraunhofer Fokus beim Aufbau eines integrierten und benutzerfreundlichen Designsystems über eine Vielzahl von Ökosystemen hinweg. Von iOS-Geräten über Android und Windows Phone bis hin zu Smart Watches wie der Apple Watch und Public Displays unterschiedlicher Größen. Jede Infrastruktur hat seine eigene Designmethodik und Anforderungen, an die Designs angepasst werden müssen, während die Designidentität des Systems beibehalten wird.
+Seit 2013 unterstützen das **Interaction Design Lab** Fraunhofer Fokus beim Aufbau eines integrierten und benutzerfreundlichen Designsystems über eine Vielzahl von Ökosystemen hinweg. Von iOS-Geräten über Android und Windows Phone bis hin zu Smart Watches wie der Apple Watch und Public Displays unterschiedlicher Größen. Jede Infrastruktur hat seine eigene Designmethodik und Anforderungen, an die Designs angepasst werden müssen, während die Designidentität des Systems beibehalten wird.
 
 ![](/images/uploads/katwarn-3-1200.jpg)
 

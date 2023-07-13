@@ -1,6 +1,6 @@
 ---
   name: "Edmundo Galindo"
-  excerpt: "Edmundo Galindo ist studentischer Mitarbeiter am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
+  excerpt: "Edmundo Galindo ist studentischer Mitarbeiter am Interaction Design Lab der Fachhochschule Potsdam."
   wp_id: 430
   slug: "edmundo-galindo"
   group: "Past Students"
@@ -14,4 +14,4 @@
   sort_name: "Galindo"
 
 ---
-Edmundo joined the IDL and the team of the DIGENTI project in 2017.
+Edmundo joined the **Interaction Design Lab** and the team of the DIGENTI project in 2017.

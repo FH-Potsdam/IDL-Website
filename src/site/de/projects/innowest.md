@@ -13,9 +13,13 @@ group:
   - Highlight
   - Portal
 filter_themen:
-  - Portal
+  - GeoVis
+  - InfoVis
+  - Wissensportal
 filter_services:
-  - Human-Centered Design
+  - User Research
+  - UX-Evaluation
+  - Prototyping
 filter_art:
   - Forschung
 project_team_external:

@@ -6,15 +6,17 @@ project_year: 2011 - 2015
 year: 2011
 thumbnail: /images/uploads/polizei-teaser2.jpg
 excerpt: "UX/UI Design for a Government Portal"
-featured_home: true
+featured_home: false
 project_website: https://polizei.brandenburg.de
 project_material: ""
-group: null
 filter_themen:
-  - Portal
+  - Wissensportal
 filter_services:
-  - UI/UX
-  - Human-Centered Design
+  - UX-Evaluation
+  - User-Research
+  - Prototyping
+filter_art:
+  - Transfer
 project_team_external:
   - name: Gerhard Schmal
   - name: Sarah Matzke
@@ -25,8 +27,6 @@ project_team:
 slug: brandenburg-police
 thumbnail_id: 247
 related_projects: ""
-filter_art:
-  - Transfer
 project_partners:
   - name: Raureif
     url: http://raureif.net
@@ -38,7 +38,7 @@ project_client:
 project_funding: []
 related_publications: []
 ---
-In 2011, the **IDL // Interaction Design Lab** was commissioned to guide the state police of Brandenburg through the redesign process of their online communication portal. The project started with the initial usability studies of the existing portal, continued with an analysis of their target audiences and resulted in the redesign of the corporate design - including an overhaul of the logo, typography and color palette. All efforts are integrated in the final redesign of the overall web portal.
+In 2011, the **Interaction Design Lab** was commissioned to guide the state police of Brandenburg through the redesign process of their online communication portal. The project started with the initial usability studies of the existing portal, continued with an analysis of their target audiences and resulted in the redesign of the corporate design - including an overhaul of the logo, typography and color palette. All efforts are integrated in the final redesign of the overall web portal.
 
 ![](/images/uploads/bildschirmfoto-2015-12-21-um-18.18.43.png)
 

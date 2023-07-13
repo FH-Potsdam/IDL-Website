@@ -3,9 +3,15 @@
   excerpt: "Portaldesign und Visualisierungen für das Land Rheinland-Pfalz"
   wp_id: 253
   slug: "energy-atlas-rheinland-pfalz"
-  group: 
-    - "Maps"
-    - "Visualization"
+  filter_themen:
+    - Wissensportal
+    - GeoVis
+    - InfoVis
+  filter_services:
+    - UX-Evaluation
+    - Prototyping
+  filter_art:
+    - Transfer
   subtitle: "Portaldesign und Visualisierungen für das Land Rheinland-Pfalz"
   project_year: 2015
   year: 2015
@@ -34,4 +40,4 @@ Mit der Umsetzung des Energieatlasses bleibt die Energiewende in Rheinland-Pfalz
 
 Die Energieagentur Rheinland-Pfalz unterstützt mit dem Energieatlas Rheinland-Pfalz Kommunen und öffentliche Einrichtungen, Unternehmen und Bürgerinnen und Bürger bei der Umsetzung ihrer Aktivitäten zur Energiewende in Rheinland-Pfalz. Die Hauptaufgabe liegt in der Information und Initiierung von Projekten in den Bereichen Erneuerbare Energien, Energieeffizienz und Energiesparen.
 
-Das IDL // Interaction Design Lab war in dem knapp 1-jährigen Kooperationsprojekt mit der DELPHI IMM GmbH in der ersten Projektphase verantwortlich für die Entwicklung einer aufgabenangemessenen Informationsarchitektur sowie eines nutzerzentrierten Navigationskonzeptes. In der zweiten Projektphase wurde das gesamte responsive Webdesign inklusive Kartengestaltung und Karteninteraktion entwickelt, gestaltet und in einem Styleguide dokumentiert. Zur Sicherstellung der geforderten hohen Usability und User Experience hat das IDL darüber hinaus im Rahmen des Projektes einen Usability Tests mit Blickbewegungsregistrierung durchgeführt.
+Das **Interaction Design Lab** war in dem knapp 1-jährigen Kooperationsprojekt mit der DELPHI IMM GmbH in der ersten Projektphase verantwortlich für die Entwicklung einer aufgabenangemessenen Informationsarchitektur sowie eines nutzerzentrierten Navigationskonzeptes. In der zweiten Projektphase wurde das gesamte responsive Webdesign inklusive Kartengestaltung und Karteninteraktion entwickelt, gestaltet und in einem Styleguide dokumentiert. Zur Sicherstellung der geforderten hohen Usability und User Experience hat das **Interaction Design Lab** darüber hinaus im Rahmen des Projektes einen Usability Tests mit Blickbewegungsregistrierung durchgeführt.

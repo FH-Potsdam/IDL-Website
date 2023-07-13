@@ -1,6 +1,6 @@
 ---
   name: "Paul Morat"
-  excerpt: "Paul is a research assistant at the Interaction Design Lab (IDL) of the University of Applied Sciences Potsdam."
+  excerpt: "Paul is a research assistant at the Interaction Design Lab of the University of Applied Sciences Potsdam."
   wp_id: 535
   slug: "paul-morat"
   group: "Past Students"

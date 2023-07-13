@@ -14,7 +14,7 @@
   sort_name: "Renner"
 
 ---
-Christin is a Research Associate at the Interaction Design Lab (IDL) at the University of Applied Sciences Potsdam.
+Christin is a Research Associate at the Interaction Design Lab at the University of Applied Sciences Potsdam.
 
 Christin was already involved in the research field of <i>human-technology-interaction</i> during her studies at the University of Applied Sciences Potsdam. In 2016, she completed her bachelor's degree in communication design with honor. Her thesis was devoted to the social changes that go hand in hand with the increasing acceleration of our pace of life and the question of how design can make a contribution to making these changes visible. She deepened her studies with a Master of Arts in Interface Design at the University of Applied Sciences Potsdam in 2018. In her thesis, she examined how the increasing digitalization of our everyday life is fundamentally changing our society.
 

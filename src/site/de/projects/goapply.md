@@ -9,14 +9,11 @@ excerpt: TODO TODO
 laufschrift_tags: Datenvisualisierung x Wissenschaftskommunikation
 project_website: https://www.wsl.ch/gov-vis-cca/
 project_material: ""
-group:
-  - Platform
 filter_themen:
-  - Portal
+  - Wissensportal
   - InfoVis
 filter_services:
-  - Human-Centered Design
-  - UI/UX
+  - UX-Evaluation
 filter_art:
   - Transfer
 project_team_external:

@@ -1,6 +1,6 @@
 ---
   name: "Rahel Flechtner"
-  excerpt: "Rahel ist wissenschaftliche Mitarbeiterin am Interaction Design Lab (IDL) der Fachhochschule Potsdam."
+  excerpt: "Rahel ist wissenschaftliche Mitarbeiterin am Interaction Design Lab der Fachhochschule Potsdam."
   wp_id: 538
   slug: "rahel-flechtner"
   group: "Past Members"

@@ -7,6 +7,13 @@
     - "Maps"
   subtitle: "Map & Geovisualization Library"
   project_year: ""
+  filter_themen:
+    - GeoVis
+    - Open Source Software
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Forschung
   project_team:
     - /en/people/till-nagel/
   project_website: "http://www.unfoldingmaps.org"
@@ -25,7 +32,7 @@
 ---
 Unfolding is a Processing and Java library that enables the creation of interactive thematic maps and geovisualizations.
 
-The library was developed at the <strong>IDL // Interaction Design Lab</strong>, FH Potsdam and at the KU Leuven, and is used in classes, as well as in research and commercial projects. The aim of the toolkit is to enable interaction designers, visualization experts, and others to easily create interactive geographic maps.
+The library was developed at the **Interaction Design Lab**, FH Potsdam and at the KU Leuven, and is used in classes, as well as in research and commercial projects. The aim of the toolkit is to enable interaction designers, visualization experts, and others to easily create interactive geographic maps.
 
 Some of the features include
 
