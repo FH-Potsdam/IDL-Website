@@ -1,32 +1,33 @@
 ---
 name: Umweltberichterstattung
-featured_home: false
-subtitle: Systemische und Innovative Ansätze
 project_year: 2019 – 2021
-year: 2019
-thumbnail: /images/uploads/UBA_Systemische-Umweltberichterstattung.png
-excerpt: TODO TODO
+excerpt: Konzeption, Gestaltung und Evaluation interaktiver Visualisierungen zur
+  Erfahrbarmachung systemischer Zusammenhänge von Umweltthemen
 laufschrift_tags: Datenvisualisierung x Wissenschaftskommunikation
-project_website: "https://www.umweltbundesamt.de/daten/zusammenhaenge-erkunden"
-project_material: ""
-filter_themen:
-  - Wissensportal
-  - InfoVis
 filter_services:
   - UX-Evaluation
-filter_art:
-  - Transfer
 project_team_external:
   - name: DELPHI IMM GmbH
   - name: Studio NAND GmbH
-project_client:
-  - name: Umweltbundesamt
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/paula-schuster/
 slug: umweltberichterstattung
-related_publications: 
-  - "/publications/systemische-und-innovative-ansaetze-fuer-die-umweltberichterstattung"
+subtitle: Systemische und Innovative Ansätze
+year: 2019
+thumbnail: /images/uploads/UBA_Systemische-Umweltberichterstattung.png
+featured_home: false
+project_website: https://www.umweltbundesamt.de/daten/zusammenhaenge-erkunden
+project_material: ""
+filter_themen:
+  - Wissensportal
+  - InfoVis
+filter_art:
+  - Transfer
+project_client:
+  - name: Umweltbundesamt
+related_publications:
+  - /publications/systemische-und-innovative-ansaetze-fuer-die-umweltberichterstattung
 ---
 Im Fokus dieses Vorhabens stand die Entwicklung von innovativen und systemischen Produkten für die Bereitstellung von Umweltinformationen, um den Zugang zu Umweltthemen zu erweitern sowie verschiedene Nutzergruppen besser zu adressieren. Dazu wurden der Bedarf und die Möglichkeiten, auch anhand von Best-Practice Beispielen, ermittelt. Unterstützt wurde die Bedarfsermittlung durch einen Co-Design-Workshop, im dem heterogene Nutzer*innengruppen in einem Kreativprozess ihre Anforderungen grafisch aufbereitet haben.
 
