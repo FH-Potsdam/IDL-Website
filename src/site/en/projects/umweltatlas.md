@@ -1,30 +1,30 @@
 ---
 name: Relaunch Environmental Atlas Berlin
-featured_home: false
-subtitle: Evaluation & Testing
 project_year: 2019 - 2021
+excerpt: Concept development and UX evaluation "Redesign Environmental Atlas Berlin"
+laufschrift_tags: Eye Tracking, Usability Testing, Evaluation, Platform
+filter_services:
+  - UX-Evaluation
+project_team_external:
+  - name: DELPHI IMM
+    url: https://www.delphi-imm.de/de/startseite/
+project_team:
+  - /en/people/frank-heidmann/
+slug: umweltatlas
+subtitle: Evaluation & Testing
 year: 2019
 thumbnail: /images/uploads/umweltatlas-berlin.jpg
-excerpt: TODO TODO
-laufschrift_tags: Eye Tracking, Usability Testing, Evaluation, Platform
+featured_home: false
 project_website: https://www.berlin.de/umweltatlas/
 project_material: ""
 filter_themen:
   - Wissensportal
   - InfoVis
   - Eye-Tracking
-filter_services:
-  - UX-Evaluation
 filter_art:
   - Transfer
-project_team_external:
-  - name: DELPHI IMM
-    url: https://www.delphi-imm.de/de/startseite/
 project_client:
   - name: Senate Department for Urban Development and Housing Berlin
-project_team:
-  - /en/people/frank-heidmann/
-slug: umweltatlas
 related_publications: []
 ---
 The Environmental Atlas Berlin offers not only a central access point, but also an extensive collection of environmental information. It contains diverse topics (e.g. on climate change, soil, water, air, land use) from different years, in different presentation formats (text, map, graphic, table, audio, video).
