@@ -1,28 +1,28 @@
 ---
 name: Schul-Cloud
-featured_home: false
-subtitle: Expert Screening
 project_year: 2018
+excerpt: User Experience (UX) Expert Screening »Schul-Cloud«
+laufschrift_tags: UX & Service Design X Usability X UX Evaluation
+filter_services:
+  - UX-Evaluation
+project_team_external: []
+project_team:
+  - /de/people/frank-heidmann/
+  - /de/people/jens-rauenbusch/
+slug: schulcloud
+subtitle: Expert Screening
 year: 2018
 thumbnail: /images/uploads/Projekt_SchulCloud.jpg
-excerpt: TODO TODO
-laufschrift_tags: UX & Service Design X Usability X UX Evaluation
+featured_home: false
 project_website: ""
 project_material: ""
 filter_themen:
   - Wissensportal
   - Eye-Tracking
-filter_services:
-  - UX-Evaluation
 filter_art:
   - Transfer
-project_team_external: []
 project_client:
   - name: Hasso-Plattner-Institut für Digital Engineering gGmbH
-project_team:
-  - /de/people/frank-heidmann/
-  - /de/people/jens-rauenbusch/
-slug: schulcloud
 related_publications: []
 ---
 Das Hasso-Plattner-Institut für Digital Engineering (HPI) entwickelt zusammen mit MINT-EC, dem nationalen Excellence-Schulnetzwerk von über 300 Schulen bundesweit und unterstützt vom Bundesministerium für Bildung und Forschung eine Schul-Cloud. Die Schul-Cloud soll die technische Grundlage schaffen, dass Lehrkräfte und Schüler*innen in jedem Unterrichtsfach auch moderne digitale Lehr- und Lerninhalte nutzen können, und zwar so, wie Apps über Smartphones oder Tablets nutzbar sind.
