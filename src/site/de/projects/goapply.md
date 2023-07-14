@@ -1,29 +1,30 @@
 ---
 name: GoApply
-featured_home: false
-subtitle: Governance der Klimaanpassung im Alpenraum
 project_year: 2017 – 2019
+excerpt: Konzeption, Gestaltung und Realisierung einer interaktiven Datengrafik
+  (Governance Mapping) zum Thema »Climate Change Adaptation«
+laufschrift_tags: Datenvisualisierung x Wissenschaftskommunikation
+filter_services:
+  - UX-Evaluation
+project_team_external:
+  - name: Mark-Jan Bludau
+project_team:
+  - /de/people/frank-heidmann/
+  - /de/people/edmudo-galindo/
+slug: goapply
+subtitle: Governance der Klimaanpassung im Alpenraum
 year: 2017
 thumbnail: /images/uploads/Projekt_GoApply_1.png
-excerpt: TODO TODO
-laufschrift_tags: Datenvisualisierung x Wissenschaftskommunikation
+featured_home: false
 project_website: https://www.wsl.ch/gov-vis-cca/
 project_material: ""
 filter_themen:
   - Wissensportal
   - InfoVis
-filter_services:
-  - UX-Evaluation
 filter_art:
   - Transfer
-project_team_external:
-  - name: Mark-Jan Bludau
 project_client:
   - name: Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft WSL
-project_team:
-  - /de/people/frank-heidmann/
-  - /de/people/edmudo-galindo/
-slug: goapply
 related_publications:
   - /publications/Mapping-Governance-of-Adaptation-to-Climate-Change-in-Switzerland/
 ---
