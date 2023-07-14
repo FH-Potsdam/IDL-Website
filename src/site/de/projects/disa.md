@@ -1,43 +1,41 @@
 ---
-  name: DISA
-  excerpt: "Digitale Inklusion im Kontext sozialer Angststörungen"
-  slug: "disa"
-  filter_themen:
-    - Extended Reality
-  filter_services:
-    - UX-Evaluation
-    - Prototyping
-    - Speculative Design
-  filter_art:
-    - Forschung
-  subtitle: "Digitale Inklusion im Kontext sozialer Angststörungen"
-  project_year: "2018 – 2021"
-  year: 2018
-  project_team:
+name: DISA
+project_year: 2018 – 2021
+excerpt: Digitale Inklusion im Kontext sozialer Angststörungen
+filter_services:
+  - UX-Evaluation
+  - Prototyping
+  - Speculative Design
+  - User Research
+project_team_external:
+  - name: Prof. Dr. Judith Ackermann
+  - name: Leyla Dewitz
+  - name: Rahel Maué
+project_team:
   - /de/people/frank-heidmann
   - /de/people/jordi-tost
   - /de/people/paula-schuster
   - /de/people/rahel-flechtner
-  project_website: ""
-  project_material: ""
-  related_publications: []
-  related_projects: ""
-  thumbnail_id: 494
-  featured_home: true
-  thumbnail: /images/disa.jpg
-  project_partners: 
-    - 
-      name: "Bundesverband der Selbsthilfe Soziale Phobie (VSSP e.V.)"
-      url: "https://www.vssp.de/"
-
-  project_team_external:
-    - name: Prof. Dr. Judith Ackermann
-    - name: Leyla Dewitz
-    - name: Rahel Maué
-  project_funding:
-    - name: Bundesministerium für Bildung und Forschung (BMBF)
-  project_client: []
-
+slug: disa
+thumbnail: /images/disa.jpg
+project_material: ""
+filter_themen:
+  - Extended Reality
+thumbnail_id: 494
+related_projects: ""
+subtitle: Digitale Inklusion im Kontext sozialer Angststörungen
+year: 2018
+featured_home: true
+project_website: https://disa.fh-potsdam.de/
+filter_art:
+  - Forschung
+project_partners:
+  - name: Bundesverband der Selbsthilfe Soziale Phobie (VSSP e.V.)
+    url: https://www.vssp.de/
+project_client: []
+project_funding:
+  - name: Bundesministerium für Bildung und Forschung (BMBF)
+related_publications: []
 ---
 Wir entwickeln gemeinsam mit betroffenen Menschen technologiegestützte Möglichkeiten, um soziale Angst in Alltagssituationen selbstbestimmt zu bewältigen. Dazu kooperiert DISA mit dem national tätigen Bundesverband der Selbsthilfe Soziale Phobie (VSSP e.V.). Gefördert wird das Projekt durch das Bundesministerium für Bildung und Forschung (BMBF).
 
