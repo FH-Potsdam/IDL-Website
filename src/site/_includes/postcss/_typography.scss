@@ -119,6 +119,8 @@ h1 {
   @media screen and (min-width: 87.5em) {
     font-size: 86px;
   }
+  a, a:visited{color:black}
+  a:hover{color:var(--idl-brand-color);}
 }
 
 h2 {

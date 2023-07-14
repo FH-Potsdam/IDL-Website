@@ -9,7 +9,7 @@ laufschrift_black: Talente gesucht × Talente gesucht × Talente gesucht × Tale
 
 Das Interaction Design Lab sucht <b>StudentInnen &amp; AbsolventInnen</b> aus den Bereichen <b>UX/UI-, Kommunikations- und Interfacedesign sowie Geo- und Informationsvisualisierung</b> für die gestalterische und konzeptionelle Mitarbeit in Projekten angewandter Forschung (i.d.R. auf Werkvertragsbasis) oder für die Bearbeitung von spannenden Forschungsfragen im Rahmen von Bachelor- und Masterarbeiten. Programmiererfahrungen werden nicht vorausgesetzt.
 
-Bei Interesse schick dein Portfolio an: <a href="mailto:idl@fh-potsdam.de">idl@fh-potsdam.de</a>
+Bei Interesse schick dein Portfolio an: <a href="mailto:ux.idl@fh-potsdam.de">ux.idl@fh-potsdam.de</a>
 
 <figure class="center">
   <img src="/images/jobs.jpeg" alt="Jobs beim Interaction Design Lab">

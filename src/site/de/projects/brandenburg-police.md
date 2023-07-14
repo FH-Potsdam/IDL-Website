@@ -6,7 +6,7 @@ project_year: 2011-2015
 year: 2011
 thumbnail: /images/uploads/polizei-teaser2.jpg
 excerpt: "UX/UI Design für ein staatliches Internet-Portal"
-featured_home: true
+featured_home: false
 project_website: https://polizei.brandenburg.de
 project_material: ""
 filter_themen:

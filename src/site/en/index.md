@@ -5,7 +5,7 @@ excerpt: The Interaction Design Lab is the research laboratory of the Interface 
 layout: layouts/home.njk
 ---
 
-# The <span class="highlight">Interaction Design Lab</span> is the research laboratory of the Interface Design Programme at the University of Applied Sciences in Potsdam, Germany. 
+# The <span class="highlight">Interaction Design Lab</span> is the research laboratory of the <a href="https://www.fh-potsdam.de/studium-weiterbildung/studiengaenge/interfacedesign-b" style="color:black;">Interface Design Programme</a> at the University of Applied Sciences in Potsdam, Germany. 
 
 The lab is a space for international interaction design experts from industry and academia. It provides an interface between education, research and development, transfer of technology, design and knowledge and creates a space for multidisciplinary projects.
 

@@ -30,6 +30,8 @@ footer {
 
 .legal-container {
   width: 100%;
+  display:flex;
+  flex-direction: column;
 
   @media screen and (min-width: 64rem) {
     width: 50%;
@@ -37,16 +39,15 @@ footer {
 
   a {
     color: #000;
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
     padding-bottom: 1rem;
     display: inline-block;
     &:hover {
       color: var(--idl-brand-color);
-      padding-bottom: 0.5rem;
     }
   }
 
-  ul {
+  ul, p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
