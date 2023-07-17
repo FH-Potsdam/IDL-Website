@@ -1,5 +1,5 @@
 ---
-name: Umweltberichterstattung
+name: "Umweltbericht&shy;erstattung"
 project_year: 2019 – 2021
 excerpt: Konzeption, Gestaltung und Evaluation interaktiver Visualisierungen zur
   Erfahrbarmachung systemischer Zusammenhänge von Umweltthemen
