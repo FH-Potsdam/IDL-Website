@@ -1,6 +1,6 @@
 ---
   name: "KatWarn"
-  excerpt: "Design eines integrierten digitalen multi-modalen Frühwarnsystems."
+  excerpt: "Design eines integrierten digitalen multi-modalen Frühwarn&shy;systems."
   wp_id: 185
   slug: "katwarn"
   filter_themen: 
