@@ -10,7 +10,8 @@
   twitter: ""
   laufschrift_tags: "Virtual Reality x Augmented Reality x Evaluation x Physical Computing"
   thumbnail_id: null
-  publications: []
+  image_link: /images/yin-w-boribun.jpeg
+  publications: /images/yin-w-boribun.jpeg
   sort_name: "Boribun"
 ---
 Yin bezeichnet sich selbst als leidenschaftlicher Human-Computer Interaction-Designer und -Forscher. Mit einem Bachelor-Abschluss in Game Design (HTW Berlin) und mehr als 7 Jahren Erfahrung als Senior Intermedia Designer verfügt er über ein breites Spektrum an Fähigkeiten, einschließlich der Gestaltung von nutzerzentrierten Anwendungen, der Schaffung von immersiven Erfahrungen im digitalen Bereich und der Entwicklung innovativer Interaktionsmethoden.

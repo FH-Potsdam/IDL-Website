@@ -9,7 +9,8 @@
   email: "yin.boribun@fh-potsdam.de"
   twitter: ""
   laufschrift_tags: "Virtual Reality x Augmented Reality x Evaluation x Physical Computing"
-  thumbnail_id: null
+  thumbnail_id: /images/yin-w-boribun.jpeg
+  image_link: /images/yin-w-boribun.jpeg
   publications: []
   sort_name: "Boribun"
 ---
