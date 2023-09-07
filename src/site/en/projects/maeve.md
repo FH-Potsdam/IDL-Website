@@ -17,7 +17,7 @@
   year: 2009
   project_team: 
     - /de/people/till-nagel
-    - /de/people/boris-mueller
+    - /de/people/prof-boris-muller
     - 34
     - 38
   project_website: "http://interface.fh-potsdam.de/maeve/"
