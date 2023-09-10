@@ -6,7 +6,7 @@
 {% set projects = collections.projects_de %}
 {% else %}
 {% set people = collections.people_en %}
-{% set projects = collections.projects_de %}
+{% set projects = collections.projects_en %}
 {% endif %}
 
 {% set lang = page.url.slice(1, 3) %}
@@ -37,7 +37,7 @@
   </div>
 
   <div class="filter-group">
-  Art
+  {% if locale == "de" %}Art{% else %}Kind{% endif %}
     <div class="button-group | js-filter-button-group">
       <button class="selectArt filterButtons | js-button active" value="">{% if locale == "de" %}Alle{% else %}All{% endif %}</button>
       <button class="selectArt filterButtons | js-button" value="forschung">{% if locale == "de" %}Forschung{% else %}Research{% endif %}</button>

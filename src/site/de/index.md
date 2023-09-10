@@ -5,8 +5,8 @@ excerpt: Das Interaction Design Lab ist die Forschungseinrichtung des Studiengan
 layout: layouts/home.njk
 redirect_from:
   - /index
-laufschrift_green: Test x Test x Test
-laufschrift_black: Test x Test x Test
+laufschrift_black: Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × Interaction × Design × Lab × 
+laufschrift_green: Forschende × Designende × Lehrende × Studierende × Forschende × Designende × Lehrende × Studierende × 
 ---
 
 

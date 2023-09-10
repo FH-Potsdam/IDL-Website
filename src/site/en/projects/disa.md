@@ -1,6 +1,6 @@
 ---
   name: DISA
-  excerpt: "Digitale Inklusion im Kontext sozialer Angststörungen"
+  excerpt: "Digital inclusion in the context of social anxiety disorders"
   slug: "disa"
   filter_themen:
     - Extended Reality
@@ -10,7 +10,7 @@
     - Speculative Design
   filter_art:
     - Forschung
-  subtitle: "Digitale Inklusion im Kontext sozialer Angststörungen"
+  subtitle: "Digital inclusion in the context of social anxiety disorders"
   project_year: "2018 – 2021"
   year: 2018
   project_team:
@@ -39,6 +39,6 @@
   project_client: []
 
 ---
-Wir entwickeln gemeinsam mit betroffenen Menschen technologiegestützte Möglichkeiten, um soziale Angst in Alltagssituationen selbstbestimmt zu bewältigen. Dazu kooperiert DISA mit dem national tätigen Bundesverband der Selbsthilfe Soziale Phobie (VSSP e.V.). Gefördert wird das Projekt durch das Bundesministerium für Bildung und Forschung (BMBF).
+Together with the people affected, we are developing technology-based ways of resolutely tackling social fear in everyday situations. To this end, DISA cooperates with the national Association of self-help (VSSP e. V.). The project is being funded by the Federal Ministry of Education and Research (BMBF).
 
-Im Fokus unseres Vorhabens steht die breite und durchaus heterogene Gruppe von Menschen, die an einer sozialen Angststörung leiden und Schwierigkeiten bei einer gesellschaftlichen Anbindung haben. DISA entwickelt basierend auf sozialen Bedürfnissen technologische Unterstützungsmöglichkeiten, die zur Linderung eines empfundenen Leidensdrucks oder als Mittel zur Selbststeuerung oder -kontrolle eingesetzt werden können. Ziel ist es, dass Personen mit sozialer Angststörung technologiegestützt eine stärkere soziale Teilhabe erleben. Darüber hinaus erproben wir, wie technologisch-vermittelt eine Sensibilisierung und ein Bewusstsein für sozial-ängstliche Menschen an nicht direkt betroffene Menschen vermittelt werden kann. Ziel ist die wirksame Unterstützung der Selbsthilfe, die zusätzlich zu einem therapeutischen Setting eingesetzt werden kann, um sinnstiftende Erfahrungen zu fördern und soziale Interaktionen zu stabilisieren.
+Our project focuses on the broad and indeed heterogeneous group of people who suffer from a social anxiety disorder and have difficulties connecting to society. Based on social needs, DISA develops technological support options that can be used to alleviate perceived pressures of suffering or as a means of self-steering or control. The aim is for people with a social anxiety to experience greater social participation based on technology. We are also testing how to convey awareness-raising and awareness of people who are socially and fearful to people who are not directly affected. The aim is to provide effective support for self-help, which can be used in addition to therapeutic setting in order to promote meaningful experiences and stabilise social interaction.
