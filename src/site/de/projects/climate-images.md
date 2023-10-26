@@ -19,7 +19,8 @@
     - /de/people/sebastian-meier
   project_website: "https://anci.fh-potsdam.de"
   project_material: ""
-  related_publications: []
+  related_publications: 
+    - /publications/interpreting-climate-images
   related_projects: ""
   thumbnail_id: 443
   featured_home: true
