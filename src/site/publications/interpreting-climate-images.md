@@ -4,13 +4,13 @@
   year: 2023
   authors: 
     - 
-      name: "Schneider, Birgit"
+      name: "Birgit Schneider"
     - 
-      name: "Nocke, Thomas"
+      name: "Thomas Nocke"
     - 
       internal_author_de: "/de/people/paul-heinicker"
       internal_author_en: "/en/people/paul-heinicker"
     - 
-      name: "Kienbaum, Jana"
+      name: "Jana Kienbaum"
   outlet: "in Mixing Methods, Transcript Verlag, Bielefeld University Press. https://www.transcript-open.de/isbn/6913"
   body: ""
