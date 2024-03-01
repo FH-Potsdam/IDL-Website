@@ -1,5 +1,5 @@
 backend:
-  name: github # git-gateway
+  name: git-gateway # github
   branch: static-rewrite
   repo: fh-potsdam/IDL-Website
 publish_mode: editorial_workflow
