@@ -21,9 +21,9 @@
 </div>
 
 {#
-<h1>{{name[locale]}}</h1>
-{% if subtitle[locale] %}<h2>{{subtitle[locale]}}</h2>{% endif %}
-{% if excerpt[locale] %}<p>{{excerpt[locale]}}</p>{% endif %}
+<h1>{{name[locale] | safe}}</h1>
+{% if subtitle[locale] %}<h2>{{subtitle[locale] | safe}}</h2>{% endif %}
+{% if excerpt[locale] %}<p>{{excerpt[locale] | safe}}</p>{% endif %}
 #}
 
 {% if thumbnail %}
