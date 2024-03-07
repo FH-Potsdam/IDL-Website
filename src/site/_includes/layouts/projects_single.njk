@@ -10,7 +10,7 @@
 {% endif %}
 
 <div class="intro-container projectdetail max-width">
-  <h1>{{name}}</h1>
+  <h1>{{name | safe}}</h1>
 
    {% if excerpt %}
   <div class="intro">
