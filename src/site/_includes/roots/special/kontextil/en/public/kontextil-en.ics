@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:kontextil-3274z2342hd
+DTSTAMP:20240312T120000Z
+DTSTART:20240326T160000Z
+DTEND:20240326T190000Z
+SUMMARY:KONTEXTIL – Textile perspectives on Brandenburg
+DESCRIPTION:The exhibition "KONTEXTIL - Textile Impressionen auf Brandenburg" uses freely available data about the state of Brandenburg, which was woven into aesthetic data visualizations as part of a design course at the Potsdam University of Applied Sciences.
+LOCATION:Präsenzstelle Luckenwalde\nBeelitzer Strasse 24\n14943 Luckenwalde
+GEO:52.09232620045678, 13.173103157672752
+URL:https://idl.fh-potsdam.de/de/kontextil
+END:VEVENT
+END:VCALENDAR

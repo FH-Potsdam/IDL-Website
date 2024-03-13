@@ -2,28 +2,28 @@
 layout: layouts/blank.njk
 ---
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KONTEXTIL – Textile perspektiven auf Brandenburg</title>
-    <meta description="Die Ausstellung »KONTEXTIL — Textile Perspektiven auf Brandenburg« nutzt frei verfügbare Daten über das Land Brandenburg, welche im Rahmen eines Designkurses an der Fachhochschule Potsdam zu ästhetischen Datenvisualisierungen verwoben wurden. Dabei galt es, die physischen Möglichkeiten von Datenvisualisierungen zu explorieren und unterschiedliche Methoden der Darstellung auszuloten.">
-    <link rel="stylesheet" href="/special/kontextil/de/styles.css">
-    <script src="/special/kontextil/de/functions.js" defer></script>
+    <title>KONTEXTIL – Textile perspectives on Brandenburg</title>
+    <meta description='The exhibition "KONTEXTIL - Textile Impressionen auf Brandenburg" uses freely available data about the state of Brandenburg, which was woven into aesthetic data visualizations as part of a design course at the Potsdam University of Applied Sciences.'>
+    <link rel="stylesheet" href="/special/kontextil/en/styles.css">
+    <script src="/special/kontextil/en/functions.js" defer></script>
 </head>
 <body>
     <header>
         <div>
-            <img src="/special/kontextil/de/public/fhp-logo.png" alt="Logo of the Fachhochschule Potsdam" />
+            <img src="/special/kontextil/en/public/fhp-logo.png" alt="Logo of the Fachhochschule Potsdam" />
             <p>
-                Eine Ausstellung der Fachhochschule Potsdam,<br/>
+                An exhibition by Fachhochschule Potsdam,<br/>
                 Fachbereich Design, 2024
             </p>
         </div>
         <div>
-            <p class="active">deutsch</p>
+            <a href="/de/kontextil">deutsch</a>
             <p>/</p>
-            <a href="/en/kontextil">englisch</a>
+            <p class="active">englisch</p>
         </div>
     </header>
     <section id="hero" class="container">
@@ -31,41 +31,41 @@ layout: layouts/blank.njk
         </div>
         <h1 class="title">Kontextil</h1>
         <h2 class="subtitle">
-            <span>Textile Perspektiven</span>
-            <span>auf Brandenburg</span>
+            <span>textile perspectives</span>
+            <span>on Brandenburg</span>
         </h2>
         <div class="card">
-            <p>Nächste Ausstellung</p>
-            <p class="title">Wann? Wo?</p>
+            <p>Next exhibition</p>
+            <p class="title">When? Where?</p>
             <p>26.03.2024<br/>
-            17:00 Uhr – 20:00 Uhr</p>
+            5:00 – 8:00 pm</p>
             <p>
                 Präsenzstelle Luckenwalde<br/>
                 Beelitzer Strasse 24<br/>
                 14943 Luckenwalde<br/>
             </p>
-            <a href="/special/kontextil/de/public/kontextil-de.ics" download="kontextil-de.ics">Im Kalendar speichern</a>
+            <a href="/special/kontextil/en/public/kontextil-de.ics" download="kontextil-de.ics">Save to calendar</a>
         </div>
     </section>
     <section id="description" class="container">
         <div id="lead" class="text" >
-            <h3>Leitung</h3>
+            <h3>Lead</h3>
             <p>Prof. Constanze Langer</p>
             <p>Prof. Dr. Sebastian Meier</p>
         </div>
         <p class="text">
-            Die Ausstellung »KONTEXTIL — Textile Perspektiven auf Brandenburg« nutzt frei verfügbare Daten über das Land Brandenburg, welche im Rahmen eines Designkurses an der Fachhochschule Potsdam zu ästhetischen Datenvisualisierungen verwoben wurden. Dabei galt es, die physischen Möglichkeiten von Datenvisualisierungen zu explorieren und unterschiedliche Methoden der Darstellung auszuloten. 
+            The exhibition "KONTEXTIL - Textile Impressionen auf Brandenburg" uses freely available data about the state of Brandenburg, which was woven into aesthetic data visualizations as part of a design course at the Potsdam University of Applied Sciences. The aim was to explore the physical possibilities of data visualizations and to sound out different methods of representation.
             <br/><br/>
-            Mit Stickmaschinen, Webstühlen, per Hand und durch diverse textile Materialien wurden Themen aus Politik, Umwelt und Gesellschaft umgesetzt und neue Blickwinkel auf Brandenburg kreiert. Dies reicht von politisch-gesellschaftlichen Themen wie der ärztlichen Versorgung, Immobilien, Bundestagswahlen und sorbischer Kultur bis zu Umweltthemen wie Lichtverschmutzung, sinkende Wasserspiegel, Moore, Weinberge und illegale Mülldeponien im Land.
+            Using embroidery machines, looms, by hand and various textile materials, topics from politics, the environment and society were implemented and new perspectives on Brandenburg were created. This ranges from political and social topics such as medical-care, real estate, federal elections and Sorbian culture to environmental issues such as light pollution, falling water levels. Moors, vineyards and illegal landfill sites in the state.
             <br/><br/>
-            Es gibt immer mehr frei verfügbare Daten, die uns prinzipiell Einblick in die Zusammenhänge unserer Lebenswelten geben können, jedoch sind sie oft abstrakt und nur für ausgewählte Gruppen erschließbar. Daher benötigen wir als Gesellschaft neue Formen der Darstellung, um das Interesse am Mehrwert von Daten zu wecken. Mit der Ausstellung KONTEXTIL wollen wir Sie für frei verfügbare Daten und interessante Themen in unserem Bundesland Brandenburg begeistern. 
+            There is more and more freely available data that can in principle give us an insight into the connections between our living environments, but it is often abstract and only accessible to selected groups. As a society, we therefore need new forms of presentation in order to arouse interest in the added value of data. With the "KONTEXTIL" exhibition, we want to get you excited about freely available data and interesting topics in our federal state of Brandenburg. 
             <br/><br/>
-            Lernen Sie Brandenburg aus einer neuen und textilen Perspektive kennen!
+            Get to know Brandenburg from a new and textile perspective!
         </p>
     </section>
     <section id="exhibition" class="container">
         <div id="contributers" class="hide-m text" class="">
-            <h3>Ausstellende</h3>
+            <h3>Contributers</h3>
             <p class="hoverable" data-exhibit="6">Dimitri Balzer</p>
             <p class="hoverable" data-exhibit="5">Tilla Borner</p>
             <p class="hoverable" data-exhibit="7">Ruben Balthasar Bütterich</p>
@@ -87,16 +87,16 @@ layout: layouts/blank.njk
             <p class="hoverable" data-exhibit="3">Anna Zuggal</p>
         </div>
         <div class="exhibits">
-            <h3>Exponate</h3>
+            <h3>Exhibits</h3>
             <div class="exhibit-list">
                 <div class="exhibit hoverable" data-exhibit="0">
                     <p>Der Himmel über Berlin</p>
-                    <p>Vier Garne auf Leinwand</p>
+                    <p>Four yarns on cavnas</p>
                     <p>Melina Castroverde, Jonathan Dahle, Valerie Stötzer</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="1">
                     <p>Die Sorben und der Kohle-Teufel</p>
-                    <p>Material: Baumwolle | Herstellung: Maschinelle- und Handstickerei, Handnäherei, Spitze, Blumenband</p>
+                    <p>Material: Cotton / Production: Machine- and hand embroidery, hand stitching, lace, floral ribbon</p>
                     <p>Giuliana Mei</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="2">
@@ -106,22 +106,22 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="3">
                     <p>Fehlende Betten</p>
-                    <p>Gestickt auf Jersey mit Watteeinlage</p>
+                    <p>Emroidered on jersey with padded inlay</p>
                     <p>Anna Zuggal, Clara Schmidt-Wiegand</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="4">
                     <p>Ein Merkmal Brandenburgs – Ein Makel Brandenburgs</p>
-                    <p>MDF, Stoff, Garn, 15 Müllkategorien</p>
+                    <p>MDF, fabric, thread, 15 garbage categories</p>
                     <p>Max Ehrlich</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="5">
                     <p>Electoral Rugs</p>
-                    <p>Gewebtes Garn und gestickt auf Baumwollstoff</p>
+                    <p>Woven yarn and emriodered on cotton</p>
                     <p>Maia Loschelder, Tilla Borner</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="6">
                     <p>Verborgene Reben: Weinbau in Brandenburgs Landschaft</p>
-                    <p>Stoff, Naht, Wein</p>
+                    <p>fabric, seam, wine</p>
                     <p>Dimitri Balzer</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="7">
@@ -131,7 +131,7 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="8">
                     <p>moor is more</p>
-                    <p>Stickmaschine und Handstick/Tufting auf Canvas</p>
+                    <p>Machine/hand emroidery and tufting on canvas</p>
                     <p>Franziska Cram, Lilli Marie Emilia Parthum</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="9">
