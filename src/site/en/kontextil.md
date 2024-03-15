@@ -101,12 +101,12 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="2">
                     <p>Bodenrichtwerte und Infrastruktur im Stickduette</p>
-                    <p>Material</p>
+                    <p>Stitched on cotton</p>
                     <p>Lucas Textor, Sarah Marie Was, Elsa Woelk</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="3">
                     <p>Fehlende Betten</p>
-                    <p>Emroidered on jersey with padded inlay</p>
+                    <p>Embroidered on sweat fabric with padding</p>
                     <p>Anna Zuggal, Clara Schmidt-Wiegand</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="4">
@@ -126,7 +126,7 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="7">
                     <p>Into The Deep</p>
-                    <p>Material</p>
+                    <p>Acrylic, nylon, plastic, metal</p>
                     <p>Ruben Balthasar Bütterich, Emma Nouriani, Zeynepsu Tuncer</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="8">

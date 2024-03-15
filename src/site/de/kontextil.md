@@ -101,12 +101,12 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="2">
                     <p>Bodenrichtwerte und Infrastruktur im Stickduette</p>
-                    <p>Material</p>
+                    <p>Gestickt auf Baumwolle</p>
                     <p>Lucas Textor, Sarah Marie Was, Elsa Woelk</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="3">
                     <p>Fehlende Betten</p>
-                    <p>Gestickt auf Jersey mit Watteeinlage</p>
+                    <p>Gestickt auf Sweatstoff mit Watteinlage</p>
                     <p>Anna Zuggal, Clara Schmidt-Wiegand</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="4">
@@ -126,7 +126,7 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="7">
                     <p>Into The Deep</p>
-                    <p>Material</p>
+                    <p>Acryl, Nylon, Kunststoff, Metall</p>
                     <p>Ruben Balthasar Bütterich, Emma Nouriani, Zeynepsu Tuncer</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="8">
@@ -136,7 +136,7 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="9">
                     <p>Heißere Sommer, Kleinere Seen</p>
-                    <p>Embroidery on cotton & foil, 3D printing on textile</p>
+                    <p>Stick auf Baumwolle & Folie, 3D-Druck auf Textil</p>
                     <p>Jannik Zernke</p>
                 </div>
             </div>
