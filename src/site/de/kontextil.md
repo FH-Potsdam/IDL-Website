@@ -116,7 +116,7 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="5">
                     <p>Electoral Rugs</p>
-                    <p>Gewebtes Garn und gestickt auf Baumwollstoff</p>
+                    <p>Edelbast und Garn auf Baumwollstoff</p>
                     <p>Maia Loschelder, Tilla Borner</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="6">

@@ -116,12 +116,12 @@ layout: layouts/blank.njk
                 </div>
                 <div class="exhibit hoverable" data-exhibit="5">
                     <p>Electoral Rugs</p>
-                    <p>Woven yarn and emriodered on cotton</p>
+                    <p>Fine bast and yarn on cotton fabric</p>
                     <p>Maia Loschelder, Tilla Borner</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="6">
                     <p>Verborgene Reben: Weinbau in Brandenburgs Landschaft</p>
-                    <p>fabric, seam, wine</p>
+                    <p>Fabric, seam, wine</p>
                     <p>Dimitri Balzer</p>
                 </div>
                 <div class="exhibit hoverable" data-exhibit="7">
