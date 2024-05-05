@@ -1,12 +1,19 @@
 ---
 name: Human-Robot Interaction in Social Robotics
-subtitle: Ziel des durch den Europäischen Fonds für regionale Entwicklung
+subtitle: ""
+project_year: 2024 – 2026
+thumbnail: /images/uploads/navel_facial_expression2klein.png
+excerpt: Ziel des durch den Europäischen Fonds für regionale Entwicklung
   geförderten Projekts ist der Aufbau einer interdisziplinären Test- und
   Experimentierumgebung für soziale Roboter.
-project_year: "2024"
-thumbnail: /images/uploads/navel_facial_expression2klein.png
-excerpt: ""
 featured_home: false
+filter_themen:
+  - Tangible
+  - Interaktion im Raum
+filter_services:
+  - Prototyping
+  - User Research
+  - UX-Evaluation
 project_team_external: []
 project_funding:
   - name: Europäischer Fonds für regionale Entwicklung
