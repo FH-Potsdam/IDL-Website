@@ -14,6 +14,8 @@ filter_services:
   - Prototyping
   - User Research
   - UX-Evaluation
+filter_art:
+  - Forschung
 project_team_external: []
 project_funding:
   - name: Europäischer Fonds für regionale Entwicklung
