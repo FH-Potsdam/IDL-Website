@@ -33,7 +33,9 @@ project_partners:
     url: http://www.deutsches-museum.de/Nuernberg
 project_client: []
 project_funding: []
-related_publications: []
+related_publications:
+  - /publications/Prototyping-Inconvenience-A-Pedagogical-Experiment-on-Designing-for-Debate-in-Design-Education/
+  - /publications/prototypes-as-future-artifacts-of-today-towards-prototyping-alternative-futures/
 ---
 Artefacts do not only refer to a present. Possible futures are also inscribed in them. They can, for example, express expectations of future salvation, technological feasibility, economic prosperity, sustainable practice or aesthetic innovation. The study of prototypes offers a particularly attractive access to this material and performative futurity. In prototypes, designers, artists and engineers give materiality to a possible future. Prototypes are inherently unfinished artefacts that represent expected possibilities as experienceable realities. Prototypes are thus temporally paradoxical: they represent an object to be realized in the future, with which they themselves are not identical as present objects. How can this paradox be practically unfolded? How does the communication of future materiality succeed through present materiality? How are futures inscribed and read in objects? What are the specific communicative achievements of prototypes that go beyond a textual or pictorial mediation of the future? In short: How do prototypes communicate the future?
 
