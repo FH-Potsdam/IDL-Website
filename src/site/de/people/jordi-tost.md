@@ -1,25 +1,25 @@
 ---
-  name: "Jordi Tost"
-  excerpt: "Jordi ist PhD Candidate am Interaction Design Lab der Fachhochschule Potsdam.\n"
-  wp_id: 113
-  slug: "jordi-tost"
-  group: "Members"
-  subtitle: "PhD Candidate"
-  website: ""
-  email: "jordi.tost.val@fh-potsdam.de"
-  twitter: "@jorditost"
-  thumbnail_id: null
-  image_link: "/images/Tost-Jordi-2019-4zu5_web-425x350.jpg"
-  publications: 
-    - 226
-    - 228
-    - 428
-    - 426
-    - 498
-    - 438
-    - 513
-  sort_name: "Tost"
-
+wp_id: 113
+excerpt: |
+  Jordi ist PhD Candidate am Interaction Design Lab der Fachhochschule Potsdam.
+publications:
+  - 226
+  - 228
+  - 428
+  - 426
+  - 498
+  - 438
+  - 513
+name: Jordi Tost
+slug: jordi-tost
+subtitle: PhD Candidate
+website: ""
+email: jordi.tost.val@uni-weimar.de
+twitter: "@jorditost"
+thumbnail_id: null
+sort_name: Tost
+image_link: /images/Tost-Jordi-2019-4zu5_web-425x350.jpg
+group: Members
 ---
 Jordi hat einen Bachelor in Audiovisual Systems Engineering, den er 2007 an der Technischen Universität Katalonien erlangte. 2015 vertiefte er sein Studium mit einem Master im Bereich Interface Design an der Fachhochschule Potsdam.
 
