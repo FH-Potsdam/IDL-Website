@@ -9,9 +9,9 @@ filter_services:
 project_team_external:
   - name: Patrick Oswald
 project_team:
-  - /de/people/frank-heidmann
-  - /de/people/jordi-tost
-  - /de/people/paula-schuster
+  - /de/people/frank-heidmann/
+  - /de/people/jordi-tost/
+  - /de/people/paula-schuster/
 slug: prototyp
 thumbnail: /images/uploads/IMG_2240-scaled.jpg
 project_material: ""
@@ -35,7 +35,8 @@ project_client: []
 project_funding:
   - name: Bundesministerium für Bildung und Forschung (BMBF)
 related_publications:
-  - /publications/stranger-things-prototyping-inconvenience-a-case-study-on-critical-design-in-design-education
+  - /publications/prototypes-as-future-artifacts-of-today-towards-prototyping-alternative-futures/
+  - /publications/Prototyping-Inconvenience-A-Pedagogical-Experiment-on-Designing-for-Debate-in-Design-Education/
 ---
 Artefakte verweisen nicht nur auf eine Gegenwart. In sie sind auch mögliche Zukünfte eingeschrieben. Sie können etwa Erwartungen zukünftigen Heils, technologischer Machbarkeit, wirtschaftlicher Prosperität, nachhaltiger Praxis oder ästhetischer Innovation zum Ausdruck bringen. Angesichts dieser vielfältigen und zum Teil widersprüchlichen Erwartungen an die Zukunft erscheint es außerordentlich vielversprechend, den Spuren des Möglichen in ihrer materiellen Konkretion nachzugehen. Einen besonders attraktiven Zugriff auf diese materiell eingeschriebene und performative Futurität bietet das Studium von Prototypen. In Prototypen geben DesignerInnen, KünstlerInnen und IngenieurInnen einer möglichen Zukunft materielle Gestalt. Prototypen sind inhärent unfertige Artefakte, die erwartete Möglichkeiten als erfahrbare Wirklichkeiten darstellen. Prototypen sind somit temporal paradox: Sie repräsentieren ein zukünftig zu realisierendes Objekt, mit dem sie selbst, als jeweils gegenwärtig vorliegendes Objekt, nicht identisch sind. Wie kann diese Paradoxie praktisch entfaltet werden? Wie gelingt die Kommunikation zukünftiger Materialität durch gegenwärtige Materialität? Wie werden Zukünfte in Objekte eingeschrieben und gelesen? Was sind die spezifischen kommunikativen Leistungen von Prototypen, die über eine text- oder bildförmige Vermittlung von Zukunft hinausgehen? Kurzum: Wie kommunizieren Prototypen Zukunft?
 
