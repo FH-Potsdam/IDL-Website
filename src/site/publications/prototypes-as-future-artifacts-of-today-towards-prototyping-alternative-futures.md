@@ -1,6 +1,7 @@
 ---
 title: "Prototypes as Future Artifacts of Today: Towards Prototyping Alternative
   Futures  "
+outlet: "On_Culture: The Open Journal for the Study of Culture"
 website: https://www.on-culture.org/journal/perspectives/prototypes-as-future-artifacts/
 year: 2024
 authors:
