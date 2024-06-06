@@ -10,6 +10,7 @@ project_team_external:
   - name: Patrick Oswald
 project_team:
   - /en/people/frank-heidmann/
+  - /en/people/jordi-tost/
 slug: prototyp
 thumbnail: /images/uploads/IMG_2240-scaled.jpg
 project_material: ""
