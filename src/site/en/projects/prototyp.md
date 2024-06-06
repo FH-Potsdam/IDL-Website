@@ -11,6 +11,7 @@ project_team_external:
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/jordi-tost/
+  - /en/people/paula-schuster/
 slug: prototyp
 thumbnail: /images/uploads/IMG_2240-scaled.jpg
 project_material: ""
