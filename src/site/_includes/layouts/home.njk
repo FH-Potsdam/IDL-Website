@@ -28,33 +28,6 @@
 
 	<div class="projects">
 
-	<!-- 
-		<a href="#" class="project-container">
-
-		<div class="project-image">
-			<img src="/images/eye-tracking-mobile.jpg">
-		</div>
-
-		<div class="project-desc-container">
-
-			<div class="project-name">
-				<span>DataSkop</span> User Interfaces zur Förderung digitale Souveränität
-			</div>
-
-			<div class="project-sponsor">
-				<img src="/images/logos/bmbf.png">
-			</div>
-
-			<div class="project-tags-container">
-				<div class="project-tag">UI/UX</div>
-
-			</div>
-
-		</div>
-
-	</a>	-->
-	
-	
 		{% for p in projects | sort(true, false, "year") %}
 			{% if p.data.featured_home == true %}
 			{{ projectTeaser(p, lang) }}

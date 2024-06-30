@@ -2,6 +2,7 @@
 name: Human-Robot Interaction in Social Robotics
 subtitle: ""
 project_year: 2024 – 2026
+year: 2024
 thumbnail: /images/uploads/navel_facial_expression2klein.png
 excerpt: Ziel des durch den Europäischen Fonds für regionale Entwicklung
   geförderten Projekts ist der Aufbau einer interdisziplinären Test- und
