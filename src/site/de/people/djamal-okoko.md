@@ -1,5 +1,6 @@
 ---
 name: Djamal Okoko
-subtitle: Studentischer Mitarbeiter
+subtitle: ""
 group: Past Students
+sort_name: Okoko
 ---
