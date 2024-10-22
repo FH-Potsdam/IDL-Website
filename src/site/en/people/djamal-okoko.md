@@ -1,5 +1,6 @@
 ---
 name: Djamal Okoko
-subtitle: Research Assistant
+subtitle: ""
 group: Past Students
+sort_name: Okoko
 ---
