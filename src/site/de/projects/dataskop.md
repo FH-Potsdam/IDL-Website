@@ -53,7 +53,7 @@ Besonders an dieser Untersuchung des YouTube-Empfehlungssystems war, dass bei de
 
 Die gespendeten Daten wurden von Wissenschaftler\*innen der Europa-Universität Viadrina (Frankfurt an der Oder) und Datenjournalist\*innen von „Der Spiegel“ und der „Stiftung Neue Verantwortung“ ausgewertet.
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/1_pilotprojekt-youtube-1.jpg', 'dataskop/1_pilotprojekt-youtube-2.jpg', 'dataskop/1_pilotprojekt-youtube-3.jpg', 'dataskop/1_pilotprojekt-youtube-4.jpg']) }}
 
@@ -76,7 +76,7 @@ Fokus im Bearbeitungsprozess war die Erstellung von Simulationsdatensätzen; Vi
 
 Hier geht es zum Simulator „[Plattformdynamiken](https://dataskop.net/recommender-sim)“
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/3_plattformdynamiken-1.jpg', 'dataskop/3_plattformdynamiken-2.jpg']) }}
 
@@ -84,7 +84,7 @@ Hier geht es zum Simulator „[Plattformdynamiken](https://dataskop.net/recommen
 
 Im Sinne der Förderung der digitalen Souveränität von Schüler*innen wurde, auf Grundlage unsere Recherche, Lehrlernmaterial in Form einer Informationsgrafik konzipiert und gestaltet. Die Informationsgrafik steht für den Schulunterricht als Download zur Verfügung.
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/4_recommender-systems-1.jpg', 'dataskop/4_recommender-systems-2.jpg', 'dataskop/4_recommender-systems-3.jpg']) }}
 
@@ -96,7 +96,7 @@ Die Ergebnisse der Studierenden reichen von erklärenden Videos, Printmedien, In
 
 Beispielhaft wird an dieser Stelle das Abschlussprojekt "Urlosaurus" von Frank Rausch (M.A.) abgebildet. In seiner Kursarbeit untersuchte Frank Rausch, wie man Nutzer\*innen einen souveränen Umgang mit URL-Tracking ermöglichen und ein Bewusstsein für das Thema schaffen kann. Hierzu wurde ein digitales Werkzeug entworfen, dass es Nutzenden ermöglichen soll sich gegen URL-Tracking zu wehren, indem Urlosaurus User beim Erkennen von versteckten Trackern, die sich hinter Links verbergen unterstützt.
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/5_urlosaurus_rausch-1.jpg', 'dataskop/5_urlosaurus_rausch-2.jpg', 'dataskop/5_urlosaurus_rausch-3.jpg', 'dataskop/5_urlosaurus_rausch-4.jpg', 'dataskop/5_urlosaurus_rausch-5.jpg']) }}
 
@@ -108,7 +108,7 @@ Nutzer\*innen konnten sich die Open-Source-Software unter http://dataskop.net 
 
 Ziel der Untersuchung war es den TikTok-Empfehlungsalgorithmus mit echten Nutzungsdaten zu untersuchen: Wie und wo entstehen Trends und Nischen? Gibt es Hinweise darauf, dass die Plattform bestimmte Inhalte prominent in den For-You-Feeds platziert?
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/6_tiktok_1.jpg', 'dataskop/6_tiktok_2.jpg', 'dataskop/6_tiktok_3.jpg']) }}
 
@@ -116,6 +116,6 @@ Ziel der Untersuchung war es den TikTok-Empfehlungsalgorithmus mit echten Nutzun
 
 Anhand der anonymisierten gespendeten Daten entstanden im Winter 2023 Visualisierungen am Fachbereich Design, die Ereignisse, wie beispielsweise die Nutzeraktivität aller Datenspender\*innen untersuchten. Es wurde nach verschiedenen Arten der Nutzung der App gefiltert, die Nutzung der TikTok App pro Stunde, je Tag mit dem tatsächlichen Konsum von Videos auf der Plattform in Vergleich gesetzt und das Nutzungsverhalten einzelner Datenspender*innen dargestellt.
 
-<br /><br />
+<br />
 
 {{ slideshow(['dataskop/7_viz-tiktok_fhp-1.jpg', 'dataskop/7_viz-tiktok_fhp-2.jpg', 'dataskop/7_viz-tiktok_fhp-3.jpg', 'dataskop/7_viz-tiktok_fhp-4.jpg', 'dataskop/7_viz-tiktok_fhp-5.jpg', 'dataskop/7_viz-tiktok_fhp-6.jpg', 'dataskop/7_viz-tiktok_fhp-7.jpg', 'dataskop/7_viz-tiktok_fhp-8.jpg']) }}

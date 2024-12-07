@@ -111,11 +111,18 @@ const initializeSlider = (sliderContainer) => {
 
   // Function to update image widths dynamically
   const updateImageWidths = () => {
-    // const windowWidth = window.innerWidth;
-    // const allImages = Array.from(slider.children);
-    // allImages.forEach((img) => {
-    //   img.style.width = `${windowWidth}px`; // Make image width equal to the window's width
-    // });
+    const windowWidth = window.innerWidth;
+    let imageWidth = 790;
+    const margin = 40;
+    if (windowWidth < imageWidth + margin) {
+      imageWidth = windowWidth - margin;
+    }
+    sliderContainer.style.height = `${imageWidth/1.5}px`;
+    const allImages = Array.from(slider.children);
+    allImages.forEach((img) => {
+       img.style.width = `${imageWidth}px`;
+       img.style.height = `${imageWidth/1.5}px`;
+    });
   };
 
   // Function to calculate the slider's transform offset

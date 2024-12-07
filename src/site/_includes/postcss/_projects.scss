@@ -311,7 +311,8 @@ a.project-container:hover {
 }
 
 .slider img {
-  width: 800px; /* Image width matches viewport width */
+  display: block;
+  width: 790px; /* Image width matches viewport width */
   max-width: calc(100vw - 40px);
   margin: 0 20px;
   height: auto; /* Maintain aspect ratio */
