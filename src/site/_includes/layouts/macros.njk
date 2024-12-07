@@ -208,3 +208,5 @@
 {% endif %}
 {% endfor %}
 {% endmacro %}
+
+{% macro slideshow(images) %}<div class="slider-container"><div class="slider">{% for i in images %}<img src="/images/{{i}}" />{% endfor %}</div><button class="prev">&nbsp;</button><button class="next">&nbsp;</button></div>{% endmacro %}

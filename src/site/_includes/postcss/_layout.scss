@@ -112,7 +112,7 @@ button.stretch {
   text-align: center;
 }
 
-button.prev,
+/*button.prev,
 button.next {
   @include button-bright;
   text-align: center;
@@ -131,13 +131,13 @@ button.next {
   }
 }
 
-button.prev::before {
-  mask: url("./assets/images/svg/mini-arrow-left.svg");
-}
+// button.prev::before {
+//   mask: url("./assets/images/svg/mini-arrow-left.svg");
+// }
 
-button.next::before {
-  mask: url("./assets/images/svg/mini-arrow-right.svg");
-}
+// button.next::before {
+//   mask: url("./assets/images/svg/mini-arrow-right.svg");
+// }*/
 
 .columns {
   display: flex;
