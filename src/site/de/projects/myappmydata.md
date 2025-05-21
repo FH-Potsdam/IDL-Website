@@ -11,6 +11,7 @@ filter_themen:
   - Wissensvermittlung
   - Mobile
 project_team_external:
+  - name: Prof. Dr. Judith Ackermann
   - name: Antonia Schäfer
   - name: Markus Kreutzer
 project_team:
