@@ -10,6 +10,9 @@ featured_home: true
 filter_themen:
   - Wissensvermittlung
   - Mobile
+filter_services:
+  - Prototyping
+  - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
   - name: Antonia Schäfer
