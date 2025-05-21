@@ -4,7 +4,8 @@ subtitle: App-Prototyping als Lehr-Lernarrangement zur Entwicklung von Digitalko
 project_year: 2025-2028
 year: 2025
 thumbnail: /images/uploads/keyvisual_20250519.png
-excerpt: App-Prototyping als inklusives Lehr-Lernarrangement zur integrativen Entwicklung von Digitalkompetenzen in der Sekundarstufe II
+excerpt: App-Prototyping als inklusives Lehr-Lernarrangement zur integrativen
+  Entwicklung von Digitalkompetenzen in der Sekundarstufe II.
 featured_home: true
 filter_themen:
   - Wissensvermittlung
@@ -16,6 +17,14 @@ project_team_external:
   - name: Prof. Dr. Judith Ackermann
   - name: Antonia Schäfer
   - name: Markus Kreutzer
+project_partners:
+  - name: Voltaireschule Potsdam
+  - name: Anna-Freud-Schule
+  - name: Freie Schule Anne-Sophie
+  - name: Zentral- und Landesbibliothek Berlin (ZLB)
+  - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
+project_funding:
+  - name: Bundesministerium für Bildung und Forschung (BMBF)
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
