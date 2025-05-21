@@ -8,8 +8,7 @@ outlet: "In: Tared Ahram, Luca Casarotto and Pietro Costa (eds) Human
 website: https://openaccess.cms-conferences.org/publications/book/978-1-964867-33-5/article/978-1-964867-33-5_31
 year: 2024
 authors:
-  - internal_author_de: []
-    internal_author_en: /en/people/yin-w-boribun
-  - internal_author_de: []
-    internal_author_en: []
+    - 
+      internal_author_de: "/de/people/yin-w-boribun"
+      internal_author_en: "/en/people/yin-w-boribun"
 ---

@@ -4,8 +4,7 @@ subtitle: App-Prototyping als Lehr-Lernarrangement zur Entwicklung von Digitalko
 project_year: 2025-2028
 year: 2025
 thumbnail: /images/uploads/keyvisual_20250519.png
-excerpt: App-Prototyping als inklusives Lehr-Lernarrangement zur integrativen
-  Entwicklung von Digitalkompetenzen in der Sekundarstufe II
+excerpt: App-Prototyping als inklusives Lehr-Lernarrangement zur integrativen Entwicklung von Digitalkompetenzen in der Sekundarstufe II
 featured_home: true
 filter_themen:
   - Wissensvermittlung
