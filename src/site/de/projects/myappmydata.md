@@ -24,7 +24,7 @@ project_partners:
   - name: Zentral- und Landesbibliothek Berlin (ZLB)
   - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
 project_funding:
-  - name: Bundesministerium für Bildung und Forschung (BMBF)
+  - name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
