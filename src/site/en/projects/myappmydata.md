@@ -8,10 +8,20 @@ excerpt: App prototyping as an inclusive teaching-learning arrangement for the i
 featured_home: true
 filter_themen:
   - App Design
+project_partners:
+  - Anna-Freud-Schule
+  - Freie Schule Anne-Sophie
+  - Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
+  - Voltaireschule Potsdam
+  - Zentral- und Landesbibliothek Berlin (ZLB)
+
 filter_services:
   - Prototyping
   - Human-Centered Design
   - UI/UX
+project_funding:
+  - logo: /images/uploads/BMFTR_Logo.svg
+    name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
   - name: Antonia Schäfer
