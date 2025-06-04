@@ -1,10 +1,12 @@
 ---
 name: MyAppMyData
-subtitle: App prototyping as a teaching-learning arrangement for the development of digital skills
+subtitle: App prototyping as a teaching-learning arrangement for the development
+  of digital skills
 project_year: 2025-2028
 year: 2025
 thumbnail: /images/uploads/keyvisual_20250519.png
-excerpt: App prototyping as an inclusive teaching-learning arrangement for the integrative development of digital skills in the upper secondary level
+excerpt: App prototyping as an inclusive teaching-learning arrangement for the
+  integrative development of digital skills in the upper secondary level
 featured_home: true
 filter_themen:
   - App Design
@@ -16,6 +18,9 @@ project_team_external:
   - name: Prof. Dr. Judith Ackermann
   - name: Antonia Schäfer
   - name: Markus Kreutzer
+project_partners:
+  - url: https://www.anna-freud-osz.de/
+    name: Anna Freud Schule
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/sebastian-meier/
