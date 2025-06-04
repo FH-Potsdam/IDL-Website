@@ -14,7 +14,6 @@ project_partners:
   - Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
   - Voltaireschule Potsdam
   - Zentral- und Landesbibliothek Berlin (ZLB)
-
 filter_services:
   - Prototyping
   - Human-Centered Design
