@@ -15,7 +15,6 @@ filter_services:
   - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
-  - name: Antonia Schäfer
   - name: Markus Kreutzer
 project_partners:
   - name: Voltaireschule Potsdam
@@ -29,6 +28,7 @@ project_funding:
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
+  - /de/people/antonia-schaefer/
 ---
 Das Smartphone ist das Leitmedium junger Menschen. Es ist für sie das wichtigste Interface zu digitalen Services und Informationen in allen Lebensbereichen. Dabei werden Gerät und Apps in der Regel ohne tieferes Verständnis der jeweiligen Interfaces und sie konstituierenden Gestaltungsmuster, Datenstrukturen, Algorithmen und Geschäftsmodelle genutzt. Während Untersuchungen zu den Gefahren permanenten Smartphonegebrauchs inzwischen im großen Umfang vorliegen, wird das Potential, Smartphones und Apps als Interfaces mit hohem Lebensweltbezug der Schüler*innen zur Entwicklung von Digitalkompetenzen zu nutzen, bisher nur ansatzweise untersucht.
 

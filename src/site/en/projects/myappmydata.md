@@ -23,11 +23,11 @@ project_funding:
     name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
-  - name: Antonia Schäfer
   - name: Markus Kreutzer
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/sebastian-meier/
+  - /en/people/antonia-schaefer/
 ---
 The smartphone is the leading medium for young people. For them, it is the most important interface to digital services and information in all areas of life. However, devices and apps are generally used without a deeper understanding of the respective interfaces and their constituting design patterns, data structures, algorithms and business models. While studies on the dangers of permanent smartphone use are available on a large scale, the potential to use smartphones and apps as interfaces with high relevance to pupil's lives to develop digital skills has been investigated to a limited extent.
 
