@@ -1,16 +1,16 @@
 ---
   name: "Prof. Dr. Frank Heidmann"
-  excerpt: "Frank Heidmann is Professor for the Design of Software Interfaces at the Potsdam University of Applied Sciences."
+  excerpt: "Frank Heidmann ist Professor für das Design von Software-Interfaces an der Fachhochschule Potsdam."
   wp_id: 33
   slug: "frank-heidmann"
-  group: "Members"
-  subtitle: "Professur für Design of Software Interfaces"
+  group: Members
+  subtitle: "Professur für Design von Software-Interfaces"
   website: ""
   email: "frank.heidmann@fh-potsdam.de"
   twitter: ""
   thumbnail_id: null
   image_link: "/images/uploads/frank-heidmann.png"
-  laufschrift_tags: "Dashboards × GeoVis × Prototyping × Concept × Dashboards × GeoVis × Prototyping"
+  laufschrift_tags: "Dashboards × GeoVis × Prototyping × Konzept × Dashboards × GeoVis × Prototyping"
   publications: 
     - 73
     - 77
@@ -86,13 +86,13 @@
   sort_name: "Heidmann"
 
 ---
-Frank's research and teaching interests in Potsdam lie in Human-Centered Design, research methods in Human-Computer Interaction (HCI) and user experience design including eye tracking technologies, geographic information visualization, and sustainable interaction design. Frank has a diploma and a PhD from the University of Trier, both in Geographical Sciences.
+Frank Heidmanns Forschungs- und Lehrschwerpunkte in Potsdam liegen im Human-Centered Design, in Forschungsmethoden der Mensch-Computer-Interaktion (HCI) und im User Experience Design einschließlich Eye-Tracking-Technologien, der geographischen Informationsvisualisierung und dem nachhaltigen Interfacedesign. Frank Heidmann hat ein Diplom und eine Promotion in Geographischen Wissenschaften von der Universität Trier.
 
-Prior to his professorship in Potsdam, he was head of the <a href="http://www.hci.iao.fraunhofer.de/" target="_blank" rel="noopener noreferrer">Human-Computer Interaction Competence Center</a> at the Fraunhofer Institute for Industrial Engineering (IAO), Stuttgart. The HCI Group at Fraunhofer IAO is widely regarded as one of the leading research and consulting units in Europe, handling the following topics:
+Vor seiner Professur in Potsdam leitete er das <a href="http://www.hci.iao.fraunhofer.de/" target="_blank" rel="noopener noreferrer">Kompetenzzentrum Mensch-Technik-Interaktion</a> am Fraunhofer-Institut für Arbeitswirtschaft und Organisation (IAO) in Stuttgart. Die HCI-Gruppe am Fraunhofer IAO gilt als eine der führenden Forschungs- und Beratungseinheiten in Europa und bearbeitet folgende Themen:
 <ul>
- 	<li>Development and application of new technologies for the interaction between people and technology</li>
- 	<li>Conception, design, and development of interactive systems</li>
- 	<li>Graphic, acoustic, and multimodal user interfaces</li>
- 	<li>Development of company-specific style guides and design patterns</li>
- 	<li>Prototyping and usability testing</li>
+ 	<li>Entwicklung und Anwendung neuer Technologien für die Interaktion zwischen Mensch und Technik</li>
+ 	<li>Konzeption, Gestaltung und Entwicklung interaktiver Systeme</li>
+ 	<li>Grafische, akustische und multimodale Benutzeroberflächen</li>
+ 	<li>Entwicklung firmenspezifischer Styleguides und Designmuster</li>
+ 	<li>Prototyping und Usability-Tests</li>
 </ul>
