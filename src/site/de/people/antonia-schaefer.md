@@ -6,10 +6,10 @@ slug: antonia-schaefer
 group: Members
 website: https://de.linkedin.com/in/4ntoniaschaefer
 email: antonia.schaefer@fh-postdam.de
-thumbnail_id: /images/upload/antonia-schaefer.jpeg
+thumbnail_id: /images/uploads/antonia-schaefer.jpeg
 laufschrift_tags: "Bildung x Vermittlung x Digitalkompetenzen x Digitale Souveranität"
 sort_name: Schaefer
-image_link: /images/upload/antonia-schaefer.jpeg
+image_link: /images/uploads/antonia-schaefer.jpeg
 ---
 Antonia ist Designerin, die ihre Erfahrungen aus User Research, Designforschung, Interaction Design sowie digitalen Technologien kombiniert, um innovative Lehr- und Lernerfahrungen für den öffentlichen Raum zu entwickeln.
 
