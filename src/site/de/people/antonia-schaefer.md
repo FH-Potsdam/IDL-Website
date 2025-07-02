@@ -6,7 +6,7 @@ slug: antonia-schaefer
 group: Members
 website: https://de.linkedin.com/in/4ntoniaschaefer
 email: antonia.schaefer@fh-postdam.de
-thumbnail_id: /images/uploads/profile-landscape-idl.jpg
+thumbnail_id: /images/upload/antonia-schaefer.jpeg
 laufschrift_tags: "Bildung x Vermittlung x Digitalkompetenzen x Digitale Souveranität"
 sort_name: Schaefer
 image_link: /images/upload/antonia-schaefer.jpeg
