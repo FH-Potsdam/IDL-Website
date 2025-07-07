@@ -1,12 +1,12 @@
 ---
 name: Markus Kreutzer
-subtitle: Wissenschaftlicher Mitarbeiter
+subtitle: Research Associate
 group: Members
 website: https://markuskreutzer.com
 email: markus.kreutzer@fh-potsdam.de
 thumbnail_id: /images/uploads/markuskreutzer_02.jpg
 ---
-Markus Kreutzer is a designer focused on creating possibilities for systemic transformation. He is a research associate at Fachhochschule Potsdam and a lecturer in the MA in Strategic Design at HfG Schwäbisch Gmünd.
+Markus Kreutzer is a designer focused on exploring possibilities for systemic transformation. He is a research associate at Fachhochschule Potsdam and a lecturer in the MA in Strategic Design at HfG Schwäbisch Gmünd.
 
 Most of his work engages with the intersection between social, technological and ecological transformation. By exploring alternative pathways to current trajectories he aims to create discourse, enable negotiation and facilitate action. Markus is specifically interested in the role of human imagination for individual and collective behaviors.
 
