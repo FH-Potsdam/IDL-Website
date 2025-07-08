@@ -4,7 +4,7 @@ subtitle: Wissenschaftlicher Mitarbeiter
 group: Members
 website: Wissenschaftlicher Mitarbeiter
 email: markus.kreutzer@fh-potsdam.de
-thumbnail_id: /images/uploads/markuskreutzer_02.jpg
+thumbnail_id: /images/uploads/markuskreutzer.jpg
 ---
 Markus Kreutzer ist Designer und entwirft Möglichkeiten für systemische Transformation. Er ist wissenschaftlicher Mitarbeiter an der Fachhochschule Potsdam und Dozent im Master­stu­di­en­gang Stra­te­gi­sche Gestal­tung an der HfG Schwäbisch Gmünd.
 
