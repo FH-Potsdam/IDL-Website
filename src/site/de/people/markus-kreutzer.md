@@ -5,6 +5,11 @@ group: Members
 website: Wissenschaftlicher Mitarbeiter
 email: markus.kreutzer@fh-potsdam.de
 thumbnail_id: /images/uploads/markuskreutzer.jpg
+publications:
+slug: markus-kreutzer
+laufschrift_tags: "Education x Mediation x Digital Competencies x Digital Sovereignty"
+sort_name: Kreutzer
+image_link: /images/uploads/markuskreutzer.jpeg
 ---
 Markus Kreutzer ist Designer und entwirft Möglichkeiten für systemische Transformation. Er ist wissenschaftlicher Mitarbeiter an der Fachhochschule Potsdam und Dozent im Master­stu­di­en­gang Stra­te­gi­sche Gestal­tung an der HfG Schwäbisch Gmünd.
 
