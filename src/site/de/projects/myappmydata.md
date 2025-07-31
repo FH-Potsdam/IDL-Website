@@ -22,7 +22,7 @@ project_partners:
   - name: Zentral- und Landesbibliothek Berlin (ZLB)
   - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
 project_funding:
-  - logo: /images/uploads/BMFTR_Logo.svg
+  - logo: /images/uploads/bmbfsfj_gefoerdert_vom_deutsch_web.png
     name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)
 project_team:
   - /de/people/frank-heidmann/
