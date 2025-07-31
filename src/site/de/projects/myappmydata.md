@@ -23,7 +23,8 @@ project_partners:
   - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
 project_funding:
   - logo: /images/uploads/bmbfsfj_gefoerdert_vom_deutsch_web.png
-    name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)
+    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+      (BMBFSFJ)
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
