@@ -3,6 +3,7 @@ name: MyAppMyData
 subtitle: App prototyping as a teaching-learning arrangement for the development of digital skills
 project_year: 2025-2028
 year: 2025
+laufschrift_tags: Knowledge Transfer x Digital Competencies x Education x User Research x Prototyping
 thumbnail: /images/uploads/keyvisual_20250519.png
 excerpt: App prototyping as an inclusive teaching-learning arrangement for the integrative development of digital skills in the upper secondary level
 featured_home: true

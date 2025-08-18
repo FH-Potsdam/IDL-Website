@@ -7,6 +7,7 @@ thumbnail: /images/uploads/keyvisual_20250519.png
 excerpt: App-Prototyping als inklusives Lehr-Lernarrangement zur integrativen
   Entwicklung von Digitalkompetenzen in der Sekundarstufe II.
 featured_home: true
+laufschrift_tags: Wissensvermittlung x Digitalkompetenzen x Bildung x User Research x Prototyping
 filter_themen:
   - Wissensvermittlung
   - Mobile
