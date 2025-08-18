@@ -16,15 +16,19 @@ filter_services:
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
 project_partners:
-  - name: Voltaireschule Potsdam
   - name: Anna-Freud-Schule
+    url: https://www.anna-freud-osz.de/
   - name: Freie Schule Anne-Sophie
-  - name: Zentral- und Landesbibliothek Berlin (ZLB)
+    url: https://www.freie-schule-anne-sophie.de/de/berlin/start_b/start_b.php
   - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
+    url: https://libra.brandenburg.de/
+  - name: Voltaireschule Potsdam
+    url: https://www.voltaireschule.de/
+  - name: Zentral- und Landesbibliothek Berlin (ZLB)
+    url: https://www.zlb.de/
 project_funding:
-  - logo: /images/uploads/bmbfsfj_gefoerdert_vom_deutsch_web.png
-    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
-      (BMBFSFJ)
+  - logo: /images/uploads/BMFTR_Logo.svg
+    name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
