@@ -29,6 +29,7 @@ project_team:
   - /de/people/sebastian-meier/
   - /de/people/antonia-schaefer/
   - /de/people/markus-kreutzer/
+  - /de/people/camilla-rackelmann/
 ---
 Das Smartphone ist das Leitmedium junger Menschen. Es ist für sie das wichtigste Interface zu digitalen Services und Informationen in allen Lebensbereichen. Dabei werden Gerät und Apps in der Regel ohne tieferes Verständnis der jeweiligen Interfaces und sie konstituierenden Gestaltungsmuster, Datenstrukturen, Algorithmen und Geschäftsmodelle genutzt. Während Untersuchungen zu den Gefahren permanenten Smartphonegebrauchs inzwischen im großen Umfang vorliegen, wird das Potential, Smartphones und Apps als Interfaces mit hohem Lebensweltbezug der Schüler*innen zur Entwicklung von Digitalkompetenzen zu nutzen, bisher nur ansatzweise untersucht.
 

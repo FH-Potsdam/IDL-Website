@@ -7,28 +7,33 @@ thumbnail: /images/uploads/keyvisual_20250519.png
 excerpt: App prototyping as an inclusive teaching-learning arrangement for the integrative development of digital skills in the upper secondary level
 featured_home: true
 filter_themen:
-  - App Design
-project_partners:
-  - Anna-Freud-Schule
-  - Freie Schule Anne-Sophie
-  - Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
-  - Voltaireschule Potsdam
-  - Zentral- und Landesbibliothek Berlin (ZLB)
+  - Mobile
+  - Knowledge Transfer
 filter_services:
   - Prototyping
-  - Human-Centered Design
-  - UI/UX
+  - User Research
+project_team_external:
+  - name: Prof. Dr. Judith Ackermann
+project_partners:
+  - name: Anna-Freud-Schule
+    url: https://www.anna-freud-osz.de/
+  - name: Freie Schule Anne-Sophie
+    url: https://www.freie-schule-anne-sophie.de/de/berlin/start_b/start_b.php
+  - name: Landesinstitut Brandenburg für Schule und Lehrkräftebildung (LIBRA)
+    url: https://libra.brandenburg.de/
+  - name: Voltaireschule Potsdam
+    url: https://www.voltaireschule.de/
+  - name: Zentral- und Landesbibliothek Berlin (ZLB)
+    url: https://www.zlb.de/
 project_funding:
   - logo: /images/uploads/BMFTR_Logo.svg
     name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
-project_team_external:
-  - name: Prof. Dr. Judith Ackermann
-  - name: Markus Kreutzer
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/sebastian-meier/
   - /en/people/antonia-schaefer/
   - /en/people/markus-kreutzer/
+  - /en/people/camilla-rackelmann/
 ---
 The smartphone is the leading medium for young people. For them, it is the most important interface to digital services and information in all areas of life. However, devices and apps are generally used without a deeper understanding of the respective interfaces and their constituting design patterns, data structures, algorithms and business models. While studies on the dangers of permanent smartphone use are available on a large scale, the potential to use smartphones and apps as interfaces with high relevance to pupil's lives to develop digital skills has been investigated to a limited extent.
 
