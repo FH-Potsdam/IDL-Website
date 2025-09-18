@@ -28,7 +28,7 @@ project_partners:
     url: https://www.zlb.de/
 project_funding:
   - logo: /images/uploads/BMBFSFJ-logo.svg
-    name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
+    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) 
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/sebastian-meier/
