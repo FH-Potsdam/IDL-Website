@@ -27,7 +27,7 @@ project_partners:
   - name: Zentral- und Landesbibliothek Berlin (ZLB)
     url: https://www.zlb.de/
 project_funding:
-  - logo: /images/uploads/BMFTR_Logo.svg
+  - logo: /images/uploads/BMBFSFJ-logo.svg
     name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
 project_team:
   - /en/people/frank-heidmann/
