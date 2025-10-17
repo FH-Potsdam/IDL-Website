@@ -16,6 +16,7 @@ filter_services:
   - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
+  - name: Sinah Gürtler
 project_partners:
   - name: Anna-Freud-Schule
     url: https://www.anna-freud-osz.de/
@@ -29,7 +30,8 @@ project_partners:
     url: https://www.zlb.de/
 project_funding:
   - logo: /images/uploads/BMBFSFJ-logo.svg
-    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) 
+    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+      (BMBFSFJ)
 project_team:
   - /de/people/frank-heidmann/
   - /de/people/sebastian-meier/
