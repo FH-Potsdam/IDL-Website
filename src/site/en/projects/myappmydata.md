@@ -1,12 +1,15 @@
 ---
 name: MyAppMyData
-subtitle: App prototyping as a teaching-learning arrangement for the development of digital skills
+subtitle: App prototyping as a teaching-learning arrangement for the development
+  of digital skills
 project_year: 2025-2028
 year: 2025
-laufschrift_tags: Knowledge Transfer x Digital Competencies x Education x User Research x Prototyping
 thumbnail: /images/uploads/keyvisual_20250519.png
-excerpt: App prototyping as an inclusive teaching-learning arrangement for the integrative development of digital skills in the upper secondary level
+excerpt: App prototyping as an inclusive teaching-learning arrangement for the
+  integrative development of digital skills in the upper secondary level
 featured_home: true
+laufschrift_tags: Knowledge Transfer x Digital Competencies x Education x User
+  Research x Prototyping
 filter_themen:
   - Mobile
   - Knowledge Transfer
@@ -15,6 +18,7 @@ filter_services:
   - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
+  - name: Sinah Gürtler
 project_partners:
   - name: Anna-Freud-Schule
     url: https://www.anna-freud-osz.de/
@@ -27,8 +31,9 @@ project_partners:
   - name: Zentral- und Landesbibliothek Berlin (ZLB)
     url: https://www.zlb.de/
 project_funding:
-  - logo: /images/uploads/BMFTR_Logo.svg
-    name: Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR) 
+  - logo: /images/uploads/BMBFSFJ-logo.svg
+    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+      (BMBFSFJ)
 project_team:
   - /en/people/frank-heidmann/
   - /en/people/sebastian-meier/
