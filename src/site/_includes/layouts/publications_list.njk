@@ -1,0 +1,73 @@
+{% include 'header.njk' %}
+{#{% include 'main.njk' %}#}
+{% from './macros.njk' import publicationTeaser  %}
+{# {{ content }} #}
+
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% endif %}
+
+          
+<div class="intro-container pubs-container max-width">
+<h1>{{title}} <span class="number">({{ collections.publications | length }})</span></h1>
+
+      
+     
+      <div class="release-year">{% if locale == 'de' %}der letzten 10 Jahre:{% else %}of the last 10 years:{% endif %}</div>
+ <div class="year-selector">
+      
+      {% set lastyear = '0' %} 
+      
+      {% for p in collections.publications | sort(true, false, "year") %}
+          {% if p.data.year | age <= 10 %}
+              {% if lastyear != p.data.year %}
+              {% if lastyear != '0' %}
+             
+              {% endif %}
+              <a href="#{{p.data.year}}">{{p.data.year}}</a>
+            
+              {% set lastyear = p.data.year %}
+              {% endif %}
+          {% endif %}
+     {% endfor %}
+     {# {% set years = publications | map: 'year' | uniq | sort | reverse %}
+      {% for y in years %}
+        <li><a href="#{{y}}">{{y}}</a></li>
+      {% endfor %} #}
+
+   </div>
+	</div>
+
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+<div class="publications">
+    {# {% set lastyear = '0' %} #}
+    {% set pubSorted = collections.publications %}
+    {% for p in collections.publications | sort(true, false, "year") %}
+     
+      {# {% if lastyear != p.year %}
+      {% if lastyear != '0' %}
+      </ul>
+      {% endif %}
+			<div class="year" id="{{p.year}}">{{p.year}}</div>
+			<ul>
+      {% set lastyear = p.year %}
+      {% endif %}
+      #}
+      {% if p.data.year | age <= 10 %}
+        {{ publicationTeaser(p, locale, people) }}
+      {% endif %}
+    {% endfor %}
+      </ul>
+</div>
+
+{% include 'footer.njk' %}

@@ -1,0 +1,212 @@
+{% include 'header.njk' %}
+{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser, eventTeaser %}
+
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% set events = collections.events_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% set events = collections.events_en %}
+{% endif %}
+
+<div class="intro-container projectdetail max-width">
+  <h1>{{name | safe}}</h1>
+
+   {% if excerpt %}
+  <div class="intro">
+ <p>{{excerpt | safe}}</p>
+  </div>
+  {% endif %}
+
+</div>
+
+{#
+<h1>{{name[locale] | safe}}</h1>
+{% if subtitle[locale] %}<h2>{{subtitle[locale] | safe}}</h2>{% endif %}
+{% if excerpt[locale] %}<p>{{excerpt[locale] | safe}}</p>{% endif %}
+#}
+
+{% if thumbnail %}
+<div class="project-hero">
+<img src="{{thumbnail}}" alt="{{name}}">
+</div>
+{% endif %}
+
+
+<div class="project-facts-container">
+<div class="block">
+  <div class="facts team">
+    <span>Team</span>
+    <ul>
+    {% for t in project_team %}
+    {% for p in people | sort(true, false, "sort_name") %}
+    {% if t | length > 3 and p.url | stripUrl in t | stripUrl %}
+    {{ peopleTeaser(p) }}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  
+
+    {% for x in project_team_external | sort(false, true, "name") %}
+    {% if x.url %}
+    <li><a href="//{{x.url}}" target="_blank"> {{ x.name }}</a></li>
+    {% else %}
+    <li>{{ x.name }}</li>
+    {% endif %}
+    {% endfor %}
+    
+    </ul>
+
+  </div>
+
+  </div>
+
+<div class="block">
+ {% if filter_services %}
+  <div class="facts services">
+    <span>Services</span>
+    <ul>
+      
+      {% for s in filter_services %}
+    <li><a href="/{{locale}}/services/#service-{{s | slugify}}"> {{ s }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+   {% endif %}
+
+
+   {% if project_year %}
+  <div class="facts year">   
+        <span>
+      {% if locale == 'en' %} Year {% else %} Jahr {% endif %}
+    </span>
+       {{ project_year }}   
+  </div>
+    {% endif %}  
+
+</div>
+
+
+<div class="block">
+ {% if project_partners.length > 0 %}
+  <div class="facts partner">   
+    <span>
+      {% if locale == 'en' %} Partner {% else %} Kooperationspartner {% endif %}
+    </span>
+    <ul>
+    {% for p in project_partners | sort(false, true, "name") %}
+       
+
+    {% if p.url %}
+     <li><a href="//{{p.url}}"> {{ p.name }}</a></li>
+    {% else %}
+    <li>{{ p.name }}</li>
+    {% endif %}
+    
+    {% endfor %}
+    </ul>
+  </div>
+{% endif %}  
+
+
+     {% if project_website %}
+    <div class="facts website">
+    <span>Website</span>
+       <a href="{{project_website}}">{{project_website | replace("https://", "") | replace("http://", "") | replace("www.", "")}}</a>
+  </div>
+    {% endif %}  
+</div>
+
+<div class="block">
+      {% if project_funding.length > 0 %}
+    <div class="facts funding">
+    <span>
+        {% if locale == 'en' %} Funded by {% else %} Gefördert durch {% endif %}
+    </span>
+    {% for p in project_funding  %}
+    {%if p.url %}<a href="{{p.url}}" target="_blank">{% endif %} 
+      {%if p.logo %}
+      <img src="{{p.logo}}" alt="{{p.name}}">
+      {% else %}
+      {{p.name}}
+      {% endif %}
+      <br />
+    {%if p.url %}</a>{% endif %} 
+    {% endfor %}
+
+      
+    </div>
+    {% endif %}  
+
+
+    {% if project_client.length > 0 %}
+    <div class="facts client">
+    <span>
+        {% if locale == 'en' %} Client {% else %} Auftraggeber {% endif %}
+    </span>
+    {% for p in project_client  %}
+     <img src="{{p.logo}}" alt="{{p.name}}"> 
+        {% endfor %}
+    </div>
+    {% endif %}  
+
+ </div>
+
+</div>
+
+
+
+
+<div class="content-container">
+{% if content %}
+<p>{{content | safe}}</p>
+{% endif %}
+</div>
+
+{% if laufschrift_tags %}
+{% set laufschrift_black = laufschrift_tags %}
+{% endif %}
+
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+{# AKTIVITÄTEN #}
+  
+{% for pId in collections.map.lists['projects_' + locale + '_events'][page.url | stripUrl] %}
+
+<div class="projects">
+  <h2 id="publications">Aktivitäten</h2>
+{{ eventTeaser(events[pId]) }}
+  </div>
+
+{% endfor %}
+
+
+  
+
+
+{# Publications #}
+
+{%if related_publications.length > 0 %}
+<div class="publications">
+ <h2>{% if locale == 'en' %}Publications{% else %}Publikationen{% endif %}</h2>
+
+{% for p in collections.publications | sort(true, false, "year") %}
+{% for r in related_publications %}
+{% if r and r | length > 3 and p.fileSlug | stripUrl in r | stripUrl %}
+{{ publicationTeaser(p, locale, people) }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+{% endif %}
+
+
+
+{% include 'footer.njk' %}

@@ -1,0 +1,47 @@
+h1 span.highlight {
+  color: var(--idl-brand-color);
+}
+
+.intro-container p {
+  @include font__p;
+  margin-top: 2rem;
+  line-height: 1.5;
+  @media screen and (min-width: 64rem) {
+    @include font__p-large;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: var(--text-default);
+  }
+
+  a::before {
+    content: url(/images/assets/arrow-link.svg);
+    text-decoration: none;
+    margin-right: 0.5rem;
+  }
+}
+
+.home p {
+  width: 100%;
+  hyphens: auto;
+  line-height: 1.3;
+  @media screen and (min-width: 87.5em) {
+    width: 60%;
+  }
+}
+
+.intro-container h1:only-child {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+    @media screen and (min-width: 48rem) {
+      width: 70%;
+    }
+    @media screen and (min-width: 75rem) {
+      width: 60%;
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "locale": "de",
+  "layout": "layouts/blank.njk",
+  "permalink": false
+}

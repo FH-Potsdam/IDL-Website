@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if locale == 'en' %}en-US{% else %}de-DE{% endif %}">
+  <head>
+  	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if title == "Home" %}
+{% set metaTitle = "Interaction Design Lab" %}
+{% elseif not title and name %}
+{% set metaTitle = (name | replace ("Prof. ", "") | replace ("Dr. ", "")) + " | Interaction Design Lab" %}
+{% else %}
+{% set metaTitle = title + " | Interaction Design Lab" %}
+{% endif %}
+    <title>{{metaTitle | safe}}</title>
+
+    <meta name="description" content="{% if locale == 'en' %}The Interaction Design Lab is the research laboratory of the Interface Design Programme at the University of Applied Sciences in Potsdam, Germany. The lab is a space for international interaction design experts from industry and academia. It provides an interface between education, research and development, transfer of technology, design and knowledge and creates a space for multidisciplinary projects.{% else %}Das Interaction Design Lab ist die Forschungseinrichtung des Studiengangs Interface Design an der Fachhochschule Potsdam. Das Labor beherbergt ein internationales Team an Forscher*innen, Designer*innen und Entwickler*innen, die ihre Wurzeln in Wissenschaft und Industrie haben. Wir schaffen eine Schnittstelle zwischen Lehre, Forschung, Entwicklung, Technologietransfer, Design und Wissenstransfer und öffnen damit einen Raum für multidisziplinäre Projekte.{% endif %}" />
+
+    <link rel="canonical" href="/" />
+
+    <meta property="og:locale" content="{% if locale == 'en' %}en_US{% else %}de_DE{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{metaTitle}}" />
+    <meta property="og:description" content="{{excerpt}}" />
+    <meta property="og:url" content="{{page.url}}" />
+    <meta property="og:site_name" content="Interaction Design Lab" />
+    <meta property="og:image" content="/images/idl-social-media.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content="{{excerpt}}"/>
+    <meta name="twitter:title" content="{{metaTitle}}"/>
+    <meta name="twitter:url" content="{{page.url}}">
+    <meta name="twitter:site" content="@idpotsdam"/>
+    <meta name="twitter:image" content="/images/idl-social-media.jpg"/>
+    <meta name="twitter:creator" content="@idpotsdam"/>
+
+    <meta name='robots' content='max-image-preview:large' />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00ff38">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  
+{% if page.url %}
+  {% set lang = page.url.slice(1, 3) %}
+    {% if lang == "de" or lang == "en" %}
+      {% set enUrl = page.url | replace("/de/", "/en/") %}
+      {% set deUrl = page.url | replace("/en/", "/de/") %}
+    {% else %}
+      {% set lang = "de" %}
+      {% set enUrl = "/en/" %}
+      {% set deUrl = "/de/" %}
+    {% endif %}
+{% endif %}
+  <header>
+    <a id="logo" href="/{{locale}}/" rel="home">
+    <img src="/images/assets/idl-logo{% if lang == "en" %}-en{% endif %}.svg" alt="Interaction Design Lab Startseite">
+      
+    </a>
+
+    <!-- <div class="menu-icon">
+
+      <img src="/images/assets/menu-icon.svg" alt="Open menu">
+
+    </div>
+
+    -->
+
+    <nav class="navigation" id="navigation" aria-label="Hauptnavigation">
+    <button aria-expanded="false" aria-controls="menu-list" id="mainNavButton">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation">
+        <path d="M3 18h18v-2H3v2Zm0-5h18v-2H3v2Zm0-7v2h18V6H3Z"/>
+        <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/>
+      </svg></button>
+    <ul class="ncl" id="menu-list" hidden>
+     <li><a {{ 'aria-current=page' if page.url and '/about' in page.url }} href="/{{locale}}/about/">{% if lang == 'en' %}About{% else %}Über uns{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/projects' in page.url }} href="/{{locale}}/projects/">{% if lang == 'en' %}Projects{% else %}Projekte{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/publications' in page.url }} href="/{{locale}}/publications/">{% if lang == 'en' %}Publications{% else %}Publikationen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/services' in page.url }} href="/{{locale}}/services/">{% if lang == 'en' %}Services{% else %}Services{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/people' in page.url }} href="/{{locale}}/people/">{% if lang == 'en' %}People{% else %}Personen{% endif %}</a></li>
+        <li><a {{ 'aria-current=page' if page.url and '/jobs' in page.url }} href="/{{locale}}/jobs/">{% if lang == 'en' %}Jobs{% else %}Jobs{% endif %}</a></li>
+        <li class="lang-switch">
+        {% if lang == 'en' %} <a href="{{ deUrl }}" hreflang="en" title="Seite in Deutsch anzeigen (DE)" alt="Seite in Deutsch anzeigen (DE)"><img src="/images/assets/switch-de.svg" alt="Seite in Deutsch anzeigen (DE)"></a> {% endif %}
+        {% if lang != 'en' %} <a href="{{ enUrl }}" hreflang="de" title="Switch to English (EN)" alt="Switch to English (EN)"><img src="/images/assets/switch-en.svg" alt="Switch to English (EN)"></a> {% endif %}
+        </li>
+    </ul>
+
+  </nav>
+    
+
+
+	</header>
+
+  <main class="main">

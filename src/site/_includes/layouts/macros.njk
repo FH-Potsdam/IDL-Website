@@ -1,0 +1,212 @@
+{% macro imageById(id, attachments) %}
+{% for a in attachments %}
+{% if a.wp_id == id %}
+{% set urlEl = a.url.split('/') %}
+/images/migration/{{ urlEl[urlEl.length - 1] }}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{% macro projectTeaser(p, lang) %}
+
+<a href="{{p.url}}" title="{{p.data.name}}" class="project-container {% for item in p.data.filter_themen %}{{item | slug }} {% endfor %} {% for item in p.data.filter_services %}{{item | slug }} {% endfor %} {% for item in p.data.filter_art %}{{item | slug }} {% endfor %} ">
+
+		<div class="project-image">
+      
+			<img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
+		</div>
+
+		<div class="project-desc-container">
+
+			<div class="project-name">
+				<span>{{p.data.name | safe}}</span> {{p.data.subtitle | safe}}
+			</div>
+
+			<div class="project-sponsor">
+        {% for f in p.data.project_funding %}
+        {% if f.logo %}
+      
+      
+        <span>{% if lang == 'en' %}Funded by{% else %}Gefördert durch{% endif %}</span>
+				<img src="{{f.logo}}" alt="{{f.name}}">
+        {% endif %}
+        {% endfor %}
+			</div>
+
+			<div class="project-tags-container">
+        {% for item in p.data.filter_themen %}
+        <div class="project-tag">{{translateThemen(item, lang)}}</div>
+        {% endfor %}
+        {% for item in p.data.filter_services %}
+        <div class="project-tag">{{item}}</div>
+        {% endfor %}
+        {% for item in p.data.filter_art %}
+        <div class="project-tag">{% if item == "Forschung" and lang == "en" %}Research{% else %}{{item}}{% endif %}</div>
+        {% endfor %}
+
+			</div>
+
+		</div>
+
+	</a>	
+{% endmacro %}
+
+{% macro translateThemen(item, lang) %}
+  {% if lang == "en" %}
+    {% if item == "Wissensportal" %}
+      Knowledge Portal
+    {% elif item == "Interaktion im Raum" %}
+      Interaction in Space
+    {% elif item == "Wissensvermittlung" %}
+      Knowledge Transfer
+    {% elif item == "Wissenschaftskommunikation" %}
+      Science Communication
+    {% elif item == "KI" %}
+      AI
+    {% else %}
+      {{item}}
+    {% endif %}
+  {% else %}
+    {{item}}
+  {% endif %}
+{% endmacro %}
+
+{% macro eventTeaser(p, lang) %}
+<a class="event" href="{{p.url}}" title="{{p.data.name}}">
+ 
+    <img src="{{p.data.thumbnail}}" alt="{{p.data.name}}" loading="lazy">
+    <div class="event-desc-container">
+
+      <div class="event-name">
+        <span>{{p.data.name}}</span> {{p.data.subtitle}}
+        <div class="event-date">
+        {{p.data.datum}}
+      </div>
+      <div class="event-time">
+        {{p.data.uhrzeit}}
+      </div>
+      </div>
+      
+      <div class="more-link">
+        
+       {% if lang == 'en' %}Details{% else %}Mehr Informationen{% endif %}
+      </div>
+    </div>
+
+  
+</a>	
+{% endmacro %}
+
+
+{% macro peopleTeaser(p) %}
+<li>
+  {% if "Past" in p.data.group %}
+  {{p.data.name}}
+  {% else %}
+  <a href="{{p.url}}" title="{{p.data.name}}">
+    {{p.data.name}}
+  </a>
+  {% endif %}
+</li>
+{% endmacro %}
+
+{% macro publicationTeaser(p, locale, people) %}
+ 
+<div class="pub-container">
+  
+  {% if lastyear != p.data.year %}
+			<div class="year" id="{{p.data.year}}">{{p.data.year}}</div>
+		{% set lastyear = p.data.year %}
+    {% endif %}
+ 
+		<h4>{{p.data.title}}</h4>
+		<div class="pub-authors">
+			<ul>
+         {% for a in p.data.authors %}
+				<li> 
+          {% if a.internal_author_de %}
+          {% if locale == 'de' %}
+          {% set author = a.internal_author_de %}
+          {% else %}
+          {% set author = a.internal_author_en %}
+          {% endif %}
+          {{peopleLink(author, people)}}
+          {% else %}
+          {% if a.url and a.url != 'null' and a.url | length > 3 %}
+          <a href="{{a.url}}">{{a.name}}</a>
+          {% else %}
+          {{a.name}}
+          {% endif %}
+          {% endif %}
+          </li>
+    {%- endfor %}
+			
+			</ul>
+		</div>
+
+		<div class="pub-desc">
+			{{p.data.outlet}}
+		</div>
+    {# Legacy data format #}
+    {% if not p.data.project_pdf and p.data.website %}
+    {% set pdfsite = p.data.website %}
+    {% elif p.data.project_pdf %}
+    {% set pdfsite = p.data.project_pdf %}
+    {% endif %}
+    {% if pdfsite %}
+		<div class="download-link">
+			<a href="{{pdfsite}}" target="_blank">DOWNLOAD PDF</a>
+		</div>
+    {% endif %}
+    
+	</div>
+{% endmacro %}
+
+{#
+{% macro publicationTeaser(p, locale, people) %}
+<li>
+  <h4>{{p.title[locale]}}</h4>
+  <div class="publication-meta">
+    <ul>
+    {% for a in p.authors_names %}
+    <li>
+    {% if p.authors_ids[loop.index0] != "null" %}
+    <a href="/people/{{peopleById(p.authors_ids[loop.index0], people)}}">{{a}}</a>
+    {% else %}
+    {{a}}
+    {% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+    <span>{{p.year}}</span>
+    <span>{{p.outlet}}</span>
+  </div>
+</li>
+{% endmacro %}
+#}
+
+{% macro peopleById(url, people, key) %}
+{% for p in people %}
+{% if url in p.url %}
+{% if key == 'url' %}
+{{ p[key] }}
+{% else %}
+{{ p.data[key] }}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{% macro peopleLink(url, people) %}
+{% for p in people %}
+{% if url in p.url %}
+{% if 'Past' in p.data.group %}
+{{p.data.name}}
+{% else %}
+<a href="{{p.url}}">{{p.data.name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</a>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{% macro slideshow(images) %}<div class="slider-container"><div class="slider">{% for i in images %}<img src="/images/{{i}}" />{% endfor %}</div><button class="prev">&nbsp;</button><button class="next">&nbsp;</button></div>{% endmacro %}

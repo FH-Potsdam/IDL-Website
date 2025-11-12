@@ -1,0 +1,148 @@
+/*----- TYPOGRAPHY ------*/
+
+$font__regular: 400;
+$font__bold: 700;
+$font__black: 900;
+$font__family: "FHP Sun", sans-serif;
+
+/* FHPSun-regular */
+@font-face {
+  font-family: "FHP Sun";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/FHPSun-Regular-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FHP Sun";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/FHPSun-Bold-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FHP Sun";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/FHPSun-BlackItalic-subset.woff2") format("woff2");
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  font-family: $font__family;
+}
+
+@mixin font__h1 {
+  font-weight: $font__black;
+  font-style: italic;
+  line-height: 1em;
+}
+
+@mixin font__h1 {
+  font-weight: $font__black;
+  font-style: italic;
+  line-height: 1em;
+}
+
+@mixin font__h2 {
+  font-size: 32px;
+  font-weight: $font__regular;
+  margin-bottom: 2rem;
+  @media screen and (min-width: 64rem) {
+    font-size: 48px;
+  }
+}
+
+@mixin font__h3 {
+  font-size: 32px;
+  font-weight: $font__bold;
+}
+
+@mixin font__h4 {
+  font-size: 30px;
+  font-weight: $font__black;
+  font-style: italic;
+  @media screen and (min-width: 64rem) {
+    font-size: 36px;
+  }
+}
+
+@mixin font__p-large {
+  font-size: 28px;
+  font-weight: $font__regular;
+  line-height: 1.25em;
+}
+
+@mixin font__p-large-black {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: $font__regular;
+  line-height: 1.25em;
+}
+
+@mixin font__p {
+  font-size: 20px;
+  font-weight: $font__regular;
+}
+
+@mixin font__topline {
+  font-size: 10px;
+  font-weight: $font__bold;
+}
+
+@mixin font__ui {
+  font-size: 16px;
+  font-weight: $font__regular;
+}
+
+@mixin font__ui-small {
+  font-size: 14px;
+  font-weight: $font__regular;
+}
+
+b {
+  font-weight: $font__bold;
+}
+strong {
+  font-weight: $font__bold;
+}
+
+h1 {
+  @include font__h1;
+  font-size: 36px;
+  @media screen and (min-width: 48em) {
+    font-size: 64px;
+  }
+  @media screen and (min-width: 87.5em) {
+    font-size: 86px;
+  }
+  a, a:visited{color:black}
+  a:hover{color:var(--idl-brand-color);}
+}
+
+h2 {
+  @include font__h2;
+}
+h3 {
+  @include font__h3;
+}
+h4 {
+  @include font__h4;
+}
+
+p {
+  @include font__p;
+}
+
+.tag {
+  @include font__ui-small;
+  color: var(--text-default);
+  background-color: var(--background-chip);
+  border-radius: 5px;
+  padding: 4px 7px;
+  display: inline-block;
+  margin: 0 3px 3px 0;
+}

@@ -1,0 +1,49 @@
+---
+  name: "Unfolding"
+  excerpt: ""
+  wp_id: 186
+  slug: "unfolding"
+  group: 
+    - "Maps"
+  subtitle: "Map & Geovisualization Library"
+  project_year: ""
+  filter_themen:
+    - GeoVis
+    - Open Source Software
+  filter_services:
+    - Prototyping
+  filter_art:
+    - Forschung
+  project_team:
+    - /en/people/till-nagel/
+  project_website: "http://www.unfoldingmaps.org"
+  project_material: ""
+  year: 2010
+  related_publications: []
+  related_projects: ""
+  thumbnail_id: 232
+  featured_home: false
+  thumbnail: /images/uploads/unfolding-teaser.jpg
+  project_partners: []
+  project_team_external: []
+  project_funding: []
+  project_client: []
+
+---
+Unfolding is a Processing and Java library that enables the creation of interactive thematic maps and geovisualizations.
+
+The library was developed at the **Interaction Design Lab**, FH Potsdam and at the KU Leuven, and is used in classes, as well as in research and commercial projects. The aim of the toolkit is to enable interaction designers, visualization experts, and others to easily create interactive geographic maps.
+
+Some of the features include
+
+<strong>Interaction events</strong>
+Unfolding enables you to rapidly create interactive maps. Basic interactions such as Zoom & Pan are included. Other functionality such as Overview+Detail, or multi-touch gestures can be easily added.
+
+<strong>Data visualization</strong>
+Simply create geo-positioned markers to display data on a map. The visual style can be adapted freely. The library supports any user-defined shapes, such as points, lines, or polygons.
+
+<strong>Styled maps</strong>
+Unfolding is a tile-based map library. Map tiles can have various geographic features and come in all sorts of styles. It works with various map providers such as OpenStreetMap or TileMill.
+
+For more information visit <a href="http://unfoldingmaps.org">unfoldingmaps.org</a>
+Find the source code at <a href="https://github.com/tillnagel/unfolding">Github</a>

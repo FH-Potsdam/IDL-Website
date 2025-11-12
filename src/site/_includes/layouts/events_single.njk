@@ -1,0 +1,151 @@
+{% include 'header.njk' %}
+{% from './macros.njk' import imageById, peopleTeaser, publicationTeaser %}
+
+{% if locale == 'de' %}
+{% set people = collections.people_de %}
+{% set projects = collections.projects_de %}
+{% else %}
+{% set people = collections.people_en %}
+{% set projects = collections.projects_en %}
+{% endif %}
+
+<div class="intro-container max-width default">
+  <h1>{{name}}: {{subtitle}}</h1>
+   
+
+   {% if excerpt %}
+  <div class="intro">
+ <p>{{excerpt}}</p>
+  </div>
+  {% endif %}
+
+</div>
+
+{#
+<h1>{{name[locale]}}</h1>
+{% if subtitle[locale] %}<h2>{{subtitle[locale]}}</h2>{% endif %}
+{% if excerpt[locale] %}<p>{{excerpt[locale]}}</p>{% endif %}
+#}
+
+{% if thumbnail %}
+<div class="project-hero">
+<img src="{{thumbnail}}" alt="{{name}}">
+</div>
+{% endif %}
+
+
+<div class="project-facts-container">
+
+<!--
+
+TODO: related_project
+TODO: related_person
+etc.
+
+siehe admin/config.yml
+
+  -->
+
+  <div class="block">
+    {% if date %}
+    <div class="facts year">   
+          <span>
+        {% if locale == 'en' %} Date {% else %} Datum {% endif %}
+      </span>
+        {{datum}}   
+    </div>
+      {% endif %}
+
+      {% if uhrzeit %}
+    <div class="facts uhrzeit">   
+          <span>
+        {% if locale == 'en' %} Time {% else %} Uhrzeit {% endif %}
+      </span>
+        {{uhrzeit}}   
+    </div>
+      {% endif %}  
+
+  </div>
+
+  <div class="block">
+
+      {% if related_people %}
+      <div class="facts team">
+       <span>
+        {% if locale == 'en' %} Organizer {% else %} Organisator:innen {% endif %}
+      </span>
+      <ul>
+    {% for t in related_people %}
+    {% for p in people | sort(true, false, "sort_name") %}
+    {% if t | length > 3 and p.url | stripUrl in t | stripUrl %}
+    {{ peopleTeaser(p) }}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </div>
+      {% endif %}  
+  </div>
+
+
+
+  <div class="block">
+
+      {% if related_projects %}
+      
+          <div class="facts team">
+          <span>
+            {% if locale == 'en' %} Related Projects {% else %} Verwandte Projekte {% endif %}
+          </span>
+          <ul>
+        {% for t in related_projects %}
+        {% for p in projects | sort(true, false, "sort_name") %}
+        {% if t | length > 3 and p.url | stripUrl in t | stripUrl %}
+        {{ peopleTeaser(p) }}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        </div>
+
+      {% endif %}  
+      
+  </div>
+ 
+   <div class="block">
+
+      {% if website %}
+      <div class="facts website">
+      <span>Website</span>
+        <a href="{{website}}">{{website}}</a>
+    </div>
+      {% endif %}  
+
+  </div>
+
+</div>
+
+
+
+
+<div class="content-container">
+{% if content %}
+<p>{{content | safe}}</p>
+{% endif %}
+</div>
+
+{% if website %}
+      <div class="more-link">
+           <a class="button" href="{{website}}">Event Website</a>
+    </div>
+      {% endif %} 
+ 
+
+{% if laufschrift_green and laufschrift_black %}
+<div class="laufschrift-container">
+
+	<div class="scroll1">{{laufschrift_green}}</div>
+	<div class="scroll2">{{laufschrift_black}}</div>
+
+</div>
+{% endif %}
+
+{% include 'footer.njk' %}

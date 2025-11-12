@@ -1,0 +1,404 @@
+backend:
+  name: git-gateway # github
+  branch: static-rewrite
+  repo: fh-potsdam/IDL-Website
+publish_mode: editorial_workflow
+media_folder: "src/site/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - label: "Projekte (DE)"
+    name: "projects_de"
+    editor:
+      preview: false
+    folder: "src/site/de/projects"
+    create: true
+    identifier_field: name
+    fields: &project_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Project Year", name: "project_year", widget: "string", required: false}
+      - {label: "Sort Year", name: "year", widget: "number", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
+      #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
+      - {label: "Project website", name: "project_website", widget: "string", required: false}
+      - {label: "Project Material", name: "project_material", widget: "string", required: false}
+      - label: "Filter-Themen"
+        name: "filter_themen"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Dashboard", "GeoVis", "InfoVis", "Wissensportal", "Open Source Software", "Extended Reality", "Eye-Tracking","Tangible","Interaktion im Raum",Wissenschaftskommunikation","Wissensvermittlung", "Mobile"]
+      - label: "Filter-Services"
+        name: "filter_services"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Prototyping", "Speculative Design", "User Research", "UX-Evaluation"]
+      - label: "Filter-Art"
+        name: "filter_art"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Forschung", "Transfer"]
+      - label: "Project Team Extern"
+        name: "project_team_external"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: "Project Partners"
+        name: "project_partners"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: "Project Client"
+        name: "project_client"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
+      - label: "Project Funding"
+        name: "project_funding"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
+      - label: "Related Publications"
+        name: related_publications
+        widget: list
+        required: false
+        summary: '{{fields.publication}}'
+        field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: "/publications/{{slug}}/", display_fields: [title]}
+      - label: "Project Team"
+        name: project_team
+        required: false
+        widget: list
+        summary: '{{fields.member}}'
+        field: {label: Member, name: member, widget: relation, collection: people_de, search_fields: [name], value_field: "/de/people/{{slug}}/", display_fields: [name]}
+  - label: "Projects (EN)"
+    name: "projects_en"
+    editor:
+      preview: false
+    folder: "src/site/en/projects"
+    create: true
+    identifier_field: name
+    fields: &project_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Project Year", name: "project_year", widget: "string", required: false}
+      - {label: "Sort Year", name: "year", widget: "number", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      #- {label: "Wordpress ID", name: "wp_id", widget: "number"}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
+      #- {label: "URL (Slug)", name: "slug", widget: "string"}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
+      - {label: "Project website", name: "project_website", widget: "string", required: false}
+      - {label: "Project Material", name: "project_material", widget: "string", required: false}
+      - label: "Group"
+        name: "group"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Maps", "Mobile"]
+      - label: "Filter-Themen"
+        name: "filter_themen"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Speculation", "Dashboard", "GeoVis", "InfoVis", "Portal", "PhysicalService", "App Design"]
+      - label: "Filter-Services"
+        name: "filter_services"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Prototyping", "UI/UX", "Human-Centered Design", "Design Thinking", "Service Design"]
+      - label: "Filter-Art"
+        name: "filter_art"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Research", "Transfer"]
+      - label: "Project Team Extern"
+        name: "project_team_external"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: "Project Partners"
+        name: "project_partners"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+      - label: "Project Client"
+        name: "project_client"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
+      - label: "Project Funding"
+        name: "project_funding"
+        widget: "list"
+        required: false
+        summary: '{{fields.name}}'
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: URL, name: url, widget: string, required: false}
+          - {label: Logo, name: logo, widget: image, required: false}
+      - label: "Related Publications"
+        name: related_publications
+        required: false
+        widget: list
+        summary: '{{fields.publication}}'
+        field: {label: Publication, name: publication, widget: relation, collection: publications, search_fields: [title], value_field: "/publications/{{slug}}/", display_fields: [title]}
+      - label: "Project Team"
+        name: project_team
+        required: false
+        widget: list
+        summary: '{{fields.member}}'
+        field: {label: Member, name: member, widget: relation, collection: people_en, search_fields: [name], value_field: "/en/people/{{slug}}/", display_fields: [name]}
+  - label: "People (DE)"
+    name: "people_de"
+    editor:
+      preview: false
+    folder: "src/site/de/people"
+    create: true
+    identifier_field: name
+    fields: &people_meta
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
+      #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - label: "Group"
+        name: "group"
+        required: false
+        widget: "select"
+        options: ["Members", "Associates", "Students", "Past Members", "Past Students"]
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Email", name: "email", widget: string, required: false}
+      - {label: "Twitter", name: "twitter", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail_id", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
+  - label: "People (EN)"
+    name: "people_en"
+    editor:
+      preview: false
+    folder: "src/site/en/people"
+    create: true
+    identifier_field: name
+    fields: *people_meta
+  - label: "Events (DE)"
+    name: "events_de"
+    editor:
+      preview: false
+    folder: "src/site/de/events"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
+      #- {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Date", name: "date", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
+      - label: "Related Projects"
+        name: related_projects
+        required: false
+        widget: list
+        summary: '{{fields.project}}'
+        field: {label: Project, name: project, widget: relation, collection: projects_de, search_fields: [name], value_field: "/de/projects/{{slug}}/", display_fields: [name]}
+      - label: "Related People"
+        name: related_people
+        required: false
+        widget: list
+        summary: '{{fields.people}}'
+        field: {label: People, name: people, widget: relation, collection: people_de, search_fields: [name], value_field: "/de/people/{{slug}}/", display_fields: [name]}
+  - label: "Events (EN)"
+    name: "events_en"
+    editor:
+      preview: false
+    folder: "src/site/en/events"
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown", required: false}
+      - {label: "Laufschrift", name: "laufschrift_tags", widget: "string", required: false}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Date", name: "date", widget: string, required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: image, required: false}
+      - {label: "Sorting", name: "sort_name", widget: string, required: false}
+      - {label: "Features (Home)", name: "featured_home", widget: "boolean", default: false}
+      - label: "Related Projects"
+        name: related_projects
+        required: false
+        widget: list
+        summary: '{{fields.project}}'
+        field: {label: Project, name: project, widget: relation, collection: projects_en, search_fields: [name], value_field: "/en/projects/{{slug}}/", display_fields: [name]}
+      - label: "Related People"
+        name: related_people
+        required: false
+        widget: list
+        summary: '{{fields.people}}'
+        field: {label: People, name: people, widget: relation, collection: people_en, search_fields: [name], value_field: "/en/people/{{slug}}/", display_fields: [name]}
+  - label: "Publications"
+    name: "publications"
+    identifier_field: title
+    editor:
+      preview: false
+    folder: "src/site/publications"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Outlet", name: "outlet", widget: string, required: false}
+      #- {label: "WP ID", name: "wp_id", widget: "number"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      #- {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Website", name: "website", widget: string, required: false}
+      - {label: "Year", name: "year", widget: number, required: false}
+      - label: "Authors"
+        required: false
+        name: authors
+        widget: list
+        summary: '{{fields.internal_author_de}} / {{fields.name}}'
+        fields:
+        - label: Internal Author (DE)
+          name: internal_author_de
+          widget: relation
+          required: false
+          collection: people_de
+          search_fields: [name]
+          value_field: "/de/people/{{slug}}/"
+          display_fields: [name]
+        - label: Internal Author (EN)
+          name: internal_author_en
+          widget: relation
+          required: false
+          collection: people_en
+          search_fields: [name]
+          value_field: "/en/people/{{slug}}/"
+          display_fields: [name]
+        - {label: External Name, name: name, widget: string, required: false}
+        - {label: External Url, name: url, widget: string, required: false}
+  - label: "Pages"
+    name: "pages"
+    editor:
+      preview: false
+    identifier_field: title
+    files:
+      - label: "Über uns (DE)"
+        name: "about_de"
+        file: "src/site/de/about.md"
+        fields: &static_meta
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Excerpt, name: excerpt, widget: markdown, required: false}
+          - {label: Laufschrift (green), name: laufschrift_green, widget: string, required: false}
+          - {label: Laufschrift (black), name: laufschrift_black, widget: string, required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "About us (EN)"
+        name: "about_en"
+        file: "src/site/en/about.md"
+        fields: *static_meta
+      - label: "Kontakt (DE)"
+        name: "contact_de"
+        file: "src/site/de/contact.md"
+        fields: *static_meta
+      - label: "Contact (EN)"
+        name: "contact_en"
+        file: "src/site/en/contact.md"
+        fields: *static_meta
+      - label: "Impressum (DE)"
+        name: "imprint_de"
+        file: "src/site/de/imprint.md"
+        fields: *static_meta
+      - label: "Legal Note (EN)"
+        name: "imprint_en"
+        file: "src/site/en/imprint.md"
+        fields: *static_meta
+      - label: "Startseite (DE)"
+        name: "index_de"
+        file: "src/site/de/index.md"
+        fields: *static_meta
+      - label: "Home (EN)"
+        name: "home_en"
+        file: "src/site/en/index.md"
+        fields: *static_meta
+      - label: "Jobs (DE)"
+        name: "jobs_de"
+        file: "src/site/de/jobs.md"
+        fields: *static_meta
+      - label: "Jobs (EN)"
+        name: "jobs_en"
+        file: "src/site/en/jobs.md"
+        fields: *static_meta
+      - label: "Personen (DE)"
+        name: "people_de"
+        file: "src/site/de/people.md"
+        fields: *static_meta
+      - label: "People (EN)"
+        name: "people_en"
+        file: "src/site/en/people.md"
+        fields: *static_meta
+      - label: "Projekte (DE)"
+        name: "projects_de"
+        file: "src/site/de/projects.md"
+        fields: *static_meta
+      - label: "Projects (EN)"
+        name: "projects_en"
+        file: "src/site/en/projects.md"
+        fields: *static_meta
+      - label: "Publikationen (DE)"
+        name: "publications_de"
+        file: "src/site/de/publications.md"
+        fields: *static_meta
+      - label: "Publications (EN)"
+        name: "publications_en"
+        file: "src/site/en/publications.md"
+        fields: *static_meta
+      - label: "Services (DE)"
+        name: "services_de"
+        file: "src/site/de/services.md"
+        fields: *static_meta
+      - label: "Services (EN)"
+        name: "services_en"
+        file: "src/site/en/services.md"
+        fields: *static_meta
