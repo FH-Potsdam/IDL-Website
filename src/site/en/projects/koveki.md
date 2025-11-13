@@ -28,8 +28,8 @@ project_funding:
   - name: "Gefördert vom Land Brandenburg im Rahmen des Programms zur Stärkung der technologischen und anwendungsnahen Forschung in Forschungsverbünden von Wissenschaftseinrichtungen - StaF-Verbund"
   - name: "Kofinanziert von der Europäischen Union (EFRE/JTF)"
 project_team:
-  - /de/people/sebastian-meier/
-  - /de/people/ivan-iovine/
+  - /en/people/sebastian-meier/
+  - /en/people/ivan-iovine/
 slug: koveki
 thumbnail_id: 
 related_projects: ""
