@@ -3,7 +3,7 @@
   excerpt: ""
   wp_id: 517
   slug: "christin-renner"
-  group: "Members"
+  group: "Past Members"
   subtitle: "Wissenschaftliche Mitarbeiterin"
   website: "https://maschinen-emotionen.webflow.io"
   email: "christin.renner@fh-potsdam.de"

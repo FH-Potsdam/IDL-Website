@@ -3,7 +3,7 @@ excerpt: ...
 name: Christopher Pietsch
 slug: christopher-pietsch
 subtitle: Wissenschaftlicher Mitarbeiter
-group: Members
+group: Past Members
 website: https://chrispie.com/
 email: cpietsch@gmail.com
 twitter: chrispiecom

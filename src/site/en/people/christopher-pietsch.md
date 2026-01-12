@@ -3,7 +3,7 @@ excerpt: ...
 name: Christopher Pietsch
 slug: christopher-pietsch
 subtitle: Research Associate
-group: Members
+group: Past Members
 website: https://chrispie.com/
 email: cpietsch@gmail.com
 twitter: chrispiecom
