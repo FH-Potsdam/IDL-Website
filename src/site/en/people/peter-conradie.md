@@ -1,5 +1,5 @@
 ---
-  name: "Peter Conradie"
+  name: "Dr. Peter Conradie"
   excerpt: ""
   wp_id: 169
   slug: "peter-conradie"

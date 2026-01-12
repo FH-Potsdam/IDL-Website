@@ -1,5 +1,5 @@
 ---
-  name: "Larissa Pschetz"
+  name: "Dr. Larissa Pschetz"
   excerpt: ""
   wp_id: 174
   slug: "larissa-pschetz"

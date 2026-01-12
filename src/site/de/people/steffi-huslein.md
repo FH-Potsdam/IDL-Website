@@ -1,5 +1,5 @@
 ---
-  name: "Steffi Hußlein"
+  name: "Prof. Steffi Hußlein"
   excerpt: ""
   wp_id: 172
   slug: "steffi-huslein"
