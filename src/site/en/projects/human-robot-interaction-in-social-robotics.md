@@ -4,9 +4,7 @@ subtitle: ""
 project_year: 2024 – 2026
 year: 2024
 thumbnail: /images/uploads/navel_facial_expression2klein.png
-excerpt: The aim of the project, funded by the European Regional Development Fund,
-is to establish an interdisciplinary testing and
-experimentation environment for social robots.
+excerpt: The aim of the project, funded by the European Regional Development Fund, is to establish an interdisciplinary testing and experimentation environment for social robots.
 featured_home: false
 filter_themen:
   - Tangible
