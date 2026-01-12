@@ -23,6 +23,9 @@ project_funding:
     logo: /images/uploads/h-kofinanziert-von-der-europäischen-union_pos.png
 project_team:
   - /de/people/frank-heidmann/
+  - /de/people/rou-sommermann/
+  - /de/people/anna-gasviani/
+
 ---
 Die Fachhochschule Potsdam baut zurzeit eine interdisziplinäre Test- und Experimentierumgebung für soziale Roboter (Social Robots) auf. Ziel ist es, technologische, gestalterische, methodologische und ethische Fragen bei der Entwicklung von AI-basierten Robotersystemen, die mit Menschen in alltäglichen Kontexten und Lebenswelten zusammenarbeiten, aus verschiedenen Perspektiven und für spezifische Anwendungsfelder zu untersuchen. Die Robotersysteme (u.a. navel, Furhat, Misty II) umfassen jeweils umfangreiche SDKs (Entwicklungsplattformen) und ermöglichen ein flexibles Prototyping und Testing neuer Anwendungsszenarien für Social Robots.
 
