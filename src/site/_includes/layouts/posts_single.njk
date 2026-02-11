@@ -10,10 +10,17 @@
   <h1>{{title}}</h1>
   <div class="post-meta">
     {% if date %}
-    <div class="post-date">{{ date | date("D MMM YYYY", locale) }}</div>
+    <div class="post-date">
+      {% if locale == 'de' %}
+      {{ date | date("D. MMM. YYYY", locale) }}
+      {% else %}
+      {{ date | date("MMM. Do YYYY", locale) }}
+      {% endif %}
+    </div>
     {% endif %}
     {% if authors %}
     <div class="post-author">
+      {% if date %} – {% endif %}
       {% for a in authors %}
         {% if '/de/people/' in a %}
         {{ peopleLink(a, collections.people_de) }}{% if not loop.last %}, {% endif %}
@@ -31,5 +38,34 @@
 {{content | safe}}
 {% endif %}
 </div>
+
+{% set orderedPosts = collections['posts_' + locale] | reverse %}
+{% set currentIndex = -1 %}
+{% for p in orderedPosts %}
+  {% if p.url == page.url %}
+    {% set currentIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+{% if currentIndex > -1 %}
+  {% set nextPost = orderedPosts[currentIndex + 1] %}
+  {% set prevPost = orderedPosts[currentIndex - 1] %}
+  {% if nextPost or prevPost %}
+  <div class="post-nav">
+    <h2>{% if locale == 'de' %}Weiterlesen{% else %}Continue reading{% endif %}</h2>
+    {% if nextPost %}
+    <div class="post-nav-item">
+      {% if locale == 'de' %}Nächster Artikel:{% else %}Next article:{% endif %}
+      <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+    </div>
+    {% endif %}
+    {% if prevPost %}
+    <div class="post-nav-item">
+      {% if locale == 'de' %}Vorheriger Artikel:{% else %}Previous article:{% endif %}
+      <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endif %}
 
 {% include 'footer.njk' %}

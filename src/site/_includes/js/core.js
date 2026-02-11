@@ -90,6 +90,16 @@ if (document.getElementById("button-pubs")) {
   };
 }
 
+if (document.getElementById("button-posts")) {
+  const showMorePosts = document.getElementById("button-posts");
+  const previewPosts = document.getElementsByClassName("expand-posts");
+
+  showMorePosts.onclick = function () {
+    previewPosts[0].classList.toggle("preview");
+    showMorePosts.style.display = "none";
+  };
+}
+
 // SLIDESHOW
 
 const initializeSlider = (sliderContainer) => {

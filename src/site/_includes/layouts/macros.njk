@@ -118,20 +118,19 @@
 {% endif %}
 <div class="post-container">
   <div class="post-meta">
-    {% if p.data.date %}
-    <div class="post-date">{{ p.data.date | date("D MMM YYYY", locale) }}</div>
-    {% endif %}
-    {% if authors %}
-    <div class="post-author">
-      {% for a in authors %}
-        {% if '/de/people/' in a %}
-        {{ peopleLink(a, peopleDe) }}{% if not loop.last %}, {% endif %}
-        {% else %}
-        {{ peopleLink(a, peopleEn) }}{% if not loop.last %}, {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
-    {% endif %}
+    {%- if p.data.date -%}
+      {%- if locale == 'de' -%}{{ p.data.date | date("D. MMM. YYYY", locale) }}{%- else -%}{{ p.data.date | date("MMM. Do YYYY", locale) }}{%- endif -%}
+    {%- endif -%}
+    {%- if authors -%}
+      {%- if p.data.date -%}&nbsp;–&nbsp;{%- endif -%}
+      {%- for a in authors -%}
+        {%- if '/de/people/' in a -%}
+        {{ peopleLink(a, peopleDe) }}{%- if not loop.last -%},&nbsp; {%- endif -%}
+        {%- else -%}
+        {{ peopleLink(a, peopleEn) }}{%- if not loop.last -%},&nbsp; {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
   </div>
   <h4><a href="{{p.url}}">{{p.data.title}}</a></h4>
 </div>
@@ -151,20 +150,20 @@
 			<ul>
          {% for a in p.data.authors %}
 				<li> 
-          {% if a.internal_author_de %}
-          {% if locale == 'de' %}
-          {% set author = a.internal_author_de %}
-          {% else %}
-          {% set author = a.internal_author_en %}
-          {% endif %}
+          {%- if a.internal_author_de -%}
+          {%- if locale == 'de' -%}
+          {%- set author = a.internal_author_de -%}
+          {%- else -%}
+          {%- set author = a.internal_author_en -%}
+          {%- endif -%}
           {{peopleLink(author, people)}}
-          {% else %}
-          {% if a.url and a.url != 'null' and a.url | length > 3 %}
+          {%- else -%}
+          {%- if a.url and a.url != 'null' and a.url | length > 3 -%}
           <a href="{{a.url}}">{{a.name}}</a>
-          {% else %}
+          {%- else -%}
           {{a.name}}
-          {% endif %}
-          {% endif %}
+          {%- endif -%}
+          {%- endif -%}
           </li>
     {%- endfor %}
 			
@@ -225,15 +224,15 @@
 {% endmacro %}
 
 {% macro peopleLink(url, people) %}
-{% for p in people %}
-{% if url in p.url %}
-{% if 'Past' in p.data.group %}
+{%- for p in people -%}
+{%- if url in p.url -%}
+{%- if 'Past' in p.data.group -%}
 {{p.data.name}}
-{% else %}
+{%- else -%}
 <a href="{{p.url}}">{{p.data.name | replace ("Prof. ", "") | replace ("Dr. ", "")}}</a>
-{% endif %}
-{% endif %}
-{% endfor %}
-{% endmacro %}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro -%}
 
 {% macro slideshow(images) %}<div class="slider-container"><div class="slider">{% for i in images %}<img src="/images/{{i}}" />{% endfor %}</div><button class="prev">&nbsp;</button><button class="next">&nbsp;</button></div>{% endmacro %}

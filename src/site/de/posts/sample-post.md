@@ -53,7 +53,7 @@ Und hier ist eine Beispieltabelle:
 
 <h3>Eingebettetes Video</h3>
 <figure class="video-embed">
-  <video controls preload="metadata">
+  <video controls preload="metadata" poster="/images/maeve_installation_2-e1288790434777.jpg">
     <source src="https://fhpcloud.fh-potsdam.de/s/wcZsp9ob6JPj74Z/download/test.mp4" type="video/mp4">
     Dein Browser unterstützt das Video-Tag nicht.
   </video>

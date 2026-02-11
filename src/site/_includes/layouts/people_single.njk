@@ -107,6 +107,20 @@
 
 
 
+{% if postcounter > 0 %}
+<div class="posts expand-posts preview">
+  <h2 id="posts">{% if lang == 'en' %}Posts{% else %}Beiträge{% endif %}</h2>
+{% for pId in collections.map.lists['people_' + locale + '_posts'][page.url | stripUrl] %}
+{{     postTeaser(posts[pId], locale, collections.people_de, collections.people_en) }}
+{% endfor %}
+</div>
+    {% if postcounter > 3 %}
+    <div class="more-link">
+        <button class="button" id="button-posts" type="button">{% if lang == 'en' %}Show all {{ postcounter }} posts{% else %}Alle {{ postcounter }} Beiträge anzeigen{% endif %}</button>
+      </div>
+      {% endif %}
+{% endif %}
+
 {% if publicationcounter > 0 %}
   {% set lastyear = '0' %}
 
@@ -124,15 +138,6 @@
     <a class="button" id="button-pubs">{% if lang == 'en' %}Show all {{ publicationcounter }} publications{% else %}Alle {{ publicationcounter }} Publikationen anzeigen{% endif %}</a>
     </div>
   {% endif %}
-{% endif %}
-
-{% if postcounter > 0 %}
-<h2 class="posts" id="posts">{% if lang == 'en' %}Posts{% else %}Beiträge{% endif %}</h2>
-<div class="posts">
-{% for pId in collections.map.lists['people_' + locale + '_posts'][page.url | stripUrl] %}
-{{     postTeaser(posts[pId], locale, collections.people_de, collections.people_en) }}
-{% endfor %}
-</div>
 {% endif %}
 
 
