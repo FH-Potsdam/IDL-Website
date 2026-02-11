@@ -42,6 +42,8 @@ module.exports = function(config) {
     ['projects_en', '/en/projects/*.md'],
     ['events_de', '/de/events/*.md'],
     ['events_en', '/en/events/*.md'],
+    ['posts_de', '/de/posts/*.md'],
+    ['posts_en', '/en/posts/*.md'],
   ];
 
   mdCollections.forEach(c => {
@@ -52,6 +54,13 @@ module.exports = function(config) {
           const aYear = a.data.year || 0;
           const bYear = b.data.year || 0;
           return parseInt(bYear) - parseInt(aYear);
+        });
+      }
+      if (c[0] === 'posts_de' || c[0] === 'posts_en') {
+        items.sort((a, b) => {
+          const aDate = a.data.date ? new Date(a.data.date).getTime() : 0;
+          const bDate = b.data.date ? new Date(b.data.date).getTime() : 0;
+          return bDate - aDate;
         });
       }
       return items;
@@ -85,6 +94,13 @@ module.exports = function(config) {
           const aYear = a.data.year || 0;
           const bYear = b.data.year || 0;
           return parseInt(bYear) - parseInt(aYear);
+        });
+      }
+      if (c[0] === 'posts_de' || c[0] === 'posts_en') {
+        items.sort((a, b) => {
+          const aDate = a.data.date ? new Date(a.data.date).getTime() : 0;
+          const bDate = b.data.date ? new Date(b.data.date).getTime() : 0;
+          return bDate - aDate;
         });
       }
 
@@ -170,6 +186,33 @@ module.exports = function(config) {
             map.lists['projects_' + lang + '_events'][project].push(i);
           });
 
+        }
+
+        if (c[0] === 'posts_de' || c[0] === 'posts_en') {
+          if (!('people_de_posts' in map.lists)) {
+            map.lists['people_de_posts'] = {};
+            map.lists['people_en_posts'] = {};
+          }
+          let lang = 'en';
+          if (c[0].indexOf('_de') > -1) {
+            lang = 'de';
+          }
+
+          if (item.data.author) {
+            let authors = item.data.author;
+            if (!Array.isArray(authors)) {
+              authors = [authors];
+            }
+            authors.forEach(a => {
+              if (a && a.length > 3) {
+                const authorUrl = stripUrl(a);
+                if(!(authorUrl in map.lists['people_' + lang + '_posts'])) {
+                  map.lists['people_' + lang + '_posts'][authorUrl] = [];
+                }
+                map.lists['people_' + lang + '_posts'][authorUrl].push(i);
+              }
+            });
+          }
         }
       });
     });

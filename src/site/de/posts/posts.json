@@ -1,0 +1,4 @@
+{
+  "locale": "de",
+  "layout": "layouts/posts_single.njk"
+}

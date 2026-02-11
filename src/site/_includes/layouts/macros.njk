@@ -110,6 +110,33 @@
 </li>
 {% endmacro %}
 
+{% macro postTeaser(p, locale, peopleDe, peopleEn) %}
+{% set people = peopleEn %}
+{% set authors = p.data.author %}
+{% if authors and (authors is string) %}
+{% set authors = [p.data.author] %}
+{% endif %}
+<div class="post-container">
+  <div class="post-meta">
+    {% if p.data.date %}
+    <div class="post-date">{{ p.data.date | date("D MMM YYYY", locale) }}</div>
+    {% endif %}
+    {% if authors %}
+    <div class="post-author">
+      {% for a in authors %}
+        {% if '/de/people/' in a %}
+        {{ peopleLink(a, peopleDe) }}{% if not loop.last %}, {% endif %}
+        {% else %}
+        {{ peopleLink(a, peopleEn) }}{% if not loop.last %}, {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <h4><a href="{{p.url}}">{{p.data.title}}</a></h4>
+</div>
+{% endmacro %}
+
 {% macro publicationTeaser(p, locale, people) %}
  
 <div class="pub-container">

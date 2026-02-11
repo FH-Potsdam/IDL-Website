@@ -1,0 +1,35 @@
+{% include 'header.njk' %}
+{% from './macros.njk' import peopleLink %}
+
+{% set authors = author %}
+{% if authors and (authors is string) %}
+{% set authors = [author] %}
+{% endif %}
+
+<div class="intro-container max-width default">
+  <h1>{{title}}</h1>
+  <div class="post-meta">
+    {% if date %}
+    <div class="post-date">{{ date | date("D MMM YYYY", locale) }}</div>
+    {% endif %}
+    {% if authors %}
+    <div class="post-author">
+      {% for a in authors %}
+        {% if '/de/people/' in a %}
+        {{ peopleLink(a, collections.people_de) }}{% if not loop.last %}, {% endif %}
+        {% else %}
+        {{ peopleLink(a, collections.people_en) }}{% if not loop.last %}, {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="content-container">
+{% if content %}
+{{content | safe}}
+{% endif %}
+</div>
+
+{% include 'footer.njk' %}

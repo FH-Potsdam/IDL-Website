@@ -1,13 +1,15 @@
 {% include 'header.njk' %}
-{% from './macros.njk' import publicationTeaser, imageById, projectTeaser %}
+{% from './macros.njk' import publicationTeaser, imageById, projectTeaser, postTeaser %}
 {% if group and group != 'Past Students' and group != 'Past Member' %}
 
 {% if locale == 'de' %}
 {% set people = collections.people_de %}
 {% set projects = collections.projects_de %}
+{% set posts = collections.posts_de %}
 {% else %}
 {% set people = collections.people_en %}
 {% set projects = collections.projects_en %}
+{% set posts = collections.posts_en %}
 {% endif %}
 
 {% set lang = page.url.slice(1, 3) %}
@@ -43,6 +45,11 @@
           {% set publicationcounter = collections.map.lists['people_' + locale + '_publications'][page.url | stripUrl] | length %}
           {% if publicationcounter > 0 %}
           <div class="person-publications"><a href="#publications">{% if lang == 'en' %}Publications{% else %}Publikationen{% endif %}</a> ({{publicationcounter}})</div>
+          {% endif %}
+
+          {% set postcounter = collections.map.lists['people_' + locale + '_posts'][page.url | stripUrl] | length %}
+          {% if postcounter > 0 %}
+          <div class="person-posts"><a href="#posts">{% if lang == 'en' %}Posts{% else %}Beiträge{% endif %}</a> ({{postcounter}})</div>
           {% endif %}
 
         </div>
@@ -117,6 +124,15 @@
     <a class="button" id="button-pubs">{% if lang == 'en' %}Show all {{ publicationcounter }} publications{% else %}Alle {{ publicationcounter }} Publikationen anzeigen{% endif %}</a>
     </div>
   {% endif %}
+{% endif %}
+
+{% if postcounter > 0 %}
+<h2 class="posts" id="posts">{% if lang == 'en' %}Posts{% else %}Beiträge{% endif %}</h2>
+<div class="posts">
+{% for pId in collections.map.lists['people_' + locale + '_posts'][page.url | stripUrl] %}
+{{     postTeaser(posts[pId], locale, collections.people_de, collections.people_en) }}
+{% endfor %}
+</div>
 {% endif %}
 
 
