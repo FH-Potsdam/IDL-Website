@@ -60,9 +60,8 @@ Und hier ist eine Beispieltabelle:
   <figcaption>Beispiel für ein eingebettetes MP4-Video.</figcaption>
 </figure>
 
-<h2>Referenzen</h2>
-<ul class="reference-list">
-  <li><a href="https://www.fh-potsdam.de/">Fachhochschule Potsdam</a></li>
-  <li><a href="https://www.idlab.de/">Interaction Design Lab</a></li>
-  <li><a href="/de/people/frank-heidmann/">Frank Heidmann</a></li>
-</ul>
+## Referenzen
+
+[Fachhochschule Potsdam](https://www.fh-potsdam.de/)  
+[Interaction Design Lab](https://www.idlab.de/)  
+[Frank Heidmann](/de/people/frank-heidmann/)

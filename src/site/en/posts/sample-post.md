@@ -33,7 +33,8 @@ And here is a sample table:
 | Prototype | Active | 2025 |
 | Release | Planned | 2026 |
 
-<h3>Embedded Video</h3>
+### Embedded Video
+
 <figure class="video-embed">
   <video controls preload="metadata" poster="/images/maeve_installation_2-e1288790434777.jpg">
     <source src="https://fhpcloud.fh-potsdam.de/s/wcZsp9ob6JPj74Z/download/test.mp4" type="video/mp4">
@@ -42,9 +43,8 @@ And here is a sample table:
   <figcaption>Sample video embed (MP4).</figcaption>
 </figure>
 
-<h2>References</h2>
-<ul class="reference-list">
-  <li><a href="https://www.fh-potsdam.de/">University of Applied Sciences Potsdam</a></li>
-  <li><a href="https://www.idlab.de/">Interaction Design Lab</a></li>
-  <li><a href="/en/people/frank-heidmann/">Frank Heidmann</a></li>
-</ul>
+## References
+
+[University of Applied Sciences Potsdam](https://www.fh-potsdam.de/)  
+[Interaction Design Lab](https://www.idlab.de/)  
+[Frank Heidmann](/en/people/frank-heidmann/)
