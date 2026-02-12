@@ -370,11 +370,14 @@
     flex-direction: row-reverse;
     padding-left: calc((100% - 790px) / 2);
     padding-right: 0;
+    &.video-embed {
+      padding-left: 0;
+    }
   }
 }
 
 .content-container figcaption {
-  @include font__p;
+  @include font__ui;
   line-height: 1.5;
   padding-top: 0.5rem;
   a {

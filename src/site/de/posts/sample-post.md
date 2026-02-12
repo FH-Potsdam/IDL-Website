@@ -51,17 +51,18 @@ Und hier ist eine Beispieltabelle:
 | Prototyp | Aktiv | 2025 |
 | Veröffentlichung | Geplant | 2026 |
 
-<h3>Eingebettetes Video</h3>
+### Embedded Video
+
 <figure class="video-embed">
   <video controls preload="metadata" poster="/images/maeve_installation_2-e1288790434777.jpg">
     <source src="https://fhpcloud.fh-potsdam.de/s/wcZsp9ob6JPj74Z/download/test.mp4" type="video/mp4">
-    Dein Browser unterstützt das Video-Tag nicht.
+    Your browser does not support the video tag.
   </video>
-  <figcaption>Beispiel für ein eingebettetes MP4-Video.</figcaption>
+  <figcaption>Sample video embed (MP4).</figcaption>
 </figure>
 
-## Referenzen
+## References
 
-[Fachhochschule Potsdam](https://www.fh-potsdam.de/)  
+[University of Applied Sciences Potsdam](https://www.fh-potsdam.de/)  
 [Interaction Design Lab](https://www.idlab.de/)  
-[Frank Heidmann](/de/people/frank-heidmann/)
+[Frank Heidmann](/en/people/frank-heidmann/)
