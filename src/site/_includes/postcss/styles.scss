@@ -271,12 +271,15 @@
 
 .content-container blockquote {
   @include max-width-text;
-  @include font__p;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-left: 1.5rem;
-  border-left: 4px solid var(--idl-brand-color);
-  font-style: italic;
+  p {
+    @include font__p-large;
+    margin-left: calc(-1.5rem - 4px);
+    font-style: italic;
+    padding-left: 1.5rem;
+    border-left: 4px solid var(--idl-brand-color);
+  }
 }
 
 .content-container table {
