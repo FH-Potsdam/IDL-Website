@@ -1,5 +1,6 @@
 ---
 name: Sinah Gürtler
+subtitle: Wissenschaftlicher Mitarbeiterin
 group: Members
 email: sinah.guertler@fh-potsdam.de
 thumbnail_id: /images/uploads/img_5009.jpeg
