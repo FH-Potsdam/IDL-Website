@@ -4,7 +4,7 @@ subtitle: Wissenschaftlicher Mitarbeiterin
 group: Members
 slug: sinah-guertler
 email: sinah.guertler@fh-potsdam.de
-thumbnail_id: /images/uploads/img_5009.jpeg
+thumbnail_id: /images/uploads/img_5009-1.jpeg
 sort_name: guertler
 ---
 Sinah Gürtler (sie/ihr) ist Bildungswissenschaftlerin. Nach ihrem Bachelorstudium in Wirtschaftsmathematik sowie dem Masterstudium in Mathematik und Informatik auf Lehramt entwickelte und erforschte sie Lehrinterventionen.
