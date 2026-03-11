@@ -4,7 +4,7 @@ subtitle: Research Associate
 group: Members
 slug: sinah-guertler
 email: sinah.guertler@fh-potsdam.de
-thumbnail_id: /images/uploads/img_5009.jpeg
+thumbnail_id: /images/uploads/img_5009-1.jpeg
 sort_name: guertler
 ---
 Sinah Gürtler (she/her) is an educational researcher. After completing her Bachelor’s degree in Business Mathematics and her Master’s degree in Mathematics and Computer Science with a teaching qualification, she went on to develop and study instructional interventions.
