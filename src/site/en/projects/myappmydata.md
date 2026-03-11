@@ -18,7 +18,6 @@ filter_services:
   - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
-  - name: Sinah Gürtler
 project_partners:
   - name: Anna-Freud-Schule
     url: https://www.anna-freud-osz.de/
@@ -40,8 +39,9 @@ project_team:
   - /en/people/antonia-schaefer/
   - /en/people/markus-kreutzer/
   - /en/people/camilla-rackelmann/
-  - /de/people/erik-weiss/
-  - /de/people/chang-han/
+  - /en/people/sinah-guertler/
+  - /en/people/erik-weiss/
+  - /en/people/chang-han/
 ---
 The smartphone is the leading medium for young people. For them, it is the most important interface to digital services and information in all areas of life. However, devices and apps are generally used without a deeper understanding of the respective interfaces and their constituting design patterns, data structures, algorithms and business models. While studies on the dangers of permanent smartphone use are available on a large scale, the potential to use smartphones and apps as interfaces with high relevance to pupil's lives to develop digital skills has been investigated to a limited extent.
 

@@ -16,7 +16,6 @@ filter_services:
   - User Research
 project_team_external:
   - name: Prof. Dr. Judith Ackermann
-  - name: Sinah Gürtler
 project_partners:
   - name: Anna-Freud-Schule
     url: https://www.anna-freud-osz.de/
@@ -38,6 +37,7 @@ project_team:
   - /de/people/antonia-schaefer/
   - /de/people/markus-kreutzer/
   - /de/people/camilla-rackelmann/
+  - /de/people/sinah-guertler/
   - /de/people/erik-weiss/
   - /de/people/chang-han/
 ---
