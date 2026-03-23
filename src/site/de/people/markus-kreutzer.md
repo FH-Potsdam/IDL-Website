@@ -6,7 +6,7 @@ slug: markus-kreutzer
 subtitle: Wissenschaftlicher Mitarbeiter
 website: https://markuskreutzer.com
 email: markus.kreutzer@fh-potsdam.de
-thumbnail_id: /images/uploads/markuskreutzer.jpg
+thumbnail_id: /images/uploads/markus.jpg
 sort_name: Kreutzer
 image_link: /images/uploads/markuskreutzer.jpeg
 group: Members
