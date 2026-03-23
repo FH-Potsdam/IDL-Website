@@ -1,15 +1,15 @@
 ---
+laufschrift_tags: Education x Mediation x Digital Competencies x Digital Sovereignty
+publications: null
 name: Markus Kreutzer
+slug: markus-kreutzer
 subtitle: Research Associate
-group: Members
 website: https://markuskreutzer.com
 email: markus.kreutzer@fh-potsdam.de
-thumbnail_id: /images/uploads/markuskreutzer.jpg
-publications:
-slug: markus-kreutzer
-laufschrift_tags: "Education x Mediation x Digital Competencies x Digital Sovereignty"
+thumbnail_id: /images/uploads/markus.jpg
 sort_name: Kreutzer
 image_link: /images/uploads/markuskreutzer.jpeg
+group: Members
 ---
 Markus Kreutzer is a designer focused on exploring possibilities for systemic transformation. He is a research associate at Fachhochschule Potsdam and a lecturer in the MA in Strategic Design at HfG Schwäbisch Gmünd.
 
