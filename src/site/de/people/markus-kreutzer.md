@@ -1,5 +1,5 @@
 ---
-laufschrift_tags: Education x Mediation x Digital Competencies x Digital Sovereignty
+laufschrift_tags: Education x Digital Competencies x Mediation x Digital Sovereignty
 publications: null
 name: Markus Kreutzer
 slug: markus-kreutzer
@@ -11,8 +11,4 @@ sort_name: Kreutzer
 image_link: /images/uploads/markuskreutzer.jpeg
 group: Members
 ---
-Markus Kreutzer ist Designer und entwirft Möglichkeiten für systemische Transformation. Er ist wissenschaftlicher Mitarbeiter an der Fachhochschule Potsdam und Dozent im Master­stu­di­en­gang Stra­te­gi­sche Gestal­tung an der HfG Schwäbisch Gmünd.
-
-Die meisten seiner Arbeiten befassen sich mit der Schnittstelle zwischen sozialer, technologischer und ökologischer Transformation. Durch das Erforschen von alternativen Entwicklungspfaden möchte er Diskurse anregen, Vereinbarungen ermöglichen und konkrete Handlungen fördern. Markus interessiert sich besonders für die Rolle der menschlichen Vorstellungskraft für individuelle und kollektive Verhaltensweisen.
-
-Zu den Organisationen mit denen Markus zusammengearbeitet hat gehören das Stockholm Resilience Centre, moovel lab, Bertelsmann Stiftung, Domestic Data Streamers, Emerging City Lab Addis Abeba und die Universitat Autònoma de Barcelona. Er hat einen Masterabschluss in Zukunftsforschung von der Freien Universität Berlin und einen Bachelorabschluss in Kommunikationsdesign von der HTW Berlin.
+Markus Kreutzer ist Designer und arbeitet an der Schnittstelle von kognitiven, sozialen und technologischen Transformationen. Seine Arbeit reflektiert aktuelle Entwicklungen und eröffnet neue Möglichkeitsräume, um Diskurse anzustoßen, Verhandlungen zu fördern und Maßnahmen zu initiieren. Derzeit beschäftigt er sich mit maschinell-transformativem Lernen als Ansatz zur imaginären Neuorientierung. Markus veröffentlicht regelmäßig Entwürfe entstehender Ideen und entwickelt diese durch Aktivitäten wie Projekte, Artikel, Kurse, Workshops, Vorträge und Diskussionen weiter. Er ist wissenschaftlicher Mitarbeiter an der Fachhochschule Potsdam und Dozent an der HfG Schwäbisch Gmünd. Zudem promoviert er in Mediensoziologie an der Johannes Gutenberg-Universität Mainz. Markus hat einen Master in Zukunftsforschung von der Freien Universität Berlin sowie einen Bachelor in Kommunikationsdesign von der HTW Berlin.
