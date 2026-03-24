@@ -1,5 +1,5 @@
 ---
-laufschrift_tags: Education x Mediation x Digital Competencies x Digital Sovereignty
+laufschrift_tags: Education x Digital Competencies x Mediation x Digital Sovereignty
 publications: null
 name: Markus Kreutzer
 slug: markus-kreutzer
@@ -11,8 +11,4 @@ sort_name: Kreutzer
 image_link: /images/uploads/markuskreutzer.jpeg
 group: Members
 ---
-Markus Kreutzer is a designer focused on exploring possibilities for systemic transformation. He is a research associate at Fachhochschule Potsdam and a lecturer in the MA in Strategic Design at HfG Schwäbisch Gmünd.
-
-Most of his work engages with the intersection between social, technological and ecological transformation. By exploring alternative pathways to current trajectories he aims to create discourse, enable negotiation and facilitate action. Markus is specifically interested in the role of human imagination for individual and collective behaviors.
-
-Some organizations Markus worked with include the Stockholm Resilience Centre, moovel lab, Bertelsmann Stiftung, Domestic Data Streamers, Emerging City Lab Addis Ababa and the Universitat Autònoma de Barcelona. He has a MA in Futures Studies from the Freie Universität Berlin and a BA in Communications Design from the HTW Berlin.
+Markus Kreutzer is a designer working at the intersection of cognitive, social and technological transformations. By reflecting on present trajectories and proposing new possibilities, his work aims to create discourse, enable negotiation and initiate action. Currently, he is focused on exploring machine-transformative learning as an approach to imaginary reorientation. Markus regularly publishes drafts of emerging ideas and develops them through activities such as projects, articles, courses, workshops, talks and discussions. He is a research associate at Fachhochschule Potsdam and a lecturer at HfG Schwäbisch Gmünd. He is also pursuing a PhD in Media Sociology at Johannes Gutenberg-Universität Mainz. Markus holds an MA in Futures Studies from Freie Universität Berlin and a BA in Communications Design from HTW Berlin.
