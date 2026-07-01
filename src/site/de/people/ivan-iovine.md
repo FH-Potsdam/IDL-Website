@@ -5,9 +5,9 @@ name: Ivan Iovine
 slug: ivan-iovine
 subtitle: Wissenschaftlicher Mitarbeiter
 email: ivan.iovine@fh-potsdam.de
-thumbnail_id: /images/uploads/iovine.png
+thumbnail_id: /images/uploads/iovine_thumbnail.png
 sort_name: Iovine
-image_link: /images/uploads/iovine.png
+image_link: /images/uploads/iovine_full.png
 group: Members
 ---
 Ivan Iovine (he/him) ist Interaction Designer und wissenschaftlicher Mitarbeiter. Zuvor war er am Fraunhofer IGD in Darmstadt tätig und leitete anschließend das Robotik-Labor an der Hochschule für Gestaltung Offenbach am Main, wo er Studierenden aus Kunst und Design kreative Robotik und Künstliche Intelligenz vermittelte.
