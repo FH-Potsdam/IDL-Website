@@ -5,9 +5,9 @@ name: Ivan Iovine
 slug: ivan-iovine
 subtitle: Research Associate
 email: ivan.iovine@fh-potsdam.de
-thumbnail_id: 
+thumbnail_id: /images/uploads/iovine.png
 sort_name: Iovine
-image_link: 
+image_link: /images/uploads/iovine.png
 group: Members
 ---
 Ivan Iovine (he/him) is an interaction designer and research associate. He previously worked at Fraunhofer IGD in Darmstadt and later led the Robotics Lab at the University of Art and Design Offenbach am Main, where he taught students from art and design how to work with creative robotics and artificial intelligence.
